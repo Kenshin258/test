@@ -1,6 +1,6 @@
 const express = require("express");
 const http = require("http");
-const { getUser } = require("./controller/user.controller");
+const { getUser, transformFile } = require("./controller/user.controller");
 
 const app = express();
 
@@ -9,3 +9,4 @@ http.createServer(app).listen(3000, () => {
 });
 
 app.get("/list", getUser);
+app.get("/transform", transformFile);
