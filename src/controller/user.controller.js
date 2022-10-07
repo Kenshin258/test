@@ -11,17 +11,20 @@ module.exports = {
     try {
       const a = await fs.readFileSync(path.join("data/data.json"));
       const b = JSON.parse(a).topics;
+      const result = [];
       for (const item of b) {
         for (const i of item.topicSections) {
-          i.memoryLimit = i.sectionItem.limit.memoryLimit;
-          i.sourceLimit = i.sectionItem.limit.sourceLimit;
-          i.timeLimit = i.sectionItem.limit.timeLimit;
-          i.maxPoints = i.sectionItem.maxPoints;
-          i.slug = i.sectionItem.slug;
-          i.tagList = i.sectionItem.tagList;
-          i.difficulty = i.sectionItem.difficulty;
-          i.title = i.sectionItem.limit.timeLimit;
-          delete i.sectionItem;
+          const data = {};
+          data.memoryLimit = i?.sectionItem?.limit?.memoryLimit;
+          data.source = i?.sectionItem?.limit?.sourceLimit;
+          data.timeLimit = i?.sectionItem?.limit?.timeLimit;
+          data.scores = i?.sectionItem?.maxPoints;
+          data.slug = i?.sectionItem?.slug;
+          data.tags = i?.sectionItem?.tagList;
+          data.level = i?.sectionItem?.difficulty;
+          data.title = i?.sectionItem?.title;
+          data.content = i?.sectionItem?.description;
+          result.push(data);
         }
       }
       const date = new Date();
@@ -29,7 +32,7 @@ module.exports = {
         path.join(
           `data/transform/${date.getDate()}_${date.getHours()}_${date.getMinutes()}_${date.getSeconds()}.json`
         ),
-        JSON.stringify(b)
+        JSON.stringify(result)
       );
       return res.status(200).json({
         status: "success1234!",

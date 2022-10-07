@@ -1,0 +1,109 @@
+query Practice($id: ID!) {
+  practice(id: $id) {
+   
+    topics {
+      id
+      name
+      summary
+      topicSections {
+         id
+        isCompleted
+      
+        # sampleCodes {
+        #   id
+       # fileAttachments{
+       #  publicFile{
+       #    thumbnailUrl
+       #    downloadUrl
+       #    filename
+         # }
+#       }
+#           codeFiles{
+#             tasks{
+#               allowList
+#               content
+#               description
+#               examSuggestions{
+#                 content
+#                 cost
+                
+#               }
+#             }
+           # }
+          # language {
+          #   canJudge
+          #   id
+          #   name
+          #   key
+          #   reactAceKey
+          # }
+        
+       # }
+        sectionItem {
+          ... on CodingExam {
+             description
+            difficulty
+            id
+            testCasesFile{
+                downloadUrl
+                thumbnailUrl
+                filename
+            }
+            fileAttachments{
+              publicFile{
+                downloadUrl
+                thumbnailUrl
+                filename
+              }
+              
+            }
+            limit {
+              memoryLimit
+              sourceLimit
+              timeLimit
+            }
+            maxPoints
+            slug
+            tagList
+            title
+          }
+          # ... on CourseLesson {
+          #   content
+          #   duration
+          #   featureImage {
+          #     downloadUrl
+          #     filename
+          #     id
+          #     metadata
+          #     thumbnailUrl
+          #   }
+          #   id
+          #   slug
+          #   tagList
+          #   title
+          # }
+          # ... on GapFillExam {
+          #   content
+          #   description
+          #   difficulty
+          #   id
+          #   maxPoints
+          #   slug
+          #   tagList
+          #   title
+          #   maxPoints
+          # }
+          # ... on QuizExam {
+          #   description
+          #   difficulty
+          #   id
+          #   maxPoints
+          #   slug
+          #   tagList
+          #   title
+          # }
+        }
+      }
+    }
+  }
+}
