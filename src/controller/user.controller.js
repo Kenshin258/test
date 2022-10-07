@@ -16,11 +16,19 @@ module.exports = {
           i.memoryLimit = i.sectionItem.limit.memoryLimit;
           i.sourceLimit = i.sectionItem.limit.sourceLimit;
           i.timeLimit = i.sectionItem.limit.timeLimit;
+          i.maxPoints = i.sectionItem.maxPoints;
+          i.slug = i.sectionItem.slug;
+          i.tagList = i.sectionItem.tagList;
+          i.difficulty = i.sectionItem.difficulty;
+          i.title = i.sectionItem.limit.timeLimit;
           delete i.sectionItem;
         }
       }
+      const date = new Date();
       await fs.writeFileSync(
-        path.join("data/data-transform.json"),
+        path.join(
+          `data/transform/${date.getDate()}_${date.getHours()}_${date.getMinutes()}_${date.getSeconds()}.json`
+        ),
         JSON.stringify(b)
       );
       return res.status(200).json({
