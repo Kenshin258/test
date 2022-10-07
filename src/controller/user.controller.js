@@ -9,7 +9,7 @@ module.exports = {
   },
   transformFile: async (req, res) => {
     try {
-      const a = await fs.readFileSync(path.join(__dirname, "data.json"));
+      const a = await fs.readFileSync(path.join("data/data.json"));
       const b = JSON.parse(a).topics;
       for (const item of b) {
         for (const i of item.topicSections) {
@@ -19,8 +19,10 @@ module.exports = {
           delete i.sectionItem;
         }
       }
-      console.log({ b });
-      await fs.writeFileSync("./data-transform.json", JSON.stringify({ ...b }));
+      await fs.writeFileSync(
+        path.join("data/data-transform.json"),
+        JSON.stringify(b)
+      );
       return res.status(200).json({
         status: "success1234!",
       });
