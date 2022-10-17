@@ -24,6 +24,30 @@ module.exports = {
           data.level = i?.sectionItem?.difficulty;
           data.title = i?.sectionItem?.title;
           data.content = i?.sectionItem?.description;
+          data.status = "PUBLISH";
+
+          if (i?.sectionItem?.testCasesFile) {
+            data.fileTestCase = [
+              {
+                ...i?.sectionItem?.testCasesFile,
+                name: i?.sectionItem?.testCasesFile?.filename,
+              },
+            ];
+            delete data.fileTestCase[0]?.filename;
+          }
+          if (i?.sectionItem?.fileAttachments[0]) {
+            data.attachedFiles = [];
+
+            for (const item of i?.sectionItem?.fileAttachments) {
+              const a = {
+                name: item?.publicFile?.filename,
+                downloadUrl: item?.publicFile?.downloadUrl,
+                thumbnailUrl: item?.publicFile?.thumbnailUrl,
+              };
+
+              data.attachedFiles.push(a);
+            }
+          }
           result.push(data);
         }
       }
