@@ -1,0 +1,325 @@
+{
+    "node": [
+        {
+            "cover": null,
+            "difficulty": "ALL_SCOPES",
+            "title": "Bài tập lập trình C",
+            "tagList": [
+                "C"
+            ],
+            "slug": "1000-bai-tap-lap-trinh-c",
+            "description": "1000 bài tập lập trình C căn bản để bạn luyện tập sử dụng thành thạo và làm chủ các khái niệm cơ bản trong ngôn ngữ lập trình C như: điều kiện rẽ nhánh, vòng lặp for, while, do...while, sử dụng hàm, cấu trúc,...",
+            "duration": 100,
+            "isDraft": false,
+            "isFeatured": false,
+            "isJoined": null,
+            "isTrending": false,
+            "lessonsCount": 0,
+            "examsCount": 848,
+            "ownedPoints": 0,
+            "totalPoints": 16132,
+            "languages": [
+                {
+                    "name": "C"
+                },
+                {
+                    "name": "C++"
+                },
+                {
+                    "name": "Java"
+                },
+                {
+                    "name": "Python 3"
+                },
+                {
+                    "name": "Solidity"
+                }
+            ]
+        },
+        {
+            "cover": null,
+            "difficulty": "ALL_SCOPES",
+            "title": "Bài tập lập trình C++",
+            "tagList": [
+                "exercise"
+            ],
+            "slug": "bai-tap-lap-trinh-cpp",
+            "description": "1000 bài tập lập trình C++ giúp rèn luyện các kỹ năng lập trinh trên C++, làm chủ các khái niệm về rẽ nhánh, điều kiện, vòng lặp và các cấu trúc dữ liệu cơ sở trên C++",
+            "duration": 80,
+            "isDraft": false,
+            "isFeatured": false,
+            "isJoined": null,
+            "isTrending": false,
+            "lessonsCount": 0,
+            "examsCount": 62,
+            "ownedPoints": 0,
+            "totalPoints": 1105,
+            "languages": [
+                {
+                    "name": "C++"
+                }
+            ]
+        },
+        {
+            "cover": null,
+            "difficulty": "ALL_SCOPES",
+            "title": "Bài tập lập trình Java",
+            "tagList": [],
+            "slug": "bai-tap-lap-trinh-java",
+            "description": "Các bài tập lập trình Java căn bản để bạn luyện tập sử dụng thành thạo và làm chủ các khái niệm cơ bản trong ngôn ngữ lập trình Java như: điều kiện rẽ nhánh, vòng lặp for, while, do...while, sử dụng hàm, cấu trúc, đối tượng...",
+            "duration": null,
+            "isDraft": false,
+            "isFeatured": false,
+            "isJoined": null,
+            "isTrending": false,
+            "lessonsCount": 0,
+            "examsCount": 78,
+            "ownedPoints": 0,
+            "totalPoints": 1575,
+            "languages": [
+                {
+                    "name": "Java"
+                }
+            ]
+        },
+        {
+            "cover": null,
+            "difficulty": "ALL_SCOPES",
+            "title": "Bài tập lập trình Python",
+            "tagList": [
+                "exercises"
+            ],
+            "slug": "bai-tap-lap-trinh-python",
+            "description": "Các bài tập lập trình Python từ căn bản đến nâng cao để giúp bạn luyện tập sử dụng thành thạo và làm chủ các khái niệm từ cơ bản đến nâng cao trong ngôn ngữ lập trình Python. Bạn sẽ rèn luyện thành thạo việc sử dụng các cấu trúc dữ liệu cơ bản trong Python, các cấu trúc lặp và điều kiện, hàm và đối tượng...",
+            "duration": 60,
+            "isDraft": false,
+            "isFeatured": false,
+            "isJoined": null,
+            "isTrending": false,
+            "lessonsCount": 0,
+            "examsCount": 91,
+            "ownedPoints": 0,
+            "totalPoints": 910,
+            "languages": [
+                {
+                    "name": "C"
+                },
+                {
+                    "name": "C++"
+                },
+                {
+                    "name": "Java"
+                },
+                {
+                    "name": "Python 3"
+                },
+                {
+                    "name": "Solidity"
+                }
+            ]
+        },
+        {
+            "cover": null,
+            "difficulty": "ALL_SCOPES",
+            "title": "Cấu trúc dữ liệu",
+            "tagList": [],
+            "slug": "cau-truc-du-lieu",
+            "description": "Các bài tập để làm quen và sử dụng thành thạo các kỹ năng thao tác trên các cấu trúc dữ liệu phổ biến như: Ngăn xếp, hàng đợi, danh sách liên kết, cây,...",
+            "duration": null,
+            "isDraft": false,
+            "isFeatured": false,
+            "isJoined": null,
+            "isTrending": false,
+            "lessonsCount": 0,
+            "examsCount": 103,
+            "ownedPoints": 0,
+            "totalPoints": 4597,
+            "languages": [
+                {
+                    "name": "C"
+                },
+                {
+                    "name": "C++"
+                },
+                {
+                    "name": "Java"
+                },
+                {
+                    "name": "Python 3"
+                }
+            ]
+        },
+        {
+            "cover": null,
+            "difficulty": "ALL_SCOPES",
+            "title": "Giải thuật",
+            "tagList": [],
+            "slug": "giai-thuat",
+            "description": "Các bài luyện tập để làm quen và vận dụng thành thạo các giải thuật, thuật toán phổ biến, rèn luyện tư duy thuật toán và giải quyết vấn đề.",
+            "duration": null,
+            "isDraft": false,
+            "isFeatured": false,
+            "isJoined": null,
+            "isTrending": false,
+            "lessonsCount": 0,
+            "examsCount": 56,
+            "ownedPoints": 0,
+            "totalPoints": 2010,
+            "languages": [
+                {
+                    "name": "C"
+                },
+                {
+                    "name": "C++"
+                },
+                {
+                    "name": "Java"
+                },
+                {
+                    "name": "Python 3"
+                },
+                {
+                    "name": "Solidity"
+                }
+            ]
+        },
+        {
+            "cover": null,
+            "difficulty": "ALL_SCOPES",
+            "title": "Toán học",
+            "tagList": [],
+            "slug": "toan-hoc",
+            "description": "Các bài tập liên quan đến toán học và xử lý toán học bằng các công cụ lập trình",
+            "duration": null,
+            "isDraft": false,
+            "isFeatured": false,
+            "isJoined": null,
+            "isTrending": false,
+            "lessonsCount": 0,
+            "examsCount": 171,
+            "ownedPoints": 0,
+            "totalPoints": 2690,
+            "languages": [
+                {
+                    "name": "C"
+                },
+                {
+                    "name": "C++"
+                },
+                {
+                    "name": "Java"
+                },
+                {
+                    "name": "Python 3"
+                }
+            ]
+        },
+        {
+            "cover": null,
+            "difficulty": "ALL_SCOPES",
+            "title": "Regex",
+            "tagList": [],
+            "slug": "regex",
+            "description": "Các bài tập liên quan đến biểu thức chính quy",
+            "duration": null,
+            "isDraft": false,
+            "isFeatured": false,
+            "isJoined": null,
+            "isTrending": false,
+            "lessonsCount": 0,
+            "examsCount": 48,
+            "ownedPoints": 0,
+            "totalPoints": 503,
+            "languages": [
+                {
+                    "name": "C"
+                },
+                {
+                    "name": "C++"
+                },
+                {
+                    "name": "Java"
+                },
+                {
+                    "name": "Python 3"
+                }
+            ]
+        },
+        {
+            "cover": null,
+            "difficulty": "INTERMEDIATE",
+            "title": "1000 bài code thiếu niên",
+            "tagList": [
+                "Lập trình"
+            ],
+            "slug": "1000-bai-code-thieu-nien",
+            "description": "Luyện tập kỹ năng lập trình với 1000 bài tập code cho thiếu niên.",
+            "duration": 1000,
+            "isDraft": false,
+            "isFeatured": false,
+            "isJoined": null,
+            "isTrending": false,
+            "lessonsCount": 0,
+            "examsCount": 71,
+            "ownedPoints": 0,
+            "totalPoints": 2182,
+            "languages": [
+                {
+                    "name": "C"
+                },
+                {
+                    "name": "C++"
+                },
+                {
+                    "name": "Java"
+                },
+                {
+                    "name": "Python 3"
+                },
+                {
+                    "name": "Solidity"
+                }
+            ]
+        },
+        {
+            "cover": {
+                "thumbnailUrl": "https://minio.2soft.top/tek4-dev/public/publicfile/5391/attachment/thumbnail-0044fbb8eb172e514d5fea4beea11692.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minio%2F20221017%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20221017T193324Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=6cbff1ff80c61c4121a77e586d64c91e225efa48f6cc492fb9b24524fe5ac514",
+                "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/a04cb59e-7401-4323-8996-ac3789f03d69",
+                "filename": "Lập trình C cơ bản đến nâng cao.png"
+            },
+            "difficulty": "ALL_SCOPES",
+            "title": "ALL Level",
+            "tagList": [
+                "2"
+            ],
+            "slug": "all-level",
+            "description": "Tất cả các bài tập coding",
+            "duration": 1000,
+            "isDraft": false,
+            "isFeatured": false,
+            "isJoined": null,
+            "isTrending": false,
+            "lessonsCount": 0,
+            "examsCount": 89,
+            "ownedPoints": 0,
+            "totalPoints": 890,
+            "languages": [
+                {
+                    "name": "C"
+                },
+                {
+                    "name": "C++"
+                },
+                {
+                    "name": "Java"
+                },
+                {
+                    "name": "Python 3"
+                },
+                {
+                    "name": "Solidity"
+                }
+            ]
+        }
+    ]
+}

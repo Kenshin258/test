@@ -1,0 +1,1496 @@
+[{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef961a"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 2,
+  "scores": 10,
+  "slug": "prionpri-prime-or-not-prime",
+  "tags": [],
+  "level": "ALL_SCOPES",
+  "title": "Xác định số nguyên tố",
+  "content": "<div class=\"row\">\n<div id=\"problem-tags\" class=\"col-lg-12 text-center\"></div>\n</div>\n<p>Trong b&agrave;i to&aacute;n n&agrave;y, nhiệm vụ của bạn l&agrave; x&aacute;c định xem một số đ&atilde; cho l&agrave; số nguy&ecirc;n tố hay hợp số.</p>\n<div id=\"problem-body\">\n<h3>Định dạng đầu v&agrave;o</h3>\n<p><span lang=\"EN-US\">D&ograve;ng đầu ti&ecirc;n của đầu v&agrave;o chứa một số nguy&ecirc;n T, biểu thị số lượng trường hợp thử nghiệm. Mỗi trường hợp thử nghiệm bao gồm một d&ograve;ng duy nhất chứa một số nguy&ecirc;n &laquo; n &raquo; (2 &le; n &le; 10<sup>9</sup>)</span></p>\n<h3>Định dạng đầu ra</h3>\n<p><span lang=\"EN-US\">Đối với mỗi trường hợp thử nghiệm, chương tr&igrave;nh của bạn sẽ in ra một d&ograve;ng duy nhất chứa &laquo;YES&raquo; (kh&ocirc;ng c&oacute; dấu ngoặc k&eacute;p v&agrave; khoảng trắng), nếu số nguy&ecirc;n đ&atilde; cho l&agrave; số nguy&ecirc;n tố hoặc &laquo;NO&raquo; (kh&ocirc;ng c&oacute; dấu ngoặc k&eacute;p v&agrave; khoảng trống) nếu số nguy&ecirc;n đ&atilde; cho l&agrave; hợp số.</span></p>\n<h3>V&iacute; dụ</h3>\n<p><strong>Đầu v&agrave;o</strong></p>\n<pre class=\"language-markup\"><code>6\n16\n127\n256\n513\n2048\n5097</code></pre>\n<p><strong>Đầu ra</strong></p>\n<pre class=\"language-markup\"><code>NO\nYES\nNO\nNO\nNO\nNO</code></pre>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/60a50dbf-b4f9-4f95-a5c7-2650ed964039",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "PRIONPRI-testcases.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef961b"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 2,
+  "scores": 10,
+  "slug": "divfact-divisors-of-factorial",
+  "tags": [],
+  "level": "ALL_SCOPES",
+  "title": "Tìm tổng các số chia của giai thừa",
+  "content": "<div class=\"row\">\n<div id=\"problem-tags\" class=\"col-lg-12 text-center\"></div>\n</div>\n<p>Cho một số, h&atilde;y t&igrave;m tổng số c&aacute;c ước số của giai thừa của số đ&oacute;. V&igrave; đ&aacute;p &aacute;n c&oacute; thể rất lớn, h&atilde;y in ra l&agrave; modulo $10^{9} + 7$.</p>\n<div id=\"problem-body\">\n<h3>Định dạng đầu v&agrave;o</h3>\n<ul>\n<li>D&ograve;ng đầu ti&ecirc;n chứa T, số lượng trường hợp thử nghiệm.</li>\n<li>T d&ograve;ng sau, mỗi d&ograve;ng chứa số N.</li>\n</ul>\n<h3>Điều kiện</h3>\n<ul>\n<li>$1 \\leq T \\leq 500$</li>\n<li>$0 \\leq N \\leq 50000$</li>\n</ul>\n<h3>Định dạng đầu ra</h3>\n<p>In ra T d&ograve;ng của kết quả đầu ra, mỗi d&ograve;ng chứa 1 đ&aacute;p &aacute;n.</p>\n<h3>V&iacute; dụ</h3>\n<p><strong>Đầu v&agrave;o</strong></p>\n<pre class=\"language-markup\"><code>3\n2\n3\n4</code></pre>\n<p><strong>Đầu ra</strong></p>\n<pre class=\"language-markup\"><code>2\n4\n8 </code></pre>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/5fa71025-7a3f-4f33-b71e-b2f0abb56a31",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "DIVFACT-testcases.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef961c"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "cộng-mảng",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "Cộng mảng",
+  "content": "<p>Coongj mnagr</p>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/sum-array-test-cases-zip",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "sum-array-test-cases.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef961d"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 20,
+  "slug": "sumscalc-sums-to-calculate",
+  "tags": [],
+  "level": "INTERMEDIATE",
+  "title": "Tính các tổng",
+  "content": "<div class=\"row\">\n<div id=\"problem-tags\" class=\"col-lg-12 text-center\"></div>\n</div>\n<p>Cho một số nguy&ecirc;n n, nhiệm vụ của bạn l&agrave; t&iacute;nh c&aacute;c tổng sau:</p>\n<div id=\"problem-body\">\n<ul>\n<li>Tổng S của n số nguy&ecirc;n đầu ti&ecirc;n (bắt đầu từ 1)</li>\n<li>Tổng S<sub>even</sub><sup> </sup>&nbsp;của n số nguy&ecirc;n chẵn (bắt đầu từ 2)</li>\n<li>Tổng S<sub>odd</sub> của n số nguy&ecirc;n lẻ đầu ti&ecirc;n (bắt đầu từ 1)</li>\n<li>Tổng S<sub>squares</sub> của n gi&aacute; trị b&igrave;nh phương của số nguy&ecirc;n đầu ti&ecirc;n (1, 4, 9, ...)</li>\n<li>Tổng S<sub>cubes</sub> của n gi&aacute; trị mũ 3 của số nguy&ecirc;n đầu ti&ecirc;n (1, 8, 27, ...)</li>\n</ul>\n<h3>Định dạng đầu v&agrave;o</h3>\n<p><span lang=\"EN-US\">D&ograve;ng đầu ti&ecirc;n của đầu v&agrave;o chứa một số nguy&ecirc;n T biểu thị số lượng trường hợp thử nghiệm. Tiếp theo l&agrave; m&ocirc; tả của T c&aacute;c trường hợp thử nghiệm. Mỗi trường hợp thử nghiệm được m&ocirc; tả trong một d&ograve;ng duy nhất chứa số nguy&ecirc;n &laquo;n&raquo; (1 &le; n&nbsp;&le; 10<sup>4</sup>).</span></p>\n<h3>Định dạng đầu ra</h3>\n<p><span lang=\"EN-US\">Đối với mỗi trường hợp thử nghiệm, h&atilde;y in ra một d&ograve;ng duy nhất chứa 5 số nguy&ecirc;n được ph&acirc;n t&aacute;ch bằng dấu c&aacute;ch: <strong>S S<sub>even</sub>&nbsp;S<sub>odd</sub>&nbsp;S<sub>squares</sub>&nbsp;S<sub>cubes</sub></strong></span></p>\n<h3>V&iacute; dụ</h3>\n<p><strong>Đầu v&agrave;o</strong></p>\n<pre class=\"language-markup\"><code>3\n4\n5\n6</code></pre>\n<p><strong>Đầu ra</strong></p>\n<pre class=\"language-markup\"><code>10 20 16 30 100\n15 30 25 55 225\n21 42 36 91 441</code></pre>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/19f344d4-7979-4bd9-b6ba-c577bddeb933",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "SUMSCALC_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef961e"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 10,
+  "slug": "smpwow-wow",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "Wow wow wow",
+  "content": "<h3><strong>Định dạng đầu v&agrave;o</strong></h3>\n<p>Cho một số nguy&ecirc;n dương với điều kiện 0 &lt; <em>x</em>&nbsp;&lt; 50.</p>\n<div id=\"problem-body\">\n<h3>Định dạng đầu ra</h3>\n<p>In ra một từ: <tt>Wo...ow</tt> (chữ c&aacute;i 'o' phải được lặp lại <em>x</em> lần).</p>\n<h3>V&iacute; dụ 1</h3>\n<p><strong>Đầu v&agrave;o</strong></p>\n<pre class=\"language-markup\"><code>1</code></pre>\n<p><strong>Đầu ra</strong></p>\n<pre class=\"language-markup\"><code>Wow </code></pre>\n<pre>&nbsp;</pre>\n<h3>V&iacute; dụ 2</h3>\n<p><strong>Đầu v&agrave;o</strong></p>\n<pre class=\"language-markup\"><code>7</code></pre>\n<p><strong>Đầu ra</strong></p>\n<pre class=\"language-markup\"><code>Wooooooow</code></pre>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/63503f4a-beb4-42a4-af30-d5c566613a6e",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "SMPWOW_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef961f"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 10,
+  "slug": "testint-test-1",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "Tính tổng số tự nhiên",
+  "content": "<p>Cho trước hai số tự nhi&ecirc;n (đều kh&ocirc;ng lớn hơn 200), mỗi số nằm tr&ecirc;n một d&ograve;ng ri&ecirc;ng, h&atilde;y in ra tổng của ch&uacute;ng.</p>\n<h3><strong>Định dạng đầu v&agrave;o</strong></h3>\n<p>Nhập v&agrave;o 2 số tự nhi&ecirc;n.</p>\n<h3><strong>Định dạng đầu ra</strong></h3>\n<p>In ra tổng của c&aacute;c số tự nhi&ecirc;n được nhập</p>\n<div id=\"problem-body\">\n<h3>V&iacute; dụ</h3>\n<p><strong>Đầu v&agrave;o</strong></p>\n<pre class=\"language-markup\"><code>2\n3</code></pre>\n<p><strong>Đầu ra</strong></p>\n<pre class=\"language-markup\"><code>5</code></pre>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/a13e4f07-591e-4e61-a5ce-c83d7eed5504",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "TESTINT_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef9620"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 2,
+  "scores": 10,
+  "slug": "i-3-1-tim-số-lớn-nhất-trong-2-số",
+  "tags": [],
+  "level": "ALL_SCOPES",
+  "title": "Tìm số lớn nhất trong 2 số",
+  "content": "<p>Viết chương tr&igrave;nh nhập v&agrave;o 2 số nguy&ecirc;n a,b in ra số lớn nhất. V&iacute; dụ: Cho a=5, b=10, số lớn hơn sẽ l&agrave; b=10.</p>\n<h3><strong>Định dạng đầu v&agrave;o</strong></h3>\n<p>Một d&ograve;ng duy nhất gồm 2 số nguy&ecirc;n a v&agrave; b , được c&aacute;ch nhau bởi dấu c&aacute;ch</p>\n<h3><strong>Định dạng đầu ra</strong></h3>\n<p>Một d&ograve;ng duy nhất gồm 1 số kết quả</p>\n<h3><strong>V&iacute; dụ</strong></h3>\n<p><strong>Đầu v&agrave;o</strong></p>\n<pre class=\"language-markup\"><code>5 10</code></pre>\n<p><strong>Đầu ra</strong></p>\n<pre class=\"language-markup\"><code>10</code></pre>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/51f1f508-b7ce-4d2a-b258-b0ba444a70fd",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "I.3.1-testcases.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef9621"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 2,
+  "scores": 10,
+  "slug": "smpsum-iterated-sums",
+  "tags": [],
+  "level": "ALL_SCOPES",
+  "title": "Tính tổng lặp lại",
+  "content": "<p>H&atilde;y t&iacute;nh tổng b&igrave;nh phương của c&aacute;c số đ&atilde; cho: a, a + 1, ..., b-1, b.</p>\n<div id=\"problem-body\">\n<h3>Định dạng đầu v&agrave;o</h3>\n<p>Hai số: a v&agrave; b c&aacute;ch nhau một khoảng trắng, trong đ&oacute; $1 \\leq a \\leq b \\leq 100$.</p>\n<h3>Định dạng đầu ra</h3>\n<p>T&iacute;nh tổng: <strong><em>a</em>*<em>a</em>&nbsp;+ (<em>a</em>+1)*(<em>a</em>+1) + ... + (<em>b</em>-1)*(<em>b</em>-1) +&nbsp;<em>b</em>*<em>b</em></strong></p>\n<h3>V&iacute; dụ 1</h3>\n<p><strong>Đầu v&agrave;o</strong></p>\n<pre class=\"language-markup\"><code>1 4</code></pre>\n<p><strong>Đầu ra</strong></p>\n<pre class=\"language-markup\"><code>30</code></pre>\n<h3><strong><span style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\"> V&iacute; dụ 2</span></strong></h3>\n<p><strong><span style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\">Đầu v&agrave;o</span></strong></p>\n<pre class=\"language-markup\"><code>5 6</code></pre>\n<p><strong>Đầu ra</strong></p>\n<pre class=\"language-markup\"><code>61</code></pre>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/ad4ae630-7bd7-470c-898b-17576e7435c0",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "SMPSUM-testcases.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef9622"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 30,
+  "slug": "afs-trinh-tu-nhan-to-tuyet-voi",
+  "tags": [],
+  "level": "INTERMEDIATE",
+  "title": "Dãy số tuyệt vời",
+  "content": "<div class=\"row\">\n<div id=\"problem-tags\" class=\"col-lg-12 text-center\"></div>\n</div>\n<p>Bhelu l&agrave; bạn c&ugrave;ng lớp của Bablu. Anh cảm thấy ghen tị với người bạn c&ugrave;ng lớp của m&igrave;nh v&agrave; quyết định thực hiện tạo tr&igrave;nh tự của ri&ecirc;ng m&igrave;nh. V&igrave; anh ấy kh&ocirc;ng c&oacute; nhiều tr&iacute; tưởng tượng, anh ấy đ&atilde; đưa ra định nghĩa gần như tương tự, chỉ tạo ra sự kh&aacute;c biệt trong f(n):</p>\n<div id=\"problem-body\">\n<ul>\n<li>a[0]=a[1]=0.</li>\n<li>Với n&gt;1, a[n]=a[n-1]+f(n), trong đ&oacute; f (n) l&agrave; tổng c&aacute;c số nguy&ecirc;n dương trong tập S sau đ&acirc;y.</li>\n<li>S = {x |&nbsp;x &lt;n v&agrave; n% x = 0}.</li>\n</ul>\n<p>B&acirc;y giờ, Bablu y&ecirc;u cầu anh ta tạo một m&atilde; để t&igrave;m f(n) v&igrave; anh ta đ&atilde; c&oacute; m&atilde; của d&atilde;y số của m&igrave;nh. V&igrave; vậy, Bhelu y&ecirc;u cầu sự gi&uacute;p đỡ của bạn v&igrave; anh ấy kh&ocirc;ng biết Lập tr&igrave;nh. Nhiệm vụ của bạn rất đơn giản, chỉ cần t&igrave;m một [n] cho một gi&aacute; trị cho trước của $n&lt;10^{6}.</p>\n<h3>Đầu v&agrave;o</h3>\n<ul>\n<li>Đoạn m&atilde; của bạn sẽ được kiểm tra cho nhiều trường hợp thử nghiệm.</li>\n<li>D&ograve;ng đầu ti&ecirc;n của dữ liệu đầu v&agrave;o chứa T (&lt;= 100), số lượng trường hợp Kiểm tra.</li>\n<li>T d&ograve;ng tiếp theo chứa một số nguy&ecirc;n dương N. (1 &lt;N &lt;10 ^ 6).</li>\n</ul>\n<h3>Đầu ra</h3>\n<p>D&ograve;ng đơn chứa [n] tức l&agrave; số thứ n của d&atilde;y cho mỗi trường hợp thử nghiệm.</p>\n<h3>V&iacute; dụ</h3>\n<p><strong>Đầu v&agrave;o:</strong></p>\n<pre class=\"language-markup\"><code>3 3 4 5</code></pre>\n<p><strong>Đầu ra:</strong></p>\n<pre class=\"language-markup\"><code>2 5 6</code></pre>\n<p><strong>Giải th&iacute;ch</strong></p>\n<pre class=\"language-markup\"><code>f(2) = 1{1}\nf(3) = 1{1}\nf(4) = 3{1, 2}\nf(5) = 1{1}</code></pre>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/09fc8c39-5df2-4686-bac0-ab6eac7b48bf",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "AFS_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef9623"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 50,
+  "slug": "addrev-them-so-dao-nguoc",
+  "tags": [],
+  "level": "EXPERT",
+  "title": "Thêm số đảo ngược",
+  "content": "<div class=\"row\">\n<div id=\"problem-tags\" class=\"col-lg-12 text-center\"></div>\n</div>\n<p>C&aacute;c diễn vi&ecirc;n h&agrave;i cổ của Malidinesia th&iacute;ch phim h&agrave;i hơn bi kịch. Tiếc thay, hầu hết c&aacute;c vở tuồng cổ đều l&agrave; vở bi kịch. Do đ&oacute;, cố vấn kịch t&iacute;nh của ACM đ&atilde; quyết định chuyển một số bi kịch th&agrave;nh phim h&agrave;i. R&otilde; r&agrave;ng, c&ocirc;ng việc n&agrave;y l&agrave; rất kh&oacute; v&igrave; &yacute; thức cơ bản của vở kịch phải được giữ nguy&ecirc;n vẹn, mặc d&ugrave; tất cả mọi thứ đều thay đổi theo hướng đối lập của ch&uacute;ng. V&iacute; dụ c&aacute;c con số: nếu bất kỳ con số n&agrave;o xuất hiện trong bi kịch, n&oacute; phải được chuyển sang dạng đảo ngược của n&oacute; trước khi được chấp nhận v&agrave;o vở h&agrave;i kịch.</p>\n<div id=\"problem-body\">\n<p>Số đảo ngược l&agrave; số được viết bằng chữ số Ả Rập nhưng thứ tự c&aacute;c chữ số bị đảo ngược.&nbsp;Chữ số đầu ti&ecirc;n trở th&agrave;nh chữ số cuối c&ugrave;ng v&agrave; ngược lại.&nbsp;V&iacute; dụ, nếu anh h&ugrave;ng ch&iacute;nh c&oacute; 1245 quả d&acirc;u t&acirc;y trong thảm kịch, anh ta c&oacute; 5421 quả d&acirc;u t&acirc;y trong số đ&oacute; b&acirc;y giờ.&nbsp;Lưu &yacute; rằng tất cả c&aacute;c số 0 ở đầu đều bị bỏ qua.&nbsp;Điều đ&oacute; c&oacute; nghĩa l&agrave; nếu số kết th&uacute;c bằng số 0, số 0 sẽ bị mất bằng c&aacute;ch đảo ngược (v&iacute; dụ: 1200 cho 21).&nbsp;Cũng lưu &yacute; rằng số đảo ngược kh&ocirc;ng bao giờ c&oacute; bất kỳ số kh&ocirc;ng ở cuối.</p>\n<p>ACM cần t&iacute;nh to&aacute;n với c&aacute;c số đảo ngược.&nbsp;Nhiệm vụ của bạn l&agrave; cộng hai số đảo ngược v&agrave; xuất ra tổng đảo ngược của ch&uacute;ng.&nbsp;Tất nhi&ecirc;n, kết quả kh&ocirc;ng phải l&agrave; duy nhất v&igrave; bất kỳ số cụ thể n&agrave;o cũng l&agrave; dạng đảo ngược của một số số (v&iacute; dụ: 21 c&oacute; thể l&agrave; 12, 120 hoặc 1200 trước khi đảo ngược).&nbsp;V&igrave; vậy, ch&uacute;ng ta phải giả định rằng kh&ocirc;ng c&oacute; số 0 n&agrave;o bị mất khi đảo ngược (v&iacute; dụ: giả sử rằng số ban đầu l&agrave; 12).</p>\n<h3>Đầu v&agrave;o</h3>\n<ul>\n<li>Đầu v&agrave;o bao gồm&nbsp;<var>N</var>&nbsp;trường hợp (bằng khoảng 10000).&nbsp;D&ograve;ng đầu ti&ecirc;n của đầu v&agrave;o chỉ chứa dương t&iacute;nh số nguy&ecirc;n&nbsp;<var>N</var>&nbsp;.&nbsp;Sau đ&oacute;, theo d&otilde;i c&aacute;c trường hợp.&nbsp;Mỗi trường hợp bao gồm đ&uacute;ng một d&ograve;ng với hai số nguy&ecirc;n dương c&aacute;ch nhau bởi dấu c&aacute;ch.&nbsp;Đ&acirc;y l&agrave; những số đảo ngược m&agrave; bạn phải th&ecirc;m v&agrave;o.</li>\n</ul>\n<h3>Đầu ra</h3>\n<ul>\n<li>Đối với mỗi trường hợp, in ch&iacute;nh x&aacute;c một d&ograve;ng chỉ chứa một số nguy&ecirc;n - tổng đảo ngược của hai số đảo ngược.&nbsp;Bỏ qua bất kỳ số kh&ocirc;ng ở đầu trong kết quả đầu ra.</li>\n</ul>\n<p><strong>V&iacute; dụ</strong></p>\n<p><strong>Đầu v&agrave;o</strong></p>\n<pre class=\"language-markup\"><code>3\n24 1\n4358 754\n305 794</code></pre>\n<p><strong>Đầu ra</strong></p>\n<pre class=\"language-markup\"><code>34 1998 1</code></pre>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/5e2690fb-e57f-4b51-b8e1-1fef02bd414b",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "ADDREV_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef9624"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 50,
+  "slug": "acpc10a-whats-next",
+  "tags": [],
+  "level": "EXPERT",
+  "title": "Cấp số cộng hay cấp số nhân?",
+  "content": "<div class=\"row\">\n<div id=\"problem-tags\" class=\"col-lg-12 text-center\"></div>\n</div>\n<p>Theo Wikipedia, một cấp số cộng (AP) l&agrave; một d&atilde;y số sao cho hiệu của hai phần tử li&ecirc;n tiếp bất kỳ của d&atilde;y l&agrave; một hằng số. V&iacute; dụ: d&atilde;y 3, 5, 7, 9, 11, 13 ,. . . l&agrave; một cấp số cộng với hiệu chung l&agrave; 2. Đối với b&agrave;i to&aacute;n n&agrave;y, ch&uacute;ng ta sẽ tự giới hạn ở cấp số cộng c&oacute; hiệu chung l&agrave; một số nguy&ecirc;n kh&aacute;c 0.</p>\n<p>On the other hand, a geometric progression (GP) is a sequence of numbers where each term after the first is found by multiplying the previous one by a fixed non-zero number called the common ratio. For example, the sequence 2, 6, 18, 54, . . . is a geometric progression with common ratio 3. For this problem, we will limit ourselves to geometric progression whose common ratio is a non-zero integer.</p>\n<p>Mặt kh&aacute;c, cấp số nh&acirc;n (GP) l&agrave; một d&atilde;y số, trong đ&oacute;, mỗi số hạng đứng sau số hạng đầu ti&ecirc;n được t&igrave;m bằng c&aacute;ch nh&acirc;n số hạng trước với một số kh&aacute;c 0 cố định được gọi l&agrave; tỷ số chung. V&iacute; dụ, d&atilde;y số 2, 6, 18, 54 ,. . . l&agrave; một cấp số nh&acirc;n với tỉ số chung l&agrave; 3. Đối với b&agrave;i to&aacute;n n&agrave;y, ch&uacute;ng ta sẽ tự giới hạn ở cấp số nh&acirc;n c&oacute; tỉ số chung l&agrave; một số nguy&ecirc;n kh&aacute;c 0.</p>\n<div id=\"problem-body\">\n<p>Với ba phần tử li&ecirc;n tiếp của một d&atilde;y, bạn cần x&aacute;c định kiểu loại của d&atilde;y số v&agrave; phần tử kế tiếp tiếp theo.</p>\n<h3>Định dạng đầu v&agrave;o</h3>\n<p>Chương tr&igrave;nh của bạn sẽ được thử nghiệm tr&ecirc;n một hoặc nhiều trường hợp thử nghiệm. Mỗi trường hợp được chỉ định tr&ecirc;n một d&ograve;ng c&oacute; ba số nguy&ecirc;n (&minus;10, 000 &lt;a1, a2, a3 &lt;10, 000) trong đ&oacute; a1, a2 v&agrave; a3 l&agrave; kh&aacute;c nhau. Trường hợp cuối c&ugrave;ng được theo sau bởi một d&ograve;ng c&oacute; ba số 0.</p>\n<h3>Định dạng đầu ra</h3>\n<p>Đối với mỗi trường hợp thử nghiệm, chương tr&igrave;nh của bạn phải in ra một d&ograve;ng duy nhất với dạng như sau: XX v</p>\n<p>Trong đ&oacute; XX l&agrave; cấp số cộng hoặc cấp số nh&acirc;n t&ugrave;y thuộc v&agrave;o d&atilde;y số đ&atilde; cho. v l&agrave; phần tử tiếp theo của d&atilde;y đ&atilde; cho. Tất cả c&aacute;c trường hợp đầu v&agrave;o được đảm bảo l&agrave; một cấp số cộng hoặc cấp số nh&acirc;n.</p>\n<h3>V&iacute; dụ</h3>\n<p><strong>Đầu v&agrave;o</strong></p>\n<pre class=\"language-markup\"><code>4 7 10\n2 6 18\n0 0 0</code></pre>\n<p><strong>Đầu ra</strong></p>\n<pre class=\"language-markup\"><code>AP 13\nGP 54</code></pre>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/cf8a887e-7008-4448-9844-8fad900a6aac",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "ACPC10A_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef9625"
+  },
+  "memoryLimit": 2,
+  "source": 2,
+  "timeLimit": 2,
+  "scores": 50,
+  "slug": "acode-alphacode",
+  "tags": [],
+  "level": "EXPERT",
+  "title": "Bảng mã Alpha",
+  "content": "<div class=\"row\">\n<div id=\"problem-tags\" class=\"col-lg-12 text-center\"></div>\n</div>\n<p>Alice v&agrave; Bob cần gửi tin nhắn b&iacute; mật cho nhau v&agrave; đang thảo luận về c&aacute;ch m&atilde; h&oacute;a tin nhắn của họ:</p>\n<div id=\"problem-body\">\n<blockquote>\n<p>Alice: &ldquo;H&atilde;y chỉ sử dụng một m&atilde; rất đơn giản: Ch&uacute;ng ta sẽ g&aacute;n cho&lsquo; A &rsquo; l&agrave; m&atilde; 1,&lsquo; B &rsquo;sẽ l&agrave; 2 v&agrave; cứ tiếp tục cho đến&lsquo; Z &rsquo;được g&aacute;n l&agrave; 26.&rdquo;</p>\n<p>Bob: &ldquo;Đ&oacute; l&agrave; một đoạn m&atilde; sai lầm, Alice. Giả sử t&ocirc;i gửi cho bạn từ &lsquo;BEAN&rsquo; được m&atilde; h&oacute;a l&agrave; 25114. Bạn c&oacute; thể giải m&atilde; từ đ&oacute; theo nhiều c&aacute;ch kh&aacute;c nhau! &rdquo;</p>\n<p>Alice: &ldquo;Chắc chắn l&agrave; bạn c&oacute; thể, nhưng bạn sẽ nhận được những từ n&agrave;o? Ngo&agrave;i &lsquo;BEAN&rsquo;, bạn sẽ nhận được &lsquo;BEAAD&rsquo;, &lsquo;YAAD&rsquo;, &lsquo;YAN&rsquo;, &lsquo;YKD&rsquo; v&agrave; &lsquo;BEKD&rsquo;. T&ocirc;i nghĩ rằng bạn sẽ c&oacute; thể t&igrave;m ra lời giải m&atilde; ch&iacute;nh x&aacute;c. V&agrave; tại sao bạn lại gửi cho t&ocirc;i từ &lsquo;BEAN&rsquo;? &rdquo;</p>\n<p>Bob: &ldquo;Được rồi, c&oacute; thể đ&oacute; l&agrave; một v&iacute; dụ sai, nhưng t&ocirc;i c&aacute; với bạn rằng nếu bạn c&oacute; một chuỗi d&agrave;i 5000 th&igrave; sẽ c&oacute; rất nhiều c&aacute;ch giải m&atilde; kh&aacute;c nhau v&agrave; với nhiều giải m&atilde; đ&oacute;, bạn sẽ t&igrave;m thấy &iacute;t nhất hai giải m&atilde; kh&aacute;c nhau c&oacute; &yacute; nghĩa&rdquo;.</p>\n<p>Alice: \"C&oacute; bao nhi&ecirc;u c&aacute;ch giải m&atilde; kh&aacute;c nhau?\"</p>\n<p>Bob: \"Jillions!\"</p>\n</blockquote>\n<p>V&igrave; một số l&yacute; do, Alice vẫn kh&ocirc;ng cảm thấy thuyết phục bởi lập luận của Bob, v&igrave; vậy c&ocirc; ấy y&ecirc;u cầu một chương tr&igrave;nh sẽ x&aacute;c định số lượng c&aacute;ch giải m&atilde; c&oacute; thể c&oacute; cho một chuỗi k&yacute; tự nhất định bằng c&aacute;ch sử dụng m&atilde; của c&ocirc; ấy.</p>\n<h3>Định dạng đầu v&agrave;o</h3>\n<p>Đầu v&agrave;o sẽ bao gồm nhiều tập hợp đầu v&agrave;o. Mỗi tập hợp sẽ bao gồm một d&ograve;ng tối đa l&agrave; 5000 chữ số đại diện cho một c&aacute;ch m&atilde; h&oacute;a hợp lệ (v&iacute; dụ: kh&ocirc;ng c&oacute; d&ograve;ng n&agrave;o bắt đầu bằng số 0). Sẽ kh&ocirc;ng c&oacute; khoảng trắng giữa c&aacute;c chữ số. D&ograve;ng đầu v&agrave;o l&agrave; '0' sẽ kết th&uacute;c đầu v&agrave;o v&agrave; kh&ocirc;ng được xử l&yacute;.</p>\n<h3>Định dạng đầu ra</h3>\n<p>Đối với mỗi tập hợp đầu v&agrave;o, in ra số lượng c&aacute;ch giải m&atilde; c&oacute; thể c&oacute; cho chuỗi k&yacute; tự đầu v&agrave;o. Tất cả c&aacute;c c&acirc;u trả lời sẽ nằm trong phạm vi của một số nguy&ecirc;n c&oacute; dấu 64 bit.</p>\n<h3>V&iacute; dụ</h3>\n<p><strong>Đầu v&agrave;o</strong></p>\n<pre class=\"language-markup\"><code>25114\n1111111111\n3333333333\n0</code></pre>\n<p><strong>Đầu ra</strong></p>\n<pre class=\"language-markup\"><code>6\n89\n1</code></pre>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/7cdd566d-2bce-4767-abd3-7646fc194e66",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "ACODE _input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef9626"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 20,
+  "slug": "abcpath-abc-path",
+  "tags": [],
+  "level": "INTERMEDIATE",
+  "title": "Đường dẫn ABC",
+  "content": "<p>Bạn sẽ được cung cấp một ma trận 2 chiều gồm c&aacute;c chữ c&aacute;i. T&igrave;m độ d&agrave;i của con đường d&agrave;i nhất của c&aacute;c chữ c&aacute;i li&ecirc;n tiếp, bắt đầu từ 'A'. C&aacute;c đường dẫn c&oacute; thể chuyển từ một chữ c&aacute;i trong ma trận sang bất kỳ chữ c&aacute;i n&agrave;o liền kề (theo chiều ngang, chiều dọc hoặc đường ch&eacute;o). V&iacute; dụ: Trong ma trận sau, c&oacute; một số đường dẫn từ 'A' đến 'D', nhưng kh&ocirc;ng c&oacute; đường n&agrave;o từ 'A' đến 'E':</p>\n<div id=\"problem-body\">\n<div><img style=\"display: block; margin-left: auto; margin-right: auto;\" title=\"ABC\" src=\"https://www.spoj.com/content/simes:ABCPATH-1.png\" alt=\"ABC\" width=\"162\" height=\"108\" /></div>\n<p>Một đường thỏa m&atilde;n b&agrave;i to&aacute;n tr&ecirc;n l&agrave;:</p>\n<p><img style=\"display: block; margin-left: auto; margin-right: auto;\" title=\"ABC path\" src=\"https://www.spoj.com/content/simes:ABCPATH-2.png\" alt=\"path\" width=\"163\" height=\"108\" /></p>\n<h3>Định dạng đầu v&agrave;o</h3>\n<p>Each test case will start with a line contains two integers H, W the height and width of the grid respectively 1 &lt;= H, W &lt;= 50. Then H lines follow each of W uppercase letters only. Input terminates with H = 0 and W = 0.</p>\n<p>Mỗi trường hợp thử nghiệm sẽ bắt đầu bằng một d&ograve;ng chứa hai gi&aacute; trị số nguy&ecirc;n H, W, chiều cao v&agrave; chiều rộng của ma trận theo thứ tự lần lượt. Tiếp theo l&agrave; H d&ograve;ng nối theo sau mỗi W chữ c&aacute;i viết hoa. Đầu v&agrave;o kết th&uacute;c với H = 0 v&agrave; W = 0.</p>\n<h3><strong> Điều kiện</strong></h3>\n<ul>\n<li>$1 \\leq H$</li>\n<li>$W \\leq 50$</li>\n</ul>\n<h3>Định dạng đầu ra</h3>\n<p>Chỉ in ra 1 d&ograve;ng đối với mỗi trường hợp thử nghiệm</p>\n<h3>V&iacute; dụ</h3>\n<p><strong>Đầu v&agrave;o</strong></p>\n<pre class=\"language-markup\"><code>4 3\nABE\nCFG\nBDH\nABC\n0 0</code></pre>\n<p><strong>Đầu ra</strong></p>\n<pre class=\"language-markup\"><code>4</code></pre>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/a421efb1-0784-4681-8b30-eae6117b6058",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "ABCPATHinput.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef9627"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 50,
+  "slug": "1ae00-rectangles",
+  "tags": [],
+  "level": "EXPERT",
+  "title": "Tạo ra các hình chữ nhật",
+  "content": "<p id=\"đề-b&agrave;i\"><strong>B&agrave;i to&aacute;n</strong></p>\n<p>Th&aacute;i c&oacute; N h&igrave;nh vu&ocirc;ng với k&iacute;ch thước 1. Hỏi c&oacute; bao nhi&ecirc;u dạng h&igrave;nh chữ nhật m&agrave; Th&aacute;i c&oacute; thể&nbsp;tạo ra từ những h&igrave;nh vu&ocirc;ng n&agrave;y?</p>\n<p>Biết rằng, 2 h&igrave;nh chữ nhật được xem l&agrave; kh&aacute;c nhau nếu ch&uacute;ng kh&ocirc;ng thể quay hay dịch chuyển để trở th&agrave;nh h&igrave;nh c&ograve;n lại. Trong qu&aacute; tr&igrave;nh x&acirc;y dựng l&ecirc;n h&igrave;nh chữ nhật, Th&aacute;i kh&ocirc;ng thể l&agrave;m thay đổi h&igrave;nh&nbsp;dạng của c&aacute;c h&igrave;nh vu&ocirc;ng v&agrave; cũng kh&ocirc;ng thể đặt ch&uacute;ng l&ecirc;n tr&ecirc;n những h&igrave;nh c&ograve;n lại.</p>\n<p id=\"đầu-v&agrave;o\"><strong>Định dạng đầu v&agrave;o</strong></p>\n<ul>\n<li>Gồm chỉ một d&ograve;ng chứa một số nguy&ecirc;n N, với $1 \\leq N \\leq 10000$.</li>\n</ul>\n<p id=\"đầu-ra\"><strong>Định dạng đầu ra</strong></p>\n<ul>\n<li>In ra chỉ một d&ograve;ng chứa một số nguy&ecirc;n l&agrave; những h&igrave;nh chữ nhật m&agrave; Th&aacute;i c&oacute; thể tạo ra.</li>\n</ul>\n<p id=\"v&iacute;-dụ\"><strong>V&iacute; dụ</strong></p>\n<p><strong>Đầu v&agrave;o</strong></p>\n<pre class=\"language-markup\"><code>6</code></pre>\n<p><strong>Đầu ra</strong></p>\n<pre class=\"language-markup\"><code>8</code></pre>\n<p><strong>Giải th&iacute;ch</strong></p>\n<p>Với N = 6 h&igrave;nh vu&ocirc;ng, ta c&oacute; thể tạo ra h&igrave;nh chữ nhật bằng c&aacute;ch lần lượt x&eacute;t c&aacute;c h&igrave;nh chữ nhật với chiều cao bằng 1 hoặc 2 như h&igrave;nh dưới đ&acirc;y.</p>\n<p><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://thuattoan.phamvanlam.com/static/b0e61ff7e847af9628e9918575efd81a/ff7a3/spoj-com-thuat-toan-bai-1AE00-Rectangles-thuattoan-phamvanlam-com.png\" alt=\"spoj-com-thuat-toan-bai-1ae00-rectangles-thuattoan-phamvanlam-com\" /></p>\n<p>Do đ&oacute;, kết quả l&agrave; 8 h&igrave;nh chữ nhật.</p>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/d292bd31-dae8-4d5d-85e2-7edc7d092c7f",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "1AE00_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef9628"
+  },
+  "memoryLimit": 2,
+  "source": 2,
+  "timeLimit": 2,
+  "scores": 50,
+  "slug": "aba12c-mua-tao",
+  "tags": [],
+  "level": "EXPERT",
+  "title": "Mua táo",
+  "content": "<h2 id=\"problem-name\" class=\"text-center\">B&agrave;i to&aacute;n mua t&aacute;o</h2>\n<div class=\"row\">\n<div id=\"problem-tags\" class=\"col-lg-12 text-center\"></div>\n</div>\n<div id=\"problem-body\">\n<p>Harish đ&atilde; đến một si&ecirc;u thị để mua đ&uacute;ng 'k' kg t&aacute;o cho 'n' người bạn của m&igrave;nh.&nbsp;Si&ecirc;u thị thực sự kỳ lạ.&nbsp;Gi&aacute; của c&aacute;c mặt h&agrave;ng rất kh&aacute;c nhau.&nbsp;Anh v&agrave;o mục T&aacute;o v&agrave; hỏi về gi&aacute; cả.&nbsp;Người b&aacute;n h&agrave;ng đưa cho anh một tấm thẻ ghi gi&aacute; t&aacute;o kh&ocirc;ng t&iacute;nh theo kg.&nbsp;T&aacute;o được đ&oacute;ng th&agrave;nh từng b&igrave;a, mỗi b&igrave;a chứa 'x' kg t&aacute;o, x&gt; 0 v&agrave; 'x' l&agrave; một số nguy&ecirc;n.&nbsp;Một g&oacute;i 'x' kg sẽ được định gi&aacute; bằng rupee 'y'.&nbsp;V&igrave; vậy, tấm bảng chứa một bảng c&oacute; mục nhập 'y' biểu thị gi&aacute; của một g&oacute;i 'x' kg.&nbsp;Nếu 'y' l&agrave; -1 c&oacute; nghĩa l&agrave; g&oacute;i tương ứng kh&ocirc;ng c&oacute; sẵn.&nbsp;B&acirc;y giờ v&igrave; t&aacute;o chỉ c&oacute; sẵn trong c&aacute;c g&oacute;i, anh ấy quyết định mua &iacute;t nhất 'n' g&oacute;i cho 'n' bạn của m&igrave;nh, tức l&agrave; anh ấy sẽ kh&ocirc;ng mua nhiều hơn n g&oacute;i t&aacute;o.</p>\n<p>Harish rất th&iacute;ch bạn b&egrave; của m&igrave;nh v&agrave; v&igrave; vậy anh ấy kh&ocirc;ng muốn l&agrave;m bạn b&egrave; thất vọng.&nbsp;V&igrave; vậy, b&acirc;y giờ, anh ấy sẽ cho bạn biết anh ấy c&oacute; bao nhi&ecirc;u người bạn v&agrave; bạn phải cho anh ấy biết số tiền tối thiểu anh ấy phải chi cho bạn b&egrave; của m&igrave;nh.</p>\n<p><strong>Đầu v&agrave;o</strong></p>\n<ul>\n<li>D&ograve;ng đầu ti&ecirc;n của dữ liệu đầu v&agrave;o sẽ chứa số lượng trường hợp thử nghiệm, C.</li>\n<li>Mỗi trường hợp thử nghiệm sẽ chứa hai d&ograve;ng.</li>\n<li>D&ograve;ng đầu ti&ecirc;n ghi N v&agrave; K, số bạn b&egrave; m&agrave; anh ta c&oacute; v&agrave; số lượng t&aacute;o t&iacute;nh theo ki-l&ocirc;-gam m&agrave; anh ta n&ecirc;n mua.</li>\n<li>D&ograve;ng thứ hai chứa K số nguy&ecirc;n được ph&acirc;n t&aacute;ch bằng dấu c&aacute;ch, trong đ&oacute; số nguy&ecirc;n thứ i chỉ định gi&aacute; của g&oacute;i t&aacute;o 'i'kg.&nbsp;Gi&aacute; trị -1 biểu thị rằng g&oacute;i tương ứng kh&ocirc;ng khả dụng.</li>\n</ul>\n<p><strong>Điều kiện</strong></p>\n<ul>\n<li>Số nguy&ecirc;n N sao cho $0 &lt; N \\leq 100$</li>\n<li>Số nguy&ecirc;n K sao cho $0 &lt; K \\leq 100$</li>\n<li>Gi&aacute; cả M sao cho $0 &lt; M \\leq 1000$</li>\n</ul>\n<p><strong>Đầu ra</strong></p>\n<p>Đầu ra cho mỗi trường hợp thử nghiệm phải l&agrave; một d&ograve;ng duy nhất chứa số tiền tối thiểu m&agrave; anh ta phải chi cho bạn b&egrave; của m&igrave;nh.&nbsp;In -1 nếu anh ta kh&ocirc;ng thể thỏa m&atilde;n bạn b&egrave; của m&igrave;nh.</p>\n<p><strong>V&iacute; dụ</strong></p>\n<p><strong>Đầu v&agrave;o</strong></p>\n<pre class=\"language-markup\"><code>2\n3 5\n-1 -1 4 5 -1\n5 5\n1 2 3 4 5</code></pre>\n<p><strong>Đầu ra:</strong></p>\n<pre class=\"language-markup\"><code>-1 5</code></pre>\n<p><strong>Giải th&iacute;ch c&aacute;c trường hợp kiểm thử:</strong></p>\n<ol>\n<li>V&igrave; cửa h&agrave;ng chỉ c&oacute; g&oacute;i 3 v&agrave; 4kg n&ecirc;n anh ta sẽ kh&ocirc;ng thể l&agrave;m h&agrave;i l&ograve;ng bạn b&egrave; v&igrave; anh ta sẽ kh&ocirc;ng thể mua đ&uacute;ng 5kg t&aacute;o.</li>\n<li>Anh ta c&oacute; thể mua năm g&oacute;i 1kg v&igrave; anh ta phải mua 5 kg. V&igrave; vậy, số tiền tối thiểu anh ta n&ecirc;n chi l&agrave; 5.</li>\n</ol>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/7e278b83-5562-4a82-938a-b7ecfd4847ad",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "ABA12C _input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef9629"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 10,
+  "slug": "test-life-the-universe-and-everything",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "Vạn vật",
+  "content": "<p>Chương tr&igrave;nh của bạn l&agrave; sử dụng phương ph&aacute;p Brute-force để t&igrave;m ra c&acirc;u trả lời cho sự sống, vũ trụ v&agrave; vạn vật. Ch&iacute;nh x&aacute;c hơn l&agrave; ... viết lại c&aacute;c số nhỏ từ đầu v&agrave;o đến đầu ra. Dừng xử l&yacute; đầu v&agrave;o sau khi đọc số 42. Tất cả c&aacute;c số ở đầu v&agrave;o l&agrave; số nguy&ecirc;n c&oacute; một hoặc hai chữ số.</p>\n<div id=\"problem-body\">\n<h3>V&iacute; dụ</h3>\n<p><strong>Đầu v&agrave;o</strong></p>\n<pre class=\"language-markup\"><code>1\n2\n88\n42\n99</code></pre>\n<p><strong>Đầu ra</strong></p>\n<pre class=\"language-markup\"><code>1\n2\n88\n </code></pre>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/67b4f09f-d10e-4107-9b66-f449be5fda6c",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "TEST_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef962a"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 50,
+  "slug": "books1-copying-books",
+  "tags": [],
+  "level": "EXPERT",
+  "title": "Sao chép sách",
+  "content": "<p>Trước khi ph&aacute;t minh ra in s&aacute;ch, rất kh&oacute; để tạo ra một bản sao của một cuốn s&aacute;ch. Tất cả c&aacute;c nội dung phải được viết lại bằng tay bởi những người được gọi l&agrave; người ghi ch&eacute;p. Người ghi ch&eacute;p đ&atilde; được tặng một cuốn s&aacute;ch v&agrave; sau v&agrave;i th&aacute;ng anh ta đ&atilde; ho&agrave;n th&agrave;nh bản sao của n&oacute;. Một trong những người ghi ch&eacute;p nổi tiếng nhất sống ở thế kỷ 15 v&agrave; t&ecirc;n của &ocirc;ng l&agrave; Xaverius Endricus Remius Ontius Xendrianus (Xerox). D&ugrave; sao th&igrave; c&ocirc;ng việc cũng rất kh&oacute; chịu v&agrave; nh&agrave;m ch&aacute;n. V&agrave; c&aacute;ch duy nhất để tăng tốc l&agrave; thu&ecirc; th&ecirc;m người ghi ch&eacute;p.</p>\n<div id=\"problem-body\">\n<p>Ng&agrave;y xửa ng&agrave;y xưa, c&oacute; một đo&agrave;n kịch muốn đ&oacute;ng những vở Antique Tragedies nổi tiếng. Kịch bản của những vở kịch n&agrave;y đ&atilde; được chia th&agrave;nh nhiều cuốn s&aacute;ch v&agrave; tất nhi&ecirc;n c&aacute;c diễn vi&ecirc;n cần th&ecirc;m nhiều bản sao của ch&uacute;ng. V&igrave; vậy, họ đ&atilde; thu&ecirc; nhiều người ghi ch&eacute;p để sao ch&eacute;p những cuốn s&aacute;ch n&agrave;y. H&atilde;y tưởng tượng bạn c&oacute; m cuốn s&aacute;ch (đ&aacute;nh số 1, 2 ... m) c&oacute; thể c&oacute; số trang kh&aacute;c nhau ($p_{1}, p_{2} ... p_{m}$) v&agrave; bạn muốn tạo một bản sao của mỗi cuốn s&aacute;ch đ&oacute;. Nhiệm vụ của bạn l&agrave; chia những cuốn s&aacute;ch n&agrave;y cho k người ghi ch&eacute;p, $k \\leq m$. Mỗi cuốn s&aacute;ch chỉ c&oacute; thể được giao cho một người ghi ch&eacute;p duy nhất v&agrave; mỗi người ghi ch&eacute;p phải nhận được một chuỗi c&aacute;c cuốn s&aacute;ch li&ecirc;n tục. Điều đ&oacute; c&oacute; nghĩa l&agrave;, tồn tại một d&atilde;y số li&ecirc;n tiếp tăng dần $0 = b_{0} &lt;b_{1} &lt;b_{2}, ... &lt;b_{k-1} \\leq b_{k} = m$ sao cho người ghi ch&eacute;p thứ i nhận được một chuỗi c&aacute;c cuốn s&aacute;ch c&oacute; c&aacute;c số từ $b_{i-1}+1 đến b_{i}$. Thời gian cần thiết để sao ch&eacute;p tất cả c&aacute;c cuốn s&aacute;ch được x&aacute;c định bởi người ghi ch&eacute;p được giao nhiều việc nhất. Do đ&oacute;, mục ti&ecirc;u của ch&uacute;ng ta l&agrave; giảm thiểu số trang tối đa được chỉ định cho một người ghi ch&eacute;p. Nhiệm vụ của bạn l&agrave; t&igrave;m ra phương &aacute;n giao việc tối ưu nhất.</p>\n<h3>Định dạng đầu v&agrave;o</h3>\n<p>Đầu v&agrave;o bao gồm N trường hợp (khoảng 200). D&ograve;ng đầu ti&ecirc;n của đầu v&agrave;o chỉ chứa số nguy&ecirc;n dương N. Sau đ&oacute; l&agrave; c&aacute;c trường hợp. Mỗi trường hợp bao gồm đ&uacute;ng hai d&ograve;ng. Ở d&ograve;ng thứ nhất c&oacute; hai số nguy&ecirc;n m v&agrave; k, $1 \\leq k \\leq m \\leq 500$. Ở d&ograve;ng thứ hai gồm c&aacute;c số nguy&ecirc;n $p_{1}, p_{2},...p_{m}$ c&aacute;ch nhau bởi dấu c&aacute;ch. Tất cả c&aacute;c gi&aacute; trị n&agrave;y đều l&agrave; c&aacute;c số dương v&agrave; nhỏ hơn 10000000.</p>\n<h3>Định dạng đầu ra</h3>\n<p>Đối với mỗi trường hợp, in ra ch&iacute;nh x&aacute;c một d&ograve;ng. D&ograve;ng đ&oacute; phải chứa đầu v&agrave;o li&ecirc;n tiếp p1, p2, ... pm được chia th&agrave;nh đ&uacute;ng k phần sao cho tổng lớn nhất của một phần phải nhỏ nhất c&oacute; thể. H&atilde;y sử dụng k&yacute; tự gạch ch&eacute;o ('/') để t&aacute;ch c&aacute;c phần. Phải c&oacute; ch&iacute;nh x&aacute;c một k&yacute; tự khoảng trắng giữa hai số li&ecirc;n tiếp bất kỳ v&agrave; giữa số với dấu gạch ch&eacute;o.</p>\n<p>Nếu c&oacute; nhiều hơn một giải ph&aacute;p, h&atilde;y in ra một giải ph&aacute;p giảm thiểu c&ocirc;ng việc được giao cho người ghi ch&eacute;p đầu ti&ecirc;n, sau đ&oacute; cho người ghi ch&eacute;p thứ hai,... Nhưng mỗi người ghi ch&eacute;p phải được giao &iacute;t nhất một cuốn s&aacute;ch.</p>\n<h3>V&iacute; dụ</h3>\n<p><strong>Đầu v&agrave;o</strong></p>\n<pre class=\"language-markup\"><code>2\n9 3\n100 200 300 400 500 600 700 800 900\n5 4\n100 100 100 100 100</code></pre>\n<p><strong>Đầu ra</strong></p>\n<pre class=\"language-markup\"><code>100 200 300 400 500 / 600 700 / 800 900\n100 / 100 / 100 / 100 100</code></pre>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/5790e4a3-67f3-4fb3-94d2-a668b6cb6b7e",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "BOOKS1_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef962b"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 10,
+  "slug": "bokam143sou-checking-cubes",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "Kiểm tra số hình lập phương",
+  "content": "<p>Cho một số nguy&ecirc;n N. T&igrave;m số c&aacute;ch c&oacute; thể để biểu diễn N dưới dạng tổng của năm h&igrave;nh lập phương.</p>\n<div id=\"problem-body\">\n<h3>Đầu v&agrave;o</h3>\n<p>D&ograve;ng đầu ti&ecirc;n chứa gi&aacute; trị N.</p>\n<p><strong>Điều kiện</strong></p>\n<ul>\n<li>$1 \\leq N \\leq 125000$</li>\n</ul>\n<h3>Đầu ra</h3>\n<p>In ra kết quả</p>\n<h3>V&iacute; dụ</h3>\n<p><strong>Đầu v&agrave;o</strong></p>\n<pre class=\"language-markup\"><code>64</code></pre>\n<p><strong>Đầu ra</strong></p>\n<pre class=\"language-markup\"><code>2</code></pre>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/98447aa7-ec40-4a7b-a4b3-fbea4d2caf40",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "BOKAM143SOU_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef962c"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 50,
+  "slug": "benefact-nguoi-co-loi",
+  "tags": [],
+  "level": "INTERMEDIATE",
+  "title": "Người có lợi",
+  "content": "<div class=\"row\">\n<div id=\"problem-tags\" class=\"col-lg-12 text-center\"></div>\n</div>\n<p>Một chương kh&aacute;c của bi&ecirc;n ni&ecirc;n sử th&agrave;nh phố của một thị trấn lớn kh&oacute; tin nổi tiếng (nếu bạn kh&ocirc;ng biết thị trấn n&agrave;y, bạn c&oacute; thể muốn giải quyết vấn đề CSTREET trước) kể cho ch&uacute;ng ta c&acirc;u chuyện sau:</p>\n<div id=\"problem-body\">\n<p>Ng&agrave;y xửa ng&agrave;y xưa, c&aacute;c c&ocirc;ng d&acirc;n của thị trấn lớn kh&ocirc;ng thể tin được đ&atilde; quyết định bầu một thiếu t&aacute;.&nbsp;V&agrave;o thời điểm đ&oacute; đ&acirc;y l&agrave; một &yacute; tưởng rất mới v&agrave; c&aacute;c chiến dịch bầu cử ho&agrave;n to&agrave;n kh&ocirc;ng được biết đến.&nbsp;Nhưng tất nhi&ecirc;n một số c&ocirc;ng d&acirc;n muốn trở th&agrave;nh thiếu t&aacute; v&agrave; họ kh&ocirc;ng mất nhiều thời gian để ph&aacute;t hiện ra rằng những điều tốt đẹp hứa hẹn sẽ kh&ocirc;ng bao giờ trở th&agrave;nh hiện thực c&oacute; xu hướng hữu &iacute;ch trong t&igrave;nh huống như vậy.&nbsp;Một ứng cử vi&ecirc;n được bầu l&agrave;m thiếu t&aacute; l&agrave; Ivo đ&ocirc;i khi được gọi l&agrave; &acirc;n nh&acirc;n v&igrave; những m&oacute;n qu&agrave; gi&aacute; trị của &ocirc;ng cho những c&ocirc;ng d&acirc;n th&agrave;nh phố lớn kh&ocirc;ng thể tin được.</p>\n<p>Một ng&agrave;y trước ng&agrave;y bầu cử, Ivo, nh&agrave; hảo t&acirc;m đ&atilde; thực hiện một lời hứa với c&ocirc;ng d&acirc;n của thị trấn.&nbsp;Trong trường hợp chiến thắng trong cuộc bầu cử, anh ta sẽ đảm bảo rằng tr&ecirc;n một trong những con đường l&aacute;t đ&aacute;, đ&egrave;n đường của thị trấn sẽ được dựng l&ecirc;n v&agrave; anh ta sẽ trả số tiền đ&oacute; bằng tiền của m&igrave;nh.&nbsp;Tiết kiệm như những c&ocirc;ng d&acirc;n của thị trấn lớn kh&ocirc;ng thể tin được, họ bầu anh ta v&agrave; một ng&agrave;y sau cuộc bầu cử, họ tr&igrave;nh b&agrave;y cho anh ta quyết định đường n&agrave;o n&ecirc;n c&oacute; đ&egrave;n đường.&nbsp;Tất nhi&ecirc;n họ kh&ocirc;ng chỉ chọn con phố d&agrave;i nhất trong số tất cả c&aacute;c con phố m&agrave; c&ograve;n đổi t&ecirc;n một số con phố để một con phố rất d&agrave;i trong thị trấn tồn tại.</p>\n<p>Bạn c&oacute; thể t&igrave;m thấy con phố n&agrave;y đ&atilde; c&oacute; bao l&acirc;u?&nbsp;Cụ thể hơn, t&igrave;nh h&igrave;nh như sau.&nbsp;Bạn được giới thiệu một danh s&aacute;ch tất cả c&aacute;c con đường l&aacute;t đ&aacute; trong thị trấn lớn kh&ocirc;ng thể tin được.&nbsp;Như bạn c&oacute; thể nhớ từ vấn đề CSTREET trong thị trấn, c&aacute;c đường phố được l&aacute;t theo c&aacute;ch m&agrave; giữa hai điểm quan t&acirc;m trong thị trấn tồn tại đ&uacute;ng một đường kết nối được l&aacute;t.&nbsp;Nhiệm vụ của bạn l&agrave; t&igrave;m khoảng c&aacute;ch xa nhất tồn tại giữa hai địa điểm tham quan bất kỳ trong th&agrave;nh phố.</p>\n<h3>Đầu v&agrave;o</h3>\n<ul>\n<li>D&ograve;ng đầu ti&ecirc;n của đầu v&agrave;o chứa số lượng testcase t.</li>\n<li>D&ograve;ng đầu ti&ecirc;n của mỗi testcase chứa số địa điểm (2 &lt;= n &lt;= 50000) trong thị trấn.&nbsp;Mỗi đường phố được cho tại một d&ograve;ng bởi hai địa điểm (1 &lt;= a, b &lt;= n) v&agrave; chiều d&agrave;i của phố (0 &lt;= l &lt;20000).</li>\n</ul>\n<h3>Đầu ra</h3>\n<ul>\n<li>Đối với mỗi testcase, h&atilde;y xuất một d&ograve;ng chứa chiều d&agrave;i tối đa của con phố d&agrave;i nhất trong th&agrave;nh phố.</li>\n</ul>\n<p><strong>V&iacute; dụ</strong></p>\n<p><strong>Đầu v&agrave;o</strong></p>\n<pre class=\"language-markup\"><code>1 6 1 2 3 2 3 4 2 6 2 6 4 6 6 5 5</code></pre>\n<p><strong>Đầu ra:</strong></p>\n<pre class=\"language-markup\"><code>12</code></pre>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/9a2a12ee-cbe1-4986-ac45-6c97a3846160",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "BENEFACT_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef962d"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 50,
+  "slug": "army-army-strength",
+  "tags": [],
+  "level": "EXPERT",
+  "title": "Đội quân kháng chiến",
+  "content": "<p id=\"problem-name\" class=\"text-center\">Cuộc x&acirc;m lược tiếp theo của MechaGodzilla đang tr&ecirc;n đường đến Tr&aacute;i đất. V&agrave; một lần nữa, tr&aacute;i đất sẽ l&agrave; chiến trường cho một cuộc chiến. Đội qu&acirc;n của MechaGodzilla bao gồm nhiều qu&aacute;i vật ngo&agrave;i h&agrave;nh tinh, Space Godzilla, King Gidorah v&agrave; MechaGodzilla. Để ngăn chặn ch&uacute;ng v&agrave; bảo vệ Tr&aacute;i đất, Godzilla v&agrave; những người bạn đang chuẩn bị cho trận chiến.&nbsp;&nbsp;</p>\n<div id=\"problem-body\">\n<h3>B&agrave;i to&aacute;n đặt ra</h3>\n<p>Mỗi đội qu&acirc;n bao gồm nhiều qu&aacute;i vật kh&aacute;c nhau. Mỗi con qu&aacute;i vật c&oacute; một sức mạnh c&oacute; thể được m&ocirc; tả bằng một số nguy&ecirc;n dương. (Gi&aacute; trị c&agrave;ng lớn, qu&aacute;i vật c&agrave;ng mạnh) . Một cuộc chiến sẽ bao gồm nhiều trận chiến. Trong mỗi trận chiến, con yếu nhất trong số những con qu&aacute;i vật c&ograve;n sống sẽ bị giết. Nếu c&oacute; một số qu&aacute;i vật yếu nhất, nhưng tất cả ch&uacute;ng trong c&ugrave;ng một đội qu&acirc;n, một trong số ch&uacute;ng sẽ bị giết ngẫu nhi&ecirc;n. Nếu cả hai đội qu&acirc;n c&oacute; &iacute;t nhất một trong những qu&aacute;i vật yếu nhất, một qu&aacute;i vật yếu nhất ngẫu nhi&ecirc;n trong đội qu&acirc;n của MechaGodzilla sẽ bị giết.</p>\n<p>Chiến tranh kết th&uacute;c nếu trong một đội qu&acirc;n tất cả qu&aacute;i vật đều chết. Qu&acirc;n chết hết sẽ thua, qu&acirc;n c&ograve;n lại sẽ thắng. Bạn được cung cấp sức mạnh của tất cả những con qu&aacute;i vật. H&atilde;y t&igrave;m ra người chiến thắng trong cuộc chiến.</p>\n<h3>Đầu v&agrave;o</h3>\n<p>D&ograve;ng đầu ti&ecirc;n của tệp đầu v&agrave;o chứa một số nguy&ecirc;n T x&aacute;c định số lượng trường hợp thử nghiệm. Mỗi trường hợp thử nghiệm được th&ecirc;m ở ph&iacute;a trước một d&ograve;ng trống. Mỗi trường hợp thử nghiệm bắt đầu bằng d&ograve;ng chứa hai số nguy&ecirc;n dương NG v&agrave; NM - số lượng qu&aacute;i vật trong qu&acirc;n đội của Godzilla v&agrave; của MechaGodzilla. Theo sau l&agrave; hai d&ograve;ng kh&aacute;c, d&ograve;ng đầu ti&ecirc;n chứa NG số nguy&ecirc;n dương - sức mạnh của những con qu&aacute;i vật trong đội qu&acirc;n của Godzilla. Tương tự, d&ograve;ng thứ hai chứa NM số nguy&ecirc;n dương - sức mạnh của những con qu&aacute;i vật trong đội qu&acirc;n của MechaGodzilla.</p>\n<h3>Đầu ra</h3>\n<p>Đối với mỗi trường hợp thử nghiệm, xuất một d&ograve;ng duy nhất với một chuỗi k&yacute; tự m&ocirc; tả kết quả của trận chiến. Nếu chắc chắn rằng đội qu&acirc;n của Godzilla thắng, h&atilde;y in ra&nbsp; chuỗi k&yacute; tự \"Godzilla\". Nếu chắc chắn rằng đội qu&acirc;n của MechaGodzilla thắng, h&atilde;y in ra chuỗi k&yacute; tự \"MechaGodzilla\". Nếu kh&ocirc;ng, in ra chuỗi k&yacute; tự \"uncertain\".</p>\n<h3>V&iacute; dụ</h3>\n<p><strong>Đầu v&agrave;o</strong></p>\n<pre class=\"language-markup\"><code>2\n\n1 1\n1\n1\n\n3 2\n1 3 2\n5 5</code></pre>\n<p><strong>Đầu ra</strong></p>\n<pre class=\"language-markup\"><code>Godzilla\nMechaGodzilla</code></pre>\n<h3>Gợi &yacute;</h3>\n<p>Trong trường hợp thử nghiệm đầu ti&ecirc;n, chỉ c&oacute; hai con qu&aacute;i vật, v&agrave; ch&uacute;ng đều mạnh như nhau. Trong t&igrave;nh huống n&agrave;y, qu&aacute;i vật của MechaGodzilla bị giết v&agrave; chiến tranh kết th&uacute;c. Trong trường hợp thử nghiệm thứ hai, cuộc chiến sẽ bao gồm ba trận chiến, v&agrave; trong mỗi trận chiến, một trong những qu&aacute;i vật của Godzilla sẽ chết. Đối với tất cả c&aacute;c trường hợp thử nghiệm, int trong C / C ++ / Java hoặc longint trong Pascal l&agrave; đủ.</p>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/5ad7f168-dd2d-4a2a-b91a-e96a7a3d563a",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "ARMY_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef962e"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 50,
+  "slug": "aps-amazing-prime-sequence",
+  "tags": [],
+  "level": "EXPERT",
+  "title": "Chuỗi số kỳ diệu",
+  "content": "<p id=\"problem-name\" class=\"text-center\">Bablu rất th&iacute;ch c&aacute;c chuỗi số v&agrave; c&aacute;c tập hợp... Sau khi nghi&ecirc;n cứu chuỗi Fibonacci ở lớp to&aacute;n học, anh ấy đ&atilde; rất ấn tượng v&agrave; anh ấy đ&atilde; thiết kế chuỗi số của ri&ecirc;ng m&igrave;nh như sau:</p>\n<pre class=\"language-markup\"><code>a[0] = a[1] = 0 </code></pre>\n<p>Với $n&gt;1$, $a[n] = a[n-1] + f(n)$, trong đ&oacute; f(n) l&agrave; hệ số nguy&ecirc;n tố nhỏ nhất của n. Anh ấy cũng rất th&iacute;ch lập tr&igrave;nh v&agrave; do đ&oacute; đ&atilde; thực hiện một chương tr&igrave;nh nhỏ để t&igrave;m a[n], nhưng v&igrave; anh ấy học lớp to&aacute;n n&ecirc;n anh ấy kh&ocirc;ng giỏi lập tr&igrave;nh cho lắm. V&igrave; vậy, anh ấy y&ecirc;u cầu bạn gi&uacute;p đỡ. Nhiệm vụ của bạn l&agrave; t&igrave;m a[n] cho d&atilde;y số tr&ecirc;n.</p>\n<h3>Đầu v&agrave;o</h3>\n<p>Đoạn m&atilde; của bạn sẽ được kiểm tra cho nhiều trường hợp thử nghiệm. D&ograve;ng đầu ti&ecirc;n của dữ liệu đầu v&agrave;o chứa T sao cho $T \\leq 100$, số lượng trường hợp kiểm tra. T d&ograve;ng tiếp theo chứa một số N sao cho $1 &lt;N &lt;10^{7}$.</p>\n<h3>Đầu ra</h3>\n<p>Một d&ograve;ng chứa a[n], tức l&agrave; số thứ n của chuỗi cho mỗi trường hợp thử nghiệm.</p>\n<h3>V&iacute; dụ</h3>\n<p><strong>Đầu v&agrave;o</strong></p>\n<pre class=\"language-python\"><code>3 2 3 4</code></pre>\n<p><strong>Đầu ra</strong></p>\n<pre class=\"language-python\"><code>2 5 7</code></pre>\n<p id=\"problem-body\"></p>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/a46aa58c-9915-4e92-890b-8f47020e449d",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "APS_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef962f"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 50,
+  "slug": "anarc05b-the-double-helix",
+  "tags": [],
+  "level": "EXPERT",
+  "title": "HeLiX nhân đôi",
+  "content": "<p class=\"text-center\">2 d&atilde;y số nguy&ecirc;n tăng dần được đưa ra. Bất kỳ số nguy&ecirc;n chung n&agrave;o giữa hai d&atilde;y đều tạo th&agrave;nh c&aacute;c giao điểm. V&iacute; dụ về hai chuỗi sau m&agrave; c&aacute;c điểm giao nhau được in đậm:</p>\n<div id=\"problem-body\">\n<ul>\n<li>\n<p>Chuỗi đầu ti&ecirc;n = 3 5 <strong>7</strong>&nbsp;9 20&nbsp;<strong>25</strong>&nbsp;30 40&nbsp;<strong>55</strong>&nbsp;56&nbsp;<strong>57</strong>&nbsp;60 62</p>\n</li>\n<li>\n<p>Chuỗi thứ hai = 1 4 <strong>7</strong>&nbsp;11 14&nbsp;<strong>25</strong>&nbsp;44 47&nbsp;<strong>55&nbsp;</strong><strong>57</strong>&nbsp;100</p>\n</li>\n</ul>\n<p>Bạn c&oacute; thể duyệt qua hai chuỗi n&agrave;y theo c&aacute;ch sau:</p>\n<ol>\n<li>\n<p>Bạn c&oacute; thể bắt đầu ở phần đầu của bất kỳ tr&igrave;nh tự n&agrave;o trong hai tr&igrave;nh tự.&nbsp;B&acirc;y giờ h&atilde;y bắt đầu tiến về ph&iacute;a trước.</p>\n</li>\n<li>\n<p>Tại mỗi điểm giao nhau, bạn c&oacute; thể lựa chọn tiếp tục với c&ugrave;ng một tr&igrave;nh tự m&agrave; bạn hiện đang &aacute;p dụng hoặc chuyển sang tr&igrave;nh tự kh&aacute;c.</p>\n</li>\n</ol>\n<p>Mục ti&ecirc;u l&agrave; tạo ra một đường đi tạo ra tổng dữ liệu tối đa. Trong v&iacute; dụ tr&ecirc;n, tổng lớn nhất c&oacute; thể l&agrave; 450, l&agrave; kết quả của ph&eacute;p cộng 3, 5, 7, 9, 20, 25, 44, 47, 55, 56, 57, 60 v&agrave; 62</p>\n<p><strong>Đầu v&agrave;o</strong></p>\n<p>Chương tr&igrave;nh của bạn sẽ được thử nghiệm tr&ecirc;n một số trường hợp thử nghiệm.&nbsp;Mỗi trường hợp thử nghiệm sẽ được chỉ định tr&ecirc;n hai d&ograve;ng ri&ecirc;ng biệt.&nbsp;Mỗi d&ograve;ng biểu thị một tr&igrave;nh tự v&agrave; được chỉ định bằng c&aacute;ch sử dụng định dạng sau:</p>\n<pre class=\"language-markup\"><code>n v1 v2 ... vn</code></pre>\n<p>Trong đ&oacute; n l&agrave; độ d&agrave;i của d&atilde;y v&agrave; $v_{i}$ l&agrave; phần tử thứ i trong d&atilde;y đ&oacute;. Mỗi d&atilde;y sẽ c&oacute; &iacute;t nhất một phần tử nhưng kh&ocirc;ng qu&aacute; 10.000. Tất cả c&aacute;c phần tử nằm trong khoảng -10.000 đến 10.000 (bao gồm).</p>\n<p>D&ograve;ng cuối c&ugrave;ng của đầu v&agrave;o bao gồm một số 0 duy nhất, kh&ocirc;ng phải l&agrave; một phần của c&aacute;c trường hợp thử nghiệm.</p>\n<p><strong>Đầu ra</strong></p>\n<p>Đối với mỗi trường hợp thử nghiệm, h&atilde;y in ra tr&ecirc;n một d&ograve;ng ri&ecirc;ng biệt, tổng lớn nhất c&oacute; thể được tạo ra.</p>\n<p><strong>V&iacute; dụ</strong></p>\n<p><strong>Đầu v&agrave;o</strong></p>\n<pre class=\"language-markup\"><code>13 3 5 7 9 20 25 30 40 55 56 57 60 62 11 1 4 7 11 14 25 44 47 55 57 100 4 -5 100 1000 1005 3-12 1000 1001 0</code></pre>\n<p><strong>Đầu ra</strong></p>\n<pre class=\"language-markup\"><code>450 2100</code></pre>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/b4c76edf-8893-4f4c-b419-79b0996b724b",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "ANARC05B_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef9630"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 30,
+  "slug": "allizwel-all-izz-well",
+  "tags": [],
+  "level": "INTERMEDIATE",
+  "title": "ALL IZZ WELL",
+  "content": "<div id=\"problem-body\">\n<p><strong>B&agrave;i to&aacute;n</strong></p>\n<p>Mr.ESP thường lẩm nhẩm \"ALL IZZ WELL\" bất cứ khi n&agrave;o anh ấy gặp bất kỳ rắc rối n&agrave;o. V&igrave; vậy, bạn b&egrave; của anh ấy v&agrave; những người xung quanh anh ấy đ&atilde; từng cười nhạo anh ấy. Nhưng Mr.ESP rất tin tưởng v&agrave;o niềm tin của m&igrave;nh. Anh ấy tin rằng cụm từ \"ALL IZZ WELL\" sẽ l&agrave;m cho mọi thứ tốt đẹp. B&acirc;y giờ nhiệm vụ của bạn l&agrave; bỏ qua c&acirc;u chuyện ở tr&ecirc;n v&agrave; t&igrave;m xem liệu c&oacute; một con đường n&agrave;o trong ma trận đ&atilde; cho tạo ra c&acirc;u &ldquo;ALL IZZ WELL&rdquo;.</p>\n<p>C&oacute; một đường dẫn từ bất kỳ &ocirc; n&agrave;o đến tất cả c&aacute;c &ocirc; l&acirc;n cận của n&oacute;. Một &ocirc; gần kề c&oacute; thể c&oacute; chung một cạnh hoặc một g&oacute;c.</p>\n<p><strong>Đầu v&agrave;o</strong></p>\n<ul>\n<li>D&ograve;ng đầu ti&ecirc;n bao gồm một số nguy&ecirc;n t đại diện cho số lượng c&aacute;c trường hợp thử nghiệm.</li>\n<li>D&ograve;ng đầu ti&ecirc;n của mỗi trường hợp thử nghiệm bao gồm hai số nguy&ecirc;n R v&agrave; C đại diện cho số h&agrave;ng v&agrave; số cột trong ma trận.</li>\n</ul>\n<p><strong>Đầu ra</strong></p>\n<p>Đối với mỗi trường hợp kiểm tra, h&atilde;y in ra \"YES\" nếu c&oacute; một đường dẫn tạo th&agrave;nh c&acirc;u &ldquo;ALLIZZWELL&rdquo;. Nếu kh&ocirc;ng, in ra \"NO\". C&oacute; một d&ograve;ng mới sau mỗi trường hợp thử nghiệm trong đầu v&agrave;o.</p>\n<p><strong>Lưu &yacute;: H&atilde;y quan t&acirc;m đến trường hợp thử nghiệm thứ 4.</strong></p>\n<p><strong>Điều kiện</strong></p>\n<ul>\n<li>$t \\leq 1000$</li>\n<li>$R \\leq 100$</li>\n<li>$C \\leq 100$</li>\n</ul>\n<p><strong>V&iacute; dụ</strong></p>\n<p><strong>Đầu v&agrave;o</strong></p>\n<pre class=\"language-markup\"><code> 5\n3 6\nAWE.QX\nLLL.EO\nIZZWLL\n\n1 10\nALLIZZWELL\n\n2 9\nA.L.Z.E..\n.L.I.W.L.\n\n3 3\nAEL\nLWZ\nLIZ\n\n1 10\nLLEWZZILLA</code></pre>\n<strong>Đầu ra</strong></div>\n<div>\n<pre class=\"language-markup\"><code>YES\nYES\nNO\nNO\nYES</code></pre>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/bb6b7af3-2ddc-4db8-bf69-ed6be93a3e57",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "ALLIZWEL_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef9631"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 30,
+  "slug": "alien-aliens-at-the-train",
+  "tags": [],
+  "level": "INTERMEDIATE",
+  "title": "Người ngoài hành tinh đi tàu",
+  "content": "<p class=\"text-center\">Người ngo&agrave;i h&agrave;nh tinh đ&atilde; đến tr&aacute;i đất v&agrave; mọi thứ đều h&ograve;a hợp, hai chủng tộc c&oacute; thể chung sống với nhau. Tuy nhi&ecirc;n, một người ngo&agrave;i h&agrave;nh tinh kh&ocirc;ng muốn nh&igrave;n thấy con người tr&ecirc;n đường đến trường đại học, người ngo&agrave;i h&agrave;nh tinh phải sử dụng chuyến t&agrave;u như mọi người vẫn l&agrave;m. Nhưng c&ocirc; ấy c&oacute; thể chọn bất kỳ ga xe lửa n&agrave;o m&agrave; c&ocirc; ấy kh&ocirc;ng nh&igrave;n thấy nhiều hơn B con người, tuy nhi&ecirc;n, người ngo&agrave;i h&agrave;nh tinh muốn đi c&agrave;ng xa c&agrave;ng tốt với chuyến t&agrave;u. H&atilde;y gi&uacute;p người ngo&agrave;i h&agrave;nh tinh n&agrave;y.</p>\n<div id=\"problem-body\">\n<p><strong>Đầu v&agrave;o</strong></p>\n<p>Bạn sẽ nhận được một số nguy&ecirc;n T biểu thị số trường hợp thử nghiệm, sau đ&oacute;, d&ograve;ng tiếp theo sẽ chứa hai số nguy&ecirc;n At v&agrave; Bt, trong đ&oacute; At v&agrave; Bt l&agrave; số ga tr&ecirc;n t&agrave;u (1 &lt;= At &lt;= 100.000) v&agrave; số người m&agrave; người ngo&agrave;i h&agrave;nh tinh muốn nh&igrave;n thấy l&agrave; tối đa (1 &lt;= Bt &lt;= 10.000.000), sau đ&oacute;, một d&ograve;ng chứa c&aacute;c số nguy&ecirc;n At c&aacute;ch nhau một khoảng trắng sẽ biểu thị số người m&agrave; người ngo&agrave;i h&agrave;nh tinh c&oacute; thể t&igrave;m thấy trong trạm thứ At-i. (Mỗi trạm sẽ c&oacute; tối đa 100 người).</p>\n<p><strong>Đầu ra</strong></p>\n<p>Đầu ra của bạn phải bao gồm T cặp số biểu thị số người m&agrave; người ngo&agrave;i h&agrave;nh tinh sẽ nh&igrave;n thấy v&agrave; số trạm m&agrave; người ngo&agrave;i h&agrave;nh tinh sẽ đi qua tương ứng.</p>\n<p>V&iacute; dụ</p>\n<p><strong>Đầu v&agrave;o:</strong></p>\n<pre class=\"language-markup\"><code>1 5 100 20 15 30 80 100</code></pre>\n<p><strong>Đầu ra</strong></p>\n<pre class=\"language-markup\"><code>65 3</code></pre>\n<p><strong>Ch&uacute; &yacute;:</strong></p>\n<p>Người ngo&agrave;i h&agrave;nh tinh đi t&agrave;u ở ga 1 (c&oacute; 20 người) v&agrave; đến ga 2, sau đ&oacute; l&agrave; ga 3, l&uacute;c n&agrave;y, c&ocirc; ấy đ&atilde; nh&igrave;n thấy 65 người, nếu c&ocirc; ấy quyết định đi đến ga 4 c&ocirc; ấy sẽ thấy 145 người&hellip; Sau đ&oacute; c&ocirc; ấy ra khỏi nh&agrave; ga.</p>\n<p>Tuy nhi&ecirc;n, người ngo&agrave;i h&agrave;nh tinh c&oacute; thể bắt đầu ở trạm 2 với 15 người, sau đ&oacute; tiếp tục đến trạm 4, khi đ&oacute;, c&ocirc; ấy sẽ thấy 125 người, nhưng, v&igrave; c&ocirc; ấy muốn nh&igrave;n thấy những người tối thiểu c&oacute; thể c&oacute; v&agrave; số người n&agrave;y vượt qu&aacute; những g&igrave; c&ocirc; ấy muốn xem, c&ocirc; quyết định chọn con đường từ ga 1 đến ga thứ 3.</p>\n<p>Người ngo&agrave;i h&agrave;nh tinh sẽ lu&ocirc;n di chuyển về ph&iacute;a trước (h&atilde;y nhớ, c&ocirc; ấy c&oacute; thể chọn bất kỳ trạm n&agrave;o l&agrave;m điểm bắt đầu), KH&Ocirc;NG BAO GIỜ l&ugrave;i lại ph&iacute;a sau, v&agrave; bạn n&ecirc;n chọn con đường tốt nhất thỏa m&atilde;n th&ocirc;ng số kỹ thuật đầu ra.</p>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/3c43f923-44ce-4684-a896-54be5250f94f",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "ALIEN_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef9632"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 30,
+  "slug": "aggrcow-aggressive-cows",
+  "tags": [],
+  "level": "INTERMEDIATE",
+  "title": "Những chú bò tức giận",
+  "content": "<div class=\"row\">\n<div id=\"problem-tags\" class=\"col-lg-12 text-center\"></div>\n</div>\n<p>Người n&ocirc;ng d&acirc;n John đ&atilde; x&acirc;y dựng nhiều chuồng mới, với N (2 &lt;= N &lt;= 100.000) chuồng. C&aacute;c chuồng nằm dọc theo một đường thẳng tại c&aacute;c vị tr&iacute; x1, ..., xN (0 &lt;= xi &lt;= 1.000.000.000).</p>\n<div id=\"problem-body\">\n<p>C con b&ograve; (2 &lt;= C &lt;= N) của anh ấy kh&ocirc;ng th&iacute;ch c&aacute;ch bố tr&iacute; chuồng n&agrave;y v&agrave; trở n&ecirc;n hung dữ với nhau sau khi được đưa v&agrave;o chuồng. Để tr&aacute;nh việc c&aacute;c con b&ograve; l&agrave;m tổn thương lẫn nhau, FJ muốn chỉ định c&aacute;c con b&ograve; v&agrave;o chuồng, sao cho khoảng c&aacute;ch tối thiểu giữa hai con c&agrave;ng lớn c&agrave;ng tốt. Vậy khoảng c&aacute;ch tối thiểu lớn nhất l&agrave; bao nhi&ecirc;u?</p>\n<h3>Đầu v&agrave;o</h3>\n<ul>\n<li><em>t</em> &ndash; số lượng c&aacute;c trường hợp thử nghiệm</li>\n<li>D&ograve;ng 1: 2 gi&aacute; trị số nguy&ecirc;n N v&agrave; C c&aacute;ch nhau một khoảng trắng</li>\n<li>D&ograve;ng 2..N+1: D&ograve;ng i+1 chứa vị tr&iacute; số nguy&ecirc;n, xi</li>\n</ul>\n<h3>Đầu ra</h3>\n<p>Đối với mỗi trường hợp thử nghiệm xuất ra một số nguy&ecirc;n, l&agrave; khoảng c&aacute;ch tối thiểu lớn nhất.</p>\n<h3>V&iacute; dụ</h3>\n<p><strong>Đầu v&agrave;o</strong></p>\n<pre class=\"language-markup\"><code>1\n5 3\n1\n2\n8\n4\n9</code></pre>\n<p><strong>Đầu ra</strong></p>\n<pre class=\"language-markup\"><code>3</code></pre>\n<p><strong>Chi tiết về đầu ra</strong></p>\n<p>FJ c&oacute; thể xếp 3 con b&ograve; của m&igrave;nh v&agrave;o chuồng ở c&aacute;c vị tr&iacute; 1, 4 v&agrave; 8, tạo ra khoảng c&aacute;ch tối thiểu l&agrave; 3 con.</p>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/ecface50-2e63-4e0b-b883-6e1174d01f92",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "AGGRCOW_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef9633"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 40,
+  "slug": "crypto2-the-bytelandian-cryptographer-act-ii",
+  "tags": [],
+  "level": "INTERMEDIATE",
+  "title": "Nhà mật mã người Bytelandian",
+  "content": "<p>Nh&agrave; mật m&atilde; cuồng t&iacute;n người Bytelandian đ&atilde; m&atilde; h&oacute;a một c&aacute;ch ẩn &yacute; một số c&oacute; ba chữ số bằng c&aacute;ch trừ đi 1 từ n&oacute;. Lần n&agrave;y anh ấy đ&atilde; thực sự vượt qu&aacute; mức! Người l&iacute;nh, h&atilde;y đ&aacute;nh bại anh ta, v&igrave; vua Burger v&agrave; đất nước! H&atilde;y sử dụng Brainf ** k (kh&ocirc;ng cho ph&eacute;p sử dụng ng&ocirc;n ngữ kh&aacute;c).</p>\n<div id=\"problem-body\">\n<h3>Định dạng đầu v&agrave;o</h3>\n<p align=\"justify\">Một số nguy&ecirc;n dương c&oacute; 3 chữ số được m&atilde; h&oacute;a.</p>\n<h3>Định dạng đầu ra</h3>\n<p align=\"justify\">Gi&aacute; trị được giải m&atilde;</p>\n<h3>V&iacute; dụ</h3>\n<p><strong>Đầu v&agrave;o</strong></p>\n<pre class=\"language-markup\"><code>699</code></pre>\n<p><strong>Đầu ra</strong></p>\n<pre class=\"language-markup\"><code>700</code></pre>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/f560bee4-d385-43d3-b916-b2e48eb66f78",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "CRYPTO2_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef9634"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 50,
+  "slug": "coins-bytelandian-gold-coins-1",
+  "tags": [],
+  "level": "EXPERT",
+  "title": "Đồng xu Bytelandian",
+  "content": "<div class=\"row\">\n<div id=\"problem-tags\" class=\"col-lg-12 text-center\"></div>\n</div>\n<p>Ở Byteland, mọi người sử dụng một hệ thống tiền tệ rất kỳ lạ. Mỗi đồng xu v&agrave;ng Bytelandian c&oacute; một số nguy&ecirc;n được viết tr&ecirc;n đ&oacute;. Một đồng n c&oacute; thể được đổi trong ng&acirc;n h&agrave;ng th&agrave;nh ba đồng: n/2, n/3 v&agrave; n/4. Nhưng những con số n&agrave;y đều được l&agrave;m tr&ograve;n xuống (c&aacute;c ng&acirc;n h&agrave;ng phải c&oacute; l&atilde;i). Bạn cũng c&oacute; thể b&aacute;n tiền xu Bytelandian để đổi đồng đ&ocirc; la Mỹ. Tỷ gi&aacute; hối đo&aacute;i l&agrave; 1:1. Nhưng bạn kh&ocirc;ng thể mua đồng tiền xu Bytelandian. Bạn c&oacute; một đồng tiền v&agrave;ng. Số lượng đ&ocirc; la Mỹ tối đa bạn c&oacute; thể nhận được l&agrave; bao nhi&ecirc;u?</p>\n<div id=\"problem-body\">\n<h3>Định dạng đầu v&agrave;o</h3>\n<p>Đầu v&agrave;o sẽ chứa một số trường hợp thử nghiệm (kh&ocirc;ng qu&aacute; 10). Mỗi trường hợp thử nghiệm nằm tr&ecirc;n một d&ograve;ng với số n, $0 \\leq n \\leq 1,000,000,000$. Đ&oacute; l&agrave; số được viết tr&ecirc;n đồng xu của bạn.</p>\n<h3>Định dạng đầu ra</h3>\n<p>Đối với mỗi trường hợp thử nghiệm, h&atilde;y in ra một d&ograve;ng duy nhất, chứa số tiền đ&ocirc; la Mỹ tối đa m&agrave; bạn c&oacute; thể kiếm được.</p>\n<h3>V&iacute; dụ</h3>\n<p><strong>Đầu v&agrave;o</strong></p>\n<pre class=\"language-markup\"><code>12\n2</code></pre>\n<p><strong>Đầu ra</strong></p>\n<pre class=\"language-markup\"><code>13\n2</code></pre>\n<pre>&nbsp;</pre>\n<p>Bạn c&oacute; thể thay đổi 12 th&agrave;nh 6, 4 v&agrave; 3, sau đ&oacute; đổi ch&uacute;ng th&agrave;nh \\$6 + \\$4 + \\$3 = \\$13. Nếu bạn đổi đồng xu 2 th&agrave;nh 3 đồng xu nhỏ hơn, bạn sẽ nhận được l&agrave; 1, 0 v&agrave; 0, v&agrave; sau đ&oacute; bạn c&oacute; thể nhận được kh&ocirc;ng qu&aacute; 1 đ&ocirc; la. Tốt hơn l&agrave; chỉ n&ecirc;n đổi trực tiếp 2 đồng xu th&agrave;nh 2 đ&ocirc; la.</p>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/2382cc6c-06a5-4c2b-bac5-2414ed715983",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "COINS_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef9635"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 50,
+  "slug": "coins-bytelandian-gold-coins",
+  "tags": [],
+  "level": "EXPERT",
+  "title": "Đổi đồng tiền xu Bytelandian",
+  "content": "<div class=\"row\">\n<div id=\"problem-tags\" class=\"col-lg-12 text-center\"></div>\n</div>\n<p>Ở Byteland, họ c&oacute; một hệ thống tiền tệ rất lạ. Mỗi đồng xu v&agrave;ng Bytelandian c&oacute; một số nguy&ecirc;n được viết tr&ecirc;n đ&oacute;. Một đồng n c&oacute; thể được đổi trong ng&acirc;n h&agrave;ng th&agrave;nh ba đồng: n/2, n/3 v&agrave; n/4. Nhưng những con số n&agrave;y đều được l&agrave;m tr&ograve;n xuống (c&aacute;c ng&acirc;n h&agrave;ng phải c&oacute; l&atilde;i).</p>\n<div id=\"problem-body\">\n<p>Bạn cũng c&oacute; thể b&aacute;n tiền xu Bytelandian để đổi đ&ocirc; la Mỹ. Tỷ gi&aacute; hối đo&aacute;i l&agrave; 1:1. Nhưng bạn kh&ocirc;ng thể mua tiền xu Bytelandian. Bạn c&oacute; một đồng tiền v&agrave;ng. Số lượng đ&ocirc; la Mỹ tối đa bạn c&oacute; thể nhận được cho n&oacute; l&agrave; bao nhi&ecirc;u?</p>\n<h3>Định dạng đầu ra</h3>\n<p>Đầu v&agrave;o sẽ chứa một số trường hợp thử nghiệm (kh&ocirc;ng qu&aacute; 10). Mỗi trường hợp l&agrave; một d&ograve;ng duy nhất với số n, $0 \\leq n \\leq 1,000,000,000$. Đ&oacute; l&agrave; số được viết tr&ecirc;n đồng xu của bạn.</p>\n<h3>Định dạng đầu ra</h3>\n<p>Đối với mỗi trường hợp thử nghiệm, h&atilde;y in ra một d&ograve;ng duy nhất, chứa số đ&ocirc; la Mỹ tối đa m&agrave; bạn c&oacute; thể kiếm được.</p>\n<h3>V&iacute; dụ</h3>\n<p><strong>Đầu v&agrave;o</strong></p>\n<pre class=\"language-markup\"><code>12\n2</code></pre>\n<p><strong>Đầu ra</strong></p>\n<pre class=\"language-markup\"><code>13\n2</code></pre>\n<p>Bạn c&oacute; thể thay đổi 12 th&agrave;nh 6, 4 v&agrave; 3, sau đ&oacute; đổi ch&uacute;ng th&agrave;nh \\$6 + \\$4 + \\$3 = \\$13. Nếu bạn thử đổi đồng xu 2 th&agrave;nh 3 đồng xu nhỏ hơn, bạn sẽ nhận được 1, 0 v&agrave; 0, v&agrave; sau đ&oacute; bạn c&oacute; thể nhận được kh&ocirc;ng qu&aacute; 1 đ&ocirc; la từ ch&uacute;ng. Tốt hơn l&agrave; chỉ cần đổi trực tiếp đồng xu 2 th&agrave;nh 2 đ&ocirc; la.</p>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/1b4007f4-9099-4742-a469-884e25f11f37",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "COINS_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef9636"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 50,
+  "slug": "codfury-megatron-va-con-thinh-no-cua-anh-ta",
+  "tags": [],
+  "level": "EXPERT",
+  "title": "Megatron và cơn thịnh nộ",
+  "content": "<div class=\"row\">\n<div id=\"problem-tags\" class=\"col-lg-12 text-center\"></div>\n</div>\n<p>Tức giận với thất bại của Decepticons sau một trận chiến d&agrave;i hơi với c&aacute;c Autobots, Megatron, trong cơn thịnh nộ của m&igrave;nh, đ&atilde; quyết định ti&ecirc;u diệt tất cả c&aacute;c h&agrave;nh tinh tr&ecirc;n đường trở về Cybertron từ Tr&aacute;i đất. C&oacute; nhiều h&agrave;nh tinh giữa Tr&aacute;i đất v&agrave; Cybertron, v&agrave; mỗi h&agrave;nh tinh c&oacute; một số Autobots để bảo vệ n&oacute; khỏi anh ta. V&igrave; Megatron c&ograve;n &iacute;t đạn, anh ta muốn chiến đấu với &iacute;t robot nhất c&oacute; thể (tr&ecirc;n thực tế, kh&ocirc;ng nhiều hơn \"M\" trong số ch&uacute;ng) tr&ecirc;n đường trở về.</p>\n<p>Bạn cần t&igrave;m số lượng h&agrave;nh tinh tối đa m&agrave; anh ta c&oacute; thể ph&aacute; hủy trong cuộc h&agrave;nh tr&igrave;nh của m&igrave;nh.</p>\n<div id=\"problem-body\">\n<div>LƯU &Yacute;: Megatron c&oacute; thể bắt đầu \"cuộc chiến hủy diệt\" của m&igrave;nh từ bất kỳ h&agrave;nh tinh n&agrave;o v&agrave; chỉ c&oacute; thể di chuyển đến h&agrave;nh tinh tiếp theo từ h&agrave;nh tinh m&agrave; anh ta hiện đang ở.</div>\n<p>Tức giận với thất bại của Decepticons sau một trận chiến d&agrave;i hơi với c&aacute;c Autobots, Megatron, trong cơn thịnh nộ của m&igrave;nh, đ&atilde; quyết định ti&ecirc;u diệt tất cả c&aacute;c h&agrave;nh tinh tr&ecirc;n đường trở về Cybertron từ Tr&aacute;i đất.&nbsp;C&oacute; nhiều h&agrave;nh tinh giữa Tr&aacute;i đất v&agrave; Cybertron, v&agrave; mỗi h&agrave;nh tinh c&oacute; một số Autobots để bảo vệ n&oacute; khỏi anh ta.&nbsp;V&igrave; Megatron c&ograve;n &iacute;t đạn, anh ta muốn chiến đấu với &iacute;t autobot nhất c&oacute; thể tr&ecirc;n đường trở về.</p>\n<p>Bạn cần t&igrave;m số lượng h&agrave;nh tinh tối đa m&agrave; anh ta c&oacute; thể ph&aacute; hủy trong cuộc h&agrave;nh tr&igrave;nh của m&igrave;nh.</p>\n<p>LƯU &Yacute;: Megatron c&oacute; thể bắt đầu \"cuộc chiến hủy diệt\" của m&igrave;nh từ bất kỳ h&agrave;nh tinh n&agrave;o v&agrave; chỉ c&oacute; thể di chuyển đến h&agrave;nh tinh tiếp theo từ h&agrave;nh tinh m&agrave; anh ta hiện đang ở.</p>\n<h3>Định dạng đầu v&agrave;o</h3>\n<p>Bạn sẽ nhận được một số nguy&ecirc;n \"T\" biểu thị số lượng trường hợp thử nghiệm.&nbsp;(T &lt;= 20)</p>\n<p>Sau đ&oacute;, d&ograve;ng tiếp theo sẽ chứa hai số nguy&ecirc;n được ph&acirc;n t&aacute;ch bằng dấu c&aacute;ch kh&ocirc;ng &acirc;m \"P\" v&agrave; \"M\", trong đ&oacute; P l&agrave; số h&agrave;nh tinh tr&ecirc;n đường trở về của anh ta (P &lt;= 50000) v&agrave; M l&agrave; số Autobot tối đa m&agrave; Megatron c&oacute; thể thấy (M &lt;= 1000.000).</p>\n<p>Sau đ&oacute;, một d&ograve;ng chứa P số nguy&ecirc;n c&aacute;ch nhau bởi một khoảng trắng sẽ biểu thị số lượng Autobots c&oacute; mặt tr&ecirc;n mỗi h&agrave;nh tinh.&nbsp;(Đối với mỗi h&agrave;nh tinh sẽ c&oacute; kh&ocirc;ng qu&aacute; 1000 autobots).</p>\n<h3>Định dạng đầu ra</h3>\n<p>Đầu ra của bạn phải bao gồm \"T\" c&aacute;c cặp số nguy&ecirc;n được ph&acirc;n t&aacute;ch bằng dấu c&aacute;ch, một cặp tr&ecirc;n mỗi d&ograve;ng, biểu thị số lượng Autobots Megatron sẽ chiến đấu v&agrave; số lượng h&agrave;nh tinh m&agrave; anh ta sẽ ph&aacute; hủy tương ứng.</p>\n<h3>V&iacute; dụ</h3>\n<p><strong>Đầu v&agrave;o</strong></p>\n<pre class=\"language-markup\"><code>1\n4 50\n20 5 23 45</code></pre>\n<p><strong>Đầu ra</strong></p>\n<pre class=\"language-markup\"><code>48 3</code></pre>\n<p><strong>Giải th&iacute;ch</strong></p>\n<p>Megatron bắt đầu ở h&agrave;nh tinh 1 (với 20 Autobots) v&agrave; đi đến h&agrave;nh tinh 2, sau đ&oacute; l&agrave; h&agrave;nh tinh thứ 3,&nbsp; tại thời điểm n&agrave;y, anh ấy đ&atilde; nh&igrave;n thấy 48 Autobots, nếu anh ấy quyết định đến h&agrave;nh tinh 4, anh ấy sẽ thấy 93 Autobots&hellip; v&igrave; vậy anh ta dừng cuộc h&agrave;nh tr&igrave;nh của m&igrave;nh tại h&agrave;nh tinh thứ 3.</p>\n<p>Megatron, tuy nhi&ecirc;n, c&oacute; thể đ&atilde; bắt đầu ở h&agrave;nh tinh 2 với 5 Autobots, sau đ&oacute; tiếp tục đến h&agrave;nh tinh thứ 4, sau đ&oacute;, anh ấy sẽ thấy 73 Autobots, nhưng, v&igrave; anh ấy muốn thấy những Autobots tối thiểu nhất c&oacute; thể v&agrave; số lượng Autobots n&agrave;y vượt qu&aacute; những g&igrave; anh ta muốn thấy, anh ta quyết định chọn con đường từ h&agrave;nh tinh thứ 1 đến h&agrave;nh tinh thứ 3.</p>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/55d4221a-1faf-441a-b670-76b695dc4d2e",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "CODFURY_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef9637"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 30,
+  "slug": "cmexpr-complicated-expressions",
+  "tags": [],
+  "level": "INTERMEDIATE",
+  "title": "Sắp xếp các biểu thức phức tạp",
+  "content": "<p>Hoạt động quan trọng nhất của ACM l&agrave; mạng GSM. Với tư c&aacute;ch l&agrave; hệ thống điều h&agrave;nh điện thoại di động, ACM phải x&acirc;y dựng c&aacute;c trạm ph&aacute;t s&oacute;ng của ri&ecirc;ng m&igrave;nh. Điều rất quan trọng l&agrave; phải t&iacute;nh to&aacute;n ch&iacute;nh x&aacute;c hoạt động của s&oacute;ng điện từ. Thật kh&ocirc;ng may, dự đo&aacute;n về điện trường l&agrave; một c&ocirc;ng việc rất phức tạp v&agrave; c&aacute;c c&ocirc;ng thức m&ocirc; tả ch&uacute;ng rất d&agrave;i v&agrave; kh&oacute; đọc. V&iacute; dụ, phương tr&igrave;nh Maxwell m&ocirc; tả c&aacute;c định luật cơ bản của kỹ thuật điện thực sự rất kh&oacute;.</p>\n<div id=\"problem-body\">\n<p>ACM đ&atilde; thiết kế hệ thống m&aacute;y t&iacute;nh c&oacute; thể thực hiện một số ph&eacute;p t&iacute;nh to&aacute;n v&agrave; đưa ra kết quả dưới dạng biểu thức to&aacute;n học. Thật kh&ocirc;ng may, bằng c&aacute;ch tạo biểu thức trong một số bước, lu&ocirc;n c&oacute; một số dấu ngoặc đơn kh&ocirc;ng cần thiết b&ecirc;n trong biểu thức. Nhiệm vụ của bạn l&agrave; lấy c&aacute;c kết quả từng phần n&agrave;y v&agrave; l&agrave;m cho ch&uacute;ng tr&ocirc;ng dễ nh&igrave;n hơn bằng c&aacute;ch loại bỏ tất cả c&aacute;c dấu ngoặc đơn kh&ocirc;ng cần thiết.</p>\n<h3>Định dạng đầu v&agrave;o</h3>\n<p>C&oacute; một số nguy&ecirc;n dương T tr&ecirc;n d&ograve;ng đầu ti&ecirc;n của dữ liệu đầu v&agrave;o (khoảng 10000). N&oacute; l&agrave; số lượng biểu thức ph&iacute;a sau. Mỗi biểu thức chỉ bao gồm một d&ograve;ng duy nhất chứa c&aacute;c chữ c&aacute;i in thường, c&aacute;c to&aacute;n tử (+, -, *, /) v&agrave; dấu ngoặc đơn (( v&agrave; )). C&aacute;c chữ c&aacute;i l&agrave; c&aacute;c biến c&oacute; thể c&oacute; bất kỳ gi&aacute; trị n&agrave;o, c&aacute;c to&aacute;n tử v&agrave; dấu ngoặc đơn c&oacute; &yacute; nghĩa th&ocirc;ng thường. Ph&eacute;p nh&acirc;n v&agrave; ph&eacute;p chia c&oacute; mức độ ưu ti&ecirc;n cao hơn so với ph&eacute;p trừ v&agrave; ph&eacute;p cộng. Tất cả c&aacute;c ph&eacute;p to&aacute;n c&oacute; c&ugrave;ng mức độ ưu ti&ecirc;n được t&iacute;nh từ tr&aacute;i qua phải. Kh&ocirc;ng c&oacute; khoảng trắng b&ecirc;n trong c&aacute;c biểu thức. Kh&ocirc;ng c&oacute; d&ograve;ng đầu v&agrave;o n&agrave;o chứa nhiều hơn 250 k&yacute; tự.</p>\n<h3>Định dạng đầu ra</h3>\n<p>In một d&ograve;ng duy nhất cho mọi biểu thức. D&ograve;ng đ&oacute; phải chứa c&ugrave;ng một biểu thức với c&aacute;c dấu ngoặc đơn kh&ocirc;ng cần thiết bị loại bỏ. Bạn phải loại bỏ c&agrave;ng nhiều dấu ngoặc đơn c&agrave;ng tốt m&agrave; kh&ocirc;ng l&agrave;m thay đổi ngữ nghĩa của biểu thức. Ngữ nghĩa của biểu thức được coi l&agrave; giống nhau nếu v&agrave; chỉ khi c&oacute; bất kỳ điều kiện n&agrave;o sau đ&acirc;y l&agrave; lu&ocirc;n đ&uacute;ng:</p>\n<div align=\"left\">\n<ul>\n<li>Thứ tự của c&aacute;c ph&eacute;p to&aacute;n l&agrave; như tr&ecirc;n. Điều đ&oacute; c&oacute; nghĩa l&agrave; \"(a+b)+c\" giống với \"a+b+c\", v&agrave; \"a+(b/c)\" giống với \"a+b/c\".</li>\n<li>Thứ tự của một số ph&eacute;p to&aacute;n được ho&aacute;n đổi nhưng kết quả kh&ocirc;ng thay đổi đối với ph&eacute;p cộng v&agrave; ph&eacute;p nh&acirc;n. Điều đ&oacute; c&oacute; nghĩa l&agrave; \"a+(b+c)\" v&agrave; \"(a+b)+c\" l&agrave; như nhau. Ch&uacute;ng ta cũng c&oacute; thể kết hợp ph&eacute;p cộng với ph&eacute;p trừ v&agrave; ph&eacute;p nh&acirc;n với ph&eacute;p chia, nếu ph&eacute;p trừ hoặc ph&eacute;p chia l&agrave; ph&eacute;p to&aacute;n thứ hai. V&iacute; dụ: \"a+(b-c)\" giống với \"a+b-c\".</li>\n</ul>\n</div>\n<p>Bạn kh&ocirc;ng thể sử dụng bất kỳ quy tắc n&agrave;o kh&aacute;c, cụ thể l&agrave; bạn kh&ocirc;ng thể ho&aacute;n đổi c&aacute;c to&aacute;n hạng tr&aacute;i v&agrave; phải v&agrave; bạn kh&ocirc;ng thể thay thế \"a-(b-c)\" bằng \"a-b+c\".</p>\n<h3>V&iacute; dụ</h3>\n<p><strong>Đầu v&agrave;o</strong></p>\n<pre class=\"language-markup\"><code>8\n(a+(b*c))\n((a+b)*c)\n(a*(b*c))\n(a*(b/c)*d)\n((a/(b/c))/d)\n((x))\n(a+b)-(c-d)-(e/f)\n(a+b)+(c-d)-(e+f)</code></pre>\n<p><strong>Đầu ra</strong><br /><tt></tt></p>\n<pre class=\"language-markup\"><code>a+b*c\n(a+b)*c\na*b*c\na*b/c*d\na/(b/c)/d\nx\na+b-(c-d)-e/f\na+b+c-d-(e+f)</code></pre>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/89afa6e5-da50-419c-8dc5-084dae10b36d",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "CMEXPR_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef9638"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 30,
+  "slug": "canton-count-on-cantor",
+  "tags": [],
+  "level": "INTERMEDIATE",
+  "title": "Phép đếm của Cantor",
+  "content": "<div class=\"row\">\n<div id=\"problem-tags\" class=\"col-lg-12 text-center\"></div>\n</div>\n<p>Một trong những chứng minh nổi tiếng của to&aacute;n học hiện đại l&agrave; chứng minh của Georg Cantor rằng tập hợp c&aacute;c số hữu tỉ l&agrave; c&oacute; thể đếm được. Chứng minh được thực hiện bằng c&aacute;ch sử dụng một ph&eacute;p liệt k&ecirc; r&otilde; r&agrave;ng c&aacute;c số hữu tỉ như thể hiện trong sơ đồ b&ecirc;n dưới.</p>\n<pre class=\"language-markup\"><code>1/1 1/2 1/3 1/4 1/5 ...\n2/1 2/2 2/3 2/4\n3/1 3/2 3/3\n4/1 4/2\n5/1</code></pre>\n<div id=\"problem-body\">\n<p>Trong sơ đồ tr&ecirc;n, số hạng đầu ti&ecirc;n l&agrave; 1/1, số hạng thứ hai l&agrave; 1/2, số hạng thứ ba l&agrave; 2/1, số hạng thứ tư l&agrave; 3/1, số hạng thứ năm l&agrave; 2/2,...</p>\n<h3>Định dạng đầu v&agrave;o</h3>\n<p>Đầu v&agrave;o bắt đầu bằng một d&ograve;ng chứa một số nguy&ecirc;n $t \\leq 20$, số lượng trường hợp thử nghiệm. Tiếp theo l&agrave; t trường hợp thử nghiệm. Sau đ&oacute;, n&oacute; chứa một số duy nhất tr&ecirc;n mỗi d&ograve;ng.</p>\n<h3>Định dạng đầu ra</h3>\n<p>Bạn h&atilde;y viết một chương tr&igrave;nh đọc v&agrave;o một danh s&aacute;ch c&aacute;c số trong phạm vi từ 1 đến $10^{7}$ v&agrave; in ra cho mỗi số một số hạng tương ứng trong ph&eacute;p liệt k&ecirc; của Cantor như được cho b&ecirc;n dưới.</p>\n<h3>V&iacute; dụ</h3>\n<p><strong>Đầu v&agrave;o</strong></p>\n<pre class=\"language-markup\"><code>3\n3\n14\n7</code></pre>\n<p><strong>Đầu ra</strong></p>\n<pre class=\"language-markup\"><code>TERM 3 IS 2/1\nTERM 14 IS 2/4\nTERM 7 IS 1/4</code></pre>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/76f60528-e8f7-47c4-8ac3-d370a3b7cee0",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "CANTON_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef9639"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 30,
+  "slug": "candy-candy-i",
+  "tags": [],
+  "level": "INTERMEDIATE",
+  "title": "Bài toán chia kẹo",
+  "content": "<div class=\"row\">\n<div id=\"problem-tags\" class=\"col-lg-12 text-center\"></div>\n</div>\n<p>Tuệ Nhi l&agrave; gi&aacute;o vi&ecirc;n năm đầu ti&ecirc;n của trường tiểu học. H&ocirc;m nay c&ocirc; ấy đ&atilde; đi du lịch với lớp. C&ocirc; lấy cho mỗi trẻ một g&oacute;i kẹo. Thật kh&ocirc;ng may, k&iacute;ch thước của c&aacute;c g&oacute;i kh&ocirc;ng giống nhau. Tuệ Nhi sợ rằng mỗi đứa trẻ sẽ muốn c&oacute; g&oacute;i kẹo lớn nhất v&agrave; điều n&agrave;y sẽ dẫn đến những cuộc c&atilde;i v&atilde; hoặc thậm ch&iacute; đ&aacute;nh nhau giữa c&aacute;c đứa trẻ. C&ocirc; ấy muốn tr&aacute;nh điều n&agrave;y. V&igrave; vậy, c&ocirc; đ&atilde; quyết định mở tất cả c&aacute;c g&oacute;i, đếm số kẹo trong mỗi g&oacute;i v&agrave; chuyển một số kẹo từ g&oacute;i lớn hơn sang g&oacute;i nhỏ hơn để mỗi g&oacute;i sẽ chứa số kẹo bằng nhau. C&acirc;u hỏi đặt ra l&agrave; c&ocirc; ấy phải di chuyển bao nhi&ecirc;u vi&ecirc;n kẹo.</p>\n<div id=\"problem-body\">\n<h3>Định dạng đầu v&agrave;o</h3>\n<p>Tệp đầu v&agrave;o bao gồm một số khối dữ liệu. Mỗi khối bắt đầu bằng số g&oacute;i kẹo N ($1 \\leq N \\leq 10000$) tiếp theo l&agrave; N số nguy&ecirc;n (mỗi số nhỏ hơn 1000) ở c&aacute;c d&ograve;ng ri&ecirc;ng biệt, cho biết số lượng kẹo trong mỗi g&oacute;i. Sau khối dữ liệu cuối c&ugrave;ng, c&oacute; số -1.</p>\n<h3>Định dạng đầu ra</h3>\n<p>Tệp đầu ra phải chứa một d&ograve;ng với số lần chuyển c&aacute;c vi&ecirc;n kẹo nhỏ nhất cho mỗi khối dữ liệu. Một động t&aacute;c chuyển vi&ecirc;n kẹo bao gồm lấy một vi&ecirc;n kẹo từ một g&oacute;i v&agrave; đặt n&oacute; v&agrave;o một g&oacute;i kh&aacute;c. Nếu kh&ocirc;ng thể c&oacute; số kẹo giống nhau trong mỗi g&oacute;i, h&atilde;y in ra gi&aacute; trị l&agrave; -1.</p>\n<h3>V&iacute; dụ</h3>\n<p><strong>Đầu v&agrave;o</strong></p>\n<pre class=\"language-markup\"><code>5\n1\n1\n1\n1\n6\n2\n3\n4\n-1</code></pre>\n<p><strong>Đầu ra</strong></p>\n<pre class=\"language-markup\"><code>4\n-1</code></pre>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/40b9e3b2-c9ea-499f-b471-c497fb6f0b27",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "CANDY_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef963a"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 50,
+  "slug": "bytesm2-philosophers-stone",
+  "tags": [],
+  "level": "EXPERT",
+  "title": "Thu thập các viên đá",
+  "content": "<div class=\"row\">\n<div id=\"problem-tags\" class=\"col-lg-12 text-center\"></div>\n</div>\n<p>Một trong những căn ph&ograve;ng b&iacute; mật ở Hogwarts chứa đầy những vi&ecirc;n đ&aacute; của một triết gia. S&agrave;n của căn ph&ograve;ng được l&aacute;t bằng gạch vu&ocirc;ng c&oacute; k&iacute;ch thước h&times;w, trong đ&oacute;, h l&agrave; h&agrave;ng gạch ở ph&iacute;a trước (h&agrave;ng đầu ti&ecirc;n) đến v&agrave; h&agrave;ng ph&iacute;a sau (h&agrave;ng cuối c&ugrave;ng) v&agrave; w l&agrave; số cột chứa c&aacute;c &ocirc; gạch từ tr&aacute;i sang phải. Mỗi &ocirc; gạch c&oacute; từ 1 đến 100 vi&ecirc;n đ&aacute; tr&ecirc;n đ&oacute;. Harry phải lấy c&agrave;ng nhiều đ&aacute; triết gia c&agrave;ng tốt, với điều kiện sau:</p>\n<div id=\"problem-body\">\n<ul>\n<li>Anh ta bắt đầu bằng c&aacute;ch chọn bất kỳ &ocirc; n&agrave;o trong h&agrave;ng đầu ti&ecirc;n v&agrave; thu thập c&aacute;c vi&ecirc;n đ&aacute; của triết gia tr&ecirc;n &ocirc; đ&oacute;. Sau đ&oacute;, anh ta di chuyển đến một &ocirc; ở h&agrave;ng tiếp theo, thu thập c&aacute;c vi&ecirc;n đ&aacute; của triết gia tr&ecirc;n &ocirc;,.... cho đến khi đến h&agrave;ng cuối c&ugrave;ng.</li>\n<li>Khi anh ta di chuyển từ &ocirc; n&agrave;y sang &ocirc; ở h&agrave;ng tiếp theo, anh ta chỉ c&oacute; thể di chuyển đến &ocirc; ngay dưới n&oacute; hoặc theo đường ch&eacute;o tr&aacute;i hoặc phải.</li>\n</ul>\n<p>Cho trước c&aacute;c gi&aacute; trị của h v&agrave; w v&agrave; số lượng đ&aacute; của triết gia tr&ecirc;n mỗi &ocirc;, h&atilde;y viết một chương tr&igrave;nh để t&iacute;nh to&aacute;n số đ&aacute; của triết gia tối đa m&agrave; Harry c&oacute; thể lấy trong một lần đi từ h&agrave;ng đầu ti&ecirc;n đến h&agrave;ng cuối c&ugrave;ng.</p>\n</div>\n<div>\n<h3>Định dạng đầu v&agrave;o</h3>\n<p>D&ograve;ng đầu ti&ecirc;n bao gồm một số nguy&ecirc;n T duy nhất, số lượng trường hợp thử nghiệm. Trong mỗi trường hợp thử nghiệm, d&ograve;ng đầu ti&ecirc;n c&oacute; hai số nguy&ecirc;n. Số nguy&ecirc;n đầu ti&ecirc;n h ($1 \\leq h \\leq 100$) l&agrave; số h&agrave;ng c&aacute;c &ocirc; gạch tr&ecirc;n s&agrave;n nh&agrave;. Số nguy&ecirc;n thứ hai w ($1 \\leq w \\leq 100$) l&agrave; số cột c&aacute;c &ocirc; gạch tr&ecirc;n s&agrave;n. Tiếp theo, c&oacute; h d&ograve;ng đầu v&agrave;o. D&ograve;ng thứ i trong số n&agrave;y, chỉ định số lượng đ&aacute; của triết gia, trong mỗi &ocirc; gạch của h&agrave;ng thứ i t&iacute;nh từ ph&iacute;a trước. Mỗi d&ograve;ng c&oacute; w số nguy&ecirc;n, trong đ&oacute; mỗi số nguy&ecirc;n m ($0 \\leq m \\leq 100$) l&agrave; số vi&ecirc;n đ&aacute; của triết gia tr&ecirc;n &ocirc; đ&oacute;. C&aacute;c số nguy&ecirc;n được ph&acirc;n t&aacute;ch bằng một k&yacute; tự khoảng trắng.</p>\n<h3>Định dạng đầu ra</h3>\n<p>Đầu ra phải bao gồm T d&ograve;ng, ($1 \\leq T \\leq 100$), mỗi d&ograve;ng cho mỗi trường hợp thử nghiệm. Mỗi d&ograve;ng bao gồm một số nguy&ecirc;n duy nhất, l&agrave; số lượng đ&aacute; triết gia tối đa m&agrave; Harry c&oacute; thể lấy được, trong một lần di chuyển từ h&agrave;ng đầu ti&ecirc;n đến h&agrave;ng cuối c&ugrave;ng cho trường hợp thử nghiệm tương ứng.</p>\n<h3>V&iacute; dụ</h3>\n<p><strong>Đầu v&agrave;o</strong></p>\n<pre class=\"language-markup\"><code>1\n6 5\n3 1 7 4 2\n2 1 3 1 1\n1 2 2 1 8\n2 2 1 5 3\n2 1 4 4 4\n5 2 7 5 1</code></pre>\n<p><strong>Đầu ra</strong></p>\n<pre class=\"language-markup\"><code>32\n//7+1+8+5+4+7=32</code></pre>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/6145a3c2-328d-4aef-b085-134db992fd5c",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "BYTESM2_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef963b"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 30,
+  "slug": "broken-broken-keyboard",
+  "tags": [],
+  "level": "INTERMEDIATE",
+  "title": "Bàn phím bị hỏng",
+  "content": "<div class=\"row\">\n<div id=\"problem-tags\" class=\"col-lg-12 text-center\"></div>\n</div>\n<p>B&agrave;n ph&iacute;m của Bruce Force bị hỏng, chỉ c&ograve;n một số ph&iacute;m hoạt động được. Bruce đ&atilde; ph&aacute;t hiện ra rằng anh ta vẫn c&oacute; thể g&otilde; văn bản bằng c&aacute;ch chuyển sang m&agrave;n h&igrave;nh b&agrave;n ph&iacute;m bất cứ khi n&agrave;o anh ta cần nhập một chữ c&aacute;i n&agrave;o m&agrave; hiện tại kh&ocirc;ng được &aacute;nh xạ tới bất kỳ ph&iacute;m n&agrave;o trong số m ph&iacute;m c&ograve;n hoạt động của b&agrave;n ph&iacute;m.</p>\n<div id=\"problem-body\">\n<p>Bạn được cung cấp một văn bản m&agrave; Bruce muốn nhập v&agrave; anh ấy hỏi bạn liệu bạn c&oacute; thể cho anh ấy biết số k&yacute; tự li&ecirc;n tiếp tối đa trong văn bản c&oacute; thể được nhập m&agrave; kh&ocirc;ng cần phải chuyển sang m&agrave;n h&igrave;nh b&agrave;n ph&iacute;m hay kh&ocirc;ng. Để đơn giản, ch&uacute;ng ta sẽ giả định rằng mỗi ph&iacute;m của b&agrave;n ph&iacute;m sẽ được &aacute;nh xạ tới ch&iacute;nh x&aacute;c một k&yacute; tự v&agrave; kh&ocirc;ng thể nhập c&aacute;c k&yacute; tự kh&aacute;c bằng c&aacute;ch kết hợp c&aacute;c ph&iacute;m kh&aacute;c nhau. Điều n&agrave;y c&oacute; nghĩa l&agrave; Bruce muốn biết độ d&agrave;i của chuỗi con lớn nhất của văn bản bao gồm nhiều nhất m k&yacute; tự kh&aacute;c nhau.</p>\n<h3>Định dạng đầu v&agrave;o</h3>\n<ul>\n<li>Đầu v&agrave;o chứa một số trường hợp thử nghiệm, mỗi trường hợp thử nghiệm bao gồm hai d&ograve;ng. D&ograve;ng đầu ti&ecirc;n của mỗi trường hợp chứa số m (1 &le; m &le; 128), số n&agrave;y x&aacute;c định c&oacute; bao nhi&ecirc;u ph&iacute;m tr&ecirc;n b&agrave;n ph&iacute;m vẫn c&ograve;n hoạt động. D&ograve;ng thứ hai của mỗi trường hợp chứa văn bản m&agrave; Bruce muốn nhập. Bạn c&oacute; thể giả sử rằng độ d&agrave;i của văn bản n&agrave;y kh&ocirc;ng vượt qu&aacute; 1 triệu k&yacute; tự. Lưu &yacute; rằng đầu v&agrave;o c&oacute; thể chứa c&aacute;c k&yacute; tự khoảng trắng, c&aacute;c k&yacute; tự n&agrave;y sẽ được xử l&yacute; giống như bất kỳ k&yacute; tự n&agrave;o kh&aacute;c.</li>\n<li>Trường hợp thử nghiệm cuối c&ugrave;ng được theo sau bởi một d&ograve;ng chứa một số 0.</li>\n</ul>\n<h3>Định dạng đầu ra</h3>\n<p>Đối với mỗi trường hợp kiểm tra, in ra một d&ograve;ng c&oacute; độ d&agrave;i bằng chuỗi con lớn nhất của văn bản bao gồm nhiều nhất m k&yacute; tự kh&aacute;c nhau.</p>\n<h3>V&iacute; dụ</h3>\n<p><strong>Đầu v&agrave;o</strong></p>\n<pre class=\"language-markup\"><code>5\nThis can't be solved by brute force.\n1\nMississippi\n0</code></pre>\n<p><strong>Đầu ra</strong></p>\n<pre class=\"language-markup\"><code>7\n2</code></pre>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/76740ed5-1cd0-415d-b045-d3739d644b53",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "BROKEN_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef963c"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 50,
+  "slug": "fctrl2-small-factorials",
+  "tags": [],
+  "level": "EXPERT",
+  "title": "Tính giai thừa",
+  "content": "<div class=\"row\">\n<div id=\"problem-tags\" class=\"col-lg-12 text-center\"></div>\n</div>\n<p>Bạn được y&ecirc;u cầu t&iacute;nh giai thừa của một số số nguy&ecirc;n dương nhỏ.</p>\n<div id=\"problem-body\">\n<h3>Định dạng đầu v&agrave;o</h3>\n<p align=\"justify\">Một số nguy&ecirc;n t, 1 &lt;= t &lt;= 100, biểu thị số lượng trường hợp thử nghiệm, theo sau l&agrave; t d&ograve;ng, mỗi d&ograve;ng chứa một số nguy&ecirc;n n, 1 &lt;= n &lt;= 100.</p>\n<h3>Định dạng đầu ra</h3>\n<p align=\"justify\">Với mỗi số nguy&ecirc;n n đ&atilde; cho ở đầu v&agrave;o, hiển thị một d&ograve;ng c&oacute; gi&aacute; trị l&agrave; n!</p>\n<h3>V&iacute; dụ</h3>\n<p><strong>Đầu v&agrave;o</strong></p>\n<pre class=\"language-markup\"><code>4\n1\n2\n5\n3</code></pre>\n<p><strong>Đầu ra</strong></p>\n<pre class=\"language-markup\"><code>1\n2\n120\n6</code></pre>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/91d57920-1606-4075-9cbb-923dc09b9d50",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "FCTRL2_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef963d"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 50,
+  "slug": "fctrl-factorial",
+  "tags": [],
+  "level": "EXPERT",
+  "title": "Hàm Factorial",
+  "content": "<div class=\"row\">\n<div id=\"problem-tags\" class=\"col-lg-12 text-center\"></div>\n</div>\n<p>Phần quan trọng nhất của mạng GSM được gọi l&agrave; <em>Base Transceiver Station</em>&nbsp;(<em>BTS</em>). C&aacute;c bộ thu ph&aacute;t n&agrave;y tạo th&agrave;nh c&aacute;c khu vực được gọi l&agrave; cells v&agrave; mỗi điện thoại kết nối với BTS với t&iacute;n hiệu mạnh nhất. C&aacute;c trạm BTS cần một số ch&uacute; &yacute; v&agrave; c&aacute;c kỹ thuật vi&ecirc;n kiểm tra chức năng của ch&uacute;ng theo định kỳ.</p>\n<div id=\"problem-body\">\n<p>C&aacute;c kỹ thuật vi&ecirc;n ACM đ&atilde; phải đối mặt với một vấn đề dạo gần đ&acirc;y. Với một tập hợp c&aacute;c trạm BTS, họ cần t&igrave;m con đường ngắn nhất để kiểm tra tất cả c&aacute;c điểm đ&atilde; cho v&agrave; quay trở lại t&ograve;a nh&agrave; trung t&acirc;m của c&ocirc;ng ty. C&aacute;c lập tr&igrave;nh vi&ecirc;n đ&atilde; d&agrave;nh v&agrave;i th&aacute;ng để nghi&ecirc;n cứu vấn đề n&agrave;y nhưng kh&ocirc;ng c&oacute; kết quả. Họ kh&ocirc;ng thể t&igrave;m ra giải ph&aacute;p đủ nhanh. Sau một thời gian d&agrave;i, một trong những lập tr&igrave;nh vi&ecirc;n đ&atilde; t&igrave;m ra vấn đề n&agrave;y trong một b&agrave;i b&aacute;o hội nghị. Thật kh&ocirc;ng may, anh ấy ph&aacute;t hiện ra rằng vấn đề \"Vấn đề người b&aacute;n h&agrave;ng đi du lịch\" v&agrave; n&oacute; rất kh&oacute; giải quyết. Nếu ch&uacute;ng ta c&oacute; N BTS cần kiểm tra, ch&uacute;ng ta c&oacute; thể kiểm tra ch&uacute;ng theo thứ tự bất kỳ, cho ch&uacute;ng ta N! c&aacute;c khả năng. H&agrave;m thể hiện số đ&oacute; được gọi l&agrave; factorial v&agrave; c&oacute; thể được t&iacute;nh l&agrave; t&iacute;ch của 1.2.3.4 .... N.</p>\n<p>C&aacute;c lập tr&igrave;nh vi&ecirc;n hiểu rằng họ kh&ocirc;ng c&oacute; cơ hội để giải quyết vấn đề. Nhưng v&igrave; họ đ&atilde; nhận được t&agrave;i trợ nghi&ecirc;n cứu từ ch&iacute;nh phủ, họ cần tiếp tục nghi&ecirc;n cứu v&agrave; tạo ra &iacute;t nhất một số kết quả. V&igrave; vậy, họ bắt đầu nghi&ecirc;n cứu h&agrave;nh vi của h&agrave;m factorial.</p>\n<p>V&iacute; dụ, họ định nghĩa h&agrave;m Z. Đối với bất kỳ số nguy&ecirc;n dương N n&agrave;o, Z(N) l&agrave; số lượng c&aacute;c số 0 ở cuối của số N! ở dạng thập ph&acirc;n. Họ nhận thấy rằng h&agrave;m n&agrave;y kh&ocirc;ng bao giờ giảm. Nếu ch&uacute;ng ta c&oacute; hai số $N_{1} &lt;N2$, th&igrave; $Z(N_{1})&nbsp; \\leq Z(N_{2})$. Đ&oacute; l&agrave; bởi v&igrave; ch&uacute;ng ta kh&ocirc;ng bao giờ c&oacute; thể bỏ qua bất kỳ số 0 ở cuối n&agrave;o bằng c&aacute;ch nh&acirc;n với bất kỳ số dương n&agrave;o. Ch&uacute;ng ta chỉ c&oacute; thể nhận được c&aacute;c số 0 mới. H&agrave;m Z rất th&uacute; vị, v&igrave; vậy ch&uacute;ng ta cần một chương tr&igrave;nh m&aacute;y t&iacute;nh c&oacute; thể x&aacute;c định gi&aacute; trị của n&oacute; một c&aacute;ch hiệu quả.</p>\n<h3>Định đạng đầu v&agrave;o</h3>\n<p>C&oacute; một số nguy&ecirc;n dương T tr&ecirc;n d&ograve;ng đầu ti&ecirc;n của dữ liệu đầu v&agrave;o (khoảng 100,000). N&oacute; viết tắt cho số lượng c&aacute;c con số đằng sau. Sau đ&oacute; c&oacute; T d&ograve;ng, mỗi d&ograve;ng chứa đ&uacute;ng một số nguy&ecirc;n dương N, $1 \\leq N \\leq 1000000000$.</p>\n<h3>Định dạng đầu ra</h3>\n<p>Với mỗi số N, h&atilde;y in ra một d&ograve;ng duy nhất chứa số nguy&ecirc;n kh&ocirc;ng &acirc;m Z(N).</p>\n<h3>V&iacute; dụ</h3>\n<p><strong>Đầu v&agrave;o</strong></p>\n<pre class=\"language-markup\"><code>6\n3\n60\n100\n1024\n23456\n8735373</code></pre>\n<p><strong>Đầu ra</strong><tt></tt></p>\n<pre class=\"language-markup\"><code>0\n14\n24\n253\n5861\n2183837</code></pre>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/70bd9194-a8c2-40eb-bab6-2c5296362a1e",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "FCTRL_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef963e"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 10,
+  "slug": "fashion-fashion-shows",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "Buổi biểu diễn thời trang",
+  "content": "<div class=\"row\">\n<div id=\"problem-tags\" class=\"col-lg-12 text-center\"></div>\n</div>\n<p>Một chương tr&igrave;nh thời trang đ&aacute;nh gi&aacute; người tham gia dựa theo mức độ nổi tiếng của họ. Hai buổi tr&igrave;nh diễn thời trang kh&aacute;c nhau đ&atilde; được tổ chức, một cho nam giới v&agrave; một cho nữ giới.</p>\n<div id=\"problem-body\">\n<p>B&acirc;y giờ kết quả của cả hai chương tr&igrave;nh thời trang đ&atilde; kết th&uacute;c. Những người tham gia của cả hai buổi tr&igrave;nh diễn thời trang đ&atilde; quyết định hẹn h&ograve; với nhau, nhưng như thường lệ, họ c&oacute; ch&uacute;t kh&oacute; khăn trong việc lựa chọn người bạn của m&igrave;nh. Hệ thống hẹn h&ograve; Maximum Match (MMDS) đ&atilde; gi&uacute;p họ v&agrave; kết hợp họ theo c&aacute;ch tối đa h&oacute;a mối quan hệ cho tất cả c&aacute;c cặp đ&ocirc;i.</p>\n<p>Nếu một người đ&agrave;n &ocirc;ng được đ&aacute;nh gi&aacute; ở mức độ nổi tiếng x v&agrave; một người phụ nữ ở mức độ nổi tiếng y, th&igrave; gi&aacute; trị của mối quan hệ về độ nổi tiếng l&agrave; $x \\times y$. Cả hai buổi biểu diễn thời trang đều c&oacute; N người tham gia. MMDS đ&atilde; ho&agrave;n th&agrave;nh c&ocirc;ng việc của m&igrave;nh v&agrave; c&ocirc;ng việc của bạn l&agrave; t&igrave;m tổng số mối quan hệ nổi tiếng cho tất cả c&aacute;c cặp m&agrave; MMDS đ&atilde; đề xuất.</p>\n<h3>Định dạng đầu v&agrave;o</h3>\n<p>D&ograve;ng đầu ti&ecirc;n của dữ liệu đầu v&agrave;o chứa một số nguy&ecirc;n t, số lượng c&aacute;c trường hợp thử nghiệm. Tiếp theo l&agrave; t c&aacute;c trường hợp thử nghiệm.</p>\n<p>Mỗi trường hợp thử nghiệm bao gồm 3 d&ograve;ng:</p>\n<ul>\n<li>D&ograve;ng đầu ti&ecirc;n chứa một số nguy&ecirc;n N ($1 \\leq N \\leq 1000$).</li>\n<li>D&ograve;ng thứ hai chứa N số nguy&ecirc;n được ph&acirc;n t&aacute;ch bằng dấu c&aacute;ch biểu thị mức độ nổi tiếng của nam giới.</li>\n<li>D&ograve;ng thứ 3 chứa N số nguy&ecirc;n được ph&acirc;n t&aacute;ch bằng dấu c&aacute;ch biểu thị mức độ nổi tiếng của nữ giới.</li>\n</ul>\n<p>Tất cả đ&aacute;nh gi&aacute; độ nổi tiếng đều dựa theo thang điểm từ 0 đến 10.</p>\n<h3>Định dạng đầu ra</h3>\n<p>Đối với mỗi trường hợp thử nghiệm, h&atilde;y in ra một d&ograve;ng duy nhất chứa một số nguy&ecirc;n biểu thị tổng c&aacute;c mối quan hệ nổi tiếng cho tất cả c&aacute;c cặp m&agrave; MMDS đ&atilde; đề xuất.</p>\n<h3>V&iacute; dụ</h3>\n<p><strong>Đầu v&agrave;o</strong></p>\n<pre class=\"language-markup\"><code>2\n2\n1 1\n3 2\n3\n2 3 2\n1 3 2</code></pre>\n<p><strong>Đầu ra</strong></p>\n<pre class=\"language-markup\"><code>5\n15</code></pre>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/fa17e4a8-fd1c-4a90-9420-3e081609e697",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "FASHION_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef963f"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 50,
+  "slug": "elevtrbl-elevator-trouble",
+  "tags": [],
+  "level": "EXPERT",
+  "title": "Bài toán thang máy",
+  "content": "<div class=\"row\">\n<div id=\"problem-tags\" class=\"col-lg-12 text-center\"></div>\n</div>\n<p>Bạn đang tr&ecirc;n đường đến cuộc phỏng vấn xin việc đầu ti&ecirc;n với tư c&aacute;ch l&agrave; người kiểm tra chương tr&igrave;nh, v&agrave; bạn đ&atilde; đến muộn. Cuộc phỏng vấn diễn ra trong một t&ograve;a nh&agrave; chọc trời v&agrave; bạn hiện đang ở tầng s, v&agrave; bạn nh&igrave;n thấy thang m&aacute;y. Khi bước v&agrave;o thang m&aacute;y, bạn biết rằng n&oacute; chỉ c&oacute; hai n&uacute;t, được đ&aacute;nh dấu \"UP u\" v&agrave; \"DOWN d\". Bạn kết luận rằng n&uacute;t UP sẽ đưa l&ecirc;n tầng u (nếu kh&ocirc;ng c&oacute; đủ tầng, nhấn n&uacute;t UP sẽ kh&ocirc;ng l&agrave;m g&igrave; cả), trong khi n&uacute;t DOWN sẽ đưa bạn xuống tầng (hoặc kh&ocirc;ng nếu kh&ocirc;ng đủ tầng). Biết rằng cuộc phỏng vấn ở tầng g v&agrave; chỉ c&oacute; tầng f trong t&ograve;a nh&agrave;, bạn nhanh ch&oacute;ng quyết định viết một chương tr&igrave;nh cung cấp cho bạn số lần nhấn n&uacute;t m&agrave; bạn cần thực hiện. Nếu bạn kh&ocirc;ng thể đến đ&uacute;ng tầng, chương tr&igrave;nh của bạn sẽ tạm dừng với th&ocirc;ng b&aacute;o \"use stair\".</p>\n<p>Với đầu v&agrave;o f, s, g, u v&agrave; d (tầng, điểm xuất ph&aacute;t, tầng cần l&ecirc;n, đi l&ecirc;n, đi xuống), t&igrave;m chuỗi c&aacute;c lần nhấn n&uacute;t ngắn nhất m&agrave; bạn phải nhấn để đi từ s đến g, với một t&ograve;a nh&agrave; gồm c&aacute;c tầng, hoặc in ra \"use stairs\" nếu bạn kh&ocirc;ng thể đi từ s đến g bằng thang m&aacute;y.</p>\n<div id=\"problem-body\">\n<h3>Định dạng đầu v&agrave;o</h3>\n<p>Đầu v&agrave;o sẽ bao gồm một d&ograve;ng, cụ thể l&agrave; f s g u d, trong đ&oacute; $1 \\leq s, g \\leq f \\leq 1,000,000$ v&agrave; $0 \\leq u, d \\leq 1,000,000$. C&aacute;c tầng được lập chỉ số, nếu c&oacute; 10 tầng, s v&agrave; g sẽ nằm trong khoảng [1:10].</p>\n<h3>Định dạng đầu ra</h3>\n<p>Bạn phải trả lời bằng số lần nhấn tối thiểu m&agrave; bạn phải thực hiện để đi từ s đến g, hoặc in ra \"use stair\" nếu kh&ocirc;ng thể.</p>\n<h3>V&iacute; dụ</h3>\n<p><strong>Đầu v&agrave;o</strong></p>\n<pre class=\"language-markup\"><code>10 1 10 2 1</code></pre>\n<p><strong>Đầu ra</strong></p>\n<pre class=\"language-markup\"><code>6</code></pre>\n<p><strong>V&iacute; dụ 2</strong></p>\n<p><strong>Đầu v&agrave;o</strong></p>\n<pre class=\"language-markup\"><code>100 2 1 1 0</code></pre>\n<p><strong>Đầu ra</strong></p>\n<pre class=\"language-markup\"><code>use the stairs</code></pre>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/16d26274-ff75-4ee6-9a84-3c8aba875acc",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "ELEVTRBL_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef9640"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 30,
+  "slug": "easudoku-easy-sudoku",
+  "tags": [],
+  "level": "INTERMEDIATE",
+  "title": "Sudoku",
+  "content": "<p>C&aacute;c bạn h&atilde;y giải quyết b&agrave;i to&aacute;n sudoku 9x9 cổ điển.</p>\n<div id=\"problem-body\">\n<h3>Định dạng đầu v&agrave;o</h3>\n<p>D&ograve;ng đầu ti&ecirc;n chỉ chứa một số, l&agrave; số lượng trường hợp thử nghiệm (nhiều hơn 1 v&agrave; &iacute;t hơn 15). Sau đ&oacute;, c&aacute;c trường hợp thử nghiệm được đưa ra. Mỗi trường hợp trong số đ&oacute; được cho bởi 81 số (từ 0 đến 9) được ph&acirc;n t&aacute;ch bằng khoảng trắng duy nhất (d&ograve;ng mới sau mỗi số thứ 9). Số 0 c&oacute; nghĩa l&agrave; n&oacute; được giải quyết bởi chương tr&igrave;nh của bạn.</p>\n<h3>Định dạng đầu ra</h3>\n<p>Trong trường hợp kh&ocirc;ng tồn tại lời giải, h&atilde;y in ra \"No solution\". Nếu tồn tại số 81 l&agrave; lời giải của b&agrave;i to&aacute;n sudoku, bạn phải viết tất cả 81 số đ&oacute; (ph&acirc;n t&aacute;ch như trong đầu v&agrave;o).</p>\n<h3>V&iacute; dụ</h3>\n<p><strong>Đầu v&agrave;o</strong></p>\n<pre class=\"language-markup\"><code>2\n0 0 0 0 6 9 8 3 0\n9 8 0 0 0 0 0 7 6\n6 0 0 0 3 8 0 5 1\n2 0 5 0 8 1 0 9 0\n0 6 0 0 0 0 0 8 0\n0 9 0 3 7 0 6 0 2\n3 4 0 8 5 0 0 0 9\n7 2 0 0 0 0 0 6 8\n0 5 6 9 2 0 0 0 0\n\n0 0 0 0 6 9 8 3 0\n9 8 0 0 0 0 0 7 6\n6 0 0 0 3 8 0 5 1\n2 0 5 4 8 1 0 9 0\n0 6 0 0 0 0 0 8 0\n0 9 0 3 7 0 6 0 2\n3 4 0 8 5 0 0 0 9\n7 2 0 0 0 0 0 6 8\n0 5 6 9 2 0 0 0 0</code></pre>\n<p><strong>Đầu ra</strong></p>\n<pre class=\"language-markup\"><code>5 1 2 7 6 9 8 3 4\n9 8 3 5 1 4 2 7 6\n6 7 4 2 3 8 9 5 1\n2 3 5 6 8 1 4 9 7\n1 6 7 4 9 2 3 8 5\n4 9 8 3 7 5 6 1 2\n3 4 1 8 5 6 7 2 9\n7 2 9 1 4 3 5 6 8\n8 5 6 9 2 7 1 4 3\nNo solution</code></pre>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/230bc5a9-3154-453b-901b-9b5ccb487a33",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "EASUDOKU_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef9641"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 50,
+  "slug": "diehard-die-hard",
+  "tags": [],
+  "level": "EXPERT",
+  "title": "Cuộc sinh tử sống còn",
+  "content": "<div class=\"row\">\n<div id=\"problem-tags\" class=\"col-lg-12 text-center\"></div>\n</div>\n<p><strong>B&agrave;i to&aacute;n:</strong></p>\n<div id=\"problem-body\">\n<p><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"http://www.spoj.com/content/min_25:diehard.png\" alt=\"\" width=\"346\" height=\"332\" /></p>\n<p>Ban đầu bạn c&oacute; lượng m&aacute;u 'H' v&agrave; lượng &aacute;o gi&aacute;p 'A'. Ngay lập tức, bạn c&oacute; thể sống ở bất kỳ nơi n&agrave;o trong ba nơi bao gồm lửa, nước v&agrave; kh&ocirc;ng kh&iacute;. Sau mỗi thời gian đơn vị, bạn phải thay đổi nơi ở của m&igrave;nh. V&iacute; dụ, nếu bạn đang sống trong lửa, bạn c&oacute; thể bước v&agrave;o nước hoặc kh&ocirc;ng kh&iacute;. Nếu bạn bước v&agrave;o kh&ocirc;ng kh&iacute;, m&aacute;u của bạn tăng 3 v&agrave; gi&aacute;p của bạn tăng 2. Nếu bạn bước xuống nước, m&aacute;u của bạn giảm 5 v&agrave; gi&aacute;p của bạn giảm 10. Nếu bạn bước v&agrave;o lửa, m&aacute;u của bạn giảm 20 v&agrave; gi&aacute;p của bạn tăng 5</p>\n<p>Nếu m&aacute;u hoặc &aacute;o gi&aacute;p của bạn nhỏ hơn hoặc bằng 0, bạn sẽ chết ngay lập tức T&igrave;m thời gian tối đa bạn c&oacute; thể sống s&oacute;t.</p>\n<p><strong>Định dạng đầu v&agrave;o</strong></p>\n<p>D&ograve;ng đầu ti&ecirc;n bao gồm một số nguy&ecirc;n t, số lượng c&aacute;c trường hợp thử nghiệm.&nbsp;Đối với mỗi trường hợp thử nghiệm sẽ c&oacute; hai số nguy&ecirc;n dương đại diện cho sức khỏe ban đầu H v&agrave; &aacute;o gi&aacute;p ban đầu A.</p>\n<p><strong>Định dạng đầu ra</strong></p>\n<p>Đối với mỗi trường hợp thử nghiệm, h&atilde;y t&igrave;m thời gian tối đa m&agrave; bạn c&oacute; thể tồn tại.</p>\n<p><strong>Lưu &yacute;:</strong>&nbsp;Bạn c&oacute; thể chọn bất kỳ nơi n&agrave;o trong 3 nơi trong lần di chuyển đầu ti&ecirc;n của m&igrave;nh.</p>\n<p><strong>Điều kiện</strong></p>\n<ul>\n<li>$1 \\leq t \\leq 10$</li>\n<li>$1 \\leq H, A \\leq 1000$</li>\n</ul>\n<p><strong>V&iacute; dụ</strong></p>\n<p><strong>Đầu v&agrave;o</strong></p>\n<pre class=\"language-markup\"><code>3\n2 10\n4 4\n20 8</code></pre>\n<p><strong>Đầu ra</strong></p>\n<pre class=\"language-markup\"><code>1\n1\n5</code></pre>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/1d290726-11c6-4694-aaa3-bbd0573ead4b",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "DIEHARD_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef9642"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 50,
+  "slug": "dcepc501-save-thy-toys",
+  "tags": [],
+  "level": "EXPERT",
+  "title": "Đồ chơi của Leonard",
+  "content": "<div class=\"row\">\n<div id=\"problem-tags\" class=\"col-lg-12 text-center\"></div>\n</div>\n<p>Leonard rất th&iacute;ch mua những m&oacute;n đồ chơi khoa học viễn tưởng hiếm v&agrave; đắt tiền. Anh ta giữ bộ sưu tập của m&igrave;nh theo thứ tự tuần tự về ng&agrave;y m&agrave; đồ chơi được mua trong một chiếc tủ đặc biệt để c&ocirc; bạn c&ugrave;ng ph&ograve;ng Sheldon của anh kh&ocirc;ng bao giờ lấy đồ chơi của anh. Nhưng v&igrave; xui xẻo, Leonard một lần thua cược với Sheldon v&agrave; Sheldon y&ecirc;u cầu một phần đồ chơi của Leonard. V&igrave; kh&ocirc;ng muốn mất nhiều tiền n&ecirc;n Leonard quyết định một chiến lược để giảm mức thua xuống mức tối thiểu.</p>\n<div id=\"problem-body\">\n<p>Leonard, bắt đầu từ m&oacute;n đồ chơi đầu ti&ecirc;n trong tủ của m&igrave;nh sẽ chọn một số đồ chơi, giả sử \"x\" đồ chơi theo thứ tự. Sau đ&oacute; Sheldon sẽ chọn c&aacute;c đồ chơi \"x\" tiếp theo (Lưu &yacute; rằng Sheldon chọn c&aacute;c đồ chơi bằng số lượng đồ chơi được chọn bởi Leonard trừ khi c&aacute;c đồ chơi c&ograve;n lại nhỏ hơn \"x\". Trong trường hợp đ&oacute;, anh ta chọn tất cả c&aacute;c đồ chơi c&ograve;n lại). Việc n&agrave;y sẽ tiếp tục diễn ra cho đến khi kh&ocirc;ng c&ograve;n đồ chơi n&agrave;o trong tủ để Leonard chọn. Bạn được cung cấp một chuỗi c&aacute;c m&oacute;n đồ chơi với gi&aacute; cả của ch&uacute;ng. H&atilde;y gi&uacute;p Leonard tối đa h&oacute;a tổng gi&aacute; cả của tất cả m&oacute;n đồ chơi m&agrave; anh ấy chọn.</p>\n<p>Leonard trong mỗi lượt của m&igrave;nh chỉ c&oacute; thể chọn 1 hoặc 2 hoặc 3 đồ chơi (\"x\" được m&ocirc; tả ở tr&ecirc;n c&oacute; thể nhận gi&aacute; trị 1, 2 hoặc 3).</p>\n<h3>Định dạng đầu v&agrave;o</h3>\n<ul>\n<li>D&ograve;ng đầu ti&ecirc;n chỉ định T, số lượng c&aacute;c trường hợp thử nghiệm.</li>\n<li>Mỗi trường hợp thử nghiệm chứa N ở d&ograve;ng đầu ti&ecirc;n. D&ograve;ng thứ hai chứa N số nguy&ecirc;n như đ&atilde; m&ocirc; tả ở tr&ecirc;n.</li>\n</ul>\n<h3>Định dạng đầu ra</h3>\n<p>In ra 1 d&ograve;ng cho mỗi trường hợp thử nghiệm đưa ra gi&aacute; trị lớn nhất c&oacute; thể của tổng tất cả đồ chơi m&agrave; Leonard chọn.</p>\n<h3>Điều kiện</h3>\n<ul>\n<li>$1 \\leq T \\leq 10$</li>\n<li>$1 \\leq N \\leq 100000$</li>\n<li>Gi&aacute; cả của đồ chơi K sao cho $1 \\leq K \\leq 1000000$</li>\n</ul>\n<h3>V&iacute; dụ</h3>\n<p><strong>Đầu v&agrave;o</strong></p>\n<pre class=\"language-markup\"><code>2\n4\n5 4 3 2\n6\n10 8 7 11 15 20</code></pre>\n<p><strong>Đầu ra</strong></p>\n<pre class=\"language-markup\"><code>12\n53</code></pre>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/687c0565-40f1-44cc-92b6-f7d9ea64ce96",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "DCEPC501_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef9643"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 50,
+  "slug": "cubefr-cube-free-numbers",
+  "tags": [],
+  "level": "EXPERT",
+  "title": "Giá trị số không có thừa số lũy thừa bậc 3 (Cube free numbers)",
+  "content": "<div class=\"row\">\n<div id=\"problem-tags\" class=\"col-lg-12 text-center\"></div>\n</div>\n<p>Một gi&aacute; trị số kh&ocirc;ng c&oacute; thừa số lũy thừa bậc 3 (Cube free numbers) l&agrave; một số kh&ocirc;ng c&oacute; ước số n&agrave;o l&agrave; một số lũy thừa bậc 3 (Số lũy thừa bậc 3 l&agrave; gi&aacute; trị mũ 3 của một số nguy&ecirc;n như $8=(2^{3}), 27=(3^{3})). V&igrave; vậy, c&aacute;c gi&aacute; trị số kh&ocirc;ng c&oacute; thừa số lũy thừa bậc 3&nbsp;l&agrave; 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 17, 18,... (Ch&uacute;ng ta sẽ coi 1 l&agrave; một gi&aacute; trị số kh&ocirc;ng c&oacute; thừa số lũy thừa bậc 3). 8, 16, 24, 27, 32,... kh&ocirc;ng phải l&agrave; gi&aacute; trị số kh&ocirc;ng c&oacute; thừa số lũy thừa bậc 3. V&igrave; vậy, vị tr&iacute; của số 1 trong số c&aacute;c gi&aacute; trị số kh&ocirc;ng c&oacute; thừa số lũy thừa bậc 3 l&agrave; 1, vị tr&iacute; của 2 l&agrave; 2, 3 l&agrave; 3 v&agrave; vị tr&iacute; của 10 l&agrave; 9. Cho trước một số dương, bạn h&atilde;y cho biết n&oacute; c&oacute; phải l&agrave; gi&aacute; trị số kh&ocirc;ng c&oacute; thừa số lũy thừa bậc 3&nbsp;hay kh&ocirc;ng v&agrave; nếu c&oacute; th&igrave; cho biết vị tr&iacute; của n&oacute; trong số c&aacute;c gi&aacute; trị số kh&ocirc;ng c&oacute; thừa số lũy thừa bậc 3.</p>\n<div id=\"problem-body\">\n<h3>Định dạng đầu v&agrave;o</h3>\n<p>D&ograve;ng đầu ti&ecirc;n của trường hợp thử nghiệm sẽ l&agrave; số trường hợp thử nghiệm T ($1 \\leq T \\leq 100000$). Tiếp theo l&agrave; T d&ograve;ng. Tr&ecirc;n mỗi d&ograve;ng, bạn sẽ t&igrave;m thấy một số nguy&ecirc;n n ($1 \\leq n \\leq 1000000$).</p>\n<h3>Định dạng đầu ra</h3>\n<p>H&atilde;y in ra vị tr&iacute; của gi&aacute; trị số trong số c&aacute;c gi&aacute; trị số kh&ocirc;ng c&oacute; thừa số lũy thừa bậc 3.</p>\n<h3>V&iacute; dụ</h3>\n<p><strong>Đầu v&agrave;o</strong></p>\n<pre class=\"language-markup\"><code>10</code></pre>\n<p><strong>Đầu ra</strong></p>\n<pre class=\"language-markup\"><code>9</code></pre>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/92105154-4ee4-49c7-aafc-572594e6bbd3",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "CUBEFR_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef9644"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 40,
+  "slug": "ctain-containers",
+  "tags": [],
+  "level": "INTERMEDIATE",
+  "title": "Bài toán về các thùng chứa nước",
+  "content": "<p>Ch&uacute;ng ta được cho n th&ugrave;ng chứa, trong đ&oacute; $1 \\leq n \\leq 4$. L&uacute;c đầu tất cả c&aacute;c th&ugrave;ng đều chứa đầy nước. Dung t&iacute;ch của th&ugrave;ng thứ i l&agrave; số tự nhi&ecirc;n $o_{i}$ thỏa m&atilde;n bất đẳng thức $1 \\leq o_{i} \\leq 49$. 3 thao t&aacute;c c&oacute; thể thực hiện bao gồm:</p>\n<div id=\"problem-body\">\n<ol type=\"1\">\n<li>Đổ to&agrave;n bộ nước của một th&ugrave;ng chứa n&agrave;y sang th&ugrave;ng chứa kh&aacute;c. Thao t&aacute;c n&agrave;y c&oacute; thể được thực hiện trừ khi c&oacute; qu&aacute; &iacute;t chỗ trống trong th&ugrave;ng thứ hai.</li>\n<li>Đổ đầy nước v&agrave;o một th&ugrave;ng chứa từ th&ugrave;ng kh&aacute;c.</li>\n<li>Đổ to&agrave;n bộ nước của một th&ugrave;ng chứa v&agrave;o cống.</li>\n</ol>\n<h3>Nhiệm vụ</h3>\n<p>H&atilde;y viết 1 chương tr&igrave;nh cho mỗi trường hợp như sau:</p>\n<ul type=\"disc\">\n<li>Đọc v&agrave;o số lượng th&ugrave;ng chứa n, dung t&iacute;ch của mỗi th&ugrave;ng v&agrave; lượng nước cuối c&ugrave;ng được y&ecirc;u cầu trong mỗi th&ugrave;ng.</li>\n<li>Kiểm tra xem c&oacute; tồn tại một loạt c&aacute;c thao t&aacute;c dẫn đến t&igrave;nh huống cuối c&ugrave;ng được y&ecirc;u cầu hay kh&ocirc;ng v&agrave; nếu c&oacute;, chương tr&igrave;nh sẽ t&iacute;nh to&aacute;n số lượng thao t&aacute;c tối thiểu dẫn đến t&igrave;nh huống được y&ecirc;u cầu.</li>\n<li>Ghi ra kết quả. Kết quả phải l&agrave; số lượng thao t&aacute;c tối thiểu dẫn đến t&igrave;nh huống cuối c&ugrave;ng được y&ecirc;u cầu, hoặc một từ \"NO\" nếu kh&ocirc;ng c&oacute; chuỗi c&aacute;c thao t&aacute;c như vậy.</li>\n</ul>\n<h3>Định dạng đầu v&agrave;o</h3>\n<p>Một số nguy&ecirc;n ở d&ograve;ng đầu ti&ecirc;n, cho biết số lượng trường hợp thử nghiệm, tiếp theo l&agrave; một d&ograve;ng trống. Sẽ c&oacute; kh&ocirc;ng qu&aacute; 20 trường hợp thử nghiệm.</p>\n<p>Đối với mỗi trường hợp thử nghiệm, tại d&ograve;ng đầu ti&ecirc;n, một số nguy&ecirc;n dương n được viết, $n \\leq 4$, đ&acirc;y l&agrave; số lượng th&ugrave;ng chứa. C&oacute; n số nguy&ecirc;n dương được viết ở d&ograve;ng thứ hai. Đ&acirc;y l&agrave; dung t&iacute;ch của c&aacute;c th&ugrave;ng chứa (số nguy&ecirc;n thứ i $o_{i}$ biểu thị dung t&iacute;ch nếu th&ugrave;ng chứa thứ i, $1 \\leq o_{i} \\leq 49$). Trong d&ograve;ng thứ ba c&oacute; n số được viết. Đ&acirc;y l&agrave; thể t&iacute;ch lượng nước cuối c&ugrave;ng được y&ecirc;u cầu trong c&aacute;c th&ugrave;ng chứa (số nguy&ecirc;n thứ i biểu thị khối lượng nước cuối c&ugrave;ng được y&ecirc;u cầu trong th&ugrave;ng chứa thứ i, $0 \\leq w_{i} \\leq o_{i}$). Tất cả c&aacute;c số nguy&ecirc;n ở d&ograve;ng thứ hai v&agrave; thứ ba được ph&acirc;n t&aacute;ch bằng dấu c&aacute;ch.</p>\n<p>C&aacute;c trường hợp thử nghiệm sẽ được ph&acirc;n t&aacute;ch bằng một d&ograve;ng trống duy nhất.</p>\n<h3>Định dạng đầu ra</h3>\n<p>Đối với mỗi trường hợp thử nghiệm: viết ra một số nguy&ecirc;n - số lượng thao t&aacute;c tối thiểu dẫn đến t&igrave;nh huống cuối c&ugrave;ng được y&ecirc;u cầu hoặc chỉ viết ra một từ \"NO\" nếu kh&ocirc;ng thể tới được t&igrave;nh huống cuối c&ugrave;ng được y&ecirc;u cầu, chỉ thực hiện c&aacute;c thao t&aacute;c cho ph&eacute;p.</p>\n<h3>V&iacute; dụ</h3>\n<p><strong>Đầu v&agrave;o</strong></p>\n<pre class=\"language-markup\"><code>2\n\n3\n3 5 5\n0 0 4\n\n2\n20 25\n10 16</code></pre>\n<p><strong>Đầu ra</strong></p>\n<pre class=\"language-markup\"><code>6\nNO</code></pre>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/4cb1aabf-91c1-4d56-bcdc-b1ffd86079a3",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "CTAIN_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef9645"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "swap-case",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "In chữ hoa và chữ thường",
+  "content": "<div class=\"challenge_problem_statement\">\n<div class=\"msB challenge_problem_statement_body\">\n<div class=\"hackdown-content\">\n<p>Bạn được cho trước một chuỗi k&yacute; tự v&agrave; nhiệm vụ của bạn l&agrave; ho&aacute;n đổi c&aacute;c trường hợp chữ hoa v&agrave; chữ thường. N&oacute;i c&aacute;ch kh&aacute;c, chuyển đổi tất cả c&aacute;c chữ thường th&agrave;nh chữ hoa v&agrave; ngược lại.</p>\n<p><strong>V&iacute; dụ</strong></p>\n<pre class=\"language-python\"><code>Www.tek4.vn &rarr; wWW.TEK4.VN\nPythonist 2 &rarr; pYTHONIST 2</code></pre>\n<p><strong>M&ocirc; tả h&agrave;m</strong></p>\n<p>Thực hiện x&acirc;y dựng h&agrave;m <em>swap_case</em> như sau. <em>swap_case</em> c&oacute; c&aacute;c tham số sau:</p>\n<ul>\n<li>Chuỗi k&yacute; tự s: chuỗi k&yacute; tự cần sửa đổi</li>\n</ul>\n<p><strong>Gi&aacute; trị trả về</strong></p>\n<ul>\n<li>Chuỗi k&yacute; tự đ&atilde; được sửa đổi</li>\n</ul>\n</div>\n</div>\n</div>\n<div class=\"challenge_input_format\">\n<div class=\"msB challenge_input_format_title\">\n<p><strong>Định dạng đầu v&agrave;o</strong></p>\n</div>\n<div class=\"msB challenge_input_format_body\">\n<div class=\"hackdown-content\">\n<p>Một d&ograve;ng duy nhất chứa một chuỗi s.</p>\n</div>\n</div>\n</div>\n<div class=\"challenge_constraints\">\n<div class=\"msB challenge_constraints_title\">\n<p><strong>Điều kiện</strong></p>\n<p>\\[ 0 \\le len(s) \\leq 1000 \\]</p>\n</div>\n<div class=\"msB challenge_constraints_body\">\n<div class=\"hackdown-content\">\n<p><span id=\"MathJax-Element-1-Frame\" class=\"MathJax_SVG\"></span></p>\n</div>\n</div>\n</div>\n<div class=\"challenge_sample_input\">\n<div class=\"msB challenge_sample_input_title\">\n<p><strong>V&iacute; dụ</strong></p>\n<p><strong>Đầu v&agrave;o</strong></p>\n</div>\n<div class=\"msB challenge_sample_input_body\">\n<div class=\"hackdown-content\">\n<div class=\"highlight\">\n<pre class=\"language-markup\"><code>tek4.vn presents \"Pythonist 2\"</code></pre>\n</div>\n</div>\n</div>\n</div>\n<div class=\"challenge_sample_output\">\n<div class=\"msB challenge_sample_output_title\">\n<p><strong>Đầu ra</strong></p>\n</div>\n<div class=\"msB challenge_sample_output_body\">\n<div class=\"hackdown-content\">\n<div class=\"highlight\">\n<pre class=\"language-markup\"><code>TEK4.VN PRESENTS \"pYTHONIST 2\".</code></pre>\n</div>\n</div>\n</div>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/50923721-397d-4ad1-ab67-ea2ad02ac15a",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "test-cases.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef9646"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "print-function",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "In ra chuỗi các giá trị",
+  "content": "<div class=\"challenge_problem_statement\">\n<div class=\"msB challenge_problem_statement_body\">\n<div class=\"hackdown-content\">\n<p>Kh&ocirc;ng sử dụng bất kỳ phương thức chuỗi k&yacute; tự n&agrave;o, h&atilde;y in ra định dạng như sau:</p>\n<pre class=\"language-markup\"><code>123...n</code></pre>\n<p><span id=\"MathJax-Element-2-Frame\" class=\"MathJax_SVG\"></span></p>\n<p>Lưu &yacute;: \"...<span id=\"MathJax-Element-3-Frame\" class=\"MathJax_SVG\"></span>\" biểu diễn cho c&aacute;c gi&aacute; trị kh&aacute;c nằm ở giữa.</p>\n</div>\n</div>\n</div>\n<div class=\"challenge_input_format\">\n<div class=\"msB challenge_input_format_title\">\n<p><strong>Định dạng đầu v&agrave;o</strong></p>\n</div>\n<div class=\"msB challenge_input_format_body\">\n<div class=\"hackdown-content\">\n<p>D&ograve;ng đầu ti&ecirc;n chứa gi&aacute; trị số nguy&ecirc;n n.</p>\n</div>\n</div>\n</div>\n<div class=\"challenge_constraints\">\n<div class=\"msB challenge_constraints_title\">\n<p><strong>Điều kiện</strong></p>\n<pre class=\"language-markup\"><code>1 &lt;= n &lt;= 150</code></pre>\n</div>\n<div class=\"msB challenge_constraints_body\">\n<div class=\"hackdown-content\">\n<p><span id=\"MathJax-Element-1-Frame\" class=\"MathJax_SVG\"></span></p>\n</div>\n</div>\n</div>\n<div class=\"challenge_output_format\">\n<div class=\"msB challenge_output_format_title\">\n<p><strong>Định dạng đầu ra</strong></p>\n</div>\n<div class=\"msB challenge_output_format_body\">\n<div class=\"hackdown-content\">\n<p>In ra danh s&aacute;ch c&aacute;c gi&aacute; trị số nguy&ecirc;n từ 1 tới n v&agrave; kh&ocirc;ng c&oacute; khoảng trắng n&agrave;o ở giữa.</p>\n<div class=\"challenge_problem_statement\">\n<div class=\"msB challenge_problem_statement_body\">\n<div class=\"hackdown-content\">\n<p><strong>V&iacute; dụ</strong><br /><span id=\"MathJax-Element-4-Frame\" class=\"MathJax_SVG\"></span></p>\n<pre class=\"language-markup\"><code>n = 5</code></pre>\n<p>Kết quả đầu ra:</p>\n<pre class=\"language-markup\"><code>12345</code></pre>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/a3868d72-28a3-4962-9566-5322def51dd9",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "test-cases.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef9647"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "loops",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "In ra các số bình phương trong khoảng nhất định",
+  "content": "<div class=\"challenge_problem_statement\">\n<div class=\"msB challenge_problem_statement_body\">\n<div class=\"hackdown-content\">\n<p>Thực hiện đọc v&agrave;o số nguy&ecirc;n, n. Đối với tất cả c&aacute;c số nguy&ecirc;n kh&ocirc;ng &acirc;m $i&lt;n$, h&atilde;y in ra $i^{2}$.</p>\n<p><span style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\"><strong>Định dạng đầu v&agrave;o</strong></span></p>\n<p><span style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\">D&ograve;ng đầu ti&ecirc;n chứa số nguy&ecirc;n, n.</span></p>\n</div>\n</div>\n</div>\n<div class=\"challenge_constraints\">\n<div class=\"msB challenge_constraints_title\">\n<p><strong>Điều kiện</strong></p>\n<p>\\[1 \\leq n \\leq 20 \\]</p>\n</div>\n<div class=\"msB challenge_constraints_body\">\n<div class=\"hackdown-content\">\n<p><span id=\"MathJax-Element-1-Frame\" class=\"MathJax_SVG\"></span></p>\n</div>\n</div>\n</div>\n<div class=\"challenge_output_format\">\n<div class=\"msB challenge_output_format_title\">\n<p><strong>Định dạng đầu ra</strong></p>\n</div>\n<div class=\"msB challenge_output_format_body\">\n<div class=\"hackdown-content\">\n<p>In ra n d&ograve;ng, một d&ograve;ng tương ứng với mỗi gi&aacute; trị i.</p>\n<p><strong>V&iacute; dụ</strong><br /><span id=\"MathJax-Element-4-Frame\" class=\"MathJax_SVG\"></span></p>\n<pre class=\"language-markup\"><code>n = 3</code></pre>\n<p><strong>Đầu ra</strong></p>\n<pre class=\"language-markup\"><code>0\n1\n4</code></pre>\n</div>\n</div>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/4ea5d095-a5d9-4f0c-8f62-910f890457a3",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "test-cases.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef9648"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "python-division",
+  "tags": [
+    "1"
+  ],
+  "level": "BEGINNER",
+  "title": "Chia 2 số",
+  "content": "<div class=\"challenge_problem_statement\">\n<div class=\"msB challenge_problem_statement_body\">\n<div class=\"hackdown-content\">\n<p>Thực hiện đọc 2 số nguy&ecirc;n, a<span id=\"MathJax-Element-1-Frame\" class=\"MathJax_SVG\"></span> v&agrave; b. In kết quả đầu ra tr&ecirc;n 2 d&ograve;ng kh&aacute;c nhau. D&ograve;ng đầu ti&ecirc;n phải chứa kết quả của ph&eacute;p chia số nguy&ecirc;n, a // b. D&ograve;ng thứ hai phải chứa kết quả của ph&eacute;p chia số thập ph&acirc;n, a / b. Kh&ocirc;ng cần sử dụng ph&eacute;p l&agrave;m tr&ograve;n hoặc định dạng số.</p>\n</div>\n</div>\n</div>\n<div class=\"challenge_input_format\">\n<div class=\"msB challenge_input_format_title\">\n<p><strong>ĐỊnh dạng đầu v&agrave;o</strong></p>\n</div>\n<div class=\"msB challenge_input_format_body\">\n<div class=\"hackdown-content\">\n<ul>\n<li>D&ograve;ng đầu ti&ecirc;n chứa số nguy&ecirc;n đầu ti&ecirc;n, a.</li>\n<li>D&ograve;ng thứ hai chứa số nguy&ecirc;n thứ hai, b.</li>\n</ul>\n</div>\n</div>\n</div>\n<div class=\"challenge_output_format\">\n<div class=\"msB challenge_output_format_title\">&nbsp;</div>\n<div class=\"msB challenge_output_format_body\">\n<div class=\"hackdown-content\">\n<p><strong>Định dạng đầu ra</strong></p>\n<p>In ra hai d&ograve;ng chứa kết quả ph&eacute;p chia của 2 số nguy&ecirc;n ở dạng số nguy&ecirc;n v&agrave; kết quả ph&eacute;p chia của 2 số nguy&ecirc;n đ&oacute; ở dạng số thập ph&acirc;n.</p>\n</div>\n</div>\n</div>\n<div class=\"challenge_sample_input\">\n<div class=\"msB challenge_sample_input_title\">&nbsp;</div>\n</div>\n<div class=\"challenge_sample_output\">\n<div class=\"msB challenge_sample_output_body\">\n<div class=\"hackdown-content\">\n<div class=\"highlight\">\n<div class=\"challenge_problem_statement\">\n<div class=\"msB challenge_problem_statement_body\">\n<div class=\"hackdown-content\">\n<p><strong>V&iacute; dụ</strong></p>\n<p><strong>Đầu v&agrave;o</strong><br /><span id=\"MathJax-Element-7-Frame\" class=\"MathJax_SVG\"></span></p>\n<pre class=\"language-markup\"><code>a = 3\nb = 5</code></pre>\n<ul>\n<li>Kết quả của ph&eacute;p chia số nguy&ecirc;n 3 // 5 = 0.</li>\n<li>Kết quả của ph&eacute;p chia số thập ph&acirc;n l&agrave; 3/5 = 0,6.</li>\n</ul>\n<p><strong>Đầu ra</strong></p>\n<pre class=\"language-markup\"><code>0\n0.6</code></pre>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/b3fbc92c-db8f-4559-b16f-3b2cd271517b",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "ezyzip.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef9649"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "arithmetic-operators",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "Tính tổng và hiệu của 2 số",
+  "content": "<div class=\"challenge_problem_statement\">\n<div class=\"msB challenge_problem_statement_body\">\n<div class=\"hackdown-content\">\n<p>Bạn h&atilde;y đọc 2 gi&aacute; trị số nguy&ecirc;n a v&agrave; b. Thực hiện in ra 4 d&ograve;ng, trong đ&oacute;:</p>\n<ol>\n<li>D&ograve;ng đầu ti&ecirc;n chứa tổng của 2 số.</li>\n<li>D&ograve;ng thứ 2 chứa hiệu của 2 số.</li>\n<li>D&ograve;ng thứ 3 chứa t&iacute;ch của 2 số.</li>\n</ol>\n<p><strong>V&iacute; dụ:</strong><br /><span id=\"MathJax-Element-3-Frame\" class=\"MathJax_SVG\"></span></p>\n<pre class=\"language-python\"><code>a = 3\nb = 5</code></pre>\n<p>Kết quả đầu ra:</p>\n<pre class=\"language-markup\"><code>8\n-2\n15</code></pre>\n</div>\n</div>\n</div>\n<div class=\"challenge_input_format\">\n<div class=\"msB challenge_input_format_title\">\n<p><strong>Định dạng đầu v&agrave;o</strong></p>\n</div>\n<div class=\"msB challenge_input_format_body\">\n<div class=\"hackdown-content\">\n<ol>\n<li>D&ograve;ng thứ nhất chứa số nguy&ecirc;n a.</li>\n<li>D&ograve;ng thứ 2 chứa số nguy&ecirc;n b.</li>\n</ol>\n</div>\n</div>\n</div>\n<div class=\"challenge_constraints\">\n<div class=\"msB challenge_constraints_title\">\n<p><strong>Điều kiện</strong></p>\n</div>\n<div class=\"msB challenge_constraints_body\">\n<div class=\"hackdown-content\">\n<p><span id=\"MathJax-Element-1-Frame\" class=\"MathJax_SVG\"></span>\\[1 \\leq a \\leq 10^{10} \\]<span id=\"MathJax-Element-2-Frame\" class=\"MathJax_SVG\"></span></p>\n<p>\\[1 \\leq b \\leq 10^{10} \\]</p>\n</div>\n</div>\n</div>\n<div class=\"challenge_output_format\">\n<div class=\"msB challenge_output_format_title\">\n<p><strong>Định dạng đầu ra</strong></p>\n</div>\n<div class=\"msB challenge_output_format_body\">\n<div class=\"hackdown-content\">\n<p>Như trong v&iacute; dụ tr&ecirc;n.</p>\n</div>\n</div>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/c3af9fe6-aafb-4245-8748-7ddd641295ea",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "test-cases.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef964a"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 30,
+  "slug": "ggd-mr-toothless-and-his-gcd-operation",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "Tìm ước chung lớn nhất",
+  "content": "<p>Bạn được cho gi&aacute; trị N. Bạn phải t&igrave;m ra hai số a v&agrave; b sao cho ước ch&uacute;ng lớn nhất của a v&agrave; b, GCD(a, b) l&agrave; lớn nhất c&oacute; thể, trong đ&oacute; $1 \\leq a &lt; b \\leq N$.</p>\n<div id=\"problem-body\">\n<h3><strong> Định dạng đầu v&agrave;o</strong></h3>\n<ul>\n<li>Đầu v&agrave;o bắt đầu bằng số nguy&ecirc;n T ($\\leq 100$), biểu thị số lượng trường hợp thử nghiệm.</li>\n<li>Mỗi trường hợp chứa một số nguy&ecirc;n N ($2 \\leq N \\leq 10^{6}$).</li>\n</ul>\n<h3><strong>Định dạng đầu ra</strong></h3>\n<p>Đối với mỗi trường hợp, in ra số trường hợp v&agrave; sau đ&oacute; in ra a v&agrave; b. Nếu c&oacute; nhiều kết quả, h&atilde;y in ra kết quả m&agrave; a + b c&oacute; gi&aacute; trị lớn nhất.</p>\n<h3><strong>V&iacute; dụ</strong></h3>\n<p><strong>Đầu v&agrave;o</strong></p>\n<pre class=\"language-markup\"><code>1\n2</code></pre>\n<p><strong>Đầu ra</strong></p>\n<pre class=\"language-markup\"><code>Case 1: 1 2</code></pre>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/72befc1a-3c67-4bde-8abc-6776ea75feb8",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "GGD_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef964b"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 100,
+  "slug": "gcpc11j-time-to-live",
+  "tags": [],
+  "level": "EXPERT",
+  "title": "Thời gian tồn tại của gói tin",
+  "content": "<div class=\"row\">\n<div id=\"problem-tags\" class=\"col-lg-12 text-center\"></div>\n</div>\n<p>Như bạn c&oacute; thể biết, hầu hết c&aacute;c mạng m&aacute;y t&iacute;nh được tổ chức theo cấu tr&uacute;c c&acirc;y, mỗi m&aacute;y t&iacute;nh đều c&oacute; thể truy cập được bởi c&aacute;c m&aacute;y t&iacute;nh kh&aacute;c nhưng chỉ qua một đường dẫn duy nhất. Thời gian tồn tại (TTL) chỉ định sau bao nhi&ecirc;u bước nhảy m&agrave; một g&oacute;i mạng bị rớt nếu n&oacute; chưa đến đ&iacute;ch. Mục đ&iacute;ch của TTL l&agrave; để tr&aacute;nh c&aacute;c t&igrave;nh huống trong đ&oacute; một g&oacute;i di chuyển lặp lại qua mạng do lỗi trong bảng định tuyến.</p>\n<div id=\"problem-body\">\n<p>Việc bố tr&iacute; một bộ định tuyến kết nối mạng n&agrave;y với mạng kh&aacute;c l&agrave; tối ưu khi TTL cần thiết tối đa cho c&aacute;c g&oacute;i được gửi từ bộ định tuyến n&agrave;y đến bất kỳ m&aacute;y t&iacute;nh n&agrave;o kh&aacute;c trong c&ugrave;ng một mạng l&agrave; tối thiểu. Với một mạng được chỉ định ở tr&ecirc;n, bạn h&atilde;y t&iacute;nh to&aacute;n TTL cần thiết tối đa trong mạng n&agrave;y nếu bạn c&oacute; thể chọn m&aacute;y t&iacute;nh sẽ được sử dụng l&agrave;m bộ định tuyến.</p>\n<h3>Định dạng đầu v&agrave;o</h3>\n<p>The first line of the input consists of the number of test cases&nbsp;<em>c</em>&nbsp;that follow (<em>1 &le; c &le; 100</em>). Each test case starts with a line specifying&nbsp;<em>N</em>, the number of computers in this network (<em>1 &lt; N &le; 10<sup>5</sup></em>). Computers are numbered from&nbsp;<em>0</em>&nbsp;to&nbsp;<em>N-1</em>. Then follow&nbsp;<em>N-1</em>&nbsp;lines, each specifying a network connection by two numbers&nbsp;<em>a</em>&nbsp;and&nbsp;<em>b</em>&nbsp;which means that computer&nbsp;<em>a</em>&nbsp;is connected to computer&nbsp;<em>b</em>&nbsp;and vice versa, of course (<em>0 &le; a,b &lt; N</em>).</p>\n<p>D&ograve;ng đầu ti&ecirc;n của đầu v&agrave;o bao gồm số lượng trường hợp thử nghiệm c&nbsp; sao cho 1 &le; c &le; 100. Mỗi trường hợp thử nghiệm bắt đầu bằng một d&ograve;ng chỉ định N, số lượng m&aacute;y t&iacute;nh trong mạng (1 &lt;N &le; 105). M&aacute;y t&iacute;nh được đ&aacute;nh số từ 0 đến N-1. Sau N-1 d&ograve;ng, mỗi d&ograve;ng chỉ định một kết nối mạng bằng hai số a v&agrave; b, c&oacute; nghĩa l&agrave; m&aacute;y t&iacute;nh a được kết nối với m&aacute;y t&iacute;nh b v&agrave; ngược lại (0 &le; a, b &lt;N).</p>\n<h3>Định dạng đầu ra</h3>\n<p>Đối với mỗi trường hợp thử nghiệm trong đầu v&agrave;o, in ra một d&ograve;ng chứa TTL tối ưu như đ&atilde; chỉ định ở tr&ecirc;n.</p>\n<h3>V&iacute; dụ</h3>\n<p><strong>Đầu v&agrave;o</strong></p>\n<pre class=\"language-markup\"><code>3\n2\n1 0\n5\n3 2\n2 1\n0 2\n2 4\n9\n3 1\n6 5\n3 4\n0 3\n8 1\n1 7\n1 6\n2 3</code></pre>\n<p><strong>Đầu ra</strong></p>\n<pre class=\"language-markup\"><code>1\n1\n2</code></pre>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/e3cc317e-6fda-419b-9082-7c990f6ddd74",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "GCPC11J_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef964c"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 50,
+  "slug": "gcpc11f-diary",
+  "tags": [],
+  "level": "EXPERT",
+  "title": "Nhật ký mã hóa",
+  "content": "<p>Ng&agrave;y nay, những người muốn giao tiếp một c&aacute;ch an to&agrave;n sẽ phải sử dụng c&aacute;c thuật to&aacute;n m&atilde; h&oacute;a bất đối xứng như RSA. Tuy nhi&ecirc;n, anh trai t&ocirc;i sử dụng một phương ph&aacute;p m&atilde; h&oacute;a kh&aacute;c, đơn giản hơn cho c&aacute;c mục nhật k&yacute; của anh ấy. Anh ta sử dụng một hệ mật m&atilde; thay thế, trong đ&oacute; mỗi chữ c&aacute;i trong bản r&otilde; được thay thế bằng một chữ c&aacute;i kh&aacute;c trong bảng chữ c&aacute;i. Khoảng c&aacute;ch giữa k&yacute; tự bản r&otilde; v&agrave; k&yacute; tự m&atilde; h&oacute;a được cố định. Nếu ch&uacute;ng ta x&aacute;c định khoảng c&aacute;ch cố định d l&agrave; 5, A sẽ được thay thế bởi F, B l&agrave; G, C l&agrave; H, ..., Y l&agrave; D, Z l&agrave; E.</p>\n<div id=\"problem-body\">\n<p>Với khoảng c&aacute;ch d cố định v&agrave; đ&atilde; biết, việc giải m&atilde; sẽ đơn giản. Nhưng anh trai t&ocirc;i sử dụng khoảng c&aacute;ch ngẫu nhi&ecirc;n cho mỗi mục nhật k&yacute; của m&igrave;nh. Để giải m&atilde; nhật k&yacute; của anh ấy, t&ocirc;i phải đo&aacute;n khoảng c&aacute;ch d cho mỗi mục. V&igrave; vậy, t&ocirc;i sử dụng một hiện tượng nổi tiếng l&agrave; chữ E được sử dụng thường xuy&ecirc;n hơn trong c&aacute;c từ tiếng Anh hơn c&aacute;c chữ c&aacute;i kh&aacute;c. Bạn h&atilde;y viết một chương tr&igrave;nh t&iacute;nh to&aacute;n khoảng c&aacute;ch d dựa tr&ecirc;n thực tế l&agrave; k&yacute; tự được sử dụng nhiều nhất trong văn bản được m&atilde; h&oacute;a tương ứng với k&yacute; tự E trong bản r&otilde; kh&ocirc;ng?</p>\n<h3>Định dạng đầu v&agrave;o</h3>\n<p>Đầu v&agrave;o bao gồm một số trường hợp c sao cho 1 &le; c &le; 100. Mỗi trường hợp được đưa ra trong đ&uacute;ng một d&ograve;ng chứa một mục nhật k&yacute;. Mục nhật k&yacute; chỉ sử dụng chữ in hoa (A-Z) v&agrave; dấu c&aacute;ch. Mỗi mục nhật k&yacute; bao gồm nhiều nhất 1000 chữ c&aacute;i được m&atilde; h&oacute;a (bao gồm cả dấu c&aacute;ch).</p>\n<h3>Định dạng đầu ra</h3>\n<p>Đối với mỗi trường hợp, h&atilde;y in ra một d&ograve;ng chứa khoảng c&aacute;ch nhỏ nhất c&oacute; thể d (0 &le; d &le; 25) v&agrave; văn bản được giải m&atilde;. Nếu kh&ocirc;ng thể giải m&atilde; v&igrave; c&oacute; nhiều khoảng c&aacute;ch tu&acirc;n theo c&aacute;c quy tắc ở tr&ecirc;n, h&atilde;y in ra NOT POSSIBLE. Dấu c&aacute;ch kh&ocirc;ng được m&atilde; h&oacute;a.</p>\n<h3>V&iacute; dụ</h3>\n<p><strong>Đầu v&agrave;o</strong></p>\n<pre class=\"language-markup\"><code>4\nRD TQIJW GWTYMJWX INFWD JSYWNJX ZXJ F XNRUQJ JSHWDUYNTS YJHMSNVZJ\nTHE QUICK BROWN FOX JUMPS OVER THE LAZY DOG\nXVIDRE TFCCVXZRKV GIFXIRDDZEX TFEKVJK UVTIPGKZFE\nXVIDRE TFCCVXZRKV GIFXIRDDZEX TFEKVJK</code></pre>\n<p><strong>Đầu ra</strong></p>\n<pre class=\"language-markup\"><code>5 MY OLDER BROTHERS DIARY ENTRIES USE A SIMPLE ENCRYPTION TECHNIQUE\n10 JXU GKYSA RHEMD VEN ZKCFI ELUH JXU BQPO TEW\n17 GERMAN COLLEGIATE PROGRAMMING CONTEST DECRYPTION\nNOT POSSIBLE</code></pre>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/ed56011a-6e69-457f-949c-7e7fd738c866",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "GCPC11F_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef964d"
+  },
+  "memoryLimit": 2,
+  "source": 10,
+  "timeLimit": 2,
+  "scores": 100,
+  "slug": "tdprimes-printing-some-primes",
+  "tags": [],
+  "level": "EXPERT",
+  "title": "In ra các số nguyên tố",
+  "content": "<p>Bạn phải viết tất cả c&aacute;c số nguy&ecirc;n tố nhỏ hơn $10^{8}.</p>\n<div id=\"problem-body\">\n<h3>Định dạng đầu v&agrave;o</h3>\n<p>Kh&ocirc;ng c&oacute;</p>\n<h3>Định dạng đầu ra</h3>\n<p>Chỉ viết ra 1st, 101st, 201st, ... 1st mode 100.</p>\n<h3>V&iacute; dụ</h3>\n<p><strong>Đầu ra</strong></p>\n<pre class=\"language-markup\"><code>2\n547\n1229\n...\n99995257\n99996931\n99998953</code></pre>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/b17fad90-19fa-428d-bc60-2dc10f51fa85",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "TDPRIMES.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef964e"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 10,
+  "slug": "test-life-the-universe-and-everything-1",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "Vạn vật",
+  "content": "<div class=\"row\">\n<div id=\"problem-tags\" class=\"col-lg-12 text-center\"></div>\n</div>\n<p>Chương tr&igrave;nh của bạn được y&ecirc;u cầu l&agrave; sử dụng phương ph&aacute;p Brute Force để t&igrave;m ra c&acirc;u trả lời cho sự sống, vũ trụ v&agrave; vạn vật. Ch&iacute;nh x&aacute;c hơn l&agrave; viết ra c&aacute;c số nhỏ từ đầu v&agrave;o đến đầu ra. Dừng xử l&yacute; đầu v&agrave;o sau khi đọc số 42. Tất cả c&aacute;c số ở đầu v&agrave;o l&agrave; số nguy&ecirc;n c&oacute; một hoặc hai chữ số.</p>\n<div id=\"problem-body\">\n<h3>V&iacute; dụ</h3>\n<p><strong>Đầu v&agrave;o</strong></p>\n<pre class=\"language-markup\"><code>1\n2\n88\n42\n99</code></pre>\n<p><strong>Đầu ra</strong></p>\n<pre class=\"language-markup\"><code>1\n2\n88 </code></pre>\n<pre>&nbsp;</pre>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/cc36476d-e8b1-4bb6-a024-ab489fdd5d42",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "TEST_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef964f"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 30,
+  "slug": "toandfro-to-and-fro",
+  "tags": [],
+  "level": "INTERMEDIATE",
+  "title": "Mã hóa tin nhắn",
+  "content": "<p>Mo v&agrave; Larry đ&atilde; nghĩ ra một c&aacute;ch m&atilde; h&oacute;a tin nhắn. Đầu ti&ecirc;n, họ quyết định b&iacute; mật về số lượng cột v&agrave; viết th&ocirc;ng b&aacute;o (chỉ bao gồm chữ c&aacute;i) v&agrave;o c&aacute;c cột, ch&egrave;n th&ecirc;m c&aacute;c chữ c&aacute;i ngẫu nhi&ecirc;n để tạo th&agrave;nh một mảng chữ c&aacute;i h&igrave;nh chữ nhật. V&iacute; dụ: nếu th&ocirc;ng b&aacute;o l&agrave; \"There&rsquo;s no place like home on a snowy night\" v&agrave; c&oacute; năm cột, Mo sẽ viết ra như sau:</p>\n<pre class=\"language-markup\"><code>t o i o y\nh p k n n\ne l e a i\nr a h s g\ne c o n h\ns e m o t\nn l e w x</code></pre>\n<div id=\"problem-body\">\n<p>Lưu &yacute; rằng Mo chỉ th&ecirc;m c&aacute;c chữ c&aacute;i v&agrave; viết tất cả ch&uacute;ng bằng chữ thường. Trong v&iacute; dụ n&agrave;y, Mo đ&atilde; sử dụng k&yacute; tự &lsquo;x&rsquo; để th&ecirc;m v&agrave;o th&ocirc;ng điệp v&agrave; tạo th&agrave;nh một h&igrave;nh chữ nhật, mặc d&ugrave; anh ta c&oacute; thể sử dụng bất kỳ chữ c&aacute;i n&agrave;o. Mo sau đ&oacute; gửi tin nhắn cho Larry bằng c&aacute;ch viết c&aacute;c chữ c&aacute;i theo từng h&agrave;ng, xen kẽ từ tr&aacute;i sang phải v&agrave; từ phải sang tr&aacute;i. V&igrave; vậy, c&aacute;ch viết ở tr&ecirc;n sẽ được m&atilde; h&oacute;a như sau:</p>\n<pre class=\"language-markup\"><code>toioynnkpheleaigshareconhtomesnlewx</code></pre>\n<p>C&ocirc;ng việc của bạn l&agrave; kh&ocirc;i phục cho Larry tin nhắn gốc (với bất kỳ chữ c&aacute;i đệm n&agrave;o) từ tin nhắn đ&atilde; được m&atilde; h&oacute;a.</p>\n<h3>Định dạng đầu v&agrave;o</h3>\n<p>Sẽ c&oacute; nhiều tập hợp đầu v&agrave;o. Đầu v&agrave;o cho mỗi tập hợp sẽ bao gồm hai d&ograve;ng. D&ograve;ng đầu ti&ecirc;n sẽ chứa một số nguy&ecirc;n trong phạm vi 2 ... 20 cho biết số cột được sử dụng. D&ograve;ng tiếp theo l&agrave; một chuỗi k&yacute; tự gồm tối đa 200 chữ in thường. Tập hợp đầu v&agrave;o cuối c&ugrave;ng được theo sau bởi một d&ograve;ng chứa một số 0 duy nhất, cho biết phần kết th&uacute;c của đầu v&agrave;o.</p>\n<h3>Định dạng đầu ra</h3>\n<p>Mỗi tập hợp đầu v&agrave;o n&ecirc;n tạo ra một d&ograve;ng đầu ra, đưa ra tin nhắn văn bản dạng bạn r&otilde; ban đầu, kh&ocirc;ng c&oacute; khoảng trắng.</p>\n<h3>V&iacute; dụ</h3>\n<p><strong>Đầu v&agrave;o</strong></p>\n<pre class=\"language-markup\"><code>5\ntoioynnkpheleaigshareconhtomesnlewx\n3\nttyohhieneesiaabss\n0</code></pre>\n<p><strong>Đầu ra</strong></p>\n<pre class=\"language-markup\"><code>theresnoplacelikehomeonasnowynightx\nthisistheeasyoneab</code></pre>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/828f3aea-b4fe-4407-a1df-7ae2d9b838d7",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "TOANDFRO_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef9650"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 100,
+  "slug": "trafficn-traffic-network",
+  "tags": [],
+  "level": "EXPERT",
+  "title": "Bài toán mạng lưới giao thông",
+  "content": "<div class=\"row\">\n<div id=\"problem-tags\" class=\"col-lg-12 text-center\"></div>\n</div>\n<p>Mạng lưới giao th&ocirc;ng th&agrave;nh phố bao gồm n n&uacute;t được đ&aacute;nh số từ 1 đến n v&agrave; m đường một chiều nối c&aacute;c cặp n&uacute;t. Để giảm độ d&agrave;i của đường đi ngắn nhất giữa hai n&uacute;t quan trọng kh&aacute;c nhau s v&agrave; t, một danh s&aacute;ch k đường hai chiều được đề xuất để x&acirc;y dựng. Nhiệm vụ của bạn l&agrave; viết một chương tr&igrave;nh để chọn ra một đường hai chiều từ danh s&aacute;ch đề xuất để giảm thiểu đường đi ngắn nhất giữa s v&agrave; t.</p>\n<div id=\"problem-body\">\n<h3>Định dạng đầu v&agrave;o</h3>\n<p>Tệp đầu v&agrave;o bao gồm một số tập dữ liệu. D&ograve;ng đầu ti&ecirc;n của tệp đầu v&agrave;o chứa số lượng bộ dữ liệu l&agrave; một số nguy&ecirc;n dương v&agrave; kh&ocirc;ng lớn hơn 20. C&aacute;c d&ograve;ng sau m&ocirc; tả c&aacute;c bộ dữ liệu.</p>\n<p>Đối với mỗi tập dữ liệu, d&ograve;ng đầu ti&ecirc;n chứa năm số nguy&ecirc;n dương n (n &le; 10 000), m (m &le; 100 000), k (k &lt;300), s (1 &le; s &le; n), t (1 &le; t &le; n) ngăn c&aacute;ch nhau bởi dấu c&aacute;ch. D&ograve;ng thứ i trong số m d&ograve;ng tiếp theo chứa ba số nguy&ecirc;n di, ci, li c&aacute;ch nhau bởi dấu c&aacute;ch, thể hiện độ d&agrave;i li (0 &lt;li &le; 1000) của đường một chiều thứ i nối từ n&uacute;t di đến ci. D&ograve;ng thứ j trong số k d&ograve;ng tiếp theo chứa ba số nguy&ecirc;n dương uj, vj v&agrave; qj (qj &le; 1000) được ph&acirc;n t&aacute;ch bằng dấu c&aacute;ch, đại diện cho đường hai chiều được đề xuất thứ j c&oacute; độ d&agrave;i qj nối n&uacute;t uj với vj.</p>\n<h3>Định dạng đầu ra</h3>\n<p>Đối với mỗi tập dữ liệu, h&atilde;y viết ra tr&ecirc;n một d&ograve;ng độ d&agrave;i nhỏ nhất c&oacute; thể của con đường ngắn nhất sau khi x&acirc;y dựng một con đường hai chiều đ&atilde; chọn từ danh s&aacute;ch đề xuất. Trong trường hợp kh&ocirc;ng tồn tại đường đi từ s đến t, ghi l&agrave; -1.</p>\n<h3>V&iacute; dụ</h3>\n<p><strong>Đầu v&agrave;o</strong></p>\n<pre class=\"language-markup\"><code>1\n4 5 3 1 4\n1 2 13\n2 3 19\n3 1 25\n3 4 17\n4 1 18\n1 3 23\n2 3 5\n2 4 25</code></pre>\n<p><strong>Đầu ra</strong></p>\n<pre class=\"language-markup\"><code>35</code></pre>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/1c4673d5-622b-4e26-8878-7bde620389e6",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "TRAFFICN_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef9651"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 50,
+  "slug": "vmsubstr-vuon-cay-cua-ba",
+  "tags": [],
+  "level": "EXPERT",
+  "title": "Vườn cây của ba",
+  "content": "<p align=\"justify\">Sau một năm học c&agrave;y cuốc vất vả, h&egrave; n&agrave;y Huy quyết định mời c&aacute;c bạn về qu&ecirc; chơi. Huy sẽ dẫn c&aacute;c bạn đi leo n&uacute;i, ngắm cảnh... v&agrave; sẽ mở một buổi chi&ecirc;u đ&atilde;i c&aacute;c bạn t&agrave;i nh&agrave; m&igrave;nh. \"Nh&agrave; rộng v&agrave; đẹp lắm, c&oacute; cả một vườn c&acirc;y ăn tr&aacute;i sum xu&ecirc; !\" - Huy giới thiệu về ng&ocirc;i nh&agrave; của m&igrave;nh.</p>\n<div class=\"prob\">\n<p>Sau khi k&igrave; k&egrave;o với ba, Huy đ&atilde; xin được h&aacute;i tr&aacute;i trong vườn đ&atilde;i c&aacute;c bạn. Nhưng với một điều kiện: Huy chỉ được h&aacute;i tr&aacute;i những LOẠI c&acirc;y m&agrave; ba quy định. Vườn c&acirc;y chia th&agrave;nh L khu đất li&ecirc;n tiếp nằm thẳng h&agrave;ng (được đ&aacute;nh số thứ tự từ 1 đến L từ đầu vườn đến cuối vườn), mỗi khu chỉ trồng duy nhất một c&acirc;y. Nh&agrave; Huy c&oacute; rất nhiều nh&acirc;n c&ocirc;ng, mỗi nh&acirc;n c&ocirc;ng sẽ chấp nhận l&agrave;m việc tr&ecirc;n những khu đất li&ecirc;n tiếp.</p>\n<p>V&igrave; muốn đ&atilde;i c&aacute;c bạn thật nhiều tr&aacute;i c&acirc;y, n&ecirc;n Huy sẽ tận dụng h&aacute;i hết TẤT CẢ những c&acirc;y được ba cho ph&eacute;p. Nhưng mắc nỗi phải dẫn c&aacute;c bạn đi chơi r&ograve;i, n&ecirc;n kh&ocirc;ng c&oacute; thời gian h&aacute;i tr&aacute;i c&acirc;y. N&ecirc;n Huy sẽ nhờ đến c&aacute;c nh&acirc;n c&ocirc;ng. Bạn t&iacute;nh xem Huy sẽ ph&acirc;n c&ocirc;ng &iacute;t nhất bao nhi&ecirc;u nh&acirc;n c&ocirc;ng để thực hiện kế hoạch chi&ecirc;u đ&atilde;i tr&aacute;i c&acirc;y của m&igrave;nh? Biết rằng mỗi nh&acirc;n c&ocirc;ng sẽ h&aacute;i hết tất cả tr&aacute;i c&acirc;y ở c&aacute;c khu đất m&igrave;nh được ph&acirc;n v&agrave;o.</p>\n<h3>Định dạng đầu v&agrave;o</h3>\n<ul>\n<li>D&ograve;ng 1: Gồm 1 số nguy&ecirc;n dương duy nhất: L - số khu đất trong khu vườn.</li>\n<li>D&ograve;ng 2: Chứa x&acirc;u S gồm đ&uacute;ng L chữ c&aacute;i Latin (in thường hoặc hoa), mi&ecirc;u tả khu vườn của Huy. Mỗi chữ c&aacute;i cho biết loại c&acirc;y được trồng ở khu đất tương ứng</li>\n<li>D&ograve;ng 3: Q - số trường hợp m&agrave; bạn phải xứ l&yacute;.</li>\n<li>Q d&ograve;ng tiếp, mỗi d&ograve;ng m&ocirc; tả một trường hợp v&agrave; gồm c&aacute;c chữ c&aacute;i Latin (in thường hoặc hoa). Mỗi chữ đại diện cho một loại c&acirc;y được ph&eacute;p sử dụng.</li>\n</ul>\n<h3>Định dạng đầu ra</h3>\n<ul>\n<li>Với mỗi trường hợp, ghi ra 1 d&ograve;ng duy nhất l&agrave; số nh&acirc;n c&ocirc;ng &iacute;t nhất cần nhờ đến.</li>\n</ul>\n<h3>Chấm điểm</h3>\n<ul>\n<li>B&agrave;i của bạn sẽ được chấm tr&ecirc;n thang điểm 100. Điểm m&agrave; bạn nhận được sẽ tương ứng với % test m&agrave; bạn giải đ&uacute;ng.</li>\n<li>Trong qu&aacute; tr&igrave;nh thi, b&agrave;i của bạn sẽ chỉ được chấm với 1 test v&iacute; dụ c&oacute; trong đề b&agrave;i.</li>\n<li>Khi v&ograve;ng thi kết th&uacute;c, b&agrave;i của bạn sẽ được chấm với bộ test đầy đủ.</li>\n</ul>\n<h3>Điều kiện</h3>\n<ul>\n<li>L &le; 1,000,000;</li>\n<li>Q &le; 100,000;</li>\n<li>Số k&yacute; tự trong mỗi query kh&ocirc;ng qu&aacute; 52. Trong mỗi query, c&aacute;c k&yacute; tự kh&ocirc;ng lặp lại</li>\n<li>Trong 50% số test, L &le; 1000, Q &le; 1000;</li>\n</ul>\n<h3>V&iacute; dụ</h3>\n<p><strong>Đầu v&agrave;o</strong></p>\n<pre class=\"language-markup\"><code>7\nabacaba\n3\nac\nb\nab</code></pre>\n<p><strong>Đầu ra</strong></p>\n<pre class=\"language-markup\"><code>3\n2\n2 </code></pre>\n<h3>Giải th&iacute;ch</h3>\n<ul>\n<li>Với trường hợp 'ac', Huy chỉ h&aacute;i những c&acirc;y loại 'a' v&agrave; 'c'. N&ecirc;n Huy cần nhờ &iacute;t nhất 3 nh&acirc;n c&ocirc;ng lo 3 phần 'a', 'aca', 'a';</li>\n<li>Với trường hợp 'b', Huy cần nhờ &iacute;t nhất 2 nh&acirc;n c&ocirc;ng lo 2 phần 'b';</li>\n<li>Với trường hợp 'ab', Huy cần nhờ &iacute;t nhất 2 nh&acirc;n c&ocirc;ng lo 2 phần 'aba';</li>\n</ul>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/3fc1405d-8e4f-4176-8109-3f8f55fba73b",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "VMSUBSTR_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef9652"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 12,
+  "slug": "vdanger-nguy-hiem-ro-rang-truoc-mat",
+  "tags": [
+    "2"
+  ],
+  "level": "INTERMEDIATE",
+  "title": "VDANGER - Nguy hiểm rõ ràng trước mắt",
+  "content": "<table>\n<tbody>\n<tr>\n<td>\n<h2>VDANGER - Nguy hiểm r&otilde; r&agrave;ng trước mắt</h2>\n</td>\n</tr>\n</tbody>\n</table>\n<div class=\"prob\"><br />\n<p>N&ocirc;ng d&acirc;n John đang ở tr&ecirc;n một con thuyền nhỏ v&agrave; đang t&igrave;m kiếm kho b&aacute;u ở 1 trong số N (1 &lt;= N &lt;= 100) h&ograve;n đảo (đ&aacute;nh số từ 1..N) ở v&ugrave;ng biển Ca-ri-b&ograve;.</p>\n<p>Bản đồ kho b&aacute;u cho John biết John cần phải thực hiện 1 h&agrave;nh tr&igrave;nh đi qua đảo A_1, A_2, &hellip; A_M (2 &lt;= M &lt;= 10,000), bắt đầu từ đảo 1 v&agrave; kết th&uacute;c ở đảo N trước khi kho b&aacute;u biến mất. Anh ta c&oacute; thể đến thăm c&aacute;c đảo kh&aacute;c v&agrave; thăm bao nhi&ecirc;u lần t&ugrave;y th&iacute;ch, miễn l&agrave; h&agrave;nh tr&igrave;nh của &ocirc;ng ta phải chứa d&atilde;y A_1,..A_M l&agrave; 1 d&atilde;y con (kh&ocirc;ng nhất thiết phải li&ecirc;n tiếp nhau).</p>\n<p>John muốn tr&aacute;nh đụng độ cướp biển v&agrave; biết được mức-độ-bị-cướp (0 &lt;= mức-độ-bị-cướp &lt;= 100,000) khi đi lại giữa 2 h&ograve;n đảo với nhau. Độ nguy hiểm của h&agrave;nh tr&igrave;nh của John sẽ l&agrave; tổng c&aacute;c mức-độ-bị-cướp tr&ecirc;n c&aacute;c tuyến đường m&agrave; John đi qua.</p>\n<p>H&atilde;y gi&uacute;p John t&igrave;m được 1 h&agrave;nh tr&igrave;nh &iacute;t nguy hiểm nhất để c&oacute; thể lấy được kho b&aacute;u.</p>\n<h3>Dữ liệu</h3>\n<ul>\n<li>D&ograve;ng 1: 2 số nguy&ecirc;n c&aacute;ch nhau bởi dấu c&aacute;ch: N v&agrave; M</li>\n<li>D&ograve;ng 2..M+1: D&ograve;ng i+1 m&ocirc; tả chứa 1 số nguy&ecirc;n l&agrave; đảo thứ i m&agrave; John cần phải tới: A_i</li>\n<li>D&ograve;ng M+2..N+M+1: D&ograve;ng i+M+1 chứa N số nguy&ecirc;n c&aacute;ch nhau bởi dấu c&aacute;ch tương ứng l&agrave; mức-độ-bị-cướp tr&ecirc;n tuyến đường đi giữa đảo i v&agrave; đảo 1, 2,&hellip;N; đảm bảo số nguy&ecirc;n thứ i lu&ocirc;n l&agrave; số 0.</li>\n</ul>\n<h3>Kết quả</h3>\n<ul>\n<li>D&ograve;ng 1: Độ nguy hiểm nhỏ nhất của h&agrave;nh tr&igrave;nh của John.</li>\n</ul>\n<h3>V&iacute; dụ</h3>\n<pre><strong>Dữ liệu</strong>\n3 4\n1\n2\n1\n3\n0 5 1\n5 0 2\n1 2 0\n\nGiải th&iacute;ch:\nC&oacute; 3 h&ograve;n đảo v&agrave; bản đồ kho b&aacute;u y&ecirc;u cầu John phải thực hiện 1 h&agrave;nh \ntr&igrave;nh tới c&aacute;c đảo như sau: từ đảo 1 tới đảo 2, quay lại đảo 1 v&agrave; cuối \nc&ugrave;ng l&agrave; tới đảo 3. Mức-độ-bị-cướp tr&ecirc;n c&aacute;c tuyến đường đ&atilde; được \ncho: (1, 2); (2, 3); (3, 1) c&oacute; độ lớn tương ứng l&agrave; 5, 2 v&agrave; 1.\n\n<strong>Kết quả</strong>\n7\n\nGiải th&iacute;ch:\nH&agrave;nh tr&igrave;nh c&oacute; độ nguy hiểm nhỏ nhất l&agrave; 7. John sẽ đi như sau: \n1, 3, 2, 3, 1, and 3. Y&ecirc;u cầu của bản đồ l&agrave; phải chứa d&atilde;y\n(1, 2, 1, v&agrave; 3) v&agrave; h&agrave;nh tr&igrave;nh n&agrave;y thỏa m&atilde;n y&ecirc;u cầu. Ch&uacute;ng ta sẽ tr&aacute;nh đi \ntr&ecirc;n đường nối giữa 2 đảo 1 v&agrave; 2 v&igrave; n&oacute; c&oacute; mức-độ-bị-cướp lớn.</pre>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/2cbc2606-caf3-4dba-a683-0d5fffdc470f",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "VDANGER_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef9653"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "min-and-max",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "Tìm giá trị lớn nhất và nhỏ nhất của mảng đa chiều",
+  "content": "<div class=\"challenge_problem_statement\">\n<div class=\"msB challenge_problem_statement_body\">\n<div class=\"hackdown-content\">\n<h2>min</h2>\n<p>C&ocirc;ng cụ min trả về gi&aacute; trị nhỏ nhất theo một chiều nhất định.</p>\n<p><strong>V&iacute; dụ</strong></p>\n<pre class=\"language-python\"><code>import numpy\n\nmy_array = numpy.array([[2, 5], \n                        [3, 7],\n                        [1, 3],\n                        [4, 0]])\nprint numpy.min(my_array, axis = 0)\nprint numpy.min(my_array, axis = 1)\nprint numpy.min(my_array, axis = None)\nprint numpy.min(my_array)</code></pre>\n<p>Kết quả:</p>\n<pre class=\"language-python\"><code>[1 0]\n[2 3 1 0]\n0\n0</code></pre>\n<p>Theo mặc định, gi&aacute; trị axis l&agrave; None. Do đ&oacute;, n&oacute; t&igrave;m gi&aacute; trị tối thiểu tr&ecirc;n tất cả c&aacute;c k&iacute;ch thước của mảng đầu v&agrave;o.</p>\n<h2>max</h2>\n<p>C&ocirc;ng cụ max trả về gi&aacute; trị nhỏ nhất theo một chiều nhất định.</p>\n<p><strong>V&iacute; dụ</strong></p>\n<pre class=\"language-markup\"><code>import numpy\n\nmy_array = numpy.array([[2, 5], \n                        [3, 7],\n                        [1, 3],\n                        [4, 0]])\nprint numpy.max(my_array, axis = 0)\nprint numpy.max(my_array, axis = 1)\nprint numpy.max(my_array, axis = None)\nprint numpy.max(my_array)</code></pre>\n<p>Kết quả:</p>\n<pre class=\"language-markup\"><code>[4 7]\n[5 7 3 4]\n7\n7</code></pre>\n<p>Theo mặc định, gi&aacute; trị axis l&agrave; None. Do đ&oacute;, n&oacute; t&igrave;m gi&aacute; trị lớn nhất tr&ecirc;n tất cả c&aacute;c k&iacute;ch thước của mảng đầu v&agrave;o.</p>\n<p><strong>Nhiệm vụ</strong></p>\n<p>Bạn được cung cấp một mảng 2 chiều với k&iacute;ch thước NxM. Nhiệm vụ của bạn l&agrave; thực hiện h&agrave;m min theo chiều 1 v&agrave; sau đ&oacute; t&igrave;m gi&aacute; trị lớn nhất.</p>\n</div>\n</div>\n</div>\n<div class=\"challenge_input_format\">\n<div class=\"msB challenge_input_format_body\">\n<div class=\"hackdown-content\">\n<p><strong>Định dạng đầu v&agrave;o</strong></p>\n<p>D&ograve;ng đầu ti&ecirc;n của đầu v&agrave;o chứa c&aacute;c gi&aacute; trị được ph&acirc;n t&aacute;ch bằng dấu c&aacute;ch bao gồm N v&agrave; M.</p>\n<p>N d&ograve;ng tiếp theo chứa M số nguy&ecirc;n c&aacute;ch nhau khoảng trắng.</p>\n</div>\n</div>\n</div>\n<div class=\"challenge_output_format\">\n<div class=\"msB challenge_output_format_body\">\n<div class=\"hackdown-content\">\n<p><strong>Định dạng đầu ra</strong></p>\n<p>T&iacute;nh gi&aacute; trị nhỏ nhất dọc theo chiều 1 v&agrave; sau đ&oacute; in ra gi&aacute; trị lớn nhất.</p>\n</div>\n</div>\n</div>\n<div class=\"challenge_sample_input\">\n<div class=\"msB challenge_sample_input_title\">\n<p><strong>V&iacute; dụ</strong></p>\n<p><strong>Đầu v&agrave;o</strong></p>\n</div>\n<div class=\"msB challenge_sample_input_body\">\n<div class=\"hackdown-content\">\n<pre class=\"language-python\"><code>4 2\n2 5\n3 7\n1 3\n4 0</code></pre>\n</div>\n</div>\n</div>\n<div class=\"challenge_sample_output\">\n<div class=\"msB challenge_sample_output_title\">\n<p><strong>Đầu ra</strong></p>\n</div>\n<div class=\"msB challenge_sample_output_body\">\n<div class=\"hackdown-content\">\n<pre class=\"language-markup\"><code>3</code></pre>\n</div>\n</div>\n</div>\n<div class=\"challenge_explanation\">\n<div class=\"msB challenge_explanation_title\">\n<p><strong>Giải th&iacute;ch</strong></p>\n</div>\n<div class=\"msB challenge_explanation_body\">\n<div class=\"hackdown-content\">\n<p>Gi&aacute; trị thấp nhất theo chiều 1 l&agrave; [2, 3, 1, 0]<br />Gi&aacute; trị lớn nhất của [2, 3, 1, 0] l&agrave; 3</p>\n</div>\n</div>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/d735a194-c4fb-45d8-a681-41b225ef81ee",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "test-cases.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef9654"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "sum-and-prod",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "Tính tích và tổng theo các chiều của mảng đa chiều",
+  "content": "<div class=\"challenge_problem_statement\">\n<div class=\"msB challenge_problem_statement_body\">\n<div class=\"hackdown-content\">\n<h2>sum</h2>\n<p>C&ocirc;ng cụ sum trả về tổng c&aacute;c phần tử mảng theo một chiều nhất định.</p>\n<p><strong>V&iacute; dụ</strong></p>\n<pre class=\"language-python\"><code>import numpy\n\nmy_array = numpy.array([ [1, 2], [3, 4] ])\nprint numpy.sum(my_array, axis = 0)\nprint numpy.sum(my_array, axis = 1)\nprint numpy.sum(my_array, axis = None)\nprint numpy.sum(my_array)</code></pre>\n<p>Kết quả:</p>\n<pre class=\"language-markup\"><code>[4 6]\n[3 7]\n10\n10</code></pre>\n<p>Theo mặc định, gi&aacute; trị của axis l&agrave; None. Do đ&oacute;, n&oacute; thực hiện t&iacute;nh tổng tr&ecirc;n tất cả c&aacute;c chiều của mảng đầu v&agrave;o.</p>\n<h2>prod</h2>\n<p>C&ocirc;ng cụ prod trả về t&iacute;ch của c&aacute;c phần tử mảng theo 1 chiều nhất định.</p>\n<p><strong>V&iacute; dụ</strong></p>\n<pre class=\"language-python\"><code>import numpy\n\nmy_array = numpy.array([ [1, 2], [3, 4] ])\nprint numpy.prod(my_array, axis = 0)\nprint numpy.prod(my_array, axis = 1)\nprint numpy.prod(my_array, axis = None)\nprint numpy.prod(my_array)</code></pre>\n<p>Kết quả:</p>\n<pre class=\"language-markup\"><code>[3 8]\n[ 2 12]\n24\n24</code></pre>\n<p>Theo mặc định, gi&aacute; trị của axis l&agrave; None. Do đ&oacute;, n&oacute; thực hiện t&iacute;nh t&iacute;ch tr&ecirc;n tất cả c&aacute;c chiều của mảng đầu v&agrave;o.</p>\n<p><strong>Nhiệm vụ</strong></p>\n<p>Bạn được cung cấp một mảng 2 chiều với k&iacute;ch thước NxM. Nhiệm vụ của bạn l&agrave; thực hiện c&ocirc;ng cụ t&iacute;nh tổng theo chiều 0 v&agrave; sau đ&oacute; t&igrave;m t&iacute;ch của kết quả đ&oacute;.</p>\n</div>\n</div>\n</div>\n<div class=\"challenge_input_format\">\n<div class=\"msB challenge_input_format_title\">\n<p><strong>Định dạng đầu v&agrave;o</strong></p>\n</div>\n<div class=\"msB challenge_input_format_body\">\n<div class=\"hackdown-content\">\n<p>D&ograve;ng đầu ti&ecirc;n của đầu v&agrave;o chứa c&aacute;c gi&aacute; trị được ph&acirc;n t&aacute;ch bằng dấu c&aacute;ch bao gồm N v&agrave; M.</p>\n<p>N d&ograve;ng tiếp theo chứa M số nguy&ecirc;n c&aacute;ch nhau khoảng trắng.</p>\n</div>\n</div>\n</div>\n<div class=\"challenge_output_format\">\n<div class=\"msB challenge_output_format_title\">\n<p><strong>Định dạng đầu ra</strong></p>\n</div>\n<div class=\"msB challenge_output_format_body\">\n<div class=\"hackdown-content\">\n<p>T&iacute;nh tổng theo chiều 0. Sau đ&oacute;, in ra t&iacute;ch của tổng đ&oacute;.</p>\n</div>\n</div>\n</div>\n<div class=\"challenge_sample_input\">\n<div class=\"msB challenge_sample_input_title\">\n<p><strong>V&iacute; dụ</strong></p>\n<p><strong>Đầu v&agrave;o</strong></p>\n</div>\n<div class=\"msB challenge_sample_input_body\">\n<div class=\"hackdown-content\">\n<pre class=\"language-python\"><code>2 2\n1 2\n3 4</code></pre>\n</div>\n</div>\n</div>\n<div class=\"challenge_sample_output\">\n<div class=\"msB challenge_sample_output_title\">\n<p><strong>Đầu ra</strong></p>\n</div>\n<div class=\"msB challenge_sample_output_body\">\n<div class=\"hackdown-content\">\n<pre class=\"language-markup\"><code>24</code></pre>\n</div>\n</div>\n</div>\n<div class=\"challenge_explanation\">\n<div class=\"msB challenge_explanation_title\">\n<p><strong>Giải th&iacute;ch</strong></p>\n</div>\n<div class=\"msB challenge_explanation_body\">\n<div class=\"hackdown-content\">\n<p>Tổng theo chiều 0 = [4 6]<br />T&iacute;ch của tổng = 24</p>\n</div>\n</div>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/cbc54a08-0ab0-4528-8ed6-18aa8293a54c",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "test-cases.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef9655"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "dot-and-cross",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "Tính tích 2 ma trận",
+  "content": "<div class=\"challenge_problem_statement\">\n<div class=\"msB challenge_problem_statement_body\">\n<div class=\"hackdown-content\">\n<p>C&ocirc;ng cụ dot trả về t&iacute;ch v&ocirc; hướng của hai mảng.</p>\n<p><strong>V&iacute; dụ</strong></p>\n<pre class=\"language-python\"><code>import numpy\n\nA = numpy.array([ 1, 2 ])\nB = numpy.array([ 3, 4 ])\nprint numpy.dot(A, B)</code></pre>\n<p>Kết quả:</p>\n<pre class=\"language-markup\"><code>11</code></pre>\n<p>C&ocirc;ng cụ cross trả về t&iacute;ch c&oacute; hướng của hai mảng.</p>\n<p><strong>V&iacute; dụ</strong></p>\n<pre class=\"language-python\"><code>import numpy\n\nA = numpy.array([ 1, 2 ])\nB = numpy.array([ 3, 4 ])\nprint numpy.cross(A, B)</code></pre>\n<p>Kết quả:</p>\n<pre class=\"language-markup\"><code>-2</code></pre>\n<p><strong>Nhiệm vụ</strong></p>\n<p>Bạn được cho hai mảng A v&agrave; B. Cả hai đều c&oacute; k&iacute;ch thước l&agrave; NxN. Nhiệm vụ của bạn l&agrave; t&iacute;nh to&aacute;n ph&eacute;p nh&acirc;n ma trận của 2 mảng.</p>\n</div>\n</div>\n</div>\n<div class=\"challenge_input_format\">\n<div class=\"msB challenge_input_format_title\">\n<p><strong>Định dạng đầu v&agrave;o</strong></p>\n</div>\n<div class=\"msB challenge_input_format_body\">\n<div class=\"hackdown-content\">\n<ul>\n<li>D&ograve;ng đầu ti&ecirc;n chứa số nguy&ecirc;n N.</li>\n<li>N d&ograve;ng tiếp theo chứa N số nguy&ecirc;n c&aacute;ch nhau bằng dấu c&aacute;ch của mảng A.</li>\n<li>N d&ograve;ng tiếp theo chứa N số nguy&ecirc;n c&aacute;ch nhau bằng dấu c&aacute;ch của mảng B.</li>\n</ul>\n</div>\n</div>\n</div>\n<div class=\"challenge_output_format\">\n<div class=\"msB challenge_output_format_title\">\n<p><strong>Định dạng đầu ra</strong></p>\n</div>\n<div class=\"msB challenge_output_format_body\">\n<div class=\"hackdown-content\">\n<p>In ph&eacute;p nh&acirc;n ma trận của A v&agrave; B.</p>\n</div>\n</div>\n</div>\n<div class=\"challenge_sample_input\">\n<div class=\"msB challenge_sample_input_title\">\n<p><strong>V&iacute; dụ</strong></p>\n<p><strong>Đầu v&agrave;o</strong></p>\n</div>\n<div class=\"msB challenge_sample_input_body\">\n<div class=\"hackdown-content\">\n<pre class=\"language-python\"><code>2\n1 2\n3 4\n1 2\n3 4</code></pre>\n</div>\n</div>\n</div>\n<div class=\"challenge_sample_output\">\n<div class=\"msB challenge_sample_output_title\">\n<p><strong>Đầu ra</strong></p>\n</div>\n<div class=\"msB challenge_sample_output_body\">\n<div class=\"hackdown-content\">\n<pre class=\"language-markup\"><code>[[ 7 10]\n [15 22]]</code></pre>\n</div>\n</div>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/079884f6-34c9-4204-8d17-32469cde19f6",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "test-cases.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef9656"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "collections-counter",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "Số tiền kiếm được từ việc bán giày",
+  "content": "<div class=\"challenge_problem_statement\">\n<div class=\"msB challenge_problem_statement_body\">\n<div class=\"hackdown-content\">\n<p>Counter l&agrave; một v&ugrave;ng chứa lưu trữ c&aacute;c phần tử dưới dạng kh&oacute;a từ điển v&agrave; số lượng của ch&uacute;ng được lưu trữ dưới dạng gi&aacute; trị từ điển.</p>\n<p><strong>V&iacute; dụ</strong></p>\n<pre class=\"language-python\"><code>&gt;&gt;&gt; from collections import Counter\n&gt;&gt;&gt; \n&gt;&gt;&gt; myList = [1,1,2,3,4,5,3,2,3,4,2,1,2,3]\n&gt;&gt;&gt; print Counter(myList)\nCounter({2: 4, 3: 4, 1: 3, 4: 2, 5: 1})\n&gt;&gt;&gt;\n&gt;&gt;&gt; print Counter(myList).items()\n[(1, 3), (2, 4), (3, 4), (4, 2), (5, 1)]\n&gt;&gt;&gt; \n&gt;&gt;&gt; print Counter(myList).keys()\n[1, 2, 3, 4, 5]\n&gt;&gt;&gt; \n&gt;&gt;&gt; print Counter(myList).values()\n[3, 4, 4, 2, 1]</code></pre>\n<p><strong>Nhiệm vụ</strong></p>\n<p><span id=\"MathJax-Element-1-Frame\" class=\"MathJax_SVG\">Raghu l&agrave; một chủ cửa h&agrave;ng gi&agrave;y. Cửa h&agrave;ng của anh ta c&oacute; X đ&ocirc;i gi&agrave;y. Anh ta c&oacute; một danh s&aacute;ch chứa k&iacute;ch thước của từng đ&ocirc;i gi&agrave;y c&oacute; trong cửa h&agrave;ng. C&oacute; N số kh&aacute;ch h&agrave;ng sẵn s&agrave;ng trả $ x_ {i} $ số tiền chỉ khi họ nhận được đ&ocirc;i gi&agrave;y c&oacute; k&iacute;ch cỡ mong muốn. Nhiệm vụ của bạn l&agrave; t&iacute;nh xem Raghu kiếm được bao nhi&ecirc;u tiền.</span></p>\n</div>\n</div>\n</div>\n<div class=\"challenge_input_format\">\n<div class=\"msB challenge_input_format_title\">\n<p><strong>Định dạng đầu v&agrave;o</strong></p>\n</div>\n<div class=\"msB challenge_input_format_body\">\n<div class=\"hackdown-content\">\n<ul>\n<li>D&ograve;ng đầu ti&ecirc;n chứa X, số đ&ocirc;i gi&agrave;y.</li>\n<li>D&ograve;ng thứ hai chứa danh s&aacute;ch được ph&acirc;n t&aacute;ch bằng dấu c&aacute;ch của tất cả c&aacute;c cỡ gi&agrave;y trong cửa h&agrave;ng.</li>\n<li>D&ograve;ng thứ ba chứa N, số lượng kh&aacute;ch h&agrave;ng.</li>\n<li>N d&ograve;ng tiếp theo chứa c&aacute;c gi&aacute; trị được ph&acirc;n t&aacute;ch bằng dấu c&aacute;ch của cỡ gi&agrave;y m&agrave; kh&aacute;ch h&agrave;ng mong muốn v&agrave; $ x_ {i} $ l&agrave; gi&aacute; của đ&ocirc;i gi&agrave;y.</li>\n</ul>\n<p><strong>Điều kiện</strong></p>\n<ul>\n<li><span class=\"MathJax_SVG\">$0 \\le X \\le 10^{3}$</span></li>\n<li><span class=\"MathJax_SVG\">$0 \\le N \\leq 10^{3}$</span></li>\n<li><span class=\"MathJax_SVG\">$20 \\le x_{i} \\le 100$</span></li>\n<li><span class=\"MathJax_SVG\">$2 \\le shoe size \\le 20$</span></li>\n</ul>\n</div>\n</div>\n</div>\n<div class=\"challenge_output_format\">\n<div class=\"msB challenge_output_format_title\">\n<p><strong>Định dạng đầu ra</strong></p>\n</div>\n<div class=\"msB challenge_output_format_body\">\n<div class=\"hackdown-content\">\n<p>In số tiền kiếm được của Raghu.</p>\n</div>\n</div>\n</div>\n<div class=\"challenge_sample_input\">\n<div class=\"msB challenge_sample_input_title\">\n<p><strong>V&iacute; dụ</strong></p>\n<p><strong>Đầu v&agrave;o</strong></p>\n</div>\n<div class=\"msB challenge_sample_input_body\">\n<div class=\"hackdown-content\">\n<pre class=\"language-markup\"><code>10\n2 3 4 5 6 8 7 6 5 18\n6\n6 55\n6 45\n6 55\n4 40\n18 60\n10 50</code></pre>\n</div>\n</div>\n</div>\n<div class=\"challenge_sample_output\">\n<div class=\"msB challenge_sample_output_title\">\n<p><strong>Đầu ra</strong></p>\n</div>\n<div class=\"msB challenge_sample_output_body\">\n<div class=\"hackdown-content\">\n<pre class=\"language-markup\"><code>200</code></pre>\n</div>\n</div>\n</div>\n<div class=\"challenge_explanation\">\n<div class=\"msB challenge_explanation_title\">\n<p><strong>Giải th&iacute;ch</strong></p>\n</div>\n<div class=\"msB challenge_explanation_body\">\n<div class=\"hackdown-content\">\n<ul>\n<li>Kh&aacute;ch h&agrave;ng 1: Đ&atilde; mua gi&agrave;y cỡ 6 với gi&aacute; $55.</li>\n<li>Kh&aacute;ch h&agrave;ng 2: Đ&atilde; mua gi&agrave;y cỡ 6 với gi&aacute; $45.</li>\n<li>Kh&aacute;ch h&agrave;ng 3: Size 6 kh&ocirc;ng c&ograve;n h&agrave;ng n&ecirc;n kh&ocirc;ng mua.</li>\n<li>Kh&aacute;ch h&agrave;ng 4: Đ&atilde; mua gi&agrave;y cỡ 4 với gi&aacute; $40.</li>\n<li>Kh&aacute;ch h&agrave;ng 5: Đ&atilde; mua gi&agrave;y cỡ 18 với gi&aacute; $60.</li>\n<li>Kh&aacute;ch h&agrave;ng 6: Size 10 kh&ocirc;ng c&oacute; sẵn n&ecirc;n kh&ocirc;ng mua.</li>\n<li>Tổng số tiền kiếm được = 55 + 45 + 40 + 60 = 200 đ&ocirc; la</li>\n</ul>\n</div>\n</div>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/2c2886fe-67ad-4e01-9014-8b101e763eda",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "test-cases.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef9657"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 10,
+  "slug": "hangover-hangover-1",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "HANGOVER - Hangover",
+  "content": "<h2 id=\"problem-name\" class=\"text-center\">HANGOVER - Hangover</h2>\n<div class=\"row\">&nbsp;</div>\n<p>&nbsp;</p>\n<div id=\"problem-body\">\n<p>How far can you make a stack of cards overhang a table? If you have one card, you can create a maximum overhang of half a card length. (We're assuming that the cards must be perpendicular to the table.) With two cards you can make the top card overhang the bottom one by half a card length, and the bottom one overhang the table by a third of a card length, for a total maximum overhang of 1/2&nbsp;<tt>+</tt>&nbsp;1/3&nbsp;<tt>=</tt>&nbsp;5/6 card lengths. In general you can make&nbsp;<em>n</em>&nbsp;cards overhang by 1/2&nbsp;<tt>+</tt>&nbsp;1/3&nbsp;<tt>+</tt>&nbsp;1/4&nbsp;<tt>+</tt>&nbsp;...&nbsp;<tt>+</tt>&nbsp;1/(<em>n</em>&nbsp;<tt>+</tt>&nbsp;1) card lengths, where the top card overhangs the second by 1/2, the second overhangs tha third by 1/3, the third overhangs the fourth by 1/4, etc., and the bottom card overhangs the table by 1/(<em>n</em>&nbsp;<tt>+</tt>&nbsp;1). This is illustrated in the figure below.</p>\n<center><img src=\"https://www.spoj.com/content/wanderley:hangover.jpg\" /></center>\n<h3>Input</h3>\n<p>The input consists of one or more test cases, followed by a line containing the number 0.00 that signals the end of the input. Each test case is a single line containing a positive floating-point number&nbsp;<em>c</em>&nbsp;whose value is at least 0.01 and at most 5.20;&nbsp;<em>c</em>&nbsp;will contain exactly three digits.</p>\n<h3>Output</h3>\n<p>For each test case, output the minimum number of cards necessary to achieve an overhang of at least&nbsp;<em>c</em>&nbsp;card lengths. Use the exact output format shown in the examples.</p>\n<pre><strong>Input:</strong>\n1.00\n3.71\n0.04\n5.19\n0.00\n</pre>\n<pre><strong>Output:</strong>\n3 card(s)\n61 card(s)\n1 card(s)\n273 card(s)</pre>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/db39fa17-5abd-4e2b-b0b7-3cd294729a64",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "HANGOVER_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef9658"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 10,
+  "slug": "girlsnbs-girls-and-boys-1",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "GIRLSNBS - Girls and Boys",
+  "content": "<h2 id=\"problem-name\" class=\"text-center\">GIRLSNBS - Girls and Boys</h2>\n<div class=\"row\">\n<div id=\"problem-tags\" class=\"col-lg-12 text-center\"><em>no tags</em>&nbsp;</div>\n</div>\n<p>&nbsp;</p>\n<div id=\"problem-body\">\n<p>There are G girl students and B boy students in a class that is about to graduate. You need to arrange them in a single row for the graduation. To give a better impression of diversity, you want to avoid having too many girls or too many boys seating consecutively. You decided to arrange the students in order to minimize the gender regularity. The gender regularity of an arrangement is the maximum number of students of the same gender (all girls or all boys) that appear consecutively. Given G and B, calculate the minimum gender regularity among all possible arrangements.</p>\n<h3>Input</h3>\n<p>Each test case is described using a single line. The line contains two integers G and B representing the number of girls and boys in the class, respectively (0 &le; G, B &le; 1000). The end of input is indicated with a line containing the number &minus;1 twice.</p>\n<h3>Output</h3>\n<p>For each test case, output a single line with a single integer representing the minimum gender regularity that an arrangement of G girls and B boys can have.</p>\n<h3>Example</h3>\n<pre><strong>Input:</strong> <br />10 10<br />5 1<br />0 1000<br />-1 -1\n<br /><strong>Output:</strong> <br />1<br />3<br />1000</pre>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/d1684f9d-e17d-4aee-902f-6043c7dfcda2",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "GIRLSNBS_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef9659"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 10,
+  "slug": "ggd-mr-toothless-and-his-gcd-operation-1",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "GGD - Mr Toothless and His GCD Operation",
+  "content": "<h2 id=\"problem-name\" class=\"text-center\">GGD - Mr Toothless and His GCD Operation</h2>\n<div class=\"row\">\n<div id=\"problem-tags\" class=\"col-lg-12 text-center\"><em>no tags</em>&nbsp;</div>\n</div>\n<p>&nbsp;</p>\n<div id=\"problem-body\">\n<p>&nbsp;</p>\n<p>You are given&nbsp;<strong>N</strong>. You have to find two numbers&nbsp;<strong>a&nbsp;</strong>and<strong>&nbsp;b</strong>&nbsp;such that&nbsp;<strong>GCD (a, b)&nbsp;</strong>is as maximum as possible where&nbsp;<strong>1&lt;=a&lt;b&lt;=N</strong>.</p>\n<p><strong>Input</strong></p>\n<p>Input starts with an integer&nbsp;<strong>T (&le; 100)</strong>, denoting the number of test cases.</p>\n<p>Each case contains an integer&nbsp;<strong>N (2 &le; N &le; 10<sup>6</sup>)</strong>.</p>\n<p><strong>Output</strong></p>\n<p>For each case, print the case number and then print<strong>&nbsp;a</strong>&nbsp;and&nbsp;<strong>b</strong>. If there exists multiple solutions print the one where&nbsp;<strong>a+b</strong>&nbsp;is maximum.</p>\n<p><strong>Sample Input/Output</strong></p>\n<table border=\"1\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td valign=\"top\" width=\"314\">\n<p align=\"center\"><strong>Sample Input</strong></p>\n</td>\n<td valign=\"top\" width=\"314\">\n<p align=\"center\"><strong>Sample Output</strong></p>\n</td>\n</tr>\n<tr>\n<td valign=\"top\" width=\"314\">\n<p>1</p>\n<p>2</p>\n</td>\n<td valign=\"top\" width=\"314\">\n<p>Case 1: 1 2</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/44426464-2c63-4ee2-ae4a-8c53a98bede9",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "GGD_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef965a"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 10,
+  "slug": "gcpc11j-time-to-live-1",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "GCPC11J - Time to live",
+  "content": "<h2 id=\"problem-name\" class=\"text-center\">GCPC11J - Time to live</h2>\n<div class=\"row\">&nbsp;</div>\n<p>&nbsp;</p>\n<div id=\"problem-body\">\n<p>As you might know, most computer networks are organized in a tree-like fashion, i.e. each computer is reachable by each other computer but only over one, unique path.</p>\n<p>The so-called&nbsp;<em>Time to live</em>&nbsp;(TTL) specifies after how many hops a network packet is dropped if it has not reached its destination yet. The purpose of the TTL is to avoid situations in which a packet circulates through the network caused by errors in the routing tables.</p>\n<p>The placement of a router that connects the network to another network is optimal when the maximal needed TTL for packets that are sent from this router to any other computer within the same network is minimal. Given a network as specified above, you should calculate the maximal needed TTL in this network if you can select the computer that should be used as router.</p>\n<h3>Input</h3>\n<p>The first line of the input consists of the number of test cases&nbsp;<em>c</em>&nbsp;that follow (<em>1 &le; c &le; 100</em>). Each test case starts with a line specifying&nbsp;<em>N</em>, the number of computers in this network (<em>1 &lt; N &le; 10<sup>5</sup></em>). Computers are numbered from&nbsp;<em>0</em>&nbsp;to&nbsp;<em>N-1</em>. Then follow&nbsp;<em>N-1</em>&nbsp;lines, each specifying a network connection by two numbers&nbsp;<em>a</em>&nbsp;and&nbsp;<em>b</em>&nbsp;which means that computer&nbsp;<em>a</em>&nbsp;is connected to computer&nbsp;<em>b</em>&nbsp;and vice versa, of course (<em>0 &le; a,b &lt; N</em>).</p>\n<h3>Output</h3>\n<p>For each test case in the input, print one line containing the optimal TTL as specified above.</p>\n<h3>Example</h3>\n<pre><strong>Input:</strong>\n3\n2\n1 0\n5\n3 2\n2 1\n0 2\n2 4\n9\n3 1\n6 5\n3 4\n0 3\n8 1\n1 7\n1 6\n2 3\n\n<strong>Output:</strong>\n1\n1\n2</pre>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/7ad57e9b-8e9c-44c7-acf2-ca2624fb3f82",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "GCPC11J_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef965b"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 30,
+  "slug": "gcpc11f-diary-1",
+  "tags": [],
+  "level": "INTERMEDIATE",
+  "title": "GCPC11F - Diary",
+  "content": "<h2 id=\"problem-name\" class=\"text-center\">GCPC11F - Diary</h2>\n<div class=\"row\">\n<div id=\"problem-tags\" class=\"col-lg-12 text-center\"><em>no tags</em>&nbsp;</div>\n</div>\n<p>&nbsp;</p>\n<div id=\"problem-body\">\n<p>Nowadays, people who want to communicate in a secure way use asymmetric encryption algorithms such as RSA. However, my older brother uses another, simpler encryption method for his diary entries. He uses a substitution cipher where each letter in the plaintext is substituted by another letter from the alphabet. The distance between the plaintext letter and the encrypted letter is fixed. If we would define this fixed distance&nbsp;<em>d</em>&nbsp;to&nbsp;<em>5</em>, A would be replaced by F, B by G, C by H, ..., Y by D, Z by E.</p>\n<p>With a fixed and known distance&nbsp;<em>d</em>&nbsp;the decryption would be somewhat simple. But my brother uses random distances for each of his diary entries. To decrypt his diary I have to guess the distance&nbsp;<em>d</em>&nbsp;for each entry. Thus, I use the well known phenomenon that the letter E is used more often in English words than other letters. Can you write a program for me that calculates the distance&nbsp;<em>d</em>&nbsp;based on the fact that the most used letter in the encrypted text corresponds to the letter E in plaintext? Of course, I am interested in the decrypted text, too.</p>\n<h3>Input</h3>\n<p>The input consists of several test cases&nbsp;<em>c</em>&nbsp;that follow (<em>1 &le; c &le; 100</em>). Each test case is given in exactly one line containing one diary entry. Diary entries only use upper case letters (A-Z) and spaces. Each diary entry consists of at most&nbsp;<em>1000</em>&nbsp;encrypted letters (including spaces).</p>\n<h3>Output</h3>\n<p>For each test case, print one line containing the smallest possible distance&nbsp;<em>d</em>&nbsp;(<em>0 &le; d &le; 25</em>) and the decrypted text. If the decryption is not possible because there are multiple distances conforming to the rules above, print&nbsp;<strong>NOT POSSIBLE</strong>&nbsp;instead. Spaces are not encrypted.</p>\n<h3>Example</h3>\n<pre><strong>Input:</strong>\n4\nRD TQIJW GWTYMJWX INFWD JSYWNJX ZXJ F XNRUQJ JSHWDUYNTS YJHMSNVZJ\nTHE QUICK BROWN FOX JUMPS OVER THE LAZY DOG\nXVIDRE TFCCVXZRKV GIFXIRDDZEX TFEKVJK UVTIPGKZFE\nXVIDRE TFCCVXZRKV GIFXIRDDZEX TFEKVJK\n\n<strong>Output:</strong>\n5 MY OLDER BROTHERS DIARY ENTRIES USE A SIMPLE ENCRYPTION TECHNIQUE\n10 JXU GKYSA RHEMD VEN ZKCFI ELUH JXU BQPO TEW\n17 GERMAN COLLEGIATE PROGRAMMING CONTEST DECRYPTION\nNOT POSSIBLE</pre>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/7affb264-b88f-47de-9d74-48fabe839dcb",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "GCPC11F_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef965c"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 10,
+  "slug": "findsr-find-string-roots",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "FINDSR - Find String Roots",
+  "content": "<h2 id=\"problem-name\" class=\"text-center\">FINDSR - Find String Roots</h2>\n<div class=\"row\">\n<div id=\"problem-tags\" class=\"col-lg-12 text-center\"><em>no tags</em>&nbsp;</div>\n</div>\n<p>&nbsp;</p>\n<div id=\"problem-body\">\n<p>In mathematics, the N-th root of a number M, is a number K such that K<sup>N</sup>&nbsp;= M , i.e. KKK . . . K = M where K is multiplied N times.<br />We can translate this into strings. In string notation, the yuxtaposition is concatenation instead of multiplication. So, the N-th root of a string S is another string T such that T<sup>N</sup>&nbsp;= S, where T N = T T T . . . T is the string T concatenated N times. For instance, if S = &ldquo;abcabcabcabc&rdquo;, for N = 2 the string T = &ldquo;abcabc&rdquo; is the N-th root of S, while for N = 4 its N-th root is T = &ldquo;abc&rdquo;. Note that for N = 1 any string S is the N-th root<br />of S itself.<br />Given a string S you have to find the maximum N such that the N-th root of S exists. In the above example the answer would be 4, because there is no N-th root of S = &ldquo;abcabcabcabc&rdquo; for N &gt; 4.</p>\n<h3>Input</h3>\n<p>The input contains several test cases, each one described in a single line. The line contains<br />a non-empty string S of at most 10<sup>5</sup>&nbsp;characters, entirely formed of digits and lowercase<br />letters. The last line of the input contains a single asterisk (&ldquo;*&rdquo;) and should not be<br />processed as a test case.</p>\n<h3>Output</h3>\n<p>For each test case output a single line with the greatest integer N such that there exists<br />a string T that concatenated N times is equal to S.</p>\n<h3>Example</h3>\n<pre><strong>Input:</strong><br />abcabcabcabc<br />abcdefgh012<br />aaaaaaaaaa<br />*<br /><br /><strong>Output:</strong>\n4<br />1<br />10</pre>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/c169bd47-ddfd-4352-8fa5-274358eb2958",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "FINDSR_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef965d"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 10,
+  "slug": "fctrl2-small-factorials-1",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "FCTRL2 - Small factorials",
+  "content": "<h2 id=\"problem-name\" class=\"text-center\">FCTRL2 - Small factorials</h2>\n<div class=\"row\">&nbsp;</div>\n<p>&nbsp;</p>\n<div id=\"problem-body\">\n<p align=\"justify\">You are asked to calculate factorials of some small positive integers.</p>\n<h3>Input</h3>\n<p align=\"justify\">An integer t, 1&lt;=t&lt;=100, denoting the number of testcases, followed by t lines, each containing a single integer n, 1&lt;=n&lt;=100.</p>\n<h3>Output</h3>\n<p align=\"justify\">For each integer n given at input, display a line with the value of n!</p>\n<h3>Example</h3>\n<div align=\"left\">Sample input:\n<pre>4\n1\n2\n5\n3\n</pre>\n<p>Sample output:</p>\n<pre>1\n2\n120\n6</pre>\n</div>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/db540425-842b-4f3b-bb18-8d07cf1724e5",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "FCTRL2_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef965e"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 10,
+  "slug": "fctrl-factorial-1",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "FCTRL - Factorial",
+  "content": "<h2 id=\"problem-name\" class=\"text-center\">FCTRL - Factorial</h2>\n<div class=\"row\">&nbsp;</div>\n<p>&nbsp;</p>\n<div id=\"problem-body\">\n<p>The most important part of a&nbsp;GSM network is so called&nbsp;<em>Base Transceiver Station</em>&nbsp;(<em>BTS</em>). These transceivers form the areas called&nbsp;<em>cells</em>&nbsp;(this term gave the name to the cellular phone) and every phone connects to the BTS with the strongest signal (in a&nbsp;little simplified view). Of course, BTSes need some attention and technicians need to check their function periodically.</p>\n<p>ACM technicians faced a&nbsp;very interesting problem recently. Given a&nbsp;set of BTSes to visit, they needed to find the shortest path to visit all of the given points and return back to the central company building. Programmers have spent several months studying this problem but with no results. They were unable to find the solution fast enough. After a&nbsp;long time, one of the programmers found this problem in a&nbsp;conference article. Unfortunately, he found that the problem is so called \"Travelling Salesman Problem\" and it is very hard to solve. If we have&nbsp;<var>N</var>&nbsp;BTSes to be visited, we can visit them in any order, giving us&nbsp;<var>N</var>! possibilities to examine. The function expressing that number is called factorial and can be computed as a&nbsp;product 1.2.3.4....<var>N</var>. The number is very high even for a&nbsp;relatively small&nbsp;<var>N</var>.</p>\n<p>The programmers understood they had no chance to solve the problem. But because they have already received the research grant from the government, they needed to continue with their studies and produce at least&nbsp;<em>some</em>&nbsp;results. So they started to study behaviour of the factorial function.</p>\n<p>For example, they defined the function&nbsp;<var>Z</var>. For any positive integer&nbsp;<var>N</var>,&nbsp;<var>Z</var>(<var>N</var>) is the number of zeros at the end of the decimal form of number&nbsp;<var>N</var>!. They noticed that this function never decreases. If we have two numbers&nbsp;<var>N</var><sub>1</sub>&lt;<var>N</var><sub>2</sub>, then&nbsp;<var>Z</var>(<var>N</var><sub>1</sub>) &lt;=&nbsp;<var>Z</var>(<var>N</var><sub>2</sub>). It is because we can never \"lose\" any trailing zero by multiplying by any positive number. We can only get new and new zeros. The function&nbsp;<var>Z</var>&nbsp;is very interesting, so we need a&nbsp;computer program that can determine its value efficiently.</p>\n<p>&nbsp;</p>\n<h3>Input</h3>\n<p>There is a&nbsp;single positive integer&nbsp;<var>T</var>&nbsp;on the first line of input (equal to about 100000). It stands for the number of numbers to follow. Then there are&nbsp;<var>T</var>&nbsp;lines, each containing exactly one positive integer number&nbsp;<var>N</var>, 1 &lt;=&nbsp;<var>N</var>&nbsp;&lt;= 1000000000.</p>\n<p>&nbsp;</p>\n<h3>Output</h3>\n<p>For every number&nbsp;<var>N</var>, output a&nbsp;single line containing the single non-negative integer&nbsp;<var>Z</var>(<var>N</var>).</p>\n<h3>Example</h3>\n<p>Sample Input:</p>\n<pre><tt>6\n3\n60\n100\n1024\n23456\n8735373\n</tt></pre>\n<p>Sample Output:</p>\n<pre><tt>0\n14\n24\n253\n5861\n2183837</tt></pre>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/56c5c9ed-3eb9-4989-b1b2-8e60b33eb68a",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "FCTRL_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef965f"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 10,
+  "slug": "fashion-fashion-shows-1",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "FASHION - Fashion Shows",
+  "content": "<h2 id=\"problem-name\" class=\"text-center\">FASHION - Fashion Shows</h2>\n<div class=\"row\">&nbsp;</div>\n<p>&nbsp;</p>\n<div id=\"problem-body\">\n<p>A fashion show rates participants according to their level of hotness. Two different fashion shows were organized, one for men and the other for women. A date for the third is yet to be decided ;) .</p>\n<p>Now the results of both fashion shows are out. The participants of both the fashion shows have decided to date each other, but as usual they have difficuly in choosing their partners. The Maximum Match dating serive (MMDS) comes to their rescue and matches them in such a way that that maximizes the hotness bonds for all couples.</p>\n<p>If a man has been rated at hotness level&nbsp;<tt>x</tt>&nbsp;and a women at hotness level&nbsp;<tt>y</tt>, the value of their hotness bond is&nbsp;<tt>x*y</tt>.</p>\n<p>Both fashion shows contain&nbsp;<strong>N</strong>&nbsp;participants each. MMDS has done its job and your job is to find the sum of hotness bonds for all the couples that MMDS has proposed.</p>\n<h3>Input</h3>\n<p>The first line of the input contains an integer&nbsp;<strong>t</strong>, the number of test cases.&nbsp;<strong>t</strong>&nbsp;test cases follow.</p>\n<p>Each test case consists of 3 lines:</p>\n<ul>\n<li>The first line contains a single integer&nbsp;<strong>N</strong>&nbsp;(1 &lt;=&nbsp;<strong>N</strong>&nbsp;&lt;= 1000).</li>\n<li>The second line contains&nbsp;<strong>N</strong>&nbsp;integers separated by single spaces denoting the hotness levels of the men.</li>\n<li>The third line contains&nbsp;<strong>N</strong>&nbsp;integers separated by single spaces denoting the hotness levels of the women.</li>\n</ul>\n<p>All hotness ratings are on a scale of 0 to 10.</p>\n<h3>Output</h3>\n<p>For each test case output a single line containing a single integer denoting the sum of the hotness bonds for all pairs that MMDS has proposed.</p>\n<h3>Example</h3>\n<pre><strong>Input:</strong>\n2\n2\n1 1\n3 2\n3\n2 3 2\n1 3 2\n\n<strong>Output:</strong>\n5\n15</pre>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/602d4856-51d9-4210-8e7c-4a0b8bf834e5",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "FASHION_input.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc79e9b9821851ef9660"
+  },
+  "memoryLimit": 1,
+  "source": 1,
+  "timeLimit": 1,
+  "scores": 10,
+  "slug": "facefrnd-friends-of-friends-1",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "FACEFRND - Friends of Friends",
+  "content": "<h2 id=\"problem-name\" class=\"text-center\">FACEFRND - Friends of Friends</h2>\n<div class=\"row\">&nbsp;</div>\n<p>&nbsp;</p>\n<div id=\"problem-body\">\n<p>Bob uses a social networking site almost all the time. He was wondering what are Friends of Friends in that social networking site? If &ldquo;X&rdquo; is his friend, and &ldquo;Y&rdquo; is X&rsquo;s friend but &ldquo;Y&rdquo; is not his friend, then &ldquo;Y&rdquo; is called his friend of friend. You have to find how many friends of friends Bob has. (Each user in that social networking site has a unique 4-digit ID number)</p>\n<h3>Input</h3>\n<p>First line contains a integer &ldquo;N&rdquo; (1 &lt;= N &lt;= 100) the number of friends in Bob's Profile. Then follow N lines.</p>\n<p>First Integer in each line is the ID number of Bob's friend, then an integer &ldquo;M&rdquo; (1 &lt;= M &lt;= 100) is the number of people in his friend list. Then follow M integers in that line, denoting the ID number of friends in his friend list (excluding Bob).&nbsp;</p>\n<h3>Output</h3>\n<p>Output a single integer denoting Bob's number of friends of friends.</p>\n<p><strong>Example</strong></p>\n<pre><strong>Input:</strong>\n3\n2334 5 1256 4323 7687 3244 5678\n1256 2 2334 7687\n4323 5 2334 5678 6547 9766 9543\n\n<strong>Output:</strong>\n6</pre>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/897a4ede-b591-4969-8798-be866c71820e",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "FACEFRND_input.zip"
+    }
+  ]
+}]

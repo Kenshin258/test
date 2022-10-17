@@ -1,0 +1,1009 @@
+[{
+  "_id": {
+    "$oid": "634dbc6ce9b9821851ef95e8"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "matching-specific-string",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "Khớp với một chuỗi cụ thể (Matching Specific String)",
+  "content": "<p><a href=\"https://en.wikipedia.org/wiki/Regular_expression\"><strong>Regular expression</strong></a> (Biểu thức ch&iacute;nh quy-Regex)</p>\n<p id=\"tw-target-text\" class=\"tw-data-text tw-text-large XcVN5d tw-ta\" dir=\"ltr\" data-placeholder=\"Bản dịch\"><span class=\"Y2IQFc\" lang=\"vi\">Biểu thức ch&iacute;nh quy l&agrave; một chuỗi c&aacute;c k&yacute; tự x&aacute;c định một mẫu t&igrave;m kiếm. N&oacute; chủ yếu được sử dụng để so s&aacute;nh với 1 chuỗi k&yacute; tự v&agrave; t&igrave;m kiếm c&aacute;c k&yacute; tự tr&ugrave;ng khớp với mẫu đ&atilde; cho.&nbsp;</span></p>\n<p><img style=\"width: 434px;\" src=\"../../public_files/45cc52c1-ace1-42c8-995c-4b09fc04755d\" alt=\"1449634776-aeeb4b9294-ach01_\" height=\"380\" /></p>\n<p id=\"tw-target-text\" class=\"tw-data-text tw-text-large XcVN5d tw-ta\" dir=\"ltr\" data-placeholder=\"Bản dịch\"><em><strong><span class=\"Y2IQFc\" lang=\"vi\">Trong h&igrave;nh tr&ecirc;n, một mẫu Regex được khớp với chuỗi kiểm tra.</span></strong></em></p>\n<p id=\"tw-target-text\" class=\"tw-data-text tw-text-large XcVN5d tw-ta\" dir=\"ltr\" data-placeholder=\"Bản dịch\"><span class=\"Y2IQFc\" lang=\"vi\">Biểu thức ch&iacute;nh quy cực kỳ hữu &iacute;ch trong việc tr&iacute;ch xuất th&ocirc;ng tin từ văn bản như: m&atilde;, tệp nhật k&yacute;, bảng t&iacute;nh, t&agrave;i liệu, v.v.</span></p>\n<p class=\"tw-data-text tw-text-large XcVN5d tw-ta\" dir=\"ltr\" data-placeholder=\"Bản dịch\"><span class=\"Y2IQFc\" lang=\"vi\">Ch&uacute;ng ta c&oacute; thể so khớp một chuỗi cụ thể X trong chuỗi kiểm tra $S$ bằng c&aacute;ch tạo mẫu regex $X$. Đ&acirc;y l&agrave; một trong những mẫu đơn giản nhất.&nbsp;</span><span class=\"Y2IQFc\" lang=\"vi\">Tuy nhi&ecirc;n, ch&uacute;ng ta sẽ xem ch&uacute;ng ta c&oacute; thể khớp c&aacute;c mẫu phức tạp hơn tốt như thế n&agrave;o v&agrave; t&igrave;m hiểu về c&uacute; ph&aacute;p của ch&uacute;ng.</span></p>\n<p><strong>Đề b&agrave;i</strong></p>\n<p id=\"tw-target-text\" class=\"tw-data-text tw-text-large XcVN5d tw-ta\" dir=\"ltr\" data-placeholder=\"Bản dịch\"><span class=\"Y2IQFc\" lang=\"vi\">Bạn c&oacute; một chuỗi kiểm tra $S$. Nhiệm vụ của bạn l&agrave; khớp với chuỗi </span>&nbsp;<code>hackerrank</code></p>\n<p><strong>Ch&uacute; &yacute;</strong></p>\n<p>Bạn chỉ cần viết mỗi mẫu RegEx v&agrave;o chỗ trống (<code>_________</code>). Kh&ocirc;ng cần phải viết th&ecirc;m đoạn code n&agrave;o.</p>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/151c1a8e-2871-40e4-ad0a-0b42d5139e64",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "Matching Specific String.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc6ce9b9821851ef95e9"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "matching-anything-but-a-newline",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "Khớp với bất kỳ ký tự nào trừ dòng mới (Matching Anything But a Newline)",
+  "content": "<p><a href=\"http://www.regular-expressions.info/dot.html\"><strong>dot&nbsp;</strong></a></p>\n<p>Dấu chấm (<code>.</code>) ph&ugrave; hợp với một thứ bất kỳ (Ngoại trừ một d&ograve;ng mới).</p>\n<p><img style=\"width: 476px;\" src=\"../../public_files/88b23d2c-fd29-4bf4-8f3e-4efe699d3317\" alt=\"1449635015-863dfc293f-ach02\" height=\"417\" /></p>\n<p id=\"tw-target-text\" class=\"tw-data-text tw-text-large XcVN5d tw-ta\" dir=\"ltr\" data-placeholder=\"Bản dịch\"><em><strong><span class=\"Y2IQFc\" lang=\"vi\">Trong h&igrave;nh tr&ecirc;n, một mẫu Regex được khớp với chuỗi kiểm tra.</span></strong></em></p>\n<div class=\"MathJax_SVG_Display\"><span id=\"MathJax-Element-1-Frame\" class=\"MathJax_SVG\"></span></div>\n<p><sub><strong>Ch&uacute; &yacute;</strong>: Nếu bạn muốn khớp (<code>.</code>) trong chuỗi thử nghiệm, bạn cần tr&aacute;nh dấu chấm bằng c&aacute;ch sử dụng dấu gạch ch&eacute;o <code>\\.</code>.<br />Trong ng&ocirc;n ngữ Java, sử dụng <code>\\\\.</code> thay v&igrave; <code>\\.</code>.</sub></p>\n<p><strong>Nhiệm vụ</strong></p>\n<p>Bạn c&oacute; một chuỗi thử nghiệm $S$<span id=\"MathJax-Element-2-Frame\" class=\"MathJax_SVG\"></span>.<br />Nhiệm vụ của bạn l&agrave; viết một biểu thức ch&iacute;nh quy chỉ khớp v&agrave; ch&iacute;nh x&aacute;c với chuỗi c&oacute; dạng: $a b c. d e f. g h i. j k x$, trong đ&oacute; mỗi biến $a, b, c, d, e, f, g, h, i, j, k, x$ c&oacute; thể l&agrave; bất kỳ k&yacute; tự đơn n&agrave;o ngoại trừ l&agrave; d&ograve;ng mới.</p>\n<p><strong>Ch&uacute; &yacute;</strong></p>\n<p>Đ&acirc;y l&agrave; nhiệm vụ duy nhất. Bạn kh&ocirc;ng cần viết bất kỳ m&atilde; n&agrave;o.&nbsp;<br />Bạn chỉ phải điền mẫu regex v&agrave;o chỗ trống(<code>_________</code>).</p>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/9aef10a3-d9e7-4085-aada-154b8525baec",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "Matching Anything But a Newline.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc6ce9b9821851ef95ea"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "matching-digits-non-digit-characters",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "Khớp với ký tự chữ số & ký tự không phải chữ số (Matching Digits & Non-Digit Characters)",
+  "content": "<section class=\"problem-statement split\">\n<div class=\"ui-tabs-wrap\">\n<div id=\"tab-12-content-undefined\" class=\"tab-list-content\" tabindex=\"0\" role=\"tabpanel\" aria-labelledby=\"tab-12-item-undefined\">\n<div class=\"theme-m hr_tour-problem-statement problem-statement have-external-links\">\n<div class=\"content-text challenge-text mlB hackdown-container theme-m\">\n<div class=\"challenge-body-html\">\n<div class=\"challenge_problem_statement\">\n<div class=\"msB challenge_problem_statement_body\">\n<div class=\"hackdown-content\">\n<p>$\\d$</p>\n<p>Biểu thức <strong>\\d</strong> ph&ugrave; hợp với bất kỳ chữ số n&agrave;o trong [ $0$<span id=\"MathJax-Element-2-Frame\" class=\"MathJax_SVG\"></span> - $9$ <span id=\"MathJax-Element-3-Frame\" class=\"MathJax_SVG\"></span>].</p>\n<p><img style=\"width: 414px;\" src=\"../../public_files/09e09d89-0706-4573-a78d-d6abaa7c5bf8\" alt=\"1449635619-8bc48f3565-ach04_01\" height=\"363\" /></p>\n<div class=\"MathJax_SVG_Display\"><span id=\"MathJax-Element-4-Frame\" class=\"MathJax_SVG\"></span></div>\n<p><em><strong>Trong h&igrave;nh tr&ecirc;n, một mẫu Regex được khớp với chuỗi thử nghiệm</strong></em></p>\n<hr />\n<p><strong><span id=\"MathJax-Element-5-Frame\" class=\"MathJax_SVG\"></span></strong></p>\n<p>$\\D$</p>\n<p>Biểu thức <strong>\\D</strong> khớp với bất kỳ k&yacute; tự kh&ocirc;ng phải chữ số</p>\n<p><img style=\"width: 421px;\" src=\"../../public_files/cfe1bf9b-3f89-4245-9c68-1de78405ca62\" alt=\"1449635682-e5874a62f7-ach04_02\" height=\"369\" /></p>\n<p><em><strong>Trong h&igrave;nh tr&ecirc;n, một mẫu Regex được khớp với chuỗi thử nghiệm</strong></em></p>\n<div class=\"MathJax_SVG_Display\"><span id=\"MathJax-Element-6-Frame\" class=\"MathJax_SVG\"></span></div>\n<p><strong>Nhiệm vụ</strong></p>\n<p>Bạn c&oacute; một chuỗi thử nghiệm $S$<span id=\"MathJax-Element-7-Frame\" class=\"MathJax_SVG\"></span>. Nhiệm vụ vủa bạn l&agrave; khớp với mẫu $xxXxxXxxxx$<br />Ở đ&acirc;y $x$<span id=\"MathJax-Element-9-Frame\" class=\"MathJax_SVG\"></span> biểu thị một k&yacute; tự số, v&agrave; $X$<span id=\"MathJax-Element-10-Frame\" class=\"MathJax_SVG\"></span> biểu thị một k&yacute; tự kh&ocirc;ng phải l&agrave; chữ số.</p>\n<p><strong>Ch&uacute; &yacute;</strong></p>\n<p>Đ&acirc;y l&agrave; nhiệm vụ duy nhất. Bạn kh&ocirc;ng cần viết bất kỳ m&atilde; n&agrave;o.<br />Bạn chỉ phải điền mẫu regex v&agrave;o chỗ trống(<code>_________</code>).</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/73362ae1-ee37-4e9a-9e34-a3b3f222140a",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "Matching Digits & Non-Digit Characters.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc6ce9b9821851ef95eb"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "matching-whitespace-non-whitespace-character",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "Matching Whitespace & Non-Whitespace Character",
+  "content": "<p>$\\s$</p>\n<p><strong>\\s</strong> khớp với bất kỳ k&yacute; tự khoảng trắng n&agrave;o <strong><code>[ \\r\\n\\t\\f ]</code></strong>.</p>\n<p><img style=\"width: 450px;\" src=\"../../public_files/cf6227d3-6bc3-41f5-ba4f-e4b34bfa1a14\" alt=\"1449636160-8b65ab3bd0-ach05_01\" height=\"394\" /></p>\n<div class=\"MathJax_SVG_Display\"><span id=\"MathJax-Element-2-Frame\" class=\"MathJax_SVG\"></span></div>\n<p><em><strong>Trong h&igrave;nh tr&ecirc;n, một mẫu regex được khớp với chuỗi thử nghiệm</strong></em></p>\n<hr />\n<p><strong><span id=\"MathJax-Element-3-Frame\" class=\"MathJax_SVG\"></span></strong></p>\n<p>$\\S$</p>\n<p><strong>\\S</strong> khớp với bất kỳ k&yacute; tự n&agrave;o kh&ocirc;ng phải khoảng trắng</p>\n<p><img style=\"width: 465px;\" src=\"../../public_files/48163e44-2325-49af-9840-fe3023522839\" alt=\"1449636254-93a53af3f6-ach05_02\" height=\"407\" /></p>\n<div class=\"MathJax_SVG_Display\"><span id=\"MathJax-Element-4-Frame\" class=\"MathJax_SVG\"></span></div>\n<p><em><strong>Trong h&igrave;nh tr&ecirc;n, một mẫu regex được khớp với chuỗi thử nghiệm</strong></em></p>\n<p><strong>Nhiệm vụ đặt ra</strong></p>\n<p>Bạn c&oacute; một chuỗi thử nghiệm $S$<span id=\"MathJax-Element-5-Frame\" class=\"MathJax_SVG\"></span>. Nhiệm vụ của bạn l&agrave; khớp với mẫu $XXxXXxXX$<span id=\"MathJax-Element-6-Frame\" class=\"MathJax_SVG\"></span><br />Ở đ&acirc;y, $x$<span id=\"MathJax-Element-7-Frame\" class=\"MathJax_SVG\"></span> biểu thị c&aacute;c k&yacute; tự l&agrave; khoảng trắng, v&agrave; $X$<span id=\"MathJax-Element-8-Frame\" class=\"MathJax_SVG\"></span> biểu thị c&aacute;c k&yacute; tự kh&ocirc;ng phải khoảng trắng.</p>\n<p><strong>Ch&uacute; &yacute;</strong></p>\n<p>Đ&acirc;y l&agrave; nhiệm vụ duy nhất. Bạn kh&ocirc;ng cần phải viết bất kỳ m&atilde; n&agrave;o.<br />Bạn chỉ phải điền mẫu regex v&agrave;o chỗ trống (<code>_________</code>).</p>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/1332a6e6-95aa-42b2-9337-750ef1be12f8",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "Matching Whitespace & Non-Whitespace Character.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc6ce9b9821851ef95ec"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "matching-word-non-word-character",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "Matching Word & Non-Word Character",
+  "content": "<p>$\\w$</p>\n<p>Biểu thức <strong>\\w</strong> sẽ khớp với bất kỳ k&yacute; tự từ n&agrave;o</p>\n<p id=\"tw-target-text\" class=\"tw-data-text tw-text-large XcVN5d tw-ta\" dir=\"ltr\" data-placeholder=\"Bản dịch\"><span class=\"Y2IQFc\" lang=\"vi\">C&aacute;c k&yacute; tự l&agrave; từ bao gồm c&aacute;c k&yacute; tự chữ v&agrave; số ($ a $ - $ z $, $ A $ - $ Z $ v&agrave; $ 0 $ - $ 9 $) v&agrave; dấu gạch dưới (_).</span></p>\n<p><img style=\"width: 397px;\" src=\"../../public_files/c751d8c9-0006-4fa5-bd70-82fef3bb7f83\" alt=\"1449635286-cce6ae164d-ach03_01\" height=\"348\" /></p>\n<div class=\"MathJax_SVG_Display\"><span id=\"MathJax-Element-8-Frame\" class=\"MathJax_SVG\"></span></div>\n<p><em><strong>Trong h&igrave;nh tr&ecirc;n, một mẫu Regex được khớp với chuỗi thử nghiệm</strong></em></p>\n<hr />\n<p><strong><span id=\"MathJax-Element-9-Frame\" class=\"MathJax_SVG\"></span></strong></p>\n<p>$\\W$</p>\n<p><strong>\\W</strong> khớp với k&yacute; tự kh&ocirc;ng phải l&agrave; từ.&nbsp;</p>\n<p id=\"tw-target-text\" class=\"tw-data-text tw-text-large XcVN5d tw-ta\" dir=\"ltr\" data-placeholder=\"Bản dịch\"><span class=\"Y2IQFc\" lang=\"vi\">C&aacute;c k&yacute; tự kh&ocirc;ng phải từ bao gồm c&aacute;c k&yacute; tự kh&ocirc;ng phải l&agrave; k&yacute; tự chữ v&agrave; số ($ a $ - $ z $, $ A $ - $ Z $ v&agrave; $ 0 $ - $ 9 $) v&agrave; dấu gạch dưới (_).</span></p>\n<p><img style=\"width: 401px;\" src=\"../../public_files/3618f239-97db-42f8-ad88-b3c047ed7366\" alt=\"1449635294-194aef2d68-ach03_02\" height=\"351\" /></p>\n<div class=\"MathJax_SVG_Display\"><span id=\"MathJax-Element-16-Frame\" class=\"MathJax_SVG\"></span></div>\n<p><em><strong>Trong h&igrave;nh tr&ecirc;n, một mẫu Regex được khớp với chuỗi thử nghiệm</strong></em></p>\n<p><strong>Nhiệm vụ đặt ra</strong></p>\n<p>Bạn c&oacute; một chuỗi thử nghiệm $S$<span id=\"MathJax-Element-17-Frame\" class=\"MathJax_SVG\"></span>. Nhiệm vụ của bạn l&agrave; khớp với mẫu $xxxXxxxxxxxxxxXxxx$<span id=\"MathJax-Element-18-Frame\" class=\"MathJax_SVG\"></span><br />Ở đ&acirc;y $x$<span id=\"MathJax-Element-19-Frame\" class=\"MathJax_SVG\"></span> biểu thị bất kỳ k&yacute; tự n&agrave;o l&agrave; từ v&agrave; $X$<span id=\"MathJax-Element-20-Frame\" class=\"MathJax_SVG\"></span> biểu thị bất kỳ k&yacute; tự n&agrave;o kh&ocirc;ng phải l&agrave; từ.</p>\n<p><strong>Ch&uacute; &yacute;</strong></p>\n<p>Đ&acirc;y l&agrave; nhiệm vụ duy nhất.Bạn kh&ocirc;ng cần viết bất kỳ m&atilde; n&agrave;o..<br />Bạn chỉ phải điền mẫu regex v&agrave;o chỗ trống(<code>_________</code>).</p>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/9e7d04bb-4a65-4c5b-961d-4dc0639b9613",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "Matching Word & Non-Word Character.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc6ce9b9821851ef95ed"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "matching-start-end",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "Matching Start & End",
+  "content": "<p>$^$</p>\n<p>K&yacute; hiệu <strong>^ </strong>khớp với vị tr&iacute; ở đầu chuỗi.</p>\n<p><img style=\"width: 546px;\" src=\"../../public_files/95dba0a1-7e95-44b2-bdaa-94be8445b3e1\" alt=\"1449636465-a798977ee7-ach06_01\" height=\"478\" /></p>\n<div class=\"MathJax_SVG_Display\"><span id=\"MathJax-Element-2-Frame\" class=\"MathJax_SVG\"></span></div>\n<p><em><strong>Trong h&igrave;nh tr&ecirc;n, một mẫu Regex được khớp với chuỗi thử nghiệm</strong></em></p>\n<hr />\n<p><strong><span id=\"MathJax-Element-3-Frame\" class=\"MathJax_SVG\"></span></strong></p>\n<p>$\\$$</p>\n<p>K&yacute; hiệu <strong>$</strong> khớp với vị tr&iacute; ở cuối một chuỗi.</p>\n<p><img style=\"width: 546px;\" src=\"../../public_files/b4f3a911-a440-452d-bf67-f6cb62aa11f4\" alt=\"1449636481-337d3f6995-ach06_02\" height=\"479\" /></p>\n<div class=\"MathJax_SVG_Display\"><span id=\"MathJax-Element-4-Frame\" class=\"MathJax_SVG\"></span></div>\n<p><em><strong>Trong h&igrave;nh tr&ecirc;n, một mẫu Regex được khớp với chuỗi thử nghiệm</strong></em></p>\n<p><strong>Nhiệm vụ</strong></p>\n<p>Bạn c&oacute; một chuỗi thử nghiệm $S$<span id=\"MathJax-Element-5-Frame\" class=\"MathJax_SVG\"></span>. Nhiệm vụ của bạn l&agrave; khớp với mẫu $Xxxxx$<span id=\"MathJax-Element-6-Frame\" class=\"MathJax_SVG\"></span><br />Ở đ&acirc;y, $x$<span id=\"MathJax-Element-7-Frame\" class=\"MathJax_SVG\"></span> Biểu thị một từ v&agrave; $X$<span id=\"MathJax-Element-8-Frame\" class=\"MathJax_SVG\"></span> biểu thị một chữ số.<br /><span id=\"MathJax-Element-9-Frame\" class=\"MathJax_SVG\"></span>$S$ phải bắt đầu bằng một chữ số $X$ v&agrave; kết th&uacute;c bằng k&yacute; tự <code>.</code>.</p>\n<p id=\"tw-target-text\" class=\"tw-data-text tw-text-large XcVN5d tw-ta\" dir=\"ltr\" data-placeholder=\"Bản dịch\"><span class=\"Y2IQFc\" lang=\"vi\">$ S $ chỉ n&ecirc;n d&agrave;i $ 6 $ k&yacute; tự.</span></p>\n<p><strong>Ch&uacute; &yacute;</strong></p>\n<p>Đ&acirc;y l&agrave; nhiệm vụ duy nhất. Bạn kh&ocirc;ng cần viết bất kỳ m&atilde; n&agrave;o.<br />Bạn chỉ phải điền mẫu regex v&agrave;o chỗ trống(<code>_________</code>).</p>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/7a77c925-0995-4ffa-8222-9f284ec87c28",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "Matching Start & End.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc6ce9b9821851ef95ee"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "matching-specific-characters",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "Matching Specific Characters",
+  "content": "<p><span style=\"font-size: 18px;\"><strong>[&nbsp; ]</strong></span></p>\n<p>Lớp k&yacute; tự <strong><code>[ ]</code></strong> chỉ khớp với một trong số một số k&yacute; tự được đặt trong dấu ngoặc vu&ocirc;ng.</p>\n<p><img style=\"width: 587px;\" src=\"../../public_files/c7a2c587-49b4-4658-bbea-59cf2fc5c3d3\" alt=\"1449642685-b62f9f5db1-ach07\" height=\"519\" /></p>\n<div class=\"MathJax_SVG_Display\"><span id=\"MathJax-Element-2-Frame\" class=\"MathJax_SVG\"></span></div>\n<p><em><strong>Trong h&igrave;nh tr&ecirc;n, một mẫu Regex được khớp với chuỗi thử nghiệm</strong></em></p>\n<p><strong>Nhiệm vụ đặt ra</strong></p>\n<p>Bạn c&oacute; một chuỗi thử nghiệm $S$<span id=\"MathJax-Element-3-Frame\" class=\"MathJax_SVG\"></span>.<br />Nhiệm vụ của bạn l&agrave; viết một mẫu regex $S$<span id=\"MathJax-Element-4-Frame\" class=\"MathJax_SVG\"></span> khớp với c&aacute;c điều kiện sau:</p>\n<ul>\n<li><span id=\"MathJax-Element-5-Frame\" class=\"MathJax_SVG\"></span>$S$ cần phải d&agrave;i: <strong><code>6</code></strong></li>\n<li>K&yacute; tự đầu ti&ecirc;n: <strong><code>1</code></strong>,&nbsp;<strong><code>2</code></strong> hoặc <strong><code>3</code></strong></li>\n<li>K&yacute; tự thứ 2: <strong><code>1</code></strong>,&nbsp;<strong><code>2</code></strong> hoặc <strong><code>0</code></strong></li>\n<li>K&yacute; tự thứ 3: <strong><code>x</code></strong>,&nbsp;<strong><code>s</code></strong> hoặc <strong><code>0</code></strong></li>\n<li>K&yacute; tự thứ 4: <strong><code>3</code></strong>,&nbsp;<strong><code>0</code></strong>&nbsp;,&nbsp;<strong><code>A</code></strong> hoặc <strong><code>a</code></strong></li>\n<li>K&yacute; tự thứ 5: <strong><code>x</code></strong>,&nbsp;<strong><code>s</code></strong> hoặc <strong><code>u</code></strong></li>\n<li>K&yacute; tự thứ 6: <strong><code>.</code></strong> hoặc <strong><code>,</code></strong></li>\n</ul>\n<p><strong>Ch&uacute; &yacute;</strong></p>\n<p>Đ&acirc;y l&agrave; nhiệm vụ duy nhất. Bạn kh&ocirc;ng cần viết bất kỳ m&atilde; n&agrave;o.<br />Bạn chỉ phải điền mẫu regex v&agrave;o chỗ trống(<code>_________</code>).</p>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/42d6d43a-72c1-4c16-af2c-6c012b5f94aa",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "Matching Specific Characters.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc6ce9b9821851ef95ef"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "excluding-specific-characters",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "Excluding Specific Characters",
+  "content": "<p><strong>[^]</strong></p>\n<p>Lớp k&yacute; tự phủ định <strong><code>[^]</code></strong> khớp với bất kỳ k&yacute; tự n&agrave;o <em>kh&ocirc;ng </em>nằm trong dấu ngoặc vu&ocirc;ng.</p>\n<p><img style=\"width: 468px;\" src=\"../../public_files/93ec62c3-ade6-4261-9b6d-0cd7e5b79866\" alt=\"1449643683-8e249ed955-ach08\" height=\"414\" /></p>\n<div class=\"MathJax_SVG_Display\"><span id=\"MathJax-Element-2-Frame\" class=\"MathJax_SVG\"></span></div>\n<p><em><strong>Như trong h&igrave;nh tr&ecirc;n, chuỗi thử nghiệm đ&atilde; khớp với mẫu Regex.</strong></em></p>\n<p><strong>Đề b&agrave;i</strong></p>\n<p>Cho một chuỗi thử nghiệm $S$<span id=\"MathJax-Element-3-Frame\" class=\"MathJax_SVG\"></span>.<br />Nhiệm vụ của bạn l&agrave; viết một mẫu Regex khớp với chuỗi $S$ v&agrave; thỏa m&atilde;n c&aacute;c điều kiện sau:</p>\n<ul>\n<li><span id=\"MathJax-Element-5-Frame\" class=\"MathJax_SVG\"></span>Chuỗi $S$ phải bao gồm <strong><code>6</code> </strong>k&yacute; tự.</li>\n<li>K&yacute; tự đầu ti&ecirc;n <em>kh&ocirc;ng phải</em> l&agrave; một <strong><code>chữ số</code></strong> ( $1, 2, 3, 4, 5, 6, 7, 8, 9$ hoặc $0$<span id=\"MathJax-Element-7-Frame\" class=\"MathJax_SVG\"></span>&nbsp;).</li>\n<li>K&yacute; tự thứ hai <em>kh&ocirc;ng phải </em>l&agrave; một <strong><code>nguy&ecirc;n &acirc;m viết thường</code></strong> ( $a, e, i, o$<span id=\"MathJax-Element-8-Frame\" class=\"MathJax_SVG\"></span> hoặc $u$<span id=\"MathJax-Element-9-Frame\" class=\"MathJax_SVG\"></span>&nbsp;).</li>\n<li>K&yacute; tự thứ ba <em>kh&ocirc;ng phải </em>l&agrave; <strong><code>b</code></strong>,&nbsp;<strong><code>c</code></strong>,&nbsp;<strong><code>D</code></strong>&nbsp;hoặc&nbsp;<strong><code>F</code></strong>.</li>\n<li>K&yacute; tự thứ tư <em>kh&ocirc;ng phải </em>l&agrave; một&nbsp;<strong><code>k&yacute; tự khoảng trắng</code></strong>&nbsp;( \\r, \\n, \\t, \\f hoặc &lt;space&gt; ).</li>\n<li>K&yacute; tự thứ năm <em>kh&ocirc;ng phải</em> l&agrave; một <strong><code>nguy&ecirc;n &acirc;m viết hoa</code></strong> ( $A, E, I, O$<span id=\"MathJax-Element-10-Frame\" class=\"MathJax_SVG\"></span> hoặc $U$<span id=\"MathJax-Element-11-Frame\" class=\"MathJax_SVG\"></span>&nbsp;).</li>\n<li>K&yacute; tự thứ s&aacute;u <em>kh&ocirc;ng phải</em> l&agrave; dấu&nbsp;<strong><code>.</code></strong> hoặc dấu <strong><code>,</code></strong>.</li>\n</ul>\n<p><strong>Lưu &yacute;</strong></p>\n<p>Bạn kh&ocirc;ng cần phải viết 1 đoạn code n&agrave;o, chỉ viết mỗi mẫu Regex th&ocirc;i nh&eacute;.</p>\n<p>H&atilde;y điền mẫu Regex v&agrave;o chỗ trống&nbsp;&nbsp;(<code>_________</code>).</p>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/242fa604-4598-4713-8eae-99c008d688e5",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "Excluding Specific Characters.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc6ce9b9821851ef95f0"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "matching-character-ranges",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "Khớp với dãy ký tự (Matching Character Ranges)",
+  "content": "<p>Trong biểu thức ch&iacute;nh quy (RegEx), <em>lớp k&yacute; tự</em> l&agrave; một tập hợp c&aacute;c k&yacute; tự nằm trong dấu ngoặc vu&ocirc;ng, để so&nbsp;khớp với một&nbsp;k&iacute;&nbsp;tự bất k&igrave; trong tập hợp đ&oacute;.</p>\n<p>Dấu gạch ngang (<code>-</code>) b&ecirc;n trong một lớp k&yacute; tự d&ugrave;ng để biểu diễn một d&atilde;y c&aacute;c k&yacute; tự trong đ&oacute; c&aacute;c to&aacute;n hạng b&ecirc;n tr&aacute;i v&agrave; b&ecirc;n phải sẽ tương ứng với giới hạn tr&ecirc;n v&agrave; dưới&nbsp; của d&atilde;y. V&iacute; Dụ:</p>\n<ul>\n<li>$[a - z]$ biểu diễn cho $[abcdefghijklmnopqrstuvwxyz]$.</li>\n<li>$[A - Z]$ biểu diễn cho $[ABCDEFGHIJKLMNOPQRSTUVWXYZ]$.</li>\n<li>$[0 - 9]$ biểu diễn cho $[0123456789]$.</li>\n</ul>\n<p>Ngo&agrave;i ra, nếu bạn sử dụng dấu mũ (<code>^</code>) l&agrave;m k&yacute; tự đầu ti&ecirc;n trong lớp k&yacute; tự, n&oacute; sẽ khớp với bất kỳ k&yacute; tự n&agrave;o <em>kh&ocirc;ng</em> nằm trong d&atilde;y đ&oacute;.</p>\n<p>V&iacute; dụ: $[^0 - 9]$ khớp với bất kỳ k&yacute; tự n&agrave;o <em>kh&ocirc;ng phải</em> l&agrave; chữ số trong d&atilde;y từ $0$ đến $9$. Cần lưu &yacute;, khi được sử dụng b&ecirc;n ngo&agrave;i (ngay trước) một k&yacute; tự hoặc lớp k&yacute; tự, dấu mũ sẽ khớp với k&yacute; tự đầu ti&ecirc;n trong chuỗi với k&yacute; tự đ&oacute; hoặc tập k&yacute; tự đ&oacute;.</p>\n<p><img style=\"width: 544px;\" src=\"../../public_files/167bffb8-bfc5-450c-b1db-84eb85d87028\" alt=\"1449644069-7c8ddac6f0-ach09\" height=\"477\" /></p>\n<div class=\"MathJax_SVG_Display\"><span id=\"MathJax-Element-10-Frame\" class=\"MathJax_SVG\"></span></div>\n<p><strong><em>Trong h&igrave;nh tr&ecirc;n, mẫu RegEx đ&atilde; khớp với </em>chuỗi kiểm tra<em>.</em></strong></p>\n<p><strong>Đề b&agrave;i</strong></p>\n<p>Viết 1 mẫu RegEx khớp với chuỗi, thỏa m&atilde;n những điều kiện sau:</p>\n<ul>\n<li>Độ d&agrave;i của chuỗi l&agrave; $\\geq 5$</li>\n<li>K&yacute; tự đầu ti&ecirc;n phải l&agrave; một k&yacute; tự chữ c&aacute;i tiếng Anh viết thường.</li>\n<li>K&yacute; tự thứ hai phải l&agrave; một <em>chữ số dương. </em>(Lưu &yacute; rằng ch&uacute;ng ta coi số 0 kh&ocirc;ng phải l&agrave; số dương v&agrave; cũng kh&ocirc;ng phải l&agrave; số &acirc;m.)</li>\n<li>K&yacute; tự thứ ba <em>kh&ocirc;ng phải</em> l&agrave; k&yacute; tự chữ c&aacute;i tiếng Anh viết thường.</li>\n<li>K&yacute; tự thứ tư <em>kh&ocirc;ng phải</em> l&agrave; k&yacute; tự chữ c&aacute;i tiếng Anh viết hoa.</li>\n<li>K&yacute; tự thứ năm phải l&agrave; k&yacute; tự chữ c&aacute;i tiếng Anh viết hoa.</li>\n</ul>\n<p>H&atilde;y điền 1 mẫu RegEx v&agrave;o chỗ trống (<code>_________</code>) thỏa m&atilde;n y&ecirc;u cầu của đề b&agrave;i.</p>\n<p><strong>Lưu &yacute;:</strong></p>\n<p>Bạn chỉ cần viết mỗi mẫu RegEx v&agrave;o chỗ trống (<code>_________</code>). Kh&ocirc;ng cần phải viết th&ecirc;m đoạn code n&agrave;o.</p>\n<p>&nbsp;</p>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/e5896651-d045-4c56-906d-0edee980a5a1",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "Matching Character Ranges.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc6ce9b9821851ef95f1"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "matching-x-repetitions",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "Khớp số x lần lặp lại của ký tự (Matching {x} Repetitions)",
+  "content": "<p><em><strong><span style=\"font-size: 18px;\">{x}</span></strong></em></p>\n<p><strong>{x}</strong> sẽ khớp ch&iacute;nh x&aacute;c số $x$ lần lặp lại của k&yacute; tự/ lớp k&yacute; tự/ nh&oacute;m.</p>\n<p><img style=\"width: 486px;\" src=\"../../public_files/37cc9062-51a2-4e28-8e50-d921dc65e8c5\" alt=\"1449644438-27dbaa69fd-ach10\" height=\"426\" /></p>\n<div class=\"MathJax_SVG_Display\"><span id=\"MathJax-Element-3-Frame\" class=\"MathJax_SVG\"></span></div>\n<p><em><strong>Trong h&igrave;nh tr&ecirc;n, mẫu Regex đ&atilde; khớp với chuỗi kiểm tra.</strong></em></p>\n<p><strong>V&iacute; dụ</strong>:</p>\n<p><strong>w{3}</strong> : N&oacute; sẽ khớp với k&yacute; tự <code>w</code> ch&iacute;nh x&aacute;c $3$ lần.<br /><strong>[xyz]{5}</strong> : N&oacute; sẽ khớp với chuỗi c&oacute; độ d&agrave;i l&agrave; $5$ bao gồm c&aacute;c k&yacute; tự&nbsp;&nbsp;{<code>x</code>,&nbsp;<code>y</code>,&nbsp;<code>z</code>}. V&iacute; dụ: n&oacute; sẽ khớp với <code>xxxxx</code>,&nbsp;<code>xxxyy</code> v&agrave; <code>xyxyz</code>.<br /><strong>\\d{4}</strong> : N&oacute; sẽ khớp với bất kỳ chữ số n&agrave;o ch&iacute;nh x&aacute;c $4$ lần.</p>\n<hr />\n<p><strong>Đề b&agrave;i</strong></p>\n<p>Cho một chuỗi kiểm tra $S$.</p>\n<p>H&atilde;y viết 1 mẫu RegEx khớp với chuỗi tr&ecirc;n, thỏa m&atilde;n những điều kiện sau:</p>\n<ul>\n<li>$S$ phải c&oacute; độ d&agrave;i bằng <code>45</code>.</li>\n<li>$40$ k&yacute; tự đầu ti&ecirc;n phải bao gồm <code>c&aacute;c chữ c&aacute;i</code> (cả chữ thường v&agrave; chữ hoa) hoặc <code>c&aacute;c chữ số chẵn</code>.</li>\n<li>$5$ k&yacute; tự cuối c&ugrave;ng phải bao gồm <code>c&aacute;c chữ số lẻ</code> hoặc <code>c&aacute;c k&yacute; tự khoảng c&aacute;ch</code>.</li>\n</ul>\n<p><strong>Lưu &yacute;</strong></p>\n<p>Bạn chỉ cần viết mỗi mẫu RegEx v&agrave;o chỗ trống (<code>_________</code>). Kh&ocirc;ng cần phải viết th&ecirc;m đoạn code n&agrave;o.</p>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/15a0d728-ff55-4e1b-8882-fdcf6fce3f93",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "Matching {x} Repetitions.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc6ce9b9821851ef95f2"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "matching-x-y-repetitions",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "Khớp số lần lặp lại trong khoảng x và y (Matching {x, y} Repetitions)",
+  "content": "<p><span style=\"font-size: 18px;\"><em><strong>{x,y}</strong></em></span></p>\n<p><strong>{x,y} </strong>sẽ khớp số lần lặp lại k&yacute; tự/lớp k&yacute; tự/nh&oacute;m trong khoảng từ $x$ tới $y$.</p>\n<p><img style=\"width: 556px;\" src=\"../../public_files/962f2906-57bd-4a34-97a4-1c78bc1420cf\" alt=\"1449644591-67495110c4-ach11\" height=\"492\" /></p>\n<div class=\"MathJax_SVG_Display\"><span id=\"MathJax-Element-4-Frame\" class=\"MathJax_SVG\"></span></div>\n<p><strong><em>Trong h&igrave;nh ảnh tr&ecirc;n, mẫu RegEx đ&atilde; khớp với chuỗi kiểm tra.</em></strong></p>\n<p><strong>V&iacute; dụ</strong>:</p>\n<p><strong>w{3,5}</strong> : N&oacute; sẽ khớp với k&yacute; tự <code>w</code> $3<span id=\"MathJax-Element-5-Frame\" class=\"MathJax_SVG\"></span>, 4$<span id=\"MathJax-Element-6-Frame\" class=\"MathJax_SVG\"></span> hoặc $5$<span id=\"MathJax-Element-7-Frame\" class=\"MathJax_SVG\"></span> lần.<br /><strong>[xyz]{5,}</strong> : N&oacute; sẽ khớp với k&yacute; tự &nbsp;<code>x</code>,&nbsp;<code>y</code> hoặc <code>z</code> $5$ lần hoặc nhiều hơn.<br /><strong>\\d{1, 4}</strong> : N&oacute; sẽ khớp với bất kỳ chữ số n&agrave;o $1<span id=\"MathJax-Element-9-Frame\" class=\"MathJax_SVG\"></span>, 2<span id=\"MathJax-Element-10-Frame\" class=\"MathJax_SVG\"></span>, 3<span id=\"MathJax-Element-11-Frame\" class=\"MathJax_SVG\"></span>,$ hoặc $4$<span id=\"MathJax-Element-12-Frame\" class=\"MathJax_SVG\"></span> lần.</p>\n<hr />\n<p><strong>Đề b&agrave;i</strong></p>\n<p>Cho một chuỗi kiểm tra $S$<span id=\"MathJax-Element-13-Frame\" class=\"MathJax_SVG\"></span>.<br />H&atilde;y viết 1 mẫu RegEx khớp với chuối $S$, thỏa m&atilde;n những điều kiện sau:</p>\n<ul>\n<li><span id=\"MathJax-Element-15-Frame\" class=\"MathJax_SVG\"></span>$S$ bắt đầu với $1$<span id=\"MathJax-Element-16-Frame\" class=\"MathJax_SVG\"></span> hoặc $2$<span id=\"MathJax-Element-17-Frame\" class=\"MathJax_SVG\"></span>&nbsp;<strong><code>chữ số</code></strong>.</li>\n<li>Sau đ&oacute;, $S$<span id=\"MathJax-Element-18-Frame\" class=\"MathJax_SVG\"></span> cần c&oacute; $3$<span id=\"MathJax-Element-19-Frame\" class=\"MathJax_SVG\"></span> hoặc nhiều hơn 3 <code>chữ c&aacute;i</code> (cả viết thường v&agrave; viết hoa).</li>\n<li>Cuối c&ugrave;ng $S$<span id=\"MathJax-Element-20-Frame\" class=\"MathJax_SVG\"></span> cần kết th&uacute;c bằng $3$ dấu&nbsp;<strong><code>.</code></strong> , c&oacute; thể kết th&uacute;c chuỗi với $1$ tới $3$ dấu <code>.</code>.</li>\n</ul>\n<p><strong>Lưu &yacute;</strong></p>\n<p>Bạn chỉ cần điền mỗi mẫu RegEx v&agrave;o chỗ trống (<code>_________</code>). Kh&ocirc;ng cần phải viết th&ecirc;m đoạn code n&agrave;o.</p>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/6e274945-6728-4114-b48d-98463141e419",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "Matching {x, y} Repetitions.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc6ce9b9821851ef95f3"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "matching-zero-or-more-repetitions",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "Khớp 0 lần hoặc nhiều lần lặp lại (Matching Zero or More Repetitions)",
+  "content": "<p>$*$</p>\n<p>K&yacute; tự <strong>*</strong> sẽ khớp 0 lần hoặc nhiều lần lặp lại của k&yacute; tự/ lớp k&yacute; tự/nh&oacute;m.</p>\n<p><img style=\"width: 538px;\" src=\"../../public_files/83d0fac9-1946-4094-a7af-f276e2b800dc\" alt=\"1449644741-70706a36e1-ach12\" height=\"476\" /></p>\n<div class=\"MathJax_SVG_Display\"><span id=\"MathJax-Element-2-Frame\" class=\"MathJax_SVG\"></span></div>\n<p><em><strong>Trong h&igrave;nh tr&ecirc;n, mẫu RegEx đ&atilde; khớp với chuỗi thử nghiệm.</strong></em></p>\n<p><strong>V&iacute; dụ:</strong></p>\n<p><strong>w*</strong> : N&oacute; sẽ khớp với k&yacute; tự <code>w</code> $0$ hoặc nhiều lần.<br /><strong>[xyz]*</strong> : N&oacute; sẽ khớp với k&yacute; tự <code>x</code>,&nbsp;<code>y</code>&nbsp;or&nbsp;<code>z</code> $0$ hoặc nhiều lần.<br /><strong>\\d*</strong> : N&oacute; sẽ khớp với bất kỳ k&yacute; tự n&agrave;o $0$ hoặc nhiều lần.</p>\n<hr />\n<p><strong>Đề b&agrave;i</strong></p>\n<p>Cho chuỗi thử nghiệm $S$<span id=\"MathJax-Element-6-Frame\" class=\"MathJax_SVG\"></span>.<br />H&atilde;y viết 1 mẫu RegEx khớp với chuỗi $S$ thỏa m&atilde;n những điều kiện sau:</p>\n<ul>\n<li><span id=\"MathJax-Element-8-Frame\" class=\"MathJax_SVG\"></span>$S$ bắt đầu với nhiều hơn hoặc bằng 2&nbsp;<strong><code>chữ số</code></strong>.</li>\n<li>Sau đ&oacute;, $S$<span id=\"MathJax-Element-10-Frame\" class=\"MathJax_SVG\"></span> cần c&oacute; 0 hoặc v&agrave;i <strong><code>chữ viết thường</code></strong>.</li>\n<li><span id=\"MathJax-Element-12-Frame\" class=\"MathJax_SVG\"></span>$S$ kết th&uacute;c với $0$<span id=\"MathJax-Element-13-Frame\" class=\"MathJax_SVG\"></span> or v&agrave;i <strong><code>chữ viết hoa</code></strong>.</li>\n</ul>\n<p><strong>Note</strong></p>\n<p>Bạn chỉ cần viết mỗi mẫu RegEx v&agrave;o chỗ trống (<code>_________</code>). Kh&ocirc;ng cần phải viết th&ecirc;m đoạn code n&agrave;o.</p>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/5beceb4f-f862-47d6-99db-01a670ef98e6",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "Matching Zero Or More Repetitions.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc6ce9b9821851ef95f4"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "matching-one-or-more-repetitions",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "Khớp lặp lại 1 hoặc nhiều lần (Matching One or More Repetitions)",
+  "content": "<p>$+$</p>\n<p>K&yacute; hiệu <strong>+</strong> sẽ khớp 1 hoặc nhiều lần lặp lại của k&yacute; tự/nh&oacute;m/lớp k&yacute; tự.</p>\n<p><img title=\"ach13.png\" src=\"https://s3.amazonaws.com/hr-challenge-images/14524/1449644856-94a5bdd2ae-ach13.png\" /></p>\n<div class=\"MathJax_SVG_Display\"><span id=\"MathJax-Element-2-Frame\" class=\"MathJax_SVG\"></span></div>\n<p><em><strong>Trong h&igrave;nh tr&ecirc;n, mẫu RegEx đ&atilde; khớp với chuỗi thử nghiệm.</strong></em></p>\n<p><strong>V&iacute; dụ</strong>:</p>\n<p><strong>w+</strong> : N&oacute; sẽ khớp với k&yacute; tự <code>w</code> $1$<span id=\"MathJax-Element-3-Frame\" class=\"MathJax_SVG\"></span> hoặc nhiều lần.<br /><strong>[xyz]+</strong> : IN&oacute; sẽ khớp với k&yacute; tự <code>x</code>,&nbsp;<code>y</code>&nbsp;or&nbsp;<code>z</code> $1$<span id=\"MathJax-Element-3-Frame\" class=\"MathJax_SVG\"></span> hoặc nhiều lần.<br /><strong>\\d+</strong> : N&oacute; sẽ khớp với bất kỳ k&yacute; tự n&agrave;o $1$<span id=\"MathJax-Element-3-Frame\" class=\"MathJax_SVG\"></span> hoặc nhiều lần.</p>\n<hr />\n<p><strong>Đề b&agrave;i</strong></p>\n<p>Cho chuỗi thử nghiệm $S$<span id=\"MathJax-Element-6-Frame\" class=\"MathJax_SVG\"></span>.<br />H&atilde;y viết 1 mẫu RegEx khớp với chuỗi $S$, thỏa m&atilde;n những điều kiện sau:</p>\n<ul>\n<li><span id=\"MathJax-Element-8-Frame\" class=\"MathJax_SVG\"></span>$S$ bắt đầu bằng $1$<span id=\"MathJax-Element-9-Frame\" class=\"MathJax_SVG\"></span> hoặc nhiều <strong><code>chữ số</code></strong>.</li>\n<li>$S$<span id=\"MathJax-Element-10-Frame\" class=\"MathJax_SVG\"></span> cần c&oacute; $1$<span id=\"MathJax-Element-11-Frame\" class=\"MathJax_SVG\"></span> hoặc nhiều <strong><code>chữ c&aacute;i viết hoa</code></strong>.</li>\n<li><span id=\"MathJax-Element-12-Frame\" class=\"MathJax_SVG\"></span>$S$ kết th&uacute;c bằng $1$<span id=\"MathJax-Element-11-Frame\" class=\"MathJax_SVG\"></span> hoặc nhiều<strong> <code>chữ c&aacute;i viết thường</code></strong>.</li>\n</ul>\n<p><strong>Lưu &yacute;:</strong></p>\n<p>Bạn chỉ cần viết mỗi mẫu RegEx v&agrave;o chỗ trống (<code>_________</code>). Kh&ocirc;ng cần phải viết th&ecirc;m đoạn code n&agrave;o.</p>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/421364b7-9729-4ec5-9411-526f3941b42e",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "Matching One Or More Repetitions.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc6ce9b9821851ef95f5"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "matching-ending-items",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "Khớp từ cuối dòng (Matching Ending Items)",
+  "content": "<p>$\\$$</p>\n<p>K&yacute; tự <strong>$ </strong>sẽ khớp với k&yacute; tự/nh&oacute;m/lớp k&yacute; tự kết th&uacute;c cuối d&ograve;ng.</p>\n<p><img style=\"width: 659px;\" src=\"../../public_files/26819a03-ea43-41e0-8258-036c03993bf1\" alt=\"1454450408-80fc07afcb-matchingenditems\" height=\"583\" /></p>\n<p><strong><em>Trong h&igrave;nh tr&ecirc;m, mẫu RegEx đ&atilde; khớp với chuỗi thử nghiệm.</em></strong></p>\n<div class=\"MathJax_SVG_Display\"><span id=\"MathJax-Element-2-Frame\" class=\"MathJax_SVG\"></span></div>\n<hr />\n<p><strong>Đề b&agrave;i</strong></p>\n<p>Viết 1 mẫu RegEx khớp với chuỗi $S$, thỏa m&atilde;n những điều kiện sau:</p>\n<ul>\n<li><span id=\"MathJax-Element-4-Frame\" class=\"MathJax_SVG\"></span>$S$ bao c&aacute;c chữ c&aacute;i viết hoa v&agrave; viết thường (kh&ocirc;ng c&oacute; số v&agrave; k&yacute; hiệu).</li>\n<li><span id=\"MathJax-Element-5-Frame\" class=\"MathJax_SVG\"></span>$S$ kết th&uacute;c bằng <code>s</code>.</li>\n</ul>\n<p>Lưu &yacute;:</p>\n<p>Bạn chỉ cần điền mẫu RegEx v&agrave;o chỗ trống (<code>_________</code>). Kh&ocirc;ng cần phải viết th&ecirc;m đoạn code n&agrave;o.</p>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/f00b2423-41ce-4a12-8998-bfac4cc49e93",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "Matching Ending Items.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc6ce9b9821851ef95f6"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "matching-word-boundaries",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "Khớp ranh giới từ (Matching Word Boundaries)",
+  "content": "<p>$\\b$</p>\n<p><strong>\\b</strong> sẽ x&aacute;c định vị tr&iacute; dựa v&agrave;o ranh giới từ.</p>\n<p>C&oacute; 3 vị tr&iacute; để đặt k&yacute; hiệu ranh giới từ :<br />► Trước k&yacute; tự đầu ti&ecirc;n của chuỗi, nếu chữ c&aacute;i đầu ti&ecirc;n l&agrave; 1 k&yacute; tự từ.<br />► Giữa 2 k&yacute; tự của chuỗi, với 1 chữ l&agrave; k&yacute; tự từ v&agrave; chữ c&ograve;n l&agrave;i <em>kh&ocirc;ng phải</em> l&agrave; k&yacute; tự từ.<br />► Sau k&yacute; tự cuối c&ugrave;ng của chuỗi, nếu chữ c&aacute;i cuối c&ugrave;ng l&agrave; 1 k&yacute; tự từ.</p>\n<p><img style=\"width: 522px;\" src=\"../../public_files/a43db6d7-8349-4771-972e-b8d860d780cb\" alt=\"1449645203-491495c368-ach15\" height=\"462\" /></p>\n<div class=\"MathJax_SVG_Display\"><span id=\"MathJax-Element-2-Frame\" class=\"MathJax_SVG\"></span></div>\n<p><strong><em>Trong h&igrave;nh tr&ecirc;n, mẫu RegEx đ&atilde; khớp với chuỗi thử nghiệm.</em></strong></p>\n<hr />\n<p><strong>Đề b&agrave;i</strong></p>\n<p>Cho chuỗi thử nghiệm $S$<span id=\"MathJax-Element-3-Frame\" class=\"MathJax_SVG\"></span>.<br />H&atilde;y viết 1 mẫu RegEx khớp với $S$ thỏa m&atilde;n những điều kiện sau</p>\n<ul>\n<li>$S$ bắt đầu bằng <code>nguy&ecirc;n &acirc;m</code> (a,e,i,o, u, A, E, I , O or U).</li>\n<li>Từ được khớp c&oacute; độ d&agrave;i bất kỳ.&nbsp;</li>\n<li>Từ chỉ bao gồm <code>c&aacute;c chữ c&aacute;i</code> (cả viết thường v&agrave; viết hoa).</li>\n<li>Từ được khớp bắt đầu v&agrave; kết th&uacute;c bằng <code>ranh giới từ</code>.</li>\n</ul>\n<p>Lưu &yacute;:</p>\n<p>Bạn chỉ cần viết mỗi mẫu RegEx v&agrave;o chỗ trống (<code>__________</code>). Kh&ocirc;ng cần viết th&ecirc;m đoạn code n&agrave;o.</p>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/ba78d40f-b8e0-4dd3-8495-583b4ae9a3b6",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "Matching Word Boundaries.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc6ce9b9821851ef95f7"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "capturing-non-capturing-groups",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "Nhóm chụp & nhóm không chụp (Capturing & Non-Capturing Groups)",
+  "content": "<p><strong>( )</strong></p>\n<p>Dấu ngoặc đơn <strong>( )</strong> bao quanh RegEx d&ugrave;ng để <em>nh&oacute;m c&aacute;c phần</em> của biểu thức với nhau. Từ đ&oacute;, n&oacute; gi&uacute;p ta c&oacute; thể d&ugrave;ng c&aacute;c bộ định lượng kh&aacute;c nhau cho nh&oacute;m đ&oacute;.</p>\n<p>Dấu <strong>( ) </strong>cũng tạo ra c&aacute;c nh&oacute;m chụp được đ&aacute;nh số. N&oacute; lưu trữ phần chuỗi được khớp với phần regex trong dấu ngoặc đơn.</p>\n<p>C&aacute;c nh&oacute;m chụp được đ&aacute;nh số n&agrave;y c&oacute; thể được sử dụng cho c&aacute;c backreference (c&aacute;c cụm đ&atilde; được nh&oacute;m để khớp).</p>\n<p><img style=\"width: 563px;\" src=\"../../public_files/f47250f7-f9dd-483e-ba54-4fdf96bbe480\" alt=\"1449645417-9339477c31-ach16\" height=\"498\" /></p>\n<div class=\"MathJax_SVG_Display\"><span id=\"MathJax-Element-2-Frame\" class=\"MathJax_SVG\"></span></div>\n<p><em><strong>Trong h&igrave;nh tr&ecirc;n, mẫu RegEx đ&atilde; khớp với chuỗi thử nghiệm.</strong></em></p>\n<p><span style=\"font-size: 18px;\"><strong>(?:)</strong></span></p>\n<p><strong><span id=\"MathJax-Element-3-Frame\" class=\"MathJax_SVG\"></span></strong></p>\n<p><strong>(?: )</strong> d&ugrave;ng để tạo ra nh&oacute;m kh&ocirc;ng chụp. N&oacute; sẽ hữu &iacute;ch khi ta chỉ cần khớp k&iacute; tự m&agrave; kh&ocirc;ng cần chụp nh&oacute;m.</p>\n<hr />\n<p><strong>Đề b&agrave;i</strong></p>\n<p>Cho 1 chuỗi thử nghiệm $S$<span id=\"MathJax-Element-4-Frame\" class=\"MathJax_SVG\"></span>.<br />H&atilde;y viết 1 mẫu RegEx khớp với chuỗi $S$ thỏa m&atilde;n điều kiện sau:</p>\n<ul>\n<li><span id=\"MathJax-Element-6-Frame\" class=\"MathJax_SVG\"></span>$S$ phải c&oacute; từ&nbsp;<strong><code>ok</code> </strong>lặp lại &iacute;t nhất 3 lần li&ecirc;n tiếp.</li>\n</ul>\n<p><strong>Note</strong></p>\n<p>Bạn chỉ cần viết mỗi mẫu RegEx v&agrave;o chỗ trống (<code>_________</code>). Kh&ocirc;ng cần viết th&ecirc;m đoạn code n&agrave;o nh&eacute;.</p>\n<p>&nbsp;</p>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/9039f176-3715-4cae-8f2f-338b0f6ac80c",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "Capturing & Non-Capturing Groups.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc6ce9b9821851ef95f8"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "alternative-matching",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "Khớp chuỗi với phép toán OR (Alternative Matching)",
+  "content": "<p><em>Ph&eacute;p hoặc (OR)</em>, biểu diễn bằng <code>|</code> , khớp với 1 trong c&aacute;c mục được ph&acirc;n t&aacute;ch bởi dấu sổ đứng.&nbsp;</p>\n<p>Khi được d&ugrave;ng trong lớp k&yacute; tự, n&oacute; sẽ khớp với c&aacute;c k&yacute; tự; khi được d&ugrave;ng trong một nh&oacute;m, n&oacute; sẽ khớp với to&agrave;n bộ biểu thức (c&aacute;c mục ở tất cả b&ecirc;n tr&aacute;i v&agrave; b&ecirc;n phải dấu sổ thẳng). Ta sẽ sử dụng dấu ngoặc đơn <code>()</code> để chụp nh&oacute;m.</p>\n<p><img style=\"width: 615px;\" src=\"../../public_files/07999894-5251-4a29-b683-8291e2ae1fc3\" alt=\"1449645537-1ecd61e235-ach17\" height=\"544\" /></p>\n<div class=\"MathJax_SVG_Display\"><span id=\"MathJax-Element-1-Frame\" class=\"MathJax_SVG\"></span></div>\n<p><em><strong>Trong h&igrave;nh tr&ecirc;n, mẫu RegEx đ&atilde; khớp với chuỗi thử nghiệm.</strong></em></p>\n<p>V&iacute; dụ:</p>\n<ul>\n<li><code>(Bob|Kevin|Stuart)</code> sẽ khớp với <code>Bob</code> hoặc <code>Kevin</code> hoặc <code>Stuart</code>.</li>\n<li><code>([a-f]|[A-F])</code> sẽ khớp với một trong c&aacute;c k&yacute; tự sau: <code>a</code>,&nbsp;<code>b</code>,&nbsp;<code>c</code>,&nbsp;<code>d</code>,&nbsp;<code>e</code>,&nbsp;<code>f</code>,&nbsp;<code>A</code>,&nbsp;<code>B</code>,&nbsp;<code>C</code>,&nbsp;<code>D</code>,&nbsp;<code>E</code>, hoặc <code>F</code>.</li>\n</ul>\n<hr />\n<p><strong>Đề b&agrave;i</strong></p>\n<p>Cho 1 chuỗi thử nghiệm $S$.</p>\n<p>H&atilde;y viết 1 mẫu RegEx khớp chuỗi $S$ thỏa m&atilde;n những điều kiện sau:</p>\n<ul>\n<li><span id=\"MathJax-Element-4-Frame\" class=\"MathJax_SVG\"></span>$S$ phải bắt đầu với <code>Mr.</code>,&nbsp;<code>Mrs.</code>,&nbsp;<code>Ms.</code>,&nbsp;<code>Dr.</code> hoặc <code>Er.</code>.</li>\n<li>Phần c&ograve;n lại của chuỗi phải chứa &iacute;t nhất 1 chữ c&aacute;i Tiếng Anh (cả viết hoa v&agrave; viết thường).</li>\n</ul>\n<p><strong>Lưu &yacute;:</strong></p>\n<p>Bạn chỉ cần viết mẫu RegEx v&agrave;o chỗ trống (<code>__________</code>). Kh&ocirc;ng cần viết th&ecirc;m đoạn code n&agrave;o nh&eacute;.</p>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/16142c93-553a-44a3-9057-8f101dca0b5c",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "Alternative Matching.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc6ce9b9821851ef95f9"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "matching-same-text-again-again",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "Matching Same Text Again & Again",
+  "content": "<p><em><strong>\\group_number</strong></em></p>\n<p>This tool (<strong>\\1</strong>&nbsp;references the first capturing group) matches the same text as previously matched by the capturing group.</p>\n<p><img style=\"width: 534px;\" src=\"../../public_files/07c121f2-d5f8-4240-922d-09fcb6046609\" alt=\"1449647091-1e4a2a040e-ach18\" height=\"468\" /></p>\n<div class=\"MathJax_SVG_Display\"><span id=\"MathJax-Element-2-Frame\" class=\"MathJax_SVG\"></span></div>\n<p><em><strong>In the above image, the Regex Pattern is matched with the Test String.</strong></em></p>\n<p><strong>For Example</strong>:</p>\n<p><strong>(\\d)\\1</strong>: It can match&nbsp;<code>00</code>,&nbsp;<code>11</code>,&nbsp;<code>22</code>,&nbsp;<code>33</code>,&nbsp;<code>44</code>,&nbsp;<code>55</code>,&nbsp;<code>66</code>,&nbsp;<code>77</code>,&nbsp;<code>88</code>&nbsp;or&nbsp;<code>99</code>.</p>\n<hr />\n<p><strong>Task</strong></p>\n<p>You have a test string $S$<span id=\"MathJax-Element-3-Frame\" class=\"MathJax_SVG\"></span>.<br />Your task is to write a regex that will match $S$<span id=\"MathJax-Element-4-Frame\" class=\"MathJax_SVG\"></span>&nbsp;with the following conditions:</p>\n<ul>\n<li><span id=\"MathJax-Element-5-Frame\" class=\"MathJax_SVG\"></span>$S$ must be of length: <strong><code>20</code></strong></li>\n<li><span id=\"MathJax-Element-6-Frame\" class=\"MathJax_SVG\">$1^{\\text {st }}$</span>&nbsp;character:&nbsp;<strong><code>lowercase letter</code></strong>.</li>\n<li><span id=\"MathJax-Element-7-Frame\" class=\"MathJax_SVG\">$2^{\\text {nd }}$</span>&nbsp;character:&nbsp;<strong><code>word character</code></strong>.</li>\n<li><span id=\"MathJax-Element-8-Frame\" class=\"MathJax_SVG\">$3^{\\text {rd }}$</span>&nbsp;character:&nbsp;<strong><code>whitespace character</code></strong>.</li>\n<li><span id=\"MathJax-Element-9-Frame\" class=\"MathJax_SVG\">$4^{\\text {th }}$</span>&nbsp;character:&nbsp;<strong><code>non word character</code></strong>.</li>\n<li><span id=\"MathJax-Element-10-Frame\" class=\"MathJax_SVG\">$5^{\\text {th }}$</span>&nbsp;character:&nbsp;<strong><code>digit</code></strong>.</li>\n<li><span id=\"MathJax-Element-11-Frame\" class=\"MathJax_SVG\"><span id=\"MathJax-Element-9-Frame\" class=\"MathJax_SVG\">$6^{\\text {th }}$</span></span>&nbsp;character:&nbsp;<strong><code>non digit</code></strong>.</li>\n<li><span id=\"MathJax-Element-12-Frame\" class=\"MathJax_SVG\"><span id=\"MathJax-Element-9-Frame\" class=\"MathJax_SVG\">$7^{\\text {th }}$</span></span>&nbsp;character:&nbsp;<strong><code>uppercase letter</code></strong>.</li>\n<li><span id=\"MathJax-Element-13-Frame\" class=\"MathJax_SVG\"><span id=\"MathJax-Element-9-Frame\" class=\"MathJax_SVG\">$8^{\\text {th }}$</span></span>&nbsp;character:&nbsp;<strong><code>letter</code></strong>&nbsp;(either lowercase or uppercase).</li>\n<li><span id=\"MathJax-Element-14-Frame\" class=\"MathJax_SVG\"><span id=\"MathJax-Element-9-Frame\" class=\"MathJax_SVG\">$9^{\\text {th }}$</span></span>&nbsp;character:&nbsp;<strong><code>vowel</code></strong>&nbsp;(a, e, i , o , u, A, E, I, O or U).</li>\n<li><span id=\"MathJax-Element-15-Frame\" class=\"MathJax_SVG\"><span id=\"MathJax-Element-9-Frame\" class=\"MathJax_SVG\">$10^{\\text {th }}$</span></span>&nbsp;character:&nbsp;<strong><code>non whitespace character</code></strong>.</li>\n<li><span id=\"MathJax-Element-16-Frame\" class=\"MathJax_SVG\"><span id=\"MathJax-Element-9-Frame\" class=\"MathJax_SVG\">$11^{\\text {th }}$</span></span>&nbsp;character: should be same as&nbsp;<strong><code>1st character</code></strong>.</li>\n<li><span id=\"MathJax-Element-17-Frame\" class=\"MathJax_SVG\"><span id=\"MathJax-Element-9-Frame\" class=\"MathJax_SVG\">$12^{\\text {th }}$</span></span>&nbsp;character: should be same as&nbsp;<strong><code>2nd character</code></strong>.</li>\n<li><span id=\"MathJax-Element-18-Frame\" class=\"MathJax_SVG\"><span id=\"MathJax-Element-9-Frame\" class=\"MathJax_SVG\">$13^{\\text {th }}$</span></span>&nbsp;character: should be same as&nbsp;<strong><code>3rd character</code></strong>.</li>\n<li><span id=\"MathJax-Element-19-Frame\" class=\"MathJax_SVG\"><span id=\"MathJax-Element-9-Frame\" class=\"MathJax_SVG\">$14^{\\text {th }}$</span></span>&nbsp;character: should be same as&nbsp;<strong><code>4th character</code></strong>.</li>\n<li><span id=\"MathJax-Element-20-Frame\" class=\"MathJax_SVG\"><span id=\"MathJax-Element-9-Frame\" class=\"MathJax_SVG\">$15^{\\text {th }}$</span></span>&nbsp;character: should be same as&nbsp;<strong><code>5th character</code></strong>.</li>\n<li><span id=\"MathJax-Element-21-Frame\" class=\"MathJax_SVG\"><span id=\"MathJax-Element-9-Frame\" class=\"MathJax_SVG\">$16^{\\text {th }}$</span></span>&nbsp;character: should be same as&nbsp;<strong><code>6th character</code></strong>.</li>\n<li><span id=\"MathJax-Element-22-Frame\" class=\"MathJax_SVG\"><span id=\"MathJax-Element-9-Frame\" class=\"MathJax_SVG\">$17^{\\text {th }}$</span></span>&nbsp;character: should be same as&nbsp;<strong><code>7th character</code></strong>.</li>\n<li><span id=\"MathJax-Element-23-Frame\" class=\"MathJax_SVG\"><span id=\"MathJax-Element-9-Frame\" class=\"MathJax_SVG\">$18^{\\text {th }}$</span></span>&nbsp;character: should be same as&nbsp;<strong><code>8th character</code></strong>.</li>\n<li><span id=\"MathJax-Element-24-Frame\" class=\"MathJax_SVG\"><span id=\"MathJax-Element-9-Frame\" class=\"MathJax_SVG\">$19^{\\text {th }}$</span></span>&nbsp;character: should be same as&nbsp;<strong><code>9th character</code></strong>.</li>\n<li><span id=\"MathJax-Element-25-Frame\" class=\"MathJax_SVG\"><span id=\"MathJax-Element-9-Frame\" class=\"MathJax_SVG\">$20^{\\text {th }}$</span></span>&nbsp;character: should be same as&nbsp;<strong><code>10th character</code></strong>.</li>\n</ul>\n<p><strong>Note</strong></p>\n<p>This is a regex only challenge. You are not required to write code.<br />You have to fill the regex pattern in the blank (<code>_________</code>).</p>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/ebe7aa65-7134-447e-81a7-0b57bec69b41",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "Matching Same Text Again & Again.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc6ce9b9821851ef95fa"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "backreferences-to-failed-groups",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "Backreferences To Failed Groups",
+  "content": "<p>Backreference to a capturing group that match nothing is different from backreference to a capturing group that did not participate in the match at all.</p>\n<p><strong>Capturing group that match nothing</strong></p>\n<p><img style=\"width: 515px;\" src=\"../../public_files/9ae5f5df-3602-4ccd-8b58-e3fcd3f29710\" alt=\"1449647327-074d8e0329-ach19_1\" height=\"451\" /></p>\n<div class=\"MathJax_SVG_Display\"><span id=\"MathJax-Element-1-Frame\" class=\"MathJax_SVG\"></span></div>\n<p><em><strong>In the above image, the Regex Pattern is matched with the Test String.</strong></em></p>\n<p>Here,&nbsp;<code>b?</code>&nbsp;is optional and matches nothing.<br />Thus,&nbsp;<code>(b?)</code>&nbsp;is successfully matched and capture nothing.<br /><code>o</code>&nbsp;is matched with&nbsp;<strong>o</strong>&nbsp;and&nbsp;<code>\\1</code>&nbsp;successfully matches the nothing captured by the group.</p>\n<p><strong>Capturing group that didn't participate in the match at all</strong></p>\n<p><img style=\"width: 519px;\" src=\"../../public_files/020118ab-ed45-4b2f-a05c-c96c5849660e\" alt=\"1449647382-1800101173-ach19_2\" height=\"455\" /></p>\n<div class=\"MathJax_SVG_Display\"><span id=\"MathJax-Element-2-Frame\" class=\"MathJax_SVG\"></span></div>\n<p><em><strong>In the above image, the Regex Pattern is matched with the Test String.</strong></em></p>\n<p>In most regex flavors (excluding JavaScript),&nbsp;<code>(b)?o\\1</code>&nbsp;fails to match&nbsp;<strong>o</strong>.<br />Here,&nbsp;<code>(b)</code>&nbsp;fails to match at all. Since, the whole group is optional the regex engine does proceed to match&nbsp;<strong>o</strong>.<br />The regex engine now arrives at&nbsp;<code>\\1</code>&nbsp;which references a group that did not participate in the match attempt at all.<br />Thus, the backreference fails to match at all.</p>\n<hr />\n<p><strong>Task</strong></p>\n<p>You have a test string $S$<span id=\"MathJax-Element-3-Frame\" class=\"MathJax_SVG\"></span>.<br />Your task is to write a regex which will match $S$<span id=\"MathJax-Element-4-Frame\" class=\"MathJax_SVG\"></span>, with following condition(s):</p>\n<ul>\n<li><span id=\"MathJax-Element-5-Frame\" class=\"MathJax_SVG\"></span>$S$ consists of 8 digits.</li>\n<li><span id=\"MathJax-Element-6-Frame\" class=\"MathJax_SVG\"></span>$S$ may have \"$-$<span id=\"MathJax-Element-7-Frame\" class=\"MathJax_SVG\"></span>\" separator such that string $S$<span id=\"MathJax-Element-8-Frame\" class=\"MathJax_SVG\"></span> gets divided in $4$<span id=\"MathJax-Element-9-Frame\" class=\"MathJax_SVG\"></span>&nbsp;parts, with each part having exactly two digits. (Eg. 12-34-56-78)</li>\n</ul>\n<p><strong>Valid $S$<span id=\"MathJax-Element-10-Frame\" class=\"MathJax_SVG\"></span></strong></p>\n<pre><code>12345678\n12-34-56-87\n</code></pre>\n<p><strong>Invalid $S$<span id=\"MathJax-Element-11-Frame\" class=\"MathJax_SVG\"></span></strong></p>\n<pre><code>1-234-56-78\n12-45-7810\n</code></pre>\n<p><strong>Note</strong></p>\n<p>This is a regex only challenge. You are not required to write any code.<br />You only have to fill the regex pattern in the blank (<code>_________</code>).</p>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/835d8453-991c-48d5-9e67-1d540015c7ea",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "Backreferences To Failed Groups.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc6ce9b9821851ef95fb"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "branch-reset-groups",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "Branch Reset Groups",
+  "content": "<p><strong><sub>NOTE -&nbsp;<code>Branch reset group is supported by Perl, PHP, Delphi and R.</code></sub></strong></p>\n<p><strong><span id=\"MathJax-Element-1-Frame\" class=\"MathJax_SVG\"></span></strong></p>\n<p><em><strong><span style=\"font-size: 18px;\">(?|regex)</span></strong></em></p>\n<p>A&nbsp;<a href=\"http://www.regular-expressions.info/branchreset.html\">branch reset group</a>&nbsp;consists of alternations and capturing groups.&nbsp;<em>(?|(regex1)|(regex2))</em><br />Alternatives in branch reset group share same capturing group.</p>\n<p><img style=\"width: 450px;\" src=\"../../public_files/60e9525e-5c3d-4fcd-b36b-cdbaf52136c8\" alt=\"1449647722-07764d667a-ach20\" height=\"398\" /></p>\n<div class=\"MathJax_SVG_Display\"><span id=\"MathJax-Element-2-Frame\" class=\"MathJax_SVG\"></span></div>\n<p><em><strong>In the above image, the Regex Pattern is matched with the Test String.</strong></em></p>\n<hr />\n<p><strong>Task</strong></p>\n<p>You have a test string $S$<span id=\"MathJax-Element-3-Frame\" class=\"MathJax_SVG\"></span>.<br />Your task is to write a regex which will match $S$<span id=\"MathJax-Element-4-Frame\" class=\"MathJax_SVG\"></span>, with following condition(s):</p>\n<ul>\n<li><span id=\"MathJax-Element-5-Frame\" class=\"MathJax_SVG\"></span>$S$ consists of 8 digits.</li>\n<li><span id=\"MathJax-Element-6-Frame\" class=\"MathJax_SVG\"></span>$S$ must have \"---\", \"-\", \".\" or \":\" separator such that string $S$<span id=\"MathJax-Element-7-Frame\" class=\"MathJax_SVG\"></span> gets divided in $4$<span id=\"MathJax-Element-8-Frame\" class=\"MathJax_SVG\"></span>&nbsp;parts, with each part having exactly two digits.</li>\n<li><span id=\"MathJax-Element-9-Frame\" class=\"MathJax_SVG\"></span>$S$ string must have exactly one kind of separator.</li>\n<li>Separators must have integers on both sides.</li>\n</ul>\n<p><strong>Valid $S$<span id=\"MathJax-Element-10-Frame\" class=\"MathJax_SVG\"></span></strong></p>\n<pre><code>12-34-56-78\n12:34:56:78\n12---34---56---78\n12.34.56.78\n</code></pre>\n<p><strong>Invalid $S$<span id=\"MathJax-Element-11-Frame\" class=\"MathJax_SVG\"></span></strong></p>\n<pre><code>1-234-56-78\n12-45.78:10\n</code></pre>\n<p><strong>Note</strong></p>\n<p>This is a regex only challenge. You are not required to write any code.<br />You only have to fill the regex pattern in the blank (<code>_________</code>).</p>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/31fa2c46-49e5-4350-89ab-aed56022e013",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "Branch Reset Groups.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc6ce9b9821851ef95fc"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "forward-references",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "Forward References",
+  "content": "<p><strong><sub>NOTE -&nbsp;<code>Forward reference is supported by JGsoft, .NET, Java, Perl, PCRE, PHP, Delphi and Ruby regex flavors.</code></sub></strong></p>\n<p><a href=\"http://www.regular-expressions.info/backref2.html#forward\">Forward reference</a>&nbsp;creates a back reference to a regex that would appear later.<br />Forward references are only useful if they're inside a repeated group.<br />Then there may arise a case in which the regex engine evaluates the backreference after the group has been matched already.</p>\n<p><img style=\"width: 518px;\" src=\"../../public_files/0c1f94ac-6f85-4247-be0a-5bfe26be79a6\" alt=\"1449647867-1c44daf341-ach21\" height=\"454\" /></p>\n<div class=\"MathJax_SVG_Display\"><span id=\"MathJax-Element-1-Frame\" class=\"MathJax_SVG\"></span></div>\n<p><em><strong>In the above image, the Regex Pattern is matched with the Test String.</strong></em></p>\n<hr />\n<p><strong>Task</strong></p>\n<p>You have a test string $S$<span id=\"MathJax-Element-2-Frame\" class=\"MathJax_SVG\"></span>.<br />Your task is to write a regex which will match $S$<span id=\"MathJax-Element-3-Frame\" class=\"MathJax_SVG\"></span>, with following condition(s):</p>\n<ul>\n<li><span id=\"MathJax-Element-4-Frame\" class=\"MathJax_SVG\"></span>$S$ consists of <strong><code>tic</code></strong>&nbsp;or&nbsp;<strong><code>tac</code></strong>.</li>\n<li><strong><code>tic</code></strong>&nbsp;should not be immediate neighbour of itself.</li>\n<li>The first&nbsp;<strong><code>tic</code></strong>&nbsp;must occur only when&nbsp;<strong><code>tac</code></strong>&nbsp;has appeared at least twice before.</li>\n</ul>\n<p><strong>Valid $S$<span id=\"MathJax-Element-5-Frame\" class=\"MathJax_SVG\"></span></strong></p>\n<pre><code>tactactic\ntactactictactic\n</code></pre>\n<p><strong>Invalid $S$<span id=\"MathJax-Element-6-Frame\" class=\"MathJax_SVG\"></span></strong></p>\n<pre><code>tactactictactictictac\ntactictac\n</code></pre>\n<p><strong>Note</strong></p>\n<p>This is a regex only challenge. You are not required to write any code.<br />You only have to fill the regex pattern in the blank (<code>_________</code>).</p>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/0f16ac58-7762-4482-95a3-9831906b4bd2",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "Forward References.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc6ce9b9821851ef95fd"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "positive-lookahead",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "Positive Lookahead",
+  "content": "<p><strong>regex_1(?=regex_2)</strong></p>\n<p>The positive lookahead (<strong>?=</strong>) asserts&nbsp;<code>regex_1</code>&nbsp;to be immediately followed by&nbsp;<code>regex_2</code>. The lookahead is excluded from the match. It does not return matches of&nbsp;<code>regex_2</code>. The lookahead only asserts whether a match is possible or not.</p>\n<p><img style=\"width: 547px;\" src=\"../../public_files/91da6e55-ad4b-4c4a-898d-0a725b8319c8\" alt=\"1449648674-e67416e4d0-ach22\" height=\"479\" /></p>\n<div class=\"MathJax_SVG_Display\"><span id=\"MathJax-Element-2-Frame\" class=\"MathJax_SVG\"></span></div>\n<p><em><strong>In the above image, the Regex Pattern is matched with the Test String.</strong></em></p>\n<p><strong>Task</strong></p>\n<p>You have a test string $S$<span id=\"MathJax-Element-3-Frame\" class=\"MathJax_SVG\"></span>.<br />Write a regex that can match all occurrences of&nbsp;<strong><code>o</code></strong>&nbsp;followed immediately by&nbsp;<strong><code>oo</code></strong> in $S$<span id=\"MathJax-Element-4-Frame\" class=\"MathJax_SVG\"></span>.</p>\n<p><strong>Note</strong></p>\n<p>This is a regex only challenge. You are not required to write code.<br />You have to fill the regex pattern in the blank (<code>_________</code>).</p>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/2385f593-ad7e-4afd-8e38-23bc6bd90563",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "Positive Lookahead.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc6ce9b9821851ef95fe"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "negative-lookahead",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "Negative Lookahead",
+  "content": "<p><strong>regex_1(?!regex_2)</strong></p>\n<p>The negative lookahead (<strong>?!</strong>) asserts&nbsp;<code>regex_1</code>&nbsp;<em>not</em>&nbsp;to be immediately followed by&nbsp;<code>regex_2</code>. Lookahead is excluded from the match (do not consume matches of&nbsp;<code>regex_2</code>), but only assert whether a match is possible or not.</p>\n<p><img style=\"width: 441px;\" src=\"../../public_files/f27473fb-2579-47a9-a687-be3d6685b9fb\" alt=\"1449648778-29c9e8978b-ach23\" height=\"386\" /></p>\n<div class=\"MathJax_SVG_Display\"><span id=\"MathJax-Element-2-Frame\" class=\"MathJax_SVG\"></span></div>\n<p><em><strong>In above image Regex Pattern is matched with the Test String.</strong></em></p>\n<p><strong>Task</strong></p>\n<p>You have a test String $S$<span id=\"MathJax-Element-3-Frame\" class=\"MathJax_SVG\"></span>.<br />Write a regex which can match all characters which are not immediately followed by that same character.</p>\n<p><strong>Example</strong></p>\n<p>If $S$<span id=\"MathJax-Element-4-Frame\" class=\"MathJax_SVG\"></span>&nbsp;=&nbsp;<strong>goooo</strong>, then regex should match&nbsp;<strong><code>g</code>ooo<code>o</code></strong>. Because the first&nbsp;<code>g</code>&nbsp;is not follwed by&nbsp;<em>g</em>&nbsp;and the last&nbsp;<code>o</code>&nbsp;is not followed by&nbsp;<em>o</em>.</p>\n<p><strong>Note</strong></p>\n<p>This is a regex only challenge. You are not required to write a code.<br />You have to fill the regex pattern in the blank (<code>_________</code>).</p>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/a7728d14-0639-4e29-b1d3-5e13894761f5",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "Negative Lookahead.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc6ce9b9821851ef95ff"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "positive-lookbehind",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "Positive Lookbehind",
+  "content": "<section class=\"problem-statement split\">\n<div class=\"ui-tabs-wrap\">\n<div id=\"tab-2-content-undefined\" class=\"tab-list-content\" tabindex=\"0\" role=\"tabpanel\" aria-labelledby=\"tab-2-item-undefined\">\n<div class=\"theme-m hr_tour-problem-statement problem-statement have-external-links\">\n<div class=\"content-text challenge-text mlB hackdown-container theme-m\">\n<div class=\"challenge-body-html\">\n<div class=\"challenge_problem_statement\">\n<div class=\"msB challenge_problem_statement_body\">\n<div class=\"hackdown-content\">\n<p><strong>(?&lt;=regex_2)regex_1</strong></p>\n<p>The positive lookbehind (<strong>?&lt;=</strong>) asserts&nbsp;<code>regex_1</code>&nbsp;to be immediately preceded by&nbsp;<code>regex_2</code>. Lookbehind is excluded from the match (do not consume matches of&nbsp;<code>regex_2</code>), but only assert whether a match is possible or not.</p>\n<p><img style=\"width: 444px;\" src=\"../../public_files/a170f13b-3279-455a-af22-cb1bb9ad04fd\" alt=\"1449648924-81d5f2a6d0-ach24\" height=\"389\" /></p>\n<div class=\"MathJax_SVG_Display\"><span id=\"MathJax-Element-2-Frame\" class=\"MathJax_SVG\"></span></div>\n<p><em><strong>In above image Regex Pattern is matched with the Test String.</strong></em></p>\n<p><strong>Task</strong></p>\n<p>You have a test String $S$<span id=\"MathJax-Element-3-Frame\" class=\"MathJax_SVG\"></span>.<br />Write a regex which can match all the occurences of digit which are immediately preceded by odd digit.</p>\n<p><strong>Note</strong></p>\n<p>This is a regex only challenge. You are not required to write a code.<br />You have to fill the regex pattern in the blank (<code>_________</code>).</p>\n<p><sub><strong><code>JavaScript do not support lookbehind.</code></strong></sub></p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"code-editor-section split\">\n<div>\n<div>\n<div>&nbsp;</div>\n<section class=\"theme-dark dark-mode-panel monospace\">\n<div class=\"ui-card ui-layer-2\">\n<div class=\"card-content\">\n<article class=\"dark-mode-intro\">\n<div class=\"dark-mode-intro-content\">\n<h2 class=\"dark-mode-intro-title\">Welcome to the dark side</h2>\n</div>\n</article>\n</div>\n</div>\n</section>\n</div>\n</div>\n</section>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/c9f63812-dbd3-46a1-9e7f-b7394add8fe1",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "Positive Lookbehind.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc6ce9b9821851ef9600"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "negative-lookbehind",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "Negative Lookbehind",
+  "content": "<p><strong>(?&lt;!regex_2)regex_1</strong></p>\n<p>The negative lookbehind (<strong>?&lt;!</strong>) asserts&nbsp;<code>regex_1</code>&nbsp;<em>not</em>&nbsp;to be immediately preceded by&nbsp;<code>regex_2</code>. Lookbehind is excluded from the match (do not consume matches of&nbsp;<code>regex_2</code>), but only assert whether a match is possible or not.</p>\n<p><img style=\"width: 477px;\" src=\"../../public_files/abcaa341-626f-46a0-8a98-adc1f82d4f08\" alt=\"1449649059-ad29ed4d89-ach25\" height=\"418\" /></p>\n<div class=\"MathJax_SVG_Display\"><span id=\"MathJax-Element-2-Frame\" class=\"MathJax_SVG\"></span></div>\n<p><em><strong>In above image Regex Pattern is matched with the Test String.</strong></em></p>\n<p><strong>Task</strong></p>\n<p>You have a test String $S$<span id=\"MathJax-Element-3-Frame\" class=\"MathJax_SVG\"></span>.<br />Write a regex which can match all the occurences of characters which are not immediately preceded by vowels (a, e, i, u, o, A, E, I, O, U).</p>\n<p><strong>Note</strong></p>\n<p>This is a regex only challenge. You are not required to write a code.<br />You have to fill the regex pattern in the blank (<code>_________</code>).</p>\n<p><sub><strong><code>JavaScript do not support lookbehind.</code></strong></sub></p>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/4ea84c30-acf5-4fbc-a9da-ee5f44876691",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "Negative Lookbehind.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc6ce9b9821851ef9601"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 15,
+  "slug": "detect-html-links",
+  "tags": [],
+  "level": "INTERMEDIATE",
+  "title": "Detect HTML links",
+  "content": "<div class=\"challenge_problem_statement\">\n<div class=\"msB challenge_problem_statement_body\">\n<div class=\"hackdown-content\">\n<p>Charlie has been given an assignment by his Professor to strip the&nbsp;<em>links</em>&nbsp;and the&nbsp;<em>text name</em>&nbsp;from the html pages.<br />A html link is of the form,</p>\n<pre><code>&lt;a href=\"http://www.hackerrank.com\"&gt;HackerRank&lt;/a&gt;  \n</code></pre>\n<p>Where&nbsp;<em>a</em>&nbsp;is the tag and&nbsp;<em>href</em>&nbsp;is an attribute which holds the link charlie is interested in. The&nbsp;<em>text name</em>&nbsp;is&nbsp;<em>HackerRank</em>.</p>\n<p>Charlie notices that the&nbsp;<em>text name</em>&nbsp;can sometimes be hidden within multiple tags</p>\n<pre><code>&lt;a href=\"http://www.hackerrank.com\"&gt;&lt;h1&gt;&lt;b&gt;HackerRank&lt;/b&gt;&lt;/h1&gt;&lt;/a&gt;\n</code></pre>\n<p>Here, the&nbsp;<em>text name</em>&nbsp;is hidden inside the tags&nbsp;<em>h1</em>&nbsp;and&nbsp;<em>b</em>.</p>\n<p>Help Charlie in listing all the&nbsp;<em>links</em>&nbsp;and the&nbsp;<em>text name</em>&nbsp;of the links.</p>\n</div>\n</div>\n</div>\n<div class=\"challenge_input_format\">\n<div class=\"msB challenge_input_format_title\">\n<p><strong>Input Format</strong></p>\n</div>\n<div class=\"msB challenge_input_format_body\">\n<div class=\"hackdown-content\">\n<p>The first line contains the number of lines in the fragment (N). This is followed by N lines from a valid HTML document or fragment.</p>\n</div>\n</div>\n</div>\n<div class=\"challenge_constraints\">\n<div class=\"msB challenge_constraints_title\">\n<p><strong>Constraints</strong></p>\n</div>\n<div class=\"msB challenge_constraints_body\">\n<div class=\"hackdown-content\">\n<p>N &lt; 100<br />Number of characters in the test fragments &lt;= 10000 characters.<br />Characters will be restricted to ASCII. Fragments for the tests will be picked up from Wikipedia. Also, some tests might not have text or names on the links.</p>\n</div>\n</div>\n</div>\n<div class=\"challenge_output_format\">\n<div class=\"msB challenge_output_format_title\">\n<p><strong>Output Format</strong></p>\n</div>\n<div class=\"msB challenge_output_format_body\">\n<div class=\"hackdown-content\">\n<p>If there are M links in the document, display each of them in a new line. The&nbsp;<em>link</em>&nbsp;and the&nbsp;<em>text name</em>&nbsp;must be separated by a \",\" (comma) with no spaces between them.<br />Strip out any extra spaces at the start and end position of both the&nbsp;<em>link</em>&nbsp;and the&nbsp;<em>text name</em>&nbsp;before printing.</p>\n<pre><code>link-1,text name-1\nlink-2,text name-2\nlink-3,text name-3\n....\nlink-n,text name-M\n</code></pre>\n</div>\n</div>\n</div>\n<div class=\"challenge_sample_input\">\n<div class=\"msB challenge_sample_input_title\">\n<p><strong>Sample Input</strong></p>\n</div>\n<div class=\"msB challenge_sample_input_body\">\n<div class=\"hackdown-content\">\n<p><strong>Sample Input:1</strong></p>\n<pre><code>2\n&lt;p&gt;&lt;a href=\"http://www.quackit.com/html/tutorial/html_links.cfm\"&gt;Example Link&lt;/a&gt;&lt;/p&gt;\n&lt;div class=\"more-info\"&gt;&lt;a href=\"http://www.quackit.com/html/examples/html_links_examples.cfm\"&gt;More Link Examples...&lt;/a&gt;&lt;/div&gt;\n</code></pre>\n<p><strong>Sample Input:2</strong></p>\n<pre><code>13\n&lt;div class=\"portal\" role=\"navigation\" id='p-navigation'&gt;\n&lt;h3&gt;Navigation&lt;/h3&gt;\n&lt;div class=\"body\"&gt;\n&lt;ul&gt;\n &lt;li id=\"n-mainpage-description\"&gt;&lt;a href=\"/wiki/Main_Page\" title=\"Visit the main page [z]\" accesskey=\"z\"&gt;Main page&lt;/a&gt;&lt;/li&gt;\n &lt;li id=\"n-contents\"&gt;&lt;a href=\"/wiki/Portal:Contents\" title=\"Guides to browsing Wikipedia\"&gt;Contents&lt;/a&gt;&lt;/li&gt;\n &lt;li id=\"n-featuredcontent\"&gt;&lt;a href=\"/wiki/Portal:Featured_content\" title=\"Featured content  the best of Wikipedia\"&gt;Featured content&lt;/a&gt;&lt;/li&gt;\n&lt;li id=\"n-currentevents\"&gt;&lt;a href=\"/wiki/Portal:Current_events\" title=\"Find background information on current events\"&gt;Current events&lt;/a&gt;&lt;/li&gt;\n&lt;li id=\"n-randompage\"&gt;&lt;a href=\"/wiki/Special:Random\" title=\"Load a random article [x]\" accesskey=\"x\"&gt;Random article&lt;/a&gt;&lt;/li&gt;\n&lt;li id=\"n-sitesupport\"&gt;&lt;a href=\"//donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en\" title=\"Support us\"&gt;Donate to Wikipedia&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;\n&lt;/div&gt;    \n</code></pre>\n</div>\n</div>\n</div>\n<div class=\"challenge_sample_output\">\n<div class=\"msB challenge_sample_output_title\">\n<p><strong>Sample Output</strong></p>\n</div>\n<div class=\"msB challenge_sample_output_body\">\n<div class=\"hackdown-content\">\n<p><strong>Sample Output:1</strong></p>\n<pre><code>http://www.quackit.com/html/tutorial/html_links.cfm,Example Link\nhttp://www.quackit.com/html/examples/html_links_examples.cfm,More Link Examples...\n</code></pre>\n<p><strong>Sample Output:2</strong></p>\n<pre><code>/wiki/Main_Page,Main page\n/wiki/Portal:Contents,Contents\n/wiki/Portal:Featured_content,Featured content\n/wiki/Portal:Current_events,Current events\n/wiki/Special:Random,Random article\n//donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en,Donate to Wikipedia    \n</code></pre>\n</div>\n</div>\n</div>\n<div class=\"challenge_explanation\">\n<div class=\"msB challenge_explanation_title\">\n<p><strong>Explanation</strong></p>\n</div>\n<div class=\"msB challenge_explanation_body\">\n<div class=\"hackdown-content\">\n<p><strong>Viewing Submissions</strong></p>\n<p>You can view others' submissions if you solve this challenge. Navigate to the challenge leaderboard.</p>\n</div>\n</div>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/9220526f-9559-4ac8-a8cc-1c2a763d1876",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "Detect HTML links.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc6ce9b9821851ef9602"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "detect-html-tags",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "Detect HTML Tags",
+  "content": "<div class=\"challenge_problem_statement\">\n<div class=\"msB challenge_problem_statement_body\">\n<div class=\"hackdown-content\">\n<p>In this challenge, we're using regular expressions to detect the various&nbsp;tags&nbsp;used in an HTML document.</p>\n<ul>\n<li>Tags come in pairs. Some tag name,&nbsp;<strong>t</strong><span id=\"MathJax-Element-1-Frame\" class=\"MathJax_SVG\"></span>, will have an opening tag, <strong>&lt;t&gt;</strong>, followed by some intermediate text, followed by a closing tag, <strong>&lt;/t&gt;</strong>. The forward slash in a closing tag will always come&nbsp;before&nbsp;the tag name.</li>\n<li>The exception to this is&nbsp;self-closing&nbsp;tags, which consist of a&nbsp;single tag&nbsp;(not a pair) with a forward slash&nbsp;after the tag name:&nbsp;<strong>&lt;p/&gt;</strong><span id=\"MathJax-Element-4-Frame\" class=\"MathJax_SVG\"></span></li>\n</ul>\n<p>Here are a few examples of tags:</p>\n<ul>\n<li>The&nbsp;<strong>p</strong><span id=\"MathJax-Element-5-Frame\" class=\"MathJax_SVG\"></span>&nbsp;tag is for paragraphs:&nbsp;<strong>&lt;p&gt;This is a paragraph&lt;/p&gt;</strong><span id=\"MathJax-Element-6-Frame\" class=\"MathJax_SVG\"></span></li>\n<li>There may be&nbsp;<strong>1</strong><span id=\"MathJax-Element-7-Frame\" class=\"MathJax_SVG\"></span>&nbsp;or more spaces before or after a tag name: <strong>&lt; p &gt;This is a paragraph&lt;/p&gt;</strong><span id=\"MathJax-Element-8-Frame\" class=\"MathJax_SVG\"></span></li>\n<li>A&nbsp;void&nbsp;or&nbsp;empty tag&nbsp;involves an opening and closing tag with no intermediate characters:&nbsp;<strong>&lt;p&gt;&lt;/p&gt;</strong><span id=\"MathJax-Element-9-Frame\" class=\"MathJax_SVG\"></span></li>\n</ul>\n<p>Some tags can also have&nbsp;attributes, such as the&nbsp;<strong>a</strong><span id=\"MathJax-Element-10-Frame\" class=\"MathJax_SVG\"></span>&nbsp;tag, which is used to add a hyperlink to another document:&nbsp;<strong>&lt;a href=\"http://www.google. com\"&gt;Google&lt;/a&gt;</strong><span id=\"MathJax-Element-11-Frame\" class=\"MathJax_SVG\"></span></p>\n<p>In the above case,&nbsp;<strong>a</strong><span id=\"MathJax-Element-12-Frame\" class=\"MathJax_SVG\"></span>&nbsp;is the tag name and&nbsp;<strong>href</strong><span id=\"MathJax-Element-13-Frame\" class=\"MathJax_SVG\"></span>&nbsp;is an attribute having the value <strong>http://www.google. com</strong><span id=\"MathJax-Element-14-Frame\" class=\"MathJax_SVG\"></span>.</p>\n<p><strong>Task</strong><br />Given $N$<span id=\"MathJax-Element-15-Frame\" class=\"MathJax_SVG\"></span>&nbsp;lines of HTML, find the tag names (ignore any attributes) and print them as a single line of lexicographically ordered semicolon-separated values (e.g.:&nbsp;<strong>tag1;tag2;tag3</strong><span id=\"MathJax-Element-16-Frame\" class=\"MathJax_SVG\"></span>).</p>\n</div>\n</div>\n</div>\n<div class=\"challenge_input_format\">\n<div class=\"msB challenge_input_format_title\">\n<p><strong>Input Format</strong></p>\n</div>\n<div class=\"msB challenge_input_format_body\">\n<div class=\"hackdown-content\">\n<p>The first line contains an integer, $N$<span id=\"MathJax-Element-1-Frame\" class=\"MathJax_SVG\"></span>, the number of HTML fragments.<br />Each of the $N$<span id=\"MathJax-Element-2-Frame\" class=\"MathJax_SVG\"></span>&nbsp;subsequent lines contains a fragment of an HTML document.</p>\n</div>\n</div>\n</div>\n<div class=\"challenge_constraints\">\n<div class=\"msB challenge_constraints_title\">\n<p><strong>Constraints</strong></p>\n</div>\n<div class=\"msB challenge_constraints_body\">\n<div class=\"hackdown-content\">\n<ul>\n<li>$1 \\leq N \\leq 100$<span id=\"MathJax-Element-1-Frame\" class=\"MathJax_SVG\"></span></li>\n<li>Each fragment contains <strong>&lt; 10000 </strong>ASCII characters.</li>\n<li>The fragments are chosen from&nbsp;<a href=\"http://www.wikipedia.com/\">Wikipedia</a>, so analyzing and observing their markup structure may help.</li>\n<li>Leading and trailing spaces/indentation have been trimmed from the HTML fragments.</li>\n</ul>\n</div>\n</div>\n</div>\n<div class=\"challenge_output_format\">\n<div class=\"msB challenge_output_format_title\">\n<p><strong>Output Format</strong></p>\n</div>\n<div class=\"msB challenge_output_format_body\">\n<div class=\"hackdown-content\">\n<p>Print a single line containing&nbsp;all&nbsp;of the unique tag names found in the input. Your output tags should be semicolon-separated and ordered lexicographically (i.e.: alphabetically). Do not print the same tag name more than once.</p>\n</div>\n</div>\n</div>\n<div class=\"challenge_sample_input\">\n<div class=\"msB challenge_sample_input_title\">\n<p><strong>Sample Input</strong></p>\n</div>\n<div class=\"msB challenge_sample_input_body\">\n<div class=\"hackdown-content\">\n<pre><code>2\n&lt;p&gt;&lt;a href=\"http://www.quackit.com/html/tutorial/html_links.cfm\"&gt;Example Link&lt;/a&gt;&lt;/p&gt;\n&lt;div class=\"more-info\"&gt;&lt;a href=\"http://www.quackit.com/html/examples/html_links_examples.cfm\"&gt;More Link Examples...&lt;/a&gt;&lt;/div&gt;\n</code></pre>\n</div>\n</div>\n</div>\n<div class=\"challenge_sample_output\">\n<div class=\"msB challenge_sample_output_title\">\n<p><strong>Sample Output</strong></p>\n</div>\n<div class=\"msB challenge_sample_output_body\">\n<div class=\"hackdown-content\">\n<pre><code>a;div;p\n</code></pre>\n</div>\n</div>\n</div>\n<div class=\"challenge_explanation\">\n<div class=\"msB challenge_explanation_title\">\n<p><strong>Explanation</strong></p>\n</div>\n<div class=\"msB challenge_explanation_body\">\n<div class=\"hackdown-content\">\n<p>The first line contains&nbsp;<strong>2</strong><span id=\"MathJax-Element-1-Frame\" class=\"MathJax_SVG\"></span> tag names: <strong>{p, a}</strong>.<br />The second line contains&nbsp;<strong>2</strong><span id=\"MathJax-Element-3-Frame\" class=\"MathJax_SVG\"></span> tag names: <strong>{div, a}</strong>.<br />Our set of unique tag names is <strong>{p, a, div}</strong>.<br />When we order these alphabetically and print them as semicolon-separated values, we get \"<strong>a;div;p</strong><span id=\"MathJax-Element-6-Frame\" class=\"MathJax_SVG\"></span>\".</p>\n</div>\n</div>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/199cd133-5f9e-4d50-aab0-5a394c6b52c8",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "Detect HTML Tags.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc6ce9b9821851ef9603"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "find-a-sub-word",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "Find A Sub-Word",
+  "content": "<div class=\"challenge_problem_statement\">\n<div class=\"msB challenge_problem_statement_body\">\n<div class=\"hackdown-content\">\n<p>We define a&nbsp;word character&nbsp;to be any of the following:</p>\n<ul>\n<li>An English alphabetic letter (i.e.,&nbsp;<code>a-z</code>&nbsp;and&nbsp;<code>A-Z</code>).</li>\n<li>A decimal digit (i.e.,&nbsp;<code>0-9</code>).</li>\n<li>An underscore (i.e.,&nbsp;<code>_</code>, which corresponds to ASCII value $95$<span id=\"MathJax-Element-1-Frame\" class=\"MathJax_SVG\"></span>).</li>\n</ul>\n<p>We define a&nbsp;word&nbsp;to be a contiguous sequence of one or more word characters that is preceded and succeeded by one or more occurrences of non-word-characters or line terminators. For example, in the string&nbsp;<code>I l0ve-cheese_?</code>, the words are&nbsp;<code>I</code>,&nbsp;<code>l0ve</code>, and&nbsp;<code>cheese_</code>.</p>\n<p>We define a&nbsp;sub-word&nbsp;as follows:</p>\n<ul>\n<li>A sequence of word characters (i.e., English alphabetic letters, digits, and/or underscores) that occur in the same exact order (i.e., as a contiguous sequence) inside another word.</li>\n<li>It is preceded and succeeded by word characters&nbsp;only.</li>\n</ul>\n<p>Given $n$<span id=\"MathJax-Element-2-Frame\" class=\"MathJax_SVG\"></span> sentences consisting of one or more words separated by non-word characters, process $q$<span id=\"MathJax-Element-3-Frame\" class=\"MathJax_SVG\"></span> queries where each query consists of a single string, $s$<span id=\"MathJax-Element-4-Frame\" class=\"MathJax_SVG\"></span>. To process each query, count the number of occurrences of $s$<span id=\"MathJax-Element-5-Frame\" class=\"MathJax_SVG\"></span>&nbsp;as a&nbsp;sub-word in all $n$<span id=\"MathJax-Element-6-Frame\" class=\"MathJax_SVG\"></span>&nbsp;sentences, then print the number of occurrences on a new line.</p>\n</div>\n</div>\n</div>\n<div class=\"challenge_input_format\">\n<div class=\"msB challenge_input_format_title\">\n<p><strong>Input Format</strong></p>\n</div>\n<div class=\"msB challenge_input_format_body\">\n<div class=\"hackdown-content\">\n<p>The first line contains an integer, n, denoting the number of sentences.<br />Each of the $n$<span id=\"MathJax-Element-1-Frame\" class=\"MathJax_SVG\"></span>&nbsp;subsequent lines contains a sentence consisting of words separated by non-word characters.<br />The next line contains an integer, $q$<span id=\"MathJax-Element-2-Frame\" class=\"MathJax_SVG\"></span>, denoting the number of queries.<br />Each line $i$ of the $q$<span id=\"MathJax-Element-4-Frame\" class=\"MathJax_SVG\"></span> subsequent lines contains a string, $s_{i}$<span id=\"MathJax-Element-5-Frame\" class=\"MathJax_SVG\"></span>, to check.</p>\n</div>\n</div>\n</div>\n<div class=\"challenge_constraints\">\n<div class=\"msB challenge_constraints_title\">\n<p><strong>Constraints</strong></p>\n</div>\n<div class=\"msB challenge_constraints_body\">\n<div class=\"hackdown-content\">\n<ul>\n<li>$1 \\leq n \\leq 100$<span id=\"MathJax-Element-1-Frame\" class=\"MathJax_SVG\"></span></li>\n<li>$1 \\leq q \\leq 10$<span id=\"MathJax-Element-2-Frame\" class=\"MathJax_SVG\"></span></li>\n</ul>\n</div>\n</div>\n</div>\n<div class=\"challenge_output_format\">\n<div class=\"msB challenge_output_format_title\">\n<p><strong>Output Format</strong></p>\n</div>\n<div class=\"msB challenge_output_format_body\">\n<div class=\"hackdown-content\">\n<p>For each query string, $s_{i}$<span id=\"MathJax-Element-1-Frame\" class=\"MathJax_SVG\"></span>, print the total number of times it occurs as a sub-word&nbsp;within all words in all $n$<span id=\"MathJax-Element-2-Frame\" class=\"MathJax_SVG\"></span>&nbsp;sentences.</p>\n</div>\n</div>\n</div>\n<div class=\"challenge_sample_input\">\n<div class=\"msB challenge_sample_input_title\">\n<p><strong>Sample Input</strong></p>\n</div>\n<div class=\"msB challenge_sample_input_body\">\n<div class=\"hackdown-content\">\n<pre><code>1\nexisting pessimist optimist this is\n1\nis\n</code></pre>\n</div>\n</div>\n</div>\n<div class=\"challenge_sample_output\">\n<div class=\"msB challenge_sample_output_title\">\n<p><strong>Sample Output</strong></p>\n</div>\n<div class=\"msB challenge_sample_output_body\">\n<div class=\"hackdown-content\">\n<pre><code>3\n</code></pre>\n</div>\n</div>\n</div>\n<div class=\"challenge_explanation\">\n<div class=\"msB challenge_explanation_title\">\n<p><strong>Explanation</strong></p>\n</div>\n<div class=\"msB challenge_explanation_body\">\n<div class=\"hackdown-content\">\n<p>We must count the number of times $s=$<span id=\"MathJax-Element-1-Frame\" class=\"MathJax_SVG\"></span>&nbsp;<code>is</code> occurs as a sub-word in our $n=1$<span id=\"MathJax-Element-2-Frame\" class=\"MathJax_SVG\"></span>&nbsp;input sentence(s):</p>\n<ul>\n<li><span id=\"MathJax-Element-3-Frame\" class=\"MathJax_SVG\"></span>$s$ occurs $1$<span id=\"MathJax-Element-4-Frame\" class=\"MathJax_SVG\"></span>&nbsp;time as a sub-word of&nbsp;<code>ex<strong>is</strong>ting</code>.</li>\n<li><span id=\"MathJax-Element-5-Frame\" class=\"MathJax_SVG\">$s$</span>&nbsp;occurs $1$<span id=\"MathJax-Element-6-Frame\" class=\"MathJax_SVG\"></span>&nbsp;time as a sub-word of&nbsp;<code>pessim<strong>is</strong>t</code>.</li>\n<li><span id=\"MathJax-Element-7-Frame\" class=\"MathJax_SVG\">$s$</span>&nbsp;occurs $1$<span id=\"MathJax-Element-8-Frame\" class=\"MathJax_SVG\"></span>&nbsp;time as a sub-word of&nbsp;<code>optim<strong>is</strong>t</code>.</li>\n<li>While $s$<span id=\"MathJax-Element-9-Frame\" class=\"MathJax_SVG\"></span>&nbsp;is a substring of the word&nbsp;<code>th<strong>is</strong></code>, it's followed by a blank space; because a blank space is non-alphabetic, non-numeric, and not an underscore, we do not count it as a sub-word occurrence.</li>\n<li>While $s$<span id=\"MathJax-Element-10-Frame\" class=\"MathJax_SVG\"></span>&nbsp;is a substring of the word&nbsp;<strong><code>is</code></strong>&nbsp;in the sentence, we do not count it as a match because it is preceded and succeeded by non-word characters (i.e., blank spaces) in the sentence. This means it doesn't count as a sub-word occurrence.</li>\n</ul>\n<p>Next, we sum the occurrences of $s$<span id=\"MathJax-Element-11-Frame\" class=\"MathJax_SVG\"></span> as a sub-word of all our words as $1+1+1+0+0+0=3$<span id=\"MathJax-Element-12-Frame\" class=\"MathJax_SVG\"></span>. Thus, we print $3$<span id=\"MathJax-Element-13-Frame\" class=\"MathJax_SVG\"></span>&nbsp;on a new line.</p>\n</div>\n</div>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/beba9dcb-9950-4e67-b7fb-5464fdf3d521",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "Find A Sub-Word.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc6ce9b9821851ef9604"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "alien-username",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "Alien Username",
+  "content": "<div class=\"challenge_problem_statement\">\n<div class=\"msB challenge_problem_statement_body\">\n<div class=\"hackdown-content\">\n<p>In a galaxy far, far away, on a planet different from ours, each computer username uses the following format:</p>\n<ol>\n<li>It&nbsp;must&nbsp;begin with either an underscore,&nbsp;<code>_</code> (ASCII value $95$<span id=\"MathJax-Element-1-Frame\" class=\"MathJax_SVG\"></span>), or a period,&nbsp;<code>.</code> (ASCII value $46$<span id=\"MathJax-Element-2-Frame\" class=\"MathJax_SVG\"></span>).</li>\n<li>The first character&nbsp;must&nbsp;be immediately followed by&nbsp;one or more digits in the range $0$<span id=\"MathJax-Element-3-Frame\" class=\"MathJax_SVG\"></span> through $9$<span id=\"MathJax-Element-4-Frame\" class=\"MathJax_SVG\"></span>.</li>\n<li>After some number of digits, there&nbsp;must be $0$<span id=\"MathJax-Element-5-Frame\" class=\"MathJax_SVG\"></span>&nbsp;or more English letters (uppercase and/or lowercase).</li>\n<li>It&nbsp;may&nbsp;be terminated with an optional&nbsp;<code>_</code> (ASCII value $95$<span id=\"MathJax-Element-6-Frame\" class=\"MathJax_SVG\"></span>). Note that if it's not terminated with an underscore, then there should be no characters after the sequence of $0$<span id=\"MathJax-Element-7-Frame\" class=\"MathJax_SVG\"></span>&nbsp;or more English letters.</li>\n</ol>\n<p>Given $n$<span id=\"MathJax-Element-8-Frame\" class=\"MathJax_SVG\"></span>&nbsp;strings, determine which ones are valid alien usernames. If a string is a valid alien username, print&nbsp;<code>VALID</code>&nbsp;on a new line; otherwise, print&nbsp;<code>INVALID</code>.</p>\n</div>\n</div>\n</div>\n<div class=\"challenge_input_format\">\n<div class=\"msB challenge_input_format_title\">\n<p><strong>Input Format</strong></p>\n</div>\n<div class=\"msB challenge_input_format_body\">\n<div class=\"hackdown-content\">\n<p>The first line contains a single integer, $n$<span id=\"MathJax-Element-1-Frame\" class=\"MathJax_SVG\"></span>, denoting the number of usernames.<br />Each line $i$<span id=\"MathJax-Element-2-Frame\" class=\"MathJax_SVG\"></span> of the $n$<span id=\"MathJax-Element-3-Frame\" class=\"MathJax_SVG\"></span>&nbsp;subsequent lines contains a string denoting an alien username to validate.</p>\n</div>\n</div>\n</div>\n<div class=\"challenge_constraints\">\n<div class=\"msB challenge_constraints_title\">\n<p><strong>Constraints</strong></p>\n</div>\n<div class=\"msB challenge_constraints_body\">\n<div class=\"hackdown-content\">\n<ul>\n<li>$1 \\leq n \\leq 100$<span id=\"MathJax-Element-1-Frame\" class=\"MathJax_SVG\"></span></li>\n</ul>\n</div>\n</div>\n</div>\n<div class=\"challenge_output_format\">\n<div class=\"msB challenge_output_format_title\">\n<p><strong>Output Format</strong></p>\n</div>\n<div class=\"msB challenge_output_format_body\">\n<div class=\"hackdown-content\">\n<p>Iterate through each of the $n$<span id=\"MathJax-Element-1-Frame\" class=\"MathJax_SVG\"></span>&nbsp;strings in order and determine whether or not each string is a valid alien username. If a username is a valid alien username, print&nbsp;<code>VALID</code>&nbsp;on a new line; otherwise, print&nbsp;<code>INVALID</code>.</p>\n</div>\n</div>\n</div>\n<div class=\"challenge_sample_input\">\n<div class=\"msB challenge_sample_input_title\">\n<p><strong>Sample Input</strong></p>\n</div>\n<div class=\"msB challenge_sample_input_body\">\n<div class=\"hackdown-content\">\n<pre><code>3\n_0898989811abced_\n_abce\n_09090909abcD0\n</code></pre>\n</div>\n</div>\n</div>\n<div class=\"challenge_sample_output\">\n<div class=\"msB challenge_sample_output_title\">\n<p><strong>Sample Output</strong></p>\n</div>\n<div class=\"msB challenge_sample_output_body\">\n<div class=\"hackdown-content\">\n<pre><code>VALID\nINVALID\nINVALID\n</code></pre>\n</div>\n</div>\n</div>\n<div class=\"challenge_explanation\">\n<div class=\"msB challenge_explanation_title\">\n<p><strong>Explanation</strong></p>\n</div>\n<div class=\"msB challenge_explanation_body\">\n<div class=\"hackdown-content\">\n<p>We validate the following three usernames:</p>\n<ol>\n<li><code>_0898989811abced_</code>&nbsp;is valid as it satisfies the requirements specified above. Thus, we print&nbsp;VALID.</li>\n<li><code>_abce</code>&nbsp;is invalid as the beginning&nbsp;<code>_</code>&nbsp;is not followed by one or more digits. Thus, we print&nbsp;INVALID.</li>\n<li><code>_09090909abcD0</code>&nbsp;is invalid as the sequence of English alphabetic letters is immediately followed by a number. Thus, we print&nbsp;INVALID.</li>\n</ol>\n</div>\n</div>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/159be4f8-30aa-452d-9da8-a766f0020a95",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "Alien Username.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc6ce9b9821851ef9605"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "ip-address-validation",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "IP Address Validation",
+  "content": "<p>You will be provided with N lines of what are&nbsp;possibly&nbsp;IP addresses. You need to detect if the text contained in each of the lines represents an (a)IPv4 address (b)IPv6 address or (c)None of these.</p>\n<p><a href=\"https://en.wikipedia.org/wiki/IPv4\">IPv4</a>&nbsp;was the first publicly used Internet Protocol which used 4 byte addresses which permitted for 2<sup>32</sup>&nbsp;addresses. The typical format of an IPv4 address is A.B.C.D where A, B, C and D are Integers lying between 0 and 255 (both inclusive).</p>\n<p><a href=\"https://en.wikipedia.org/wiki/IPv6\">IPv6</a>, with 128 bits was developed to permit the expansion of the address space. To quote from the linked article:&nbsp;The 128 bits of an IPv6 address are represented in 8 groups of 16 bits each. Each group is written as 4 hexadecimal digits and the groups are separated by colons (:). The address 2001:0db8:0000:0000:0000:ff00:0042:8329 is an example of this representation.&nbsp;Consecutive sections of zeros will be left as they are.<br />An IPv6 value such as \"...:0:...\" or \"...:5:...\" is address-wise identical to \"...:0000:...\" or \"...:0005:....\". Leading zeros may be omitted in writing the address.</p>\n<p><strong>Input Format</strong><br />An integer N such that N &lt;= 50. This is followed by N lines such that each the text in each line is either an IPv4 address or an IPv6 address, or a chunk of text which does not equal either of these. There will be no extra text or whitespace leading or trailing the IP address in a line (if it is an IP address). The number of characters in each line will not exceed 500.</p>\n<p><strong>Output Format</strong><br />N lines.<br />The i<sup>th</sup>&nbsp;output line should equal (a)IPv4 or (b)IPv6 or (c)Neither depending on what you detected the i<sup>th</sup>&nbsp;input line to be.</p>\n<p><strong>Sample Input</strong></p>\n<pre><code>3\nThis line has junk text.  \n121.18.19.20  \n2001:0db8:0000:0000:0000:ff00:0042:8329  \n</code></pre>\n<p><strong>Sample Output</strong></p>\n<pre><code>Neither    \nIPv4  \nIPv6  </code></pre>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/bf9962ad-61d8-4781-b246-926e15be9257",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "IP Address Validation.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc6ce9b9821851ef9606"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 15,
+  "slug": "find-a-word",
+  "tags": [],
+  "level": "INTERMEDIATE",
+  "title": "Find a Word",
+  "content": "<p>We define a word as a non-empty maximum sequence of characters that can contain only lowercase letters, uppercase letters, digits and underscores '_' (ASCII value 95). Maximum sequence means that the word has to be immediately preceeded by a character not allowed to occur in a word or by the left boundary of the sentence, and it has to be immediately followed by a character not allowed to occur in a word or by the right boundary of the sentence.</p>\n<p>Given $N$<span id=\"MathJax-Element-1-Frame\" class=\"MathJax_SVG\"></span> sentences and $T$<span id=\"MathJax-Element-2-Frame\" class=\"MathJax_SVG\"></span> words, for each of these words, find the number of its occurences in all the $N$<span id=\"MathJax-Element-3-Frame\" class=\"MathJax_SVG\"></span>&nbsp;sentences.</p>\n<p><strong>Input Format</strong></p>\n<p>In the first line there is a single integer $N$<span id=\"MathJax-Element-4-Frame\" class=\"MathJax_SVG\"></span>. Each of the next $N$<span id=\"MathJax-Element-5-Frame\" class=\"MathJax_SVG\"></span> lines contains a single sentence. After that, in the next line, there is a single integer $T$<span id=\"MathJax-Element-6-Frame\" class=\"MathJax_SVG\"></span> denoting the number of words. In the $i$<span id=\"MathJax-Element-7-Frame\" class=\"MathJax_SVG\"></span>-th of the next $T$<span id=\"MathJax-Element-8-Frame\" class=\"MathJax_SVG\"></span>&nbsp;lines, there is a single word denoting the&nbsp;<span id=\"MathJax-Element-9-Frame\" class=\"MathJax_SVG\"></span>-th word for which, you have to find the number of its occurences in the sentences.</p>\n<p><strong>Constraints</strong></p>\n<p><span id=\"MathJax-Element-10-Frame\" class=\"MathJax_SVG\">$1 \\leq N \\leq 100$</span><br /><span id=\"MathJax-Element-11-Frame\" class=\"MathJax_SVG\"></span></p>\n<p><span class=\"MathJax_SVG\">$1 \\leq T \\leq 10$</span></p>\n<p><strong>Output format</strong></p>\n<p>For every word, print the number of occurrences of the word in all the N sentences listed.</p>\n<p><strong>Sample Input</strong></p>\n<pre><code>1\nfoo bar (foo) bar foo-bar foo_bar foo'bar bar-foo bar, foo.\n1\nfoo\n</code></pre>\n<p><strong>Sample Output</strong></p>\n<pre><code>6\n</code></pre>\n<p><strong>Explanation</strong></p>\n<ul>\n<li>foo is the first word</li>\n<li>(foo) is preceeded by '(' and followed by ')', so it's the second word.</li>\n<li>foo-bar is considered as two words and 'foo' is the first of them. It is preceeded by a space and followed by a hyphen '-'</li>\n<li>bar-foo also contains foo for the same reason mentioned above</li>\n<li>foo_bar is a single single word and hence foo in it is not counted</li>\n<li>foo'bar is considered as two words and 'foo' is the first of them. It is preceeded by a space and followed by a apostrophe \"'\"</li>\n<li>foo. as it is preceeded by a space and followed by a dot'.'</li>\n</ul>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/76608d25-d67e-4f96-b891-33033157e9f8",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "Find a Word.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc6ce9b9821851ef9607"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 15,
+  "slug": "detect-the-email-addresses",
+  "tags": [],
+  "level": "INTERMEDIATE",
+  "title": "Detect the Email Addresses",
+  "content": "<p>You will be provided with a block of text, spanning not more than hundred lines. Your task is to find the unique e-mail addresses present in the text. You could use Regular Expressions to simplify your task. And remember that the \"@\" sign can be used for a variety of purposes! Requirements are simplified versus real world. There can be a number of strings separated by dots before and after the \"@\" symbol. Strings will be made up of characters in the ranges a-z, A-Z, 0-9, _ (underscore).</p>\n<p><strong>Input Format</strong></p>\n<p>The first line contains an integer N (N&lt;=100), which is the number of lines present in the text fragment which follows.<br />From the second line, begins the text fragment (of N lines) in which you need to search for e-mail addresses.</p>\n<p><strong>Output Format</strong></p>\n<p>All the unique e-mail addresses detected by you, in one line, in lexicographical order, with a semi-colon as the delimiter.</p>\n<p><strong>Sample Input</strong></p>\n<pre><code>19\nHackerRank is more than just a company\n    We are a tight group of hackers, bootstrappers, entrepreneurial thinkers and innovators. We are building an engaged community of problem solvers. Imagine the intelligence and value that a room would hold if it contained hackers/problem solvers from around the world? We're building this online.\nHypothesis: Every hacker loves a particular type of challenge presented in a certain set of difficulty. If we build a large collection of real world challenges in different domains with an engaging interface, it is going to be incredible! Join us to create history.\nAvailable Positions\nProduct Hacker product@hackerrank.com\nChallenge Curator\nProduct Evangelist\nProduct Designer\nContent Creator\nACM World Finals Hacker\nBackend C++ Hacker\nMail us at hackers@hackerrank.com to chat more. Or you can write to us at interviewstreet@hackerrank.com!\nHACKERRANK PERKS\nWorking for a startup is hard work, but there are plenty of benefits of working for a small, fun, growing team.\n[Image] Perk: Get tools for the jobAll the Right ToolsWe know that everyone's perfect workspace is unique to them. We will get you set up with whatever equipment you need to start hacking - a new 15&rdquo; Macbook Pro or iMac, or a computer of your choice plus a display if you need it. Additionally, if you require any software or other tools, we've got it covered.[Image] Perk: Flexible HoursFlexible HoursBecause we work so hard, we encourage our employees to keep flexible hours and don't require them to track their time. A morning scrum and open communication ensures that the job gets done on time, and we rely on the honor system so that you can work on your own pace.[Image] Perk: HealthcareWellness SupportTo work hard, you have to be healthy. We will cover your health, dental, and visual insurance with no wait period. That means instant benefits from the day you're hired.[Image] Perk: Choice of LocationLocation, Location, LocationWe are the first Indian company to be backed by Y-Combinator, and as a result we have a thriving office in Bangalore and a growing office in Mountain View, CA. Depending on your residency or visa status, we will get you situated in one of our two offices, both of which are located in the heart of their country's tech industry.[Image] Perk: Choice of LocationCreative SupportIf you have a cool side project that you want to launch, we will pay for EC2/heroku servers to get it off the ground. Side projects fuel creativity and learning, which are crucial to the HackerRank culture.\nCULTURE\nThe culture of a startup is reflective of the founders&rsquo; DNA. Larry Page &amp; Sergey Brin were PhD&rsquo;s from Stanford and that&rsquo;s why Google is filled with high scoring graders from top schools and is very hard to get in if you&rsquo;re not a CS major. Similarly, the hacker culture at Facebook is inspired by Zuckerberg, a hacker, the design culture by Steve Jobs and so on.\nThe adjective to describe the environment/founders here is relentless hardworkers. It might be a general trait of a startup but I&rsquo;m pretty sure it&rsquo;s a notch higher here and defines the culture. This is what has taken us this far. It&rsquo;s not working in weekends or allnighters that count, but the effort that goes into building something intellectually engaging for hackers and making it fun is high.\nYou&rsquo;ll have to embrace randomness and chaos. There&rsquo;s some level of discipline (eg: daily scrums) but only so much. We push boundaries everyday, stretch our limits but no one complains because there&rsquo;s a feeling of doing something great at the end of the day, every single day.\n</code></pre>\n<p><strong>Sample Output</strong></p>\n<pre><code>    hackers@hackerrank.com;interviewstreet@hackerrank.com;product@hackerrank.com</code></pre>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/d3b61a6b-9961-4823-853b-ec252b915d59",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "Detect the Email Addresses.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc6ce9b9821851ef9608"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 15,
+  "slug": "detect-the-domain-name",
+  "tags": [],
+  "level": "INTERMEDIATE",
+  "title": "Detect the Domain Name",
+  "content": "<p>You will be provided with a chunk of HTML markup. Your task is to identify the unique domain names from the links or Urls which are present in the markup fragment.</p>\n<p>For example, if the link&nbsp;<a href=\"http://www.hackerrank.com/contest\">http://www.hackerrank.com/contest</a>&nbsp;is present in the markup, you should detect the domain: hackerrank.com. In case there are second level or higher level domains present in the markup, all of them need to be treated as unique. For instance if the links&nbsp;<a href=\"http://www.xyz.com/news\">http://www.xyz.com/news</a>,&nbsp;<a href=\"https://abc.xyz.com/jobs\">https://abc.xyz.com/jobs</a>,&nbsp;<a href=\"http://abcd.xyz.com/jobs2\">http://abcd.xyz.com/jobs2</a>&nbsp;are present in the markup then [xyz.com, abc.xyz.com, abcd.xyz.com] should all be identified as unique domains present in the markup. Prefixes like \"www.\" and \"ww2.\", if present, should be scrubbed out from the domain name.</p>\n<p><strong>Input Format</strong></p>\n<p>An Integer N. This is equal to the number of lines in the HTML Fragment which follows. A chunk of HTML Markup with embedded links, the length of which is N lines.</p>\n<p><strong>Output Format</strong></p>\n<p>One line, containing the list of detected domains, separated by semi-colons, in lexicographical order. Do not leave any leading or trailing spaces either at the ends of the line, or before and after the individual domain names.</p>\n<p><strong>Sample Input</strong></p>\n<pre><code> 10\n&lt;div class=\"reflist\" style=\"list-style-type: decimal;\"&gt;\n&lt;ol class=\"references\"&gt;\n&lt;li id=\"cite_note-1\"&gt;&lt;span class=\"mw-cite-backlink\"&gt;&lt;b&gt;^ [\"Train (noun)\"](http://www.askoxford.com/concise_oed/train?view=uk). &lt;i&gt;(definition &ndash; Compact OED)&lt;/i&gt;. Oxford University Press&lt;span class=\"reference-accessdate\"&gt;. Retrieved 2008-03-18&lt;/span&gt;.&lt;/span&gt;&lt;span title=\"ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ATrain&amp;rft.atitle=Train+%28noun%29&amp;rft.genre=article&amp;rft_id=http%3A%2F%2Fwww.askoxford.com%2Fconcise_oed%2Ftrain%3Fview%3Duk&amp;rft.jtitle=%28definition+%E2%80%93+Compact+OED%29&amp;rft.pub=Oxford+University+Press&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal\" class=\"Z3988\"&gt;&lt;span style=\"display:none;\"&gt;&nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;\n&lt;li id=\"cite_note-2\"&gt;&lt;span class=\"mw-cite-backlink\"&gt;&lt;b&gt;^&lt;/b&gt;&lt;/span&gt; &lt;span class=\"reference-text\"&gt;&lt;span class=\"citation book\"&gt;Atchison, Topeka and Santa Fe Railway (1948). &lt;i&gt;Rules: Operating Department&lt;/i&gt;. p.&nbsp;7.&lt;/span&gt;&lt;span title=\"ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ATrain&amp;rft.au=Atchison%2C+Topeka+and+Santa+Fe+Railway&amp;rft.aulast=Atchison%2C+Topeka+and+Santa+Fe+Railway&amp;rft.btitle=Rules%3A+Operating+Department&amp;rft.date=1948&amp;rft.genre=book&amp;rft.pages=7&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook\" class=\"Z3988\"&gt;&lt;span style=\"display:none;\"&gt;&nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;\n&lt;li id=\"cite_note-3\"&gt;&lt;span class=\"mw-cite-backlink\"&gt;&lt;b&gt;^ [Hydrogen trains](http://www.hydrogencarsnow.com/blog2/index.php/hydrogen-vehicles/i-hear-the-hydrogen-train-a-comin-its-rolling-round-the-bend/)&lt;/span&gt;&lt;/li&gt;\n&lt;li id=\"cite_note-4\"&gt;&lt;span class=\"mw-cite-backlink\"&gt;&lt;b&gt;^ [Vehicle Projects Inc. Fuel cell locomotive](http://www.bnsf.com/media/news/articles/2008/01/2008-01-09a.html)&lt;/span&gt;&lt;/li&gt;\n&lt;li id=\"cite_note-5\"&gt;&lt;span class=\"mw-cite-backlink\"&gt;&lt;b&gt;^&lt;/b&gt;&lt;/span&gt; &lt;span class=\"reference-text\"&gt;&lt;span class=\"citation book\"&gt;Central Japan Railway (2006). &lt;i&gt;Central Japan Railway Data Book 2006&lt;/i&gt;. p.&nbsp;16.&lt;/span&gt;&lt;span title=\"ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ATrain&amp;rft.au=Central+Japan+Railway&amp;rft.aulast=Central+Japan+Railway&amp;rft.btitle=Central+Japan+Railway+Data+Book+2006&amp;rft.date=2006&amp;rft.genre=book&amp;rft.pages=16&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook\" class=\"Z3988\"&gt;&lt;span style=\"display:none;\"&gt;&nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;\n&lt;li id=\"cite_note-6\"&gt;&lt;span class=\"mw-cite-backlink\"&gt;&lt;b&gt;^ [\"Overview Of the existing Mumbai Suburban Railway\"](http://web.archive.org/web/20080620033027/http://www.mrvc.indianrail.gov.in/overview.htm). _Official webpage of Mumbai Railway Vikas Corporation_. Archived from [the original](http://www.mrvc.indianrail.gov.in/overview.htm) on 2008-06-20&lt;span class=\"reference-accessdate\"&gt;. Retrieved 2008-12-11&lt;/span&gt;.&lt;/span&gt;&lt;span title=\"ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ATrain&amp;rft.atitle=Overview+Of+the+existing+Mumbai+Suburban+Railway&amp;rft.genre=article&amp;rft_id=http%3A%2F%2Fwww.mrvc.indianrail.gov.in%2Foverview.htm&amp;rft.jtitle=Official+webpage+of+Mumbai+Railway+Vikas+Corporation&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal\" class=\"Z3988\"&gt;&lt;span style=\"display:none;\"&gt;&nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;\n&lt;/ol&gt;\n&lt;/div&gt;\n</code></pre>\n<p><strong>Sample Output</strong></p>\n<pre><code>askoxford.com;bnsf.com;hydrogencarsnow.com;mrvc.indianrail.gov.in;web.archive.org</code></pre>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/7e3e9be4-111f-4005-976e-e791f22e60b0",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "Detect the Domain Name.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc6ce9b9821851ef9609"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 15,
+  "slug": "building-a-smart-ide-identifying-comments",
+  "tags": [],
+  "level": "INTERMEDIATE",
+  "title": "Building a Smart IDE: Identifying comments",
+  "content": "<p>Jack wants to build an IDE on his own. Help him build a feature which identifies the comments, in the source code of computer programs. Assume, that the programs are written either in C, C++ or Java. The commenting conventions are displayed here, for your convenience. At this point of time you only need to handle simple and common kinds of comments. You don't need to handle nested comments, or multi-line comments inside single comments or single-comments inside multi-line comments.</p>\n<p>Your task is to write a program, which accepts as input, a C or C++ or Java program and outputs only the comments from those programs. Your program will be tested on source codes of not more than 200 lines.</p>\n<p><strong>Comments in C, C++ and Java programs</strong></p>\n<p><strong>Single Line Comments:</strong></p>\n<pre><code>// this is a single line comment\nx = 1; // a single line comment after code\n</code></pre>\n<p><em>Please note that in the real world, some C compilers do not necessarily support the above kind of comment(s) but for the purpose of this problem let's just assume that the compiler which will be used here will accept these kind of comments.</em></p>\n<p><strong>Multi Line Comments:</strong></p>\n<pre><code>/* This is one way of writing comments */ \n/* This is a multiline \n   comment. These can often\n   be useful*/\n</code></pre>\n<p><strong>Input Format</strong><br />Each test case will be the source code of a program written in C or C++ or Java.</p>\n<p><strong>Output Format</strong><br />From the program given to you, remove everything other than the comments.</p>\n<p><strong>Sample Input #00</strong></p>\n<pre><code> // my  program in C++\n\n#include &lt;iostream&gt;\n/** playing around in\na new programming language **/\nusing namespace std;\n\nint main ()\n{\n  cout &lt;&lt; \"Hello World\";\n  cout &lt;&lt; \"I'm a C++ program\"; //use cout\n  return 0;\n}\n</code></pre>\n<p><strong>Sample Output #00</strong></p>\n<pre><code>// my  program in C++\n/** playing around in\na new programming language **/\n//use cout\n</code></pre>\n<p><strong>Sample Input #01</strong></p>\n<pre><code> /*This is a program to calculate area of a circle after getting the radius as input from the user*/\n#include&lt;stdio.h&gt;\nint main()\n{\n   double radius,area;//variables for storing radius and area\n   printf(\"Enter the radius of the circle whose area is to be calculated\\n\");\n   scanf(\"%lf\",&amp;radius);//entering the value for radius of the circle as float data type\n   area=(22.0/7.0)*pow(radius,2);//Mathematical function pow is used to calculate square of radius\n   printf(\"The area of the circle is %lf\",area);//displaying the results\n   getch();\n}\n/*A test run for the program was carried out and following output was observed\nIf 50 is the radius of the circle whose area is to be calculated\nThe area of the circle is 7857.1429*/\n</code></pre>\n<p><strong>Sample Output #01</strong></p>\n<pre><code>/*This is a program to calculate area of a circle after getting the radius as input from the user*/\n//variables for storing radius and area\n//entering the value for radius of the circle as float data type\n//Mathematical function pow is used to calculate square of radius\n//displaying the results\n/*A test run for the program was carried out and following output was observed\nIf 50 is the radius of the circle whose area is to be calculated\nThe area of the circle is 7857.1429*/\n</code></pre>\n<p><strong>Precautions</strong><br />Do not add any leading or trailing spaces. Remove any leading white space before comments, including from all lines of a multi-line comment. Do not alter the line structure of multi-line comments except to remove leading whitespace. i.e. Do not collapse them into one line.</p>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/b5236fa2-44c5-4b50-aad4-34938c3b09a9",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "Building a Smart IDE Identifying comments.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc6ce9b9821851ef960a"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "detecting-valid-latitude-and-longitude-pairs",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "Detecting Valid Latitude and Longitude Pairs",
+  "content": "<p>Given a line of text which possibly contains the latitude and longitude of a point, can you use regular expressions to identify the latitude and longitude referred to (if any)?</p>\n<p><strong>Input Format</strong><br />The first line contains an integer N, which is the number of tests to follow.<br />This is followed by N lines of text. Each line contains a pair of co-ordinates which possibly indicate the latitude and longitude of a place.</p>\n<p><strong>Constraints</strong><br />1 &lt;= N &lt;= 100<br />The latitude and longitude, if present will always appear in the form of (X, Y) where X and Y are decimal numbers.<br />For a valid (latitude, longitude) pair:<br />-90&lt;=X&lt;=+90 and -180&lt;=Y&lt;=180.<br />They will not contain any symbols for degrees or radians or N/S/E/W. There may or may not be a +/- sign preceding X or Y.<br />There will be a space between Y and the comma before it.<br />There will be no space between X and the preceding left-bracket, or between Y and the following right-bracket.<br />There will be no unnecessary zeros (0) before X or Y.</p>\n<p><strong>Output Format</strong><br />\"Valid\" where X and Y are the latitude and longitude which you found to be a valid (latitude,longitude) pair.<br />If the given pair of numbers are not a valid (latitude,longitude) pair, output \"Invalid\".</p>\n<p><strong>Sample Input</strong></p>\n<pre><code>12\n(75, 180)\n(+90.0, -147.45)\n(77.11112223331, 149.99999999)\n(+90, +180)\n(90, 180)\n(-90.00000, -180.0000)\n(75, 280)\n(+190.0, -147.45)\n(77.11112223331, 249.99999999)\n(+90, +180.2)\n(90., 180.)\n(-090.00000, -180.0000)\n</code></pre>\n<p><strong>Sample Output</strong></p>\n<pre><code>Valid\nValid\nValid\nValid\nValid\nValid\nInvalid\nInvalid\nInvalid\nInvalid\nInvalid\nInvalid\n</code></pre>\n<p><strong>Explanation</strong><br />The first six pairs are valid because X, Y satisfy the criteria related to formatting issues, and they satisfy the conditions restricting the numerical range(s) of X and Y. The next six pairs are all invalid because: The first four (among this invalid group) do not satisfy the conditions restricting the numerical range(s) of X and Y. (90., 180.) is invalid because of an extra dot (.) after 90 and 180.<br />(-090.0000, -180.0000) is invalid because of the redundant zero (0) before 90.</p>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/d06a573e-efa6-41b7-b67a-32e02d9597ca",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "Detecting Valid Latitude and Longitude Pairs.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc6ce9b9821851ef960b"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "hackerrank-tweets",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "HackerRank Tweets",
+  "content": "<p>Increasing popularity of hackerrank can be seen in tweets like</p>\n<ul>\n<li>I love #hackerrank</li>\n<li>I just scored 27 points in the Picking Cards challenge on #HackerRank</li>\n<li>I just signed up for summer cup @hackerrank</li>\n</ul>\n<p>Given a set of most popular tweets, your task is to find out how many of those tweets has the string&nbsp;hackerrank&nbsp;in it.</p>\n<p><strong>Input Format</strong></p>\n<p>First line is an integer N. N lines follow. Each line is a valid tweet.</p>\n<p><strong>Constraints</strong></p>\n<p>1 &lt;= N &lt;= 10<br />Each character of the tweet is a valid ASCII character.</p>\n<p><strong>Output format</strong></p>\n<p>Print the total number of tweets that has&nbsp;hackerrank&nbsp;(case insensitive) in it</p>\n<p><strong>Sample Input</strong></p>\n<pre><code>4\nI love #hackerrank\nI just scored 27 points in the Picking Cards challenge on #HackerRank\nI just signed up for summer cup @hackerrank\ninteresting talk by hari, co-founder of hackerrank\n</code></pre>\n<p><strong>Sample Output</strong></p>\n<pre><code>4\n</code></pre>\n<p><strong>Explanation</strong></p>\n<p>All the 4 lines have the string&nbsp;hackerrank&nbsp;in them and thus 4.</p>\n<p><strong>Viewing Submissions</strong></p>\n<p>You can view others' submissions if you solve this challenge. Navigate to the challenge leaderboard.</p>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/86280da5-be76-4b55-925b-b0f13f9b5a98",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "HackerRank Tweets.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc6ce9b9821851ef960c"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "build-a-stack-exchange-scraper",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "Build a Stack Exchange Scraper",
+  "content": "<p><a href=\"http://www.stackexchange.com/\">Stack Exchange</a>&nbsp;is an information power-house, which contains libraries of crowdsourced problems (with answers) across a large number of topics which are as diverse as electronics, cooking , programming, etc.</p>\n<p>We are greatly interested in crawling and scraping as many questions, as we can, from stack-exchange.&nbsp;<a href=\"http://electronics.stackexchange.com/questions\">This</a>&nbsp;is an example of a question library page from stack-exchange.</p>\n<p>Your task will be, to scrape the questions from each library page, in the order in which they are listed. You will be provided with the markup of question listing pages, from which you need to detect:<br />(1) Identifier (2) Question text (which is on the Hyperlink to the question) (3) How long ago the question was asked.</p>\n<p>The Markup in the Test Cases will be similar to the sample fragment shown below.&nbsp;<strong>Please note, that since this markup is real markup from the website, it is likely to contain some stray control and escape characters, unexpected whitespaces and newlines.</strong></p>\n<p><strong>Sample Markup Fragment</strong></p>\n<div class=\"highlight\">\n<pre>        <span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"question-summary\"</span> <span class=\"na\">id=</span><span class=\"s\">\"question-summary-80407\"</span><span class=\"nt\">&gt;</span>\n        <span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"statscontainer\"</span><span class=\"nt\">&gt;</span>\n            <span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"statsarrow\"</span><span class=\"nt\">&gt;&lt;/div&gt;</span>\n            <span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"stats\"</span><span class=\"nt\">&gt;</span>\n                <span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"vote\"</span><span class=\"nt\">&gt;</span>\n                    <span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"votes\"</span><span class=\"nt\">&gt;</span>\n                        <span class=\"nt\">&lt;span</span> <span class=\"na\">class=</span><span class=\"s\">\"vote-count-post \"</span><span class=\"nt\">&gt;&lt;strong&gt;</span>2<span class=\"nt\">&lt;/strong&gt;&lt;/span&gt;</span>\n                        <span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"viewcount\"</span><span class=\"nt\">&gt;</span>votes<span class=\"nt\">&lt;/div&gt;</span>\n                    <span class=\"nt\">&lt;/div&gt;</span>\n                <span class=\"nt\">&lt;/div&gt;</span>\n                <span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"status answered\"</span><span class=\"nt\">&gt;</span>\n                    <span class=\"nt\">&lt;strong&gt;</span>1<span class=\"nt\">&lt;/strong&gt;</span>answer\n                <span class=\"nt\">&lt;/div&gt;</span>\n            <span class=\"nt\">&lt;/div&gt;</span>\n\n\n\n    <span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"views \"</span> <span class=\"na\">title=</span><span class=\"s\">\"60 views\"</span><span class=\"nt\">&gt;</span>\n                        60 views\n    <span class=\"nt\">&lt;/div&gt;</span>\n        <span class=\"nt\">&lt;/div&gt;</span>\n        <span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"summary\"</span><span class=\"nt\">&gt;</span>\n            <span class=\"nt\">&lt;h3&gt;&lt;a</span> <span class=\"na\">href=</span><span class=\"s\">\"/questions/80407/about-power-supply-of-opertional-amplifier\"</span> <span class=\"na\">class=</span><span class=\"s\">\"question-hyperlink\"</span><span class=\"nt\">&gt;</span>about power supply of opertional amplifier<span class=\"nt\">&lt;/a&gt;&lt;/h3&gt;</span>\n            <span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"excerpt\"</span><span class=\"nt\">&gt;</span>\n                I am constructing an operational amplifier as shown in the following figure. I use a batter as supplier for the OP Amp and set it up as a non-inverting amp circuit. I saw that the output was clipped ...\n            <span class=\"nt\">&lt;/div&gt;</span>\n\n            <span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"tags t-op-amp\"</span><span class=\"nt\">&gt;</span>\n                <span class=\"nt\">&lt;a</span> <span class=\"na\">href=</span><span class=\"s\">\"/questions/tagged/op-amp\"</span> <span class=\"na\">class=</span><span class=\"s\">\"post-tag\"</span> <span class=\"na\">title=</span><span class=\"s\">\"show questions tagged 'op-amp'\"</span> <span class=\"na\">rel=</span><span class=\"s\">\"tag\"</span><span class=\"nt\">&gt;</span>op-amp<span class=\"nt\">&lt;/a&gt;</span>\n\n            <span class=\"nt\">&lt;/div&gt;</span>\n            <span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"started fr\"</span><span class=\"nt\">&gt;</span>\n\n\n        <span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"user-info \"</span><span class=\"nt\">&gt;</span>\n            <span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"user-action-time\"</span><span class=\"nt\">&gt;</span>\n\n\n                        asked <span class=\"nt\">&lt;span</span> <span class=\"na\">title=</span><span class=\"s\">\"2013-08-27 21:49:14Z\"</span> <span class=\"na\">class=</span><span class=\"s\">\"relativetime\"</span><span class=\"nt\">&gt;</span>11 hours ago<span class=\"nt\">&lt;/span&gt;</span>\n            <span class=\"nt\">&lt;/div&gt;</span>\n            <span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"user-gravatar32\"</span><span class=\"nt\">&gt;</span>\n                <span class=\"nt\">&lt;a</span> <span class=\"na\">href=</span><span class=\"s\">\"/users/17060/user1285419\"</span><span class=\"nt\">&gt;&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"\"</span><span class=\"nt\">&gt;&lt;img</span> <span class=\"na\">src=</span><span class=\"s\">\"https://www.gravatar.com/avatar/08ee68b20a4eceff26f7eee99b708c08?s=32&amp;d=identicon&amp;r=PG\"</span> <span class=\"na\">alt=</span><span class=\"s\">\"\"</span> <span class=\"na\">width=</span><span class=\"s\">\"32\"</span> <span class=\"na\">height=</span><span class=\"s\">\"32\"</span><span class=\"nt\">&gt;&lt;/div&gt;&lt;/a&gt;</span>\n            <span class=\"nt\">&lt;/div&gt;</span>\n            <span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"user-details\"</span><span class=\"nt\">&gt;</span>\n                <span class=\"nt\">&lt;a</span> <span class=\"na\">href=</span><span class=\"s\">\"/users/17060/user1285419\"</span><span class=\"nt\">&gt;</span>user1285419<span class=\"nt\">&lt;/a&gt;&lt;br&gt;</span>\n                <span class=\"nt\">&lt;span</span> <span class=\"na\">class=</span><span class=\"s\">\"reputation-score\"</span> <span class=\"na\">title=</span><span class=\"s\">\"reputation score\"</span> <span class=\"na\">dir=</span><span class=\"s\">\"ltr\"</span><span class=\"nt\">&gt;</span>165<span class=\"nt\">&lt;/span&gt;&lt;span</span> <span class=\"na\">title=</span><span class=\"s\">\"5 bronze badges\"</span><span class=\"nt\">&gt;&lt;span</span> <span class=\"na\">class=</span><span class=\"s\">\"badge3\"</span><span class=\"nt\">&gt;&lt;/span&gt;&lt;span</span> <span class=\"na\">class=</span><span class=\"s\">\"badgecount\"</span><span class=\"nt\">&gt;</span>5<span class=\"nt\">&lt;/span&gt;&lt;/span&gt;</span>\n            <span class=\"nt\">&lt;/div&gt;</span>\n        <span class=\"nt\">&lt;/div&gt;</span>\n\n            <span class=\"nt\">&lt;/div&gt;</span>\n        <span class=\"nt\">&lt;/div&gt;</span>\n    <span class=\"nt\">&lt;/div&gt;</span>\n\n    <span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"question-summary\"</span> <span class=\"na\">id=</span><span class=\"s\">\"question-summary-80405\"</span><span class=\"nt\">&gt;</span>\n        <span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"statscontainer\"</span><span class=\"nt\">&gt;</span>\n            <span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"statsarrow\"</span><span class=\"nt\">&gt;&lt;/div&gt;</span>\n            <span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"stats\"</span><span class=\"nt\">&gt;</span>\n                <span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"vote\"</span><span class=\"nt\">&gt;</span>\n                    <span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"votes\"</span><span class=\"nt\">&gt;</span>\n                        <span class=\"nt\">&lt;span</span> <span class=\"na\">class=</span><span class=\"s\">\"vote-count-post \"</span><span class=\"nt\">&gt;&lt;strong&gt;</span>4<span class=\"nt\">&lt;/strong&gt;&lt;/span&gt;</span>\n                        <span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"viewcount\"</span><span class=\"nt\">&gt;</span>votes<span class=\"nt\">&lt;/div&gt;</span>\n                    <span class=\"nt\">&lt;/div&gt;</span>\n                <span class=\"nt\">&lt;/div&gt;</span>\n                <span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"status answered-accepted\"</span><span class=\"nt\">&gt;</span>\n                    <span class=\"nt\">&lt;strong&gt;</span>2<span class=\"nt\">&lt;/strong&gt;</span>answers\n                <span class=\"nt\">&lt;/div&gt;</span>\n            <span class=\"nt\">&lt;/div&gt;</span>\n\n\n\n    <span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"views \"</span> <span class=\"na\">title=</span><span class=\"s\">\"64 views\"</span><span class=\"nt\">&gt;</span>\n                        64 views\n    <span class=\"nt\">&lt;/div&gt;</span>\n        <span class=\"nt\">&lt;/div&gt;</span>\n        <span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"summary\"</span><span class=\"nt\">&gt;</span>\n            <span class=\"nt\">&lt;h3&gt;&lt;a</span> <span class=\"na\">href=</span><span class=\"s\">\"/questions/80405/5v-regulator-power-dissipation\"</span> <span class=\"na\">class=</span><span class=\"s\">\"question-hyperlink\"</span><span class=\"nt\">&gt;</span>5V Regulator Power Dissipation<span class=\"nt\">&lt;/a&gt;&lt;/h3&gt;</span>\n            <span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"excerpt\"</span><span class=\"nt\">&gt;</span>\n                I am using a 5V regulator (LP2950) from ON Semiconductor. I am using this for USB power and I'm feeding in 9V from an adapter. USB requires maximum of 500mA right? So the maximum power dissipation in ...\n            <span class=\"nt\">&lt;/div&gt;</span>\n\n            <span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"tags t-voltage-regulator t-surface-mount t-heatsink t-5v t-power-dissipation\"</span><span class=\"nt\">&gt;</span>\n                <span class=\"nt\">&lt;a</span> <span class=\"na\">href=</span><span class=\"s\">\"/questions/tagged/voltage-regulator\"</span> <span class=\"na\">class=</span><span class=\"s\">\"post-tag\"</span> <span class=\"na\">title=</span><span class=\"s\">\"show questions tagged 'voltage-regulator'\"</span> <span class=\"na\">rel=</span><span class=\"s\">\"tag\"</span><span class=\"nt\">&gt;</span>voltage-regulator<span class=\"nt\">&lt;/a&gt;</span> <span class=\"nt\">&lt;a</span> <span class=\"na\">href=</span><span class=\"s\">\"/questions/tagged/surface-mount\"</span> <span class=\"na\">class=</span><span class=\"s\">\"post-tag\"</span> <span class=\"na\">title=</span><span class=\"s\">\"show questions tagged 'surface-mount'\"</span> <span class=\"na\">rel=</span><span class=\"s\">\"tag\"</span><span class=\"nt\">&gt;</span>surface-mount<span class=\"nt\">&lt;/a&gt;</span> <span class=\"nt\">&lt;a</span> <span class=\"na\">href=</span><span class=\"s\">\"/questions/tagged/heatsink\"</span> <span class=\"na\">class=</span><span class=\"s\">\"post-tag\"</span> <span class=\"na\">title=</span><span class=\"s\">\"show questions tagged 'heatsink'\"</span> <span class=\"na\">rel=</span><span class=\"s\">\"tag\"</span><span class=\"nt\">&gt;</span>heatsink<span class=\"nt\">&lt;/a&gt;</span> <span class=\"nt\">&lt;a</span> <span class=\"na\">href=</span><span class=\"s\">\"/questions/tagged/5v\"</span> <span class=\"na\">class=</span><span class=\"s\">\"post-tag\"</span> <span class=\"na\">title=</span><span class=\"s\">\"show questions tagged '5v'\"</span> <span class=\"na\">rel=</span><span class=\"s\">\"tag\"</span><span class=\"nt\">&gt;</span>5v<span class=\"nt\">&lt;/a&gt;</span> <span class=\"nt\">&lt;a</span> <span class=\"na\">href=</span><span class=\"s\">\"/questions/tagged/power-dissipation\"</span> <span class=\"na\">class=</span><span class=\"s\">\"post-tag\"</span> <span class=\"na\">title=</span><span class=\"s\">\"show questions tagged 'power-dissipation'\"</span> <span class=\"na\">rel=</span><span class=\"s\">\"tag\"</span><span class=\"nt\">&gt;</span>power-dissipation<span class=\"nt\">&lt;/a&gt;</span>\n\n            <span class=\"nt\">&lt;/div&gt;</span>\n            <span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"started fr\"</span><span class=\"nt\">&gt;</span>\n\n\n        <span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"user-info \"</span><span class=\"nt\">&gt;</span>\n            <span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"user-action-time\"</span><span class=\"nt\">&gt;</span>\n\n\n                        asked <span class=\"nt\">&lt;span</span> <span class=\"na\">title=</span><span class=\"s\">\"2013-08-27 21:39:31Z\"</span> <span class=\"na\">class=</span><span class=\"s\">\"relativetime\"</span><span class=\"nt\">&gt;</span>11 hours ago<span class=\"nt\">&lt;/span&gt;</span>\n            <span class=\"nt\">&lt;/div&gt;</span>\n            <span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"user-gravatar32\"</span><span class=\"nt\">&gt;</span>\n                <span class=\"nt\">&lt;a</span> <span class=\"na\">href=</span><span class=\"s\">\"/users/10082/david-norman\"</span><span class=\"nt\">&gt;&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"\"</span><span class=\"nt\">&gt;&lt;img</span> <span class=\"na\">src=</span><span class=\"s\">\"https://www.gravatar.com/avatar/8b073417e471077280b3fc5ff2eaf1f7?s=32&amp;d=identicon&amp;r=PG\"</span> <span class=\"na\">alt=</span><span class=\"s\">\"\"</span> <span class=\"na\">width=</span><span class=\"s\">\"32\"</span> <span class=\"na\">height=</span><span class=\"s\">\"32\"</span><span class=\"nt\">&gt;&lt;/div&gt;&lt;/a&gt;</span>\n            <span class=\"nt\">&lt;/div&gt;</span>\n            <span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"user-details\"</span><span class=\"nt\">&gt;</span>\n                <span class=\"nt\">&lt;a</span> <span class=\"na\">href=</span><span class=\"s\">\"/users/10082/david-norman\"</span><span class=\"nt\">&gt;</span>David Norman<span class=\"nt\">&lt;/a&gt;&lt;br&gt;</span>\n                <span class=\"nt\">&lt;span</span> <span class=\"na\">class=</span><span class=\"s\">\"reputation-score\"</span> <span class=\"na\">title=</span><span class=\"s\">\"reputation score\"</span> <span class=\"na\">dir=</span><span class=\"s\">\"ltr\"</span><span class=\"nt\">&gt;</span>322<span class=\"nt\">&lt;/span&gt;&lt;span</span> <span class=\"na\">title=</span><span class=\"s\">\"3 silver badges\"</span><span class=\"nt\">&gt;&lt;span</span> <span class=\"na\">class=</span><span class=\"s\">\"badge2\"</span><span class=\"nt\">&gt;&lt;/span&gt;&lt;span</span> <span class=\"na\">class=</span><span class=\"s\">\"badgecount\"</span><span class=\"nt\">&gt;</span>3<span class=\"nt\">&lt;/span&gt;&lt;/span&gt;&lt;span</span> <span class=\"na\">title=</span><span class=\"s\">\"10 bronze badges\"</span><span class=\"nt\">&gt;&lt;span</span> <span class=\"na\">class=</span><span class=\"s\">\"badge3\"</span><span class=\"nt\">&gt;&lt;/span&gt;&lt;span</span> <span class=\"na\">class=</span><span class=\"s\">\"badgecount\"</span><span class=\"nt\">&gt;</span>10<span class=\"nt\">&lt;/span&gt;&lt;/span&gt;</span>\n            <span class=\"nt\">&lt;/div&gt;</span>\n        <span class=\"nt\">&lt;/div&gt;</span>\n\n            <span class=\"nt\">&lt;/div&gt;</span>\n        <span class=\"nt\">&lt;/div&gt;</span>\n    <span class=\"nt\">&lt;/div&gt;</span>\n</pre>\n</div>\n<p><strong>Output Format</strong><br />The output file should contain N lines, where N is the number of questions you have identified in the provided fragment.Each line contains the identifier, question text and (relative) time when the question was asked (with no leading or trailing spaces surrounding each section); separated by semi-colons. The information about the questions in the output file should match with the ordering in the original markup.</p>\n<p><strong>Sample Output</strong></p>\n<pre><code>80407;about power supply of operational amplifier;11 hours ago\n80405;5V Regulator Power Dissipation;11 hours ago\n</code></pre>\n<p><strong>Explanation</strong><br />The given markup fragment points to two questions on electronics.stackexchange.com (at the time the markup was noted).<br />The first question has ID 80407, it is \"about power supply of operational amplifier\" and it was asked \"11 hours ago\" (relative to the time when this markup was noted). Search for these values in the given markup fragment to gain a better understanding of where we identified these values from. The second question has ID 80405, it is about \"5V Regulator Power Dissipation\", and it was asked \"11 hours ago\" (relative to the time when this markup was noted).</p>\n<p><strong>A Note Regarding the Test Cases</strong><br />The markup in the test cases will resemble the markup fragment provided above, however, each markup fragment might contain a larger number of questions embedded in it. A markup fragment will have no more than 100 questions embedded in it.</p>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/ab43d181-79b0-43d2-ab42-0756234d65f6",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "Build a Stack Exchange Scraper.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc6ce9b9821851ef960d"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "utopian-identification-number",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "Utopian Identification Number",
+  "content": "<p>A new identification number is given for every Citizen of the Country Utopia and it has the following format.</p>\n<ul>\n<li>The string must begin with between 0-3 (inclusive) lowercase letters.</li>\n<li>Immediately following the letters, there must be a sequence of digits (0-9). The length of this segment must be between 2 and 8, both inclusive.</li>\n<li>Immediately following the numbers, there must be atleast 3 uppercase letters.</li>\n</ul>\n<p>Your task is to find out if a given identification number is valid or not.</p>\n<p><strong>Input Format</strong></p>\n<p>The first line contains N, N lines follow each line containing an identification number.</p>\n<p><strong>Constraints</strong></p>\n<pre><code>1 &lt;= N &lt;= 100\n</code></pre>\n<p><strong>Output Format</strong></p>\n<p>For every identification number, please print</p>\n<pre><code>VALID\n</code></pre>\n<p>if the identification number is valid and print</p>\n<pre><code>INVALID\n</code></pre>\n<p>otherwise.</p>\n<p><strong>Sample Input</strong></p>\n<pre><code>2\nabc012333ABCDEEEE\n0123AB\n</code></pre>\n<p><strong>Sample Output</strong></p>\n<pre><code>VALID\nINVALID\n</code></pre>\n<p><strong>Explanation</strong></p>\n<p>The first testcase is valid as it starts with 3 letters, followed by 6 integers (max of 8 and min of 2) and ends with more than 3 uppercase letters.<br />The second testcase is invalid as it satisfies the first (at least 0 lowercase letters) and the second condition (alteast 2 integers) but fails on the third condition.</p>\n<p><strong>Viewing Submissions</strong></p>\n<p>You can view others' submissions if you solve this challenge. Navigate to the challenge leaderboard.</p>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/8b1dd2b1-47c7-423e-b927-2d8191f2e2dc",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "Utopian Identification Number.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc6ce9b9821851ef960e"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "valid-pan-format",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "Valid PAN format",
+  "content": "<p>The equivalent of SSN in India is a PAN number, which is unique to each of its citizens. In any of the country's official documents, the PAN number is listed as follows</p>\n<pre><code>&lt;char&gt;&lt;char&gt;&lt;char&gt;&lt;char&gt;&lt;char&gt;&lt;digit&gt;&lt;digit&gt;&lt;digit&gt;&lt;digit&gt;&lt;char&gt;\n</code></pre>\n<p>Your task is to figure out if the PAN number is valid or not. A valid PAN number will have all its letters in uppercase and digits in the same order as listed above.</p>\n<p><strong>Input Format</strong></p>\n<p>First line contains $N$<span id=\"MathJax-Element-1-Frame\" class=\"MathJax_SVG\"></span>. $N$<span id=\"MathJax-Element-2-Frame\" class=\"MathJax_SVG\"></span>&nbsp;lines follow, each having a PAN number.</p>\n<p><strong>Constraints</strong></p>\n<ul>\n<li>$1 \\leq N \\leq 10$<span id=\"MathJax-Element-3-Frame\" class=\"MathJax_SVG\"></span></li>\n<li>Each&nbsp;char&nbsp;is an uppercase letter, i.e., $\\operatorname{char} \\in\\left[{ }^{\\prime} A^{\\prime \\prime}, Z^{\\prime}\\right]$<span id=\"MathJax-Element-4-Frame\" class=\"MathJax_SVG\"></span>.</li>\n<li>Each&nbsp;digit&nbsp;lies between 0 and 9, i.e., digit $\\in[0,9]$<span id=\"MathJax-Element-5-Frame\" class=\"MathJax_SVG\"></span>.</li>\n<li>The length of the PAN number is always 10, i.e., $\\operatorname{length}(P A N)=10$<span id=\"MathJax-Element-6-Frame\" class=\"MathJax_SVG\"></span></li>\n<li>Every character in PAN is either&nbsp;char&nbsp;or&nbsp;digit&nbsp;satisfying the above constraints.</li>\n</ul>\n<p><strong>Output Format</strong></p>\n<p>For every PAN number listed, print&nbsp;YES&nbsp;if it is valid and&nbsp;NO&nbsp;if it isn't.</p>\n<p><strong>Sample Input</strong></p>\n<pre><code>3\nABCDS1234Y\nABAB12345Y\navCDS1234Y\n</code></pre>\n<p><strong>Sample Output</strong></p>\n<pre><code>YES\nNO\nNO\n</code></pre>\n<p>The first PAN number is valid since the first 5 characters are letters, the next 4 are digits and the last character is an alphabet. All letters in input is in uppercase.<br />The second PAN number is invalid as the fifth character is a digit as opposed to an letter.<br />The third PAN number contains lowercase characters. Hence invalid</p>\n<p><strong>Viewing Submissions</strong></p>\n<p>You can view others' submissions if you solve this challenge. Navigate to the challenge leaderboard.</p>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/688cdb1b-6962-471b-91e5-d9a582b0e0bc",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "Valid PAN format.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc6ce9b9821851ef960f"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "find-hackerrank",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "Find HackerRank",
+  "content": "<p>At HackerRank, we always want to find out how popular we are getting every day and have scraped conversations from popular sites. Each conversation fits in 1 line and there are N such conversations. Each conversation has at most 1 word that says&nbsp;hackerrank&nbsp;(all in lowercase). We would like you to help us figure out whether a conversation:</p>\n<ol>\n<li>Starts with&nbsp;hackerrank</li>\n<li>Ends with&nbsp;hackerrank</li>\n<li>Start and ends with&nbsp;hackerrank</li>\n</ol>\n<p><strong>Input Format</strong></p>\n<p>First line of the input contains an integer,&nbsp;N. Then&nbsp;N&nbsp;lines follow.<br />From the second line onwards, each line contains a set of&nbsp;W&nbsp;words separated by a single space</p>\n<p><strong>Constraints</strong></p>\n<ul>\n<li>1 &lt;=&nbsp;N&nbsp;&lt;= 10</li>\n<li>1 &lt;=&nbsp;W&nbsp;&lt;= 100</li>\n<li>All the characters in&nbsp;W&nbsp;are lowercase alphabet characters.</li>\n<li>If&nbsp;C&nbsp;is the count of the characters in&nbsp;W, then 1 &lt;=&nbsp;C&nbsp;&lt;= 20</li>\n</ul>\n<p><strong>Output Format</strong></p>\n<p>For every line,</p>\n<ol>\n<li>Print 1 if the conversation starts with&nbsp;hackerrank</li>\n<li>Print 2 if the conversation ends with&nbsp;hackerrank</li>\n<li>Print 0 if the conversation starts and ends with&nbsp;hackerrank</li>\n<li>Print -1 if none of the above.</li>\n</ol>\n<p><strong>Sample Input</strong></p>\n<pre><code>4\ni love hackerrank\nhackerrank is an awesome place for programmers\nhackerrank\ni think hackerrank is a great place to hangout\n</code></pre>\n<p><strong>Sample Output</strong></p>\n<pre><code>2\n1\n0\n-1\n</code></pre>\n<p><strong>Explanation</strong></p>\n<p>The first conversation ends with&nbsp;hackerrank&nbsp;and hence 2<br />The second conversation starts with&nbsp;hackerrank&nbsp;and hence 1<br />The third conversation has only one word, it starts and ends with&nbsp;hackerrank&nbsp;and hence 0.<br />The fourth conversation satisfies none of the above properties and hence -1.</p>\n<p><strong>Viewing Submissions</strong></p>\n<p>You can view others' submissions if you solve this challenge. Navigate to the challenge leaderboard.</p>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/44e398eb-c8f2-4b12-90d7-4f1e955b87fa",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "Find HackerRank.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc6ce9b9821851ef9610"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "saying-hi",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "Saying Hi",
+  "content": "<div class=\"challenge_problem_statement\">\n<div class=\"msB challenge_problem_statement_body\">\n<div class=\"hackdown-content\">\n<p>Given a sentence, $s$<span id=\"MathJax-Element-1-Frame\" class=\"MathJax_SVG\"></span>, write a RegEx to match the following criteria:</p>\n<ol>\n<li>The first character must be the letter $H$<span id=\"MathJax-Element-2-Frame\" class=\"MathJax_SVG\"></span> or $h$<span id=\"MathJax-Element-3-Frame\" class=\"MathJax_SVG\"></span>.</li>\n<li>The second character must be the letter $I$<span id=\"MathJax-Element-4-Frame\" class=\"MathJax_SVG\"></span> or $i$<span id=\"MathJax-Element-5-Frame\" class=\"MathJax_SVG\"></span>.</li>\n<li>The third character must be a single space (i.e.: $\\s$<span id=\"MathJax-Element-6-Frame\" class=\"MathJax_SVG\"></span>).</li>\n<li>The fourth character&nbsp;must not be the letter $D$<span id=\"MathJax-Element-7-Frame\" class=\"MathJax_SVG\"></span> or $d$.</li>\n</ol>\n<p>Given $n$&nbsp;lines of sentences as input, print each sentence matching your RegEx on a new line.</p>\n</div>\n</div>\n</div>\n<div class=\"challenge_input_format\">\n<div class=\"msB challenge_input_format_title\">\n<p><strong>Input Format</strong></p>\n</div>\n<div class=\"msB challenge_input_format_body\">\n<div class=\"hackdown-content\">\n<p>The first line contains an integer, $n$<span id=\"MathJax-Element-1-Frame\" class=\"MathJax_SVG\"></span>, denoting the number of lines of sentences.<br />Each of the $n$<span id=\"MathJax-Element-2-Frame\" class=\"MathJax_SVG\"></span> subsequent lines contains some sentence $s$<span id=\"MathJax-Element-3-Frame\" class=\"MathJax_SVG\"></span>&nbsp;you must match.</p>\n</div>\n</div>\n</div>\n<div class=\"challenge_constraints\">\n<div class=\"msB challenge_constraints_title\">\n<p><strong>Constraints</strong></p>\n</div>\n<div class=\"msB challenge_constraints_body\">\n<div class=\"hackdown-content\">\n<ul>\n<li>$1 \\leq n \\leq 10$<span id=\"MathJax-Element-1-Frame\" class=\"MathJax_SVG\"></span></li>\n<li>Each sentence, $s$<span id=\"MathJax-Element-2-Frame\" class=\"MathJax_SVG\"></span>, contains $1$<span id=\"MathJax-Element-3-Frame\" class=\"MathJax_SVG\"></span> to $10$<span id=\"MathJax-Element-4-Frame\" class=\"MathJax_SVG\"></span>&nbsp;words.</li>\n<li>Each word/token in a sentence is comprised only of upper and lowercase English letters.</li>\n</ul>\n</div>\n</div>\n</div>\n<div class=\"challenge_output_format\">\n<div class=\"msB challenge_output_format_title\">\n<p><strong>Output Format</strong></p>\n</div>\n<div class=\"msB challenge_output_format_body\">\n<div class=\"hackdown-content\">\n<p>Find each sentence, $s$<span id=\"MathJax-Element-1-Frame\" class=\"MathJax_SVG\"></span>, satisfying the RegEx criteria mentioned above, and print it on a new line.</p>\n</div>\n</div>\n</div>\n<div class=\"challenge_sample_input\">\n<div class=\"msB challenge_sample_input_title\">\n<p><strong>Sample Input</strong></p>\n</div>\n<div class=\"msB challenge_sample_input_body\">\n<div class=\"hackdown-content\">\n<pre><code>5\nHi Alex how are you doing\nhI dave how are you doing\nGood by Alex\nhidden agenda\nAlex greeted Martha by saying Hi Martha\n</code></pre>\n</div>\n</div>\n</div>\n<div class=\"challenge_sample_output\">\n<div class=\"msB challenge_sample_output_title\">\n<p><strong>Sample Output</strong></p>\n</div>\n<div class=\"msB challenge_sample_output_body\">\n<div class=\"hackdown-content\">\n<pre><code>Hi Alex how are you doing\n</code></pre>\n</div>\n</div>\n</div>\n<div class=\"challenge_explanation\">\n<div class=\"msB challenge_explanation_title\">\n<p><strong>Explanation</strong></p>\n</div>\n<div class=\"msB challenge_explanation_body\">\n<div class=\"hackdown-content\">\n<p>The first sentence satisfies the RegEx criteria set forth in the Problem Statement (starts with the case-insensitive word $Hi$<span id=\"MathJax-Element-1-Frame\" class=\"MathJax_SVG\"></span>, followed by a space, followed by a letter that is&nbsp;not $d$<span id=\"MathJax-Element-2-Frame\" class=\"MathJax_SVG\"></span>), so we print the sentence on a new line.</p>\n<p>The second sentence fails our RegEx criteria, as the second word/token starts with a $d$<span id=\"MathJax-Element-3-Frame\" class=\"MathJax_SVG\"></span>&nbsp;(so we print nothing).</p>\n<p>The third sentence fails our RegEx criteria, as it doesn't start with an $h$<span id=\"MathJax-Element-4-Frame\" class=\"MathJax_SVG\"></span>&nbsp;(so we print nothing).</p>\n<p>The fourth sentence fails our RegEx criteria, as the third character in the sentence is not a space (so we print nothing).</p>\n<p>The fifth sentence fails as our RegEx criteria, as the sentence&nbsp;does not start with the word $Hi$<span id=\"MathJax-Element-5-Frame\" class=\"MathJax_SVG\"></span>&nbsp;(so we print nothing).</p>\n</div>\n</div>\n</div>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/d26bd207-25cc-4066-98c6-5fd8e84b9c4c",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "Saying Hi.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc6ce9b9821851ef9611"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "hackerrank-language",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "HackerRank Language",
+  "content": "<p>Every submission at HackerRank has a field called language which indicates the programming language which a hacker used to code his solution.</p>\n<p>C:CPP:JAVA:PYTHON:PERL:PHP:RUBY:CSHARP:HASKELL:CLOJURE:BASH:SCALA: ERLANG:CLISP:LUA:BRAINFUCK:JAVASCRIPT:GO:D:OCAML:R:PASCAL:SBCL:DART: GROOVY:OBJECTIVEC</p>\n<p>Sometimes, error-prone API requests can have an invalid language field. Could you find out if a given submission has a valid language field or not?</p>\n<p><strong>Input Format</strong></p>\n<p>First line contains N. N API requests follow, each in a newline. Each request has an integer api_id and a string&nbsp;language&nbsp;which are the request parameters placed by the an API request.</p>\n<p><strong>Constraints</strong></p>\n<pre><code>1 &lt;= N &lt;= 100  \n10^4 &lt;= api_id &lt; 10^5  \n</code></pre>\n<p>a valid language is any of the languages listed above (case sensitive):</p>\n<p><strong>Output Format</strong></p>\n<p>For every api request given in input, print \"VALID\" if it has a valid language string in it or print \"INVALID\" otherwise.</p>\n<p><strong>Sample Input</strong></p>\n<pre><code>3\n11011 LUA\n11022 BRAINFUCK\n11044 X\n</code></pre>\n<p><strong>Sample Output</strong></p>\n<pre><code>VALID\nVALID\nINVALID\n</code></pre>\n<p><strong>Explanation</strong></p>\n<p>LUA and BRAINFUCK are valid languages as listed above. As X is doesn't appear in the list, it is an invalid request.</p>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/6abc6847-bc63-4699-9b3d-dbf640223929",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "HackerRank Language.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc6ce9b9821851ef9612"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 15,
+  "slug": "building-a-smart-ide-programming-language-detection",
+  "tags": [],
+  "level": "INTERMEDIATE",
+  "title": "Building a Smart IDE: Programming Language Detection",
+  "content": "<p>We are trying to hack together a smart programming IDE. Help us build a feature which auto-detects the programming language, given the source code. There are only three languages which we are interested in \"auto-detecting\": Java, C and Python.</p>\n<p>We will provide you with links to a few short or medium size programs for Java, C and Python. In case you aren't familiar with some of these languages, these samples will help you make observations about the lexical structure and syntax of these programming languages. These sample programs are only for your manual inspection. You cannot read or access these sample-programs from the code you submit.</p>\n<p>After this, you will be provided with tests, where you are provided the source code for programs - or partial code snippets, but you do not know which language they are in. For each test, try to detect which language the source code is in.</p>\n<p>You might benefit from using regular expressions in trying to detect the lexical structure and syntax of the programs provided.</p>\n<p><strong>Sample Programs to Understand the Lexical Structure of different Programming Languages</strong></p>\n<p><a href=\"http://hr-testcases.s3.amazonaws.com/672/assets/cexamples.txt\">Sample Programs and Code Snippets in C</a></p>\n<p><a href=\"http://hr-testcases.s3.amazonaws.com/672/assets/javaexamples.txt\">Sample Programs and Code Snippets in Java</a></p>\n<p><a href=\"http://hr-testcases.s3.amazonaws.com/672/assets/pythonexamples.txt\">Sample Programs and Code Snippets in Python</a></p>\n<p><strong>INPUT FORMAT</strong></p>\n<p>Source code of a program, or a code snippet, which might be in C, Java or Python.</p>\n<p><strong>OUTPUT FORMAT</strong></p>\n<p>Just one line containing the name of the Programming language which you have detected: This might be either C or Java or Python.</p>\n<p><strong>SAMPLE INPUT</strong></p>\n<pre><code>import java.io.*;\n\npublic class SquareNum {\n\n   public static void main(String args[]) throws IOException\n   {\n      System.out.println(\"This is a small Java Program!\");\n   }\n}\n</code></pre>\n<p><strong>SAMPLE OUTPUT</strong></p>\n<pre><code>Java</code></pre>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/e69ce265-e7c6-42d1-be1a-ac58ac82d68f",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "Building a Smart IDE- Programming Language Detection.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc6ce9b9821851ef9613"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "split-the-phone-numbers",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "Split the Phone Numbers",
+  "content": "<p>There is a list of phone numbers which needs the attention of a text processing expert. As an expert in regular expressions, you are being roped in for the task. A phone number directory can reveal a lot such as country codes and local area codes. The only constraint is that one should know how to process it correctly.</p>\n<p>A Phone number is of the following format</p>\n<pre><code>[Country code]-[Local Area Code]-[Number]  \n</code></pre>\n<p>There might either be a '-' ( ascii value 45), or a ' ' ( space, ascii value 32) between the segments<br />Where the country and local area codes can have 1-3 numerals each and the number section can have 4-10 numerals each.</p>\n<p>And so, if we tried to apply the a regular expression with groups on this phone number: 1-425-9854706</p>\n<p>We'd get:<br />Group 1 = 1<br />Group 2 = 425<br />Group 3 = 9854706</p>\n<p>You will be provided a list of N phone numbers which conform to the pattern described above. Your task is to split it into the country code, local area code and the number.</p>\n<p><strong>Input Format</strong></p>\n<p>N, where N is the number of tests.<br />This will be followed by N lines containing N phone numbers in the format specified above.</p>\n<p><strong>Constraints</strong></p>\n<p>1 &lt;= N &lt;= 20<br />There might either be a hyphen, or a space between the segments<br />The country and local area codes can have 1-3 numerals each and the number section can have 4-10 numerals each.</p>\n<p><strong>Output Format</strong></p>\n<p>Your output will contain N lines.<br />CountryCode=[Country Code],LocalAreaCode=[Local Area Code],Number=[Number]</p>\n<p><strong>Recommended Technique</strong></p>\n<p>This problem can be solved in many ways, however, try to solve it using regular expressions and groups in order to gain a hands on practice of the concepts involved.</p>\n<p><strong>Sample Input</strong></p>\n<pre><code>2\n1 877 2638277\n91-011-23413627\n</code></pre>\n<p><strong>Sample Output</strong></p>\n<pre><code>CountryCode=1,LocalAreaCode=877,Number=2638277\nCountryCode=91,LocalAreaCode=011,Number=23413627\n</code></pre>\n<p><strong>Viewing Submissions</strong></p>\n<p>You can view others' submissions if you solve this challenge. Navigate to the challenge leaderboard.</p>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/f4c0cbf5-16b4-484c-9906-1ea0d47d43f6",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "Split the Phone Numbers.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc6ce9b9821851ef9614"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "detect-html-attributes",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "Detect HTML Attributes",
+  "content": "<p>Charlie's second assignment was given by the Professor as soon as he submitted the first one. Professor asked Charlie to create a list of all the attributes of every tag found in HTML pages.</p>\n<pre><code>&lt;p&gt;This is a paragraph&lt;/p&gt;  \n</code></pre>\n<p>The above HTML string has&nbsp;p&nbsp;as its tag but&nbsp;no attributes.</p>\n<pre><code>&lt;a href=\"http://www.quackit.com/html/tutorial/html_links.cfm\"&gt;Example Link&lt;/a&gt;\n</code></pre>\n<p>This string has&nbsp;a&nbsp;as a tag and&nbsp;href&nbsp;as an attribute.</p>\n<p><strong>Input Format</strong></p>\n<p>The first line contains N, the number of lines in the HTML fragment. This is followed by lines from a valid HTML document or fragment.</p>\n<p><strong>Constraints</strong></p>\n<p>Number of characters in the test fragments &lt;= 10000 characters. Characters will be restricted to ASCII. Fragments for the tests will be picked up from Wikipedia.<br />Attributes are all lowercase alphabets.</p>\n<p><strong>Output Format</strong></p>\n<p>Each tag must be separated by a newline arranged in lexicographic order<br />Each attribute noted for a given tag must be arranged next to a tag in lexicographic order.</p>\n<p>The output will be of the format</p>\n<pre><code>tag-1:attribute-1,attribute-2,attribute-3....\ntag-2:attribute-1,attribute-2,attribute-3....\ntag-3:attribute-1,attribute-2,attribute-3....\n...\ntag-n:attribute-1,attribute-2,attribute-3....\n</code></pre>\n<p>Where&nbsp;tag-1&nbsp;is lexicographically smaller than&nbsp;tag-2&nbsp;and&nbsp;attribute-1&nbsp;is lexicographically smaller than&nbsp;attribute-2</p>\n<p><strong>Sample Input:1</strong></p>\n<pre><code>2\n&lt;p&gt;&lt;a href=\"http://www.quackit.com/html/tutorial/html_links.cfm\"&gt;Example Link&lt;/a&gt;&lt;/p&gt;\n&lt;div class=\"more-info\"&gt;&lt;a href=\"http://www.quackit.com/html/examples/html_links_examples.cfm\"&gt;More Link Examples...&lt;/a&gt;&lt;/div&gt;\n</code></pre>\n<p><strong>Sample Output:1</strong></p>\n<pre><code>a:href\ndiv:class\np:\n</code></pre>\n<p><strong>Sample Input:2</strong></p>\n<pre><code>9\n&lt;li style=\"-moz-float-edge: content-box\"&gt;... that &lt;a href=\"/wiki/Orval_Overall\" title=\"Orval Overall\"&gt;Orval Overall&lt;/a&gt; &lt;i&gt;(pictured)&lt;/i&gt; is the only &lt;b&gt;&lt;a href=\"/wiki/List_of_Major_League_Baseball_pitchers_who_have_struck_out_four_batters_in_one_inning\" title=\"List of Major League Baseball pitchers who have struck out four batters in one inning\"&gt;Major League Baseball player to strike out four batters in one inning&lt;/a&gt;&lt;/b&gt; in the &lt;a href=\"/wiki/World_Series\" title=\"World Series\"&gt;World Series&lt;/a&gt;?&lt;/li&gt;\n&lt;li style=\"-moz-float-edge: content-box\"&gt;... that the three cities of the &lt;b&gt;&lt;a href=\"/wiki/West_Triangle_Economic_Zone\" title=\"West Triangle Economic Zone\"&gt;West Triangle Economic Zone&lt;/a&gt;&lt;/b&gt; contribute 40% of Western China's GDP?&lt;/li&gt;\n&lt;li style=\"-moz-float-edge: content-box\"&gt;... that &lt;i&gt;&lt;a href=\"/wiki/Kismet_(1943_film)\" title=\"Kismet (1943 film)\"&gt;Kismet&lt;/a&gt;&lt;/i&gt;, directed by &lt;b&gt;&lt;a href=\"/wiki/Gyan_Mukherjee\" title=\"Gyan Mukherjee\"&gt;Gyan Mukherjee&lt;/a&gt;&lt;/b&gt;, ran at the &lt;a href=\"/wiki/Roxy_Cinema_(Kolkata)\" title=\"Roxy Cinema (Kolkata)\"&gt;Roxy, Kolkata&lt;/a&gt;, for 3 years and 8 months?&lt;/li&gt;\n&lt;li style=\"-moz-float-edge: content-box\"&gt;... that &lt;a href=\"/wiki/Vauix_Carter\" title=\"Vauix Carter\"&gt;Vauix Carter&lt;/a&gt; both coached and played for the &lt;b&gt;&lt;a href=\"/wiki/1882_Navy_Midshipmen_football_team\" title=\"1882 Navy Midshipmen football team\"&gt;1882 Navy Midshipmen football team&lt;/a&gt;&lt;/b&gt;?&lt;/li&gt;\n&lt;li style=\"-moz-float-edge: content-box\"&gt;... that &lt;a href=\"/wiki/Zhu_Chenhao\" title=\"Zhu Chenhao\"&gt;Zhu Chenhao&lt;/a&gt; was sentenced to &lt;a href=\"/wiki/Slow_slicing\" title=\"Slow slicing\"&gt;slow slicing&lt;/a&gt; for leading the &lt;b&gt;&lt;a href=\"/wiki/Prince_of_Ning_rebellion\" title=\"Prince of Ning rebellion\"&gt;Prince of Ning rebellion&lt;/a&gt;&lt;/b&gt; against the &lt;a href=\"/wiki/Ming_Dynasty\" title=\"Ming Dynasty\"&gt;Ming Dynasty&lt;/a&gt; &lt;a href=\"/wiki/Zhengde_Emperor\" title=\"Zhengde Emperor\"&gt;emperor Zhengde&lt;/a&gt;?&lt;/li&gt;\n&lt;li style=\"-moz-float-edge: content-box\"&gt;... that &lt;b&gt;&lt;a href=\"/wiki/Mirza_Adeeb\" title=\"Mirza Adeeb\"&gt;Mirza Adeeb&lt;/a&gt;&lt;/b&gt; was a prominent modern Pakistani &lt;a href=\"/wiki/Urdu\" title=\"Urdu\"&gt;Urdu&lt;/a&gt; playwright whose later work focuses on social problems and daily life?&lt;/li&gt;\n&lt;li style=\"-moz-float-edge: content-box\"&gt;... that in &lt;i&gt;&lt;b&gt;&lt;a href=\"/wiki/La%C3%9Ft_uns_sorgen,_la%C3%9Ft_uns_wachen,_BWV_213\" title=\"Lat uns sorgen, lat uns wachen, BWV 213\"&gt;Die Wahl des Herkules&lt;/a&gt;&lt;/b&gt;&lt;/i&gt;, Hercules must choose between the good cop and the bad cop?&lt;br style=\"clear:both;\" /&gt;\n&lt;div style=\"text-align: right;\" class=\"noprint\"&gt;&lt;b&gt;&lt;a href=\"/wiki/Wikipedia:Recent_additions\" title=\"Wikipedia:Recent additions\"&gt;Archive&lt;/a&gt;&lt;/b&gt;  &lt;b&gt;&lt;a href=\"/wiki/Wikipedia:Your_first_article\" title=\"Wikipedia:Your first article\"&gt;Start a new article&lt;/a&gt;&lt;/b&gt;  &lt;b&gt;&lt;a href=\"/wiki/Template_talk:Did_you_know\" title=\"Template talk:Did you know\"&gt;Nominate an article&lt;/a&gt;&lt;/b&gt;&lt;/div&gt;\n&lt;/li&gt;\n</code></pre>\n<p><strong>Sample Output:2</strong></p>\n<pre><code>a:href,title\nb:\nbr:style\ndiv:class,style\ni:\nli:style\n</code></pre>\n<p><strong>Viewing Submissions</strong></p>\n<p>You can view others' submissions if you solve this challenge. Navigate to the challenge leaderboard.</p>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/779c77c8-8894-459f-90d6-6d004d7756d0",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "Detect HTML Attributes.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc6ce9b9821851ef9615"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "the-british-and-american-style-of-spelling",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "The British and American Style of Spelling",
+  "content": "<p>American English and British English differ in several aspects which are reflected in their spelling. One difference frequently observed, is that words written in American English, which have a suffix&nbsp;<strong>ze</strong>&nbsp;often end in&nbsp;<strong>se</strong>&nbsp;in British English. Given the American-English spelling of a word which ends in&nbsp;<strong>ze</strong>&nbsp;your task is to find the total count of all its British and American variants in all the given sequences of words. i.e. you need to account for the cases where the word occurs as it is given to you (i.e. the version ending in -ze) and you also need to find the occurances of its British-English counterparts (i.e, the version ending in -se).</p>\n<p><strong>Input Format</strong></p>\n<p>First line contains N, N lines follow each line contains a sequence of words (W) separated by a single space. Next line contains T. T testcases follow in a new line. Each line contains the&nbsp;<strong>American English</strong>&nbsp;spelling of a word (W')</p>\n<p><strong>Constraints</strong></p>\n<p>1 &lt;= N &lt;= 10<br />Each line doesn't contain more than 10 words (W)<br />Each character of W and W' is a lowercase alphabet.<br />If C is the count of the number of characters of W or W', then<br />1 &lt;= C &lt;= 20<br />1 &lt;= T &lt;= 10<br />W' ends with&nbsp;<strong>ze</strong>&nbsp;( US version of the word)</p>\n<p><strong>Output Format</strong></p>\n<p>Output T lines and in each line output the total number of American and British versions of (W') in all of N lines that contains a sequence of words.</p>\n<p><strong>Sample Input</strong></p>\n<pre><code>2\nhackerrank has such a good ui that it takes no time to familiarise its environment\nto familiarize oneself with ui of hackerrank is easy\n1\nfamiliarize\n</code></pre>\n<p><strong>Sample Output</strong></p>\n<pre><code>2\n</code></pre>\n<p><strong>Explanation</strong></p>\n<p>In the given 2 lines, we find&nbsp;familiarize&nbsp;and&nbsp;familiarise&nbsp;once each. So, the total count is 2.</p>\n<p><strong>Viewing Submissions</strong></p>\n<p>You can view others' submissions if you solve this challenge. Navigate to the challenge leaderboard.</p>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/c2dc9103-d807-46c0-9fb3-b1645aef0b52",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "The British and American Style of Spelling.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc6ce9b9821851ef9616"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 10,
+  "slug": "uk-and-us-part-2",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "UK and US: Part 2",
+  "content": "<p>We've already seen how UK and US words&nbsp;<a href=\"https://www.hackerrank.com/challenges/uk-and-us\">differ</a>&nbsp;in their spelling. One other difference is how UK has kept the usage of letters&nbsp;our&nbsp;in some of its words and US has done away with the letter&nbsp;u&nbsp;and uses just&nbsp;or. Given the UK format of the word that has&nbsp;our&nbsp;in it, find out the total number of occurrences of both its UK and US variants in a given sequence of words.</p>\n<p><strong>Input Format</strong></p>\n<p>First line contains an integer N. N lines follow, each line contains a sequence of words (W) separated by a single space.<br />Next lines contains an integer T. T testcases follow in a new line. Each line contains the&nbsp;<strong>UK</strong>&nbsp;spelling of a word (W')</p>\n<p><strong>Constraints</strong></p>\n<p>1 &lt;= N &lt;= 10<br />Each line doesn't contain more than 10 words (W)<br />Each character of W and W' is a lowercase alphabet.<br />If C is the count of the number of characters of W or W', then<br />1 &lt;= C &lt;= 20<br />1 &lt;= T &lt;= 10<br />W' that has&nbsp;our&nbsp;as a sub-string in it.</p>\n<p><strong>Output Format</strong></p>\n<p>Output T lines and in each line output the number of UK and US version of (W') in all of N lines that contains a sequence of words.</p>\n<p><strong>Sample Input</strong></p>\n<pre><code>2\nthe odour coming out of the left over food was intolerable\nammonia has a very pungent odor\n1\nodour\n</code></pre>\n<p><strong>Sample Output</strong></p>\n<pre><code>2\n</code></pre>\n<p><strong>Explanation</strong></p>\n<p>In the given 2 lines, we find&nbsp;odour&nbsp;and&nbsp;odor&nbsp;once each. So, the total count is 2.</p>\n<p><strong>Viewing Submissions</strong></p>\n<p>You can view others' submissions if you solve this challenge. Navigate to the challenge leaderboard.</p>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/df905e07-d138-47db-bf7c-d7a9c8dec7b9",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "UK and US- Part 2.zip"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "634dbc6ce9b9821851ef9617"
+  },
+  "memoryLimit": 0,
+  "source": 0,
+  "timeLimit": 0,
+  "scores": 3,
+  "slug": "123",
+  "tags": [],
+  "level": "BEGINNER",
+  "title": "123",
+  "content": "<p>ứd</p>",
+  "status": "PUBLISH",
+  "fileTestCase": [
+    {
+      "downloadUrl": "https://dev.tek4vn.2soft.top/public_files/aa60f62f-20be-4856-89b0-de2fb82bc6dd",
+      "thumbnailUrl": "https://dev.tek4vn.2soft.top/public_files/archive-png",
+      "name": "Documents.zip"
+    }
+  ]
+}]
