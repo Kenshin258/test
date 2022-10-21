@@ -142,36 +142,18 @@ module.exports = {
   },
   concatArr: async (req, res) => {
     try {
-      const a1 = await fs.readFileSync(
-        path.join("data/dataExerciseMongo/1.json")
-      );
-      const a2 = await fs.readFileSync(
-        path.join("data/dataExerciseMongo/2.json")
-      );
-      const a3 = await fs.readFileSync(
-        path.join("data/dataExerciseMongo/3.json")
-      );
-      const a4 = await fs.readFileSync(
-        path.join("data/dataExerciseMongo/4.json")
-      );
-      const a5 = await fs.readFileSync(
-        path.join("data/dataExerciseMongo/5.json")
-      );
-      const a6 = await fs.readFileSync(
-        path.join("data/dataExerciseMongo/6.json")
-      );
-      const a7 = await fs.readFileSync(
-        path.join("data/dataExerciseMongo/7.json")
-      );
-      const a8 = await fs.readFileSync(
-        path.join("data/dataExerciseMongo/8.json")
-      );
-      const a9 = await fs.readFileSync(
-        path.join("data/dataExerciseMongo/9.json")
-      );
-      const a10 = await fs.readFileSync(
-        path.join("data/dataExerciseMongo/10.json")
-      );
+      const pathName = `code-sample/task`;
+      const a1 = await fs.readFileSync(path.join(`data/${pathName}/1.json`));
+      const a2 = await fs.readFileSync(path.join(`data/${pathName}/2.json`));
+      const a3 = await fs.readFileSync(path.join(`data/${pathName}/3.json`));
+      const a4 = await fs.readFileSync(path.join(`data/${pathName}/4.json`));
+      const a5 = await fs.readFileSync(path.join(`data/${pathName}/5.json`));
+      const a6 = await fs.readFileSync(path.join(`data/${pathName}/6.json`));
+      const a7 = await fs.readFileSync(path.join(`data/${pathName}/7.json`));
+      const a8 = await fs.readFileSync(path.join(`data/${pathName}/8.json`));
+      const a9 = await fs.readFileSync(path.join(`data/${pathName}/9.json`));
+      const a10 = await fs.readFileSync(path.join(`data/${pathName}/10.json`));
+
       const b1 = JSON.parse(a1);
       const b2 = JSON.parse(a2);
       const b3 = JSON.parse(a3);
@@ -197,7 +179,7 @@ module.exports = {
       ];
 
       await fs.writeFileSync(
-        path.join(`data/transformPractice/after.json`),
+        path.join(`data/${pathName}/after.json`),
         JSON.stringify(result)
       );
       return res.status(200).json({
@@ -246,16 +228,16 @@ module.exports = {
         path.join("data/transformPractice/before.json")
       );
 
-      const b1 = JSON.parse(a1);
-      const b2 = JSON.parse(a2);
-      const b3 = JSON.parse(a3);
-      const b4 = JSON.parse(a4);
-      const b5 = JSON.parse(a5);
-      const b6 = JSON.parse(a6);
-      const b7 = JSON.parse(a7);
-      const b8 = JSON.parse(a8);
-      const b9 = JSON.parse(a9);
-      const b10 = JSON.parse(a10);
+      // const b1 = JSON.parse(a1);
+      // const b2 = JSON.parse(a2);
+      // const b3 = JSON.parse(a3);
+      // const b4 = JSON.parse(a4);
+      // const b5 = JSON.parse(a5);
+      // const b6 = JSON.parse(a6);
+      // const b7 = JSON.parse(a7);
+      // const b8 = JSON.parse(a8);
+      // const b9 = JSON.parse(a9);
+      // const b10 = JSON.parse(a10);
       const bA = JSON.parse(before);
       const c = [
         JSON.parse(a1),
@@ -270,7 +252,7 @@ module.exports = {
         JSON.parse(a10),
       ];
 
-      const result = [];
+      // const result = [];
 
       for (let i = 0; i <= 9; i++) {
         bA[i].exerciseIds = c[i];
