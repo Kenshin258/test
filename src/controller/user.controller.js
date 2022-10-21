@@ -90,6 +90,7 @@ module.exports = {
         data.description = item?.description;
         data.popular = item?.isFeatured;
         data.slug = item?.slug;
+        data.createdAt = item?.createdAt;
         if (item?.languages[0]) {
           data.language = [];
           for (const i of item.languages) {
@@ -198,6 +199,86 @@ module.exports = {
       await fs.writeFileSync(
         path.join(`data/transformPractice/after.json`),
         JSON.stringify(result)
+      );
+      return res.status(200).json({
+        status: "success1234!",
+      });
+    } catch (error) {
+      return res.status(500).json({
+        error: error.message,
+      });
+    }
+  },
+  addExercise: async (req, res) => {
+    try {
+      const a1 = await fs.readFileSync(
+        path.join("data/transformPractice/1.json")
+      );
+      const a2 = await fs.readFileSync(
+        path.join("data/transformPractice/2.json")
+      );
+      const a3 = await fs.readFileSync(
+        path.join("data/transformPractice/3.json")
+      );
+      const a4 = await fs.readFileSync(
+        path.join("data/transformPractice/4.json")
+      );
+      const a5 = await fs.readFileSync(
+        path.join("data/transformPractice/5.json")
+      );
+      const a6 = await fs.readFileSync(
+        path.join("data/transformPractice/6.json")
+      );
+      const a7 = await fs.readFileSync(
+        path.join("data/transformPractice/7.json")
+      );
+      const a8 = await fs.readFileSync(
+        path.join("data/transformPractice/8.json")
+      );
+      const a9 = await fs.readFileSync(
+        path.join("data/transformPractice/9.json")
+      );
+      const a10 = await fs.readFileSync(
+        path.join("data/transformPractice/10.json")
+      );
+
+      const before = await fs.readFileSync(
+        path.join("data/transformPractice/before.json")
+      );
+
+      const b1 = JSON.parse(a1);
+      const b2 = JSON.parse(a2);
+      const b3 = JSON.parse(a3);
+      const b4 = JSON.parse(a4);
+      const b5 = JSON.parse(a5);
+      const b6 = JSON.parse(a6);
+      const b7 = JSON.parse(a7);
+      const b8 = JSON.parse(a8);
+      const b9 = JSON.parse(a9);
+      const b10 = JSON.parse(a10);
+      const bA = JSON.parse(before);
+      const c = [
+        JSON.parse(a1),
+        JSON.parse(a2),
+        JSON.parse(a3),
+        JSON.parse(a4),
+        JSON.parse(a5),
+        JSON.parse(a6),
+        JSON.parse(a7),
+        JSON.parse(a8),
+        JSON.parse(a9),
+        JSON.parse(a10),
+      ];
+
+      const result = [];
+
+      for (let i = 0; i <= 9; i++) {
+        bA[i].exerciseIds = c[i];
+      }
+
+      await fs.writeFileSync(
+        path.join(`data/transformPractice/after1.json`),
+        JSON.stringify(bA)
       );
       return res.status(200).json({
         status: "success1234!",

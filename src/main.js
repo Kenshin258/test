@@ -1,11 +1,13 @@
 const express = require("express");
 const http = require("http");
+const { transformFileCodeSample } = require("./controller/code-saple");
 const {
   getUser,
   transformFile,
   transformPractice,
   parseArr,
   concatArr,
+  addExercise,
 } = require("./controller/user.controller");
 
 const app = express();
@@ -19,3 +21,6 @@ app.get("/transform", transformFile);
 app.get("/transformPractice", transformPractice);
 app.get("/parserArr", parseArr);
 app.get("/concatArr", concatArr);
+app.get("/addExercise", addExercise);
+
+app.get("/codeSample", transformFileCodeSample);
